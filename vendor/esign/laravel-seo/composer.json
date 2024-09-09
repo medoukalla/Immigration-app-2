@@ -1,0 +1,63 @@
+{
+    "name": "esign/laravel-seo",
+    "description": "Manage SEO tags within your Laravel application",
+    "keywords": [
+        "esign",
+        "laravel-seo",
+        "seo",
+        "open graph",
+        "twitter card",
+        "meta",
+        "json ld"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jordy Van der Haegen",
+            "email": "jordy.vanderhaegen@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0",
+        "spatie/schema-org": "^3.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.5",
+        "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0",
+        "phpunit/phpunit": "^9.5|^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Esign\\Seo\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Esign\\Seo\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "phpcs": "vendor/bin/php-cs-fixer fix"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Esign\\Seo\\SeoServiceProvider"
+            ],
+            "aliases": {
+                "Seo": "Esign\\Seo\\Facades\\Seo",
+                "Meta": "Esign\\Seo\\Facades\\Tags\\Meta",
+                "OpenGraph": "Esign\\Seo\\Facades\\Tags\\OpenGraph",
+                "TwitterCard": "Esign\\Seo\\Facades\\Tags\\TwitterCard",
+                "JsonLd": "Esign\\Seo\\Facades\\Tags\\JsonLd"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

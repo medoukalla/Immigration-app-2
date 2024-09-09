@@ -1,0 +1,292 @@
+/*Extra small devices (portrait phones, less than 320px)*/
+@media (max-width: 320px) {
+    .app-conditions .conditions {
+        justify-content: center !important;
+    }
+    .checkout-infos .infos .move {
+        padding: 0px 18px !important;
+    }
+    .main-img {
+        width: 100% !important;
+        height: 162px !important;
+        min-height: 162px !important;
+    }
+}
+/*Extra small devices (portrait phones, less than 360px)*/
+@media (max-width: 360px) {
+}
+/*Extra small devices (portrait phones, less than 375px)*/
+@media (max-width: 375px) {
+    .headerTop .headerTopWrapp ul.leftItem li a {
+        font-size: 12px !important;
+    }
+}
+/*Extra small devices (portrait phones, less than 414px)*/
+@media (max-width: 414px) {
+    .description p {
+        font-size: 14px;
+    }
+}
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /* .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    } */
+    .Besoin .itemLeft08 .detailsDe .description h2,
+    .Besoin .itemLeft08 .detailsDe .itemDetails h2,
+    .Besoin .itemLeft08 .detailsDe .itemDetails .h2 {
+        font-size: 20px;
+    }
+    .Besoin .itemLeft08 .RetourAux a {
+        font-size: 16px;
+        padding: 15px 30px;
+        text-align: center;
+    }
+    .Besoin .itemRight .linkArea a.itemLink {
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+    }
+    .Besoin .itemRight .linkArea a.itemLink .media .media-body p {
+        font-size: 13px !important;
+        line-height: 13px !important;
+    }
+    .RetourAux {
+        gap: 15px;
+        flex-direction: row;
+    }
+    .Besoin .itemLeft08 .ChambreBarcelone h2,
+    .Besoin .itemLeft08 .ChambreBarcelone .h2 {
+        text-align: center;
+    }
+    .paymentBox .hints {
+        height: 400px !important;
+    }
+    .appartment-hints {
+        padding: 20px 20px 50px !important;
+    }
+    .appartment-hints .top {
+        flex-direction: column;
+    }
+    .rules-items {
+        font-size: 16px;
+    }
+    /* .appartment-hints .top .top-img img {
+        width: 80% !important;
+    } */
+    .appartment-hints .top .title {
+        margin: 7px 0px !important;
+        font-size: 18px !important;
+        text-align: center !important;
+    }
+    .appartment-hints p {
+        font-size: 13px !important;
+        text-align: center !important;
+        margin-top: 0 !important;
+        line-height: 18px;
+    }
+    .paymentBox button,
+    .paymentBox a#submitBtn {
+        font-size: 14px;
+        width: 100% !important;
+        margin: auto;
+    }
+    .select-method button img {
+        height: 20px !important;
+    }
+    .Besoin {
+        padding-bottom: 60px;
+    }
+    .Besoin .itemLeft08 .Emplacement h4,
+    .Besoin .itemLeft08 .PlansDetage h4,
+    .why-choice-us h4 {
+        font-size: 19px !important;
+    }
+    .Besoin .itemLeft08 .Emplacement p {
+        font-size: 13px;
+    }
+    .Besoin .itemRight h2,
+    .Besoin .itemRight .h2 {
+        font-size: 23px;
+    }
+    .Besoin .itemRight h4,
+    .Besoin .itemRight .h4 {
+        font-size: 20px;
+    }
+    .Besoin .itemRight p {
+        font-size: 15px;
+    }
+    .Besoin .itemRight .linkArea a.itemLink .media .media-body p {
+        font-size: 15px;
+    }
+    footer .copyright .itemLeft p {
+        margin-bottom: 20px;
+    }
+    footer .itemLogo,
+    footer .item {
+        margin-bottom: 25px;
+    }
+    footer .copyright {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    footer .copyright .itemRgiht a:first-child {
+        margin-left: 0;
+    }
+    .swip-hight {
+        height: 300px !important;
+    }
+    .swiper-slide {
+        align-items: center !important;
+    }
+    /* Checkout */
+    .product-title {
+        font-size: 25px;
+    }
+    /* Checkout conditions */
+    .paymentBox h3 {
+        font-size: 23px;
+    }
+    .rules-conditions h6 {
+        font-size: 18px;
+    }
+    /* Appartement */
+    .g-item {
+        margin-bottom: 10px !important;
+    }
+
+    /* New page redesign */
+    .main-img {
+        width: 100%;
+        height: 203px !important;
+        min-height: 203px !important;
+        transition: all 0.2s ease-in-out;
+    }
+    .img-wrapper .main-title {
+        font-size: 22px !important;
+    }
+    .p-title h3 {
+        font-size: 20px;
+        margin-left: 44px;
+    }
+    .p-title h3::before {
+        width: 34px;
+    }
+    .p-paragraph p {
+        font-size: 14px;
+    }
+    .experience-list {
+        margin: 20px 0px;
+    }
+    .exp-list .exp-text {
+        font-size: 15px;
+    }
+    .accordion li label {
+        font-size: 15px !important;
+        height: 130px !important;
+    }
+    .acc-content p {
+        font-size: 14px;
+    }
+    .Besoin .NosServices .item .media .media-body p {
+        font-size: 16px;
+    }
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) and (max-width: 767.98px) {
+}
+
+@media (max-width: 740px) {
+    .interessePar-box {
+        display: flex !important;
+        justify-content: center !important;
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Video slider */
+    /* .video-wrapper .slider-video-lg {
+        height: 100% !important;
+        width: auto;
+    } */
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) and (max-width: 991.98px) {
+    .Besoin .container .top-row {
+        flex-direction: column-reverse !important;
+    }
+    .mapping .iframe-box {
+        height: 350px;
+    }
+    form#payment-form {
+        width: 100%;
+    }
+    /* Error */
+    .err-title h1 {
+        font-size: 80px;
+        text-align: center;
+    }
+    .err-msg {
+        font-size: 18px;
+        text-align: center;
+    }
+    .error-section p {
+        font-size: 14px;
+        text-align: center !important;
+    }
+    .error-section ul li {
+        list-style: none !important;
+        text-align: center !important;
+    }
+    .error-section .err-logo {
+        text-align: center !important;
+    }
+    .error-section .err-logo img {
+        width: 150px;
+    }
+    /* .video-wrapper .slider-video-lg {
+        height: 100% !important;
+        width: auto;
+    } */
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) and (max-width: 1199.98px) {
+    /* .video-wrapper .slider-video-lg {
+        height: 100% !important;
+        width: auto;
+    } */
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) and (max-width: 1439.98px) {
+    .interessePar-box {
+        display: flex !important;
+        justify-content: center !important;
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+/*// Extra large devices (large desktops, 1440px and up)*/
+@media (max-width: 1440px) and (max-width: 1699.98px) {
+}
+
+/*// Extra large devices (large desktops, 1440px and up)*/
+@media (min-width: 1700px) {
+    /* .video-wrapper .slider-video-lg {
+        height: auto;
+        width: 100%;
+    } */
+}
+
+/*// Extra large devices (large desktops, 1440px and up)*/
+@media (max-width: 2100px) {
+}
