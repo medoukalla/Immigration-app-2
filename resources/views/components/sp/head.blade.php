@@ -1,61 +1,40 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<!-- This site was created in Webflow. https://webflow.com --><!-- Last Published: Wed Aug 07 2024 12:51:04 GMT+0000 (Coordinated Universal Time) -->
+<html data-wf-domain="immigration-128.webflow.io" data-wf-page="651f2c08c5bd81eb296c1808"
+  data-wf-site="651f2c08c5bd81eb296c17aa" lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="description" content="Web Content">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="author">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta http-equiv="content-script-type" content="text/javascript">
-    <meta http-equiv="x-dns-prefetch-control" content="on">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!--
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/fav_icon.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/fav_icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/fav_icon.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/fav_icon.png"> -->
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('img/fav-small.png') }}">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.min.css">
-
-    <!-- Custom css -->
-    <link rel="stylesheet" href="{{ asset('css/main.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/media.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/swiper-bundle.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <title>{{ $title }}</title>
-    <meta name="description" content="{{ setting('site.description') }}">
-
-    @livewireStyles
+  <meta charset="utf-8" />
+  <title>Immigration 128 - Webflow HTML website template</title>
+  <meta content="Immigration 128 - Webflow HTML website template" property="og:title" />
+  <meta content="Immigration 128 - Webflow HTML website template" property="twitter:title" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="Webflow" name="generator" />
+  <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet" type="text/css" />
+  <link href="{{ asset('assets/css/swiper-bundle.min.css') }}" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script
+    type="text/javascript">WebFont.load({ google: { families: ["Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic"] } });</script>
+  <script
+    type="text/javascript">!function (o, c) { var n = c.documentElement, t = " w-mod-"; n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);</script>
+  <link
+    href="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c17aa/6527fa9fc27b082762e6dd1e_Immigration-favicon.png"
+    rel="shortcut icon" type="image/x-icon" />
+  <link
+    href="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c17aa/6527faa42cfe9fad38becd02_Immigration-webclip.png"
+    rel="apple-touch-icon" />
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XCVQHS447H"></script>
+  <script
+    type="text/javascript">window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('set', 'developer_id.dZGVlNj', true); gtag('config', 'G-XCVQHS447H');</script>
 </head>
 
 <body>
-    <!-- headerTop start  -->
-    <div class="headerTop">
-        <div class="container">
-            <div class="d-flex headerTopWrapp justify-content-md-between flex-wrap">
-                <ul class="leftItem d-flex">
-                    <li><a href=""> <img src="{{ asset('img/ClockGray.png') }}" alt="img" class="img-fluid">
-                            Lun - Vie |
-                            {{ setting('site.working-ours') }}</a></li>
-                    <li><a href="{{ setting('site.whatsapp_link') }}" target="_blanck"> <img
-                                src="{{ asset('img/WhatsappGray.png') }}" alt="img" class="img-fluid">
-                            {{ setting('site.whatsapp') }}</a></li>
-                </ul>
-                <ul class="rightItem d-flex justify-content-md-end">
-                    <li><a href="{{ setting('site.facebook') }}" target="_blanck"><img
-                                src="{{ asset('img/FacebookGray.png') }}" alt="img" class="img-fluid"></a></li>
-                    <li><a href="{{ setting('site.instagram') }}" target="_blanck"><img
-                                src="{{ asset('img/InstagramGray.png') }}" alt="img" class="img-fluid"></a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <!-- headerTop end -->
+
+
+    <!-- Top bar -->
+    <x-sp.top-bar />
+
+    <!-- Top menu navbar -->
+    <x-sp.main-navbar />
