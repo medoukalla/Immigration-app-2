@@ -24,5 +24,6 @@ return [
     'reset-password' => 'Reset password',
     'set-new-password' => 'Set your new password',
     'Contains' => 'Contains',
+    'Forgot Password' => 'Forgot Password?',
 
 ];

@@ -36,7 +36,7 @@
             <div class="d-flex justify-content-between">
                 <label class="form-label" for="password">{{ __('voyager::generic.password') }}</label>
                 <a href="{{ route('password.request') }}">
-                <small>Forgot Password?</small>
+                <small>{{ __('voyager::generic.Forgot Password') }}</small>
                 </a>
             </div>
             <div class="input-group input-group-merge">
