@@ -51,7 +51,7 @@
 
     <!-- Helpers -->
     <script src="{{ asset('assets-dashboard/vendor/js/helpers.js') }}"></script>
-    <script src="{{ asset('assets/js/config.js') }}"></script>
+    <script src="{{ asset('assets-dashboard/js/config.js') }}"></script>
     
     <script src="https://cdn.ckeditor.com/ckeditor5/41.4.2/classic/ckeditor.js"></script>
 
@@ -103,11 +103,11 @@
     <script src="{{ asset('assets-dashboard/vendor/libs/datatables-bs5/datatables-bootstrap5.js') }}"></script>
 
     <!-- Main JS -->
-    <script src="{{ asset('assets/js/main.js') }}"></script>
+    <script src="{{ asset('assets-dashboard/js/main.js') }}"></script>
 
 
     <!-- Page JS -->
-    <script src="{{ asset('assets/js/app-ecommerce-dashboard.js') }}"></script>
+    <script src="{{ asset('assets-dashboard/js/app-ecommerce-dashboard.js') }}"></script>
 
     <script type="text/javascript" src="{{ voyager_asset('js/app.js') }}"></script>
 
