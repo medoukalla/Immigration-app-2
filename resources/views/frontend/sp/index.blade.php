@@ -48,6 +48,7 @@
       </div>
     </div>
   </div>
+
   <!-- Our services -->
   <div class="section process">
     <div class="base-container w-container">
@@ -184,6 +185,7 @@
       </div>
     </div>
   </div>
+
   <!-- Call to action -->
   <div class="section call-to-action">
     <div class="base-container w-container">
@@ -204,77 +206,10 @@
 
   <!-- Feedback -->
   <x-sp.testimonials :testimonials="$testimonials" />
+
   <!-- FAQ -->
-  <div class="section faq without-bottom-spacing">
-    <div class="base-container w-container">
-      <div data-w-id="8989ee74-68aa-89b0-f9fb-c214c3221b28" class="accordion-wrapper">
-        <div class="faq-left-content">
-          <div class="faq-title">
-            Common questions
-            <br>
-            <span>answered</span>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum ipsa deserunt id delectus quibusdam non
-              eos, ratione quas commodi! Voluptas.
-            </p>
-            <div class="faq-img">
-              <img src="assets/images/flags-img.png" alt="faq Image">
-            </div>
-          </div>
-        </div>
-        <div class="accordion-wrap">
-          <div data-hover="false" data-delay="0" data-w-id="8989ee74-68aa-89b0-f9fb-c214c3221b4f"
-            class="accordion-item w-dropdown">
-            <div class="accordion-toggle w-dropdown-toggle">
-              <h6 class="accordion-title">Can I apply for a visa online?</h6>
-              <div class="accordion-icon"></div>
-            </div>
-            <nav class="accordion-list w-dropdown-list">
-              <p class="accordion-list-content">Some countries offer online visa application systems,
-                while others require in-person or postal applications. We can guide you on the
-                appropriate application method for your chosen destination.</p>
-            </nav>
-          </div>
-          <div data-hover="false" data-delay="0" data-w-id="8989ee74-68aa-89b0-f9fb-c214c3221b58"
-            class="accordion-item w-dropdown">
-            <div class="accordion-toggle w-dropdown-toggle">
-              <h6 class="accordion-title">What should I do if my visa application is denied?</h6>
-              <div class="accordion-icon"></div>
-            </div>
-            <nav class="accordion-list w-dropdown-list">
-              <p class="accordion-list-content">If your application is denied, you may reapply with
-                updated information or appeal the decision. Understanding the rejection reasons is
-                crucial to rectify any issues before reapplying.</p>
-            </nav>
-          </div>
-          <div data-hover="false" data-delay="0" data-w-id="8989ee74-68aa-89b0-f9fb-c214c3221b61"
-            class="accordion-item w-dropdown">
-            <div class="accordion-toggle w-dropdown-toggle">
-              <h6 class="accordion-title">Can I apply for a visa without confirmed travel plans?</h6>
-              <div class="accordion-icon"></div>
-            </div>
-            <nav class="accordion-list w-dropdown-list">
-              <p class="accordion-list-content">Yes, you can apply for a visa without confirmed travel
-                plans. However, providing a tentative itinerary or explaining your travel intentions may
-                enhance your application.</p>
-            </nav>
-          </div>
-          <div data-hover="false" data-delay="0" data-w-id="8989ee74-68aa-89b0-f9fb-c214c3221b6a"
-            class="accordion-item w-dropdown">
-            <div class="accordion-toggle w-dropdown-toggle">
-              <h6 class="accordion-title">Is it necessary to have travel insurance for a visa?</h6>
-              <div class="accordion-icon"></div>
-            </div>
-            <nav class="accordion-list w-dropdown-list">
-              <p class="accordion-list-content">While it may not always be mandatory, having travel
-                insurance is highly recommended to cover unexpected events during your trip, such as
-                medical emergencies or trip cancellations.</p>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <x-sp.faq-index :faqs="$faqs" />
+
   <!-- Latest news -->
   <div class="section without-bottom-spacing">
     <div class="base-container w-container">
@@ -352,6 +287,7 @@
       </div>
     </div>
   </div>
+
   <!-- Map section -->
   <div class="section without-bottom-spacing">
     <div class="base-container w-container">

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\AssuranceRequest;
+use App\Models\Faq;
 use App\Models\Housing;
 use App\Models\Pack;
 use App\Models\Programme;
@@ -25,6 +26,9 @@ class FrontendSpainController extends Controller
         // get testimonials
         $testimonials = Testimonial::where('active', true)->where('lang', 'es')->get();
 
+        // get faqs 
+        $faqs = Faq::where('lang', 'es')->get();
+
         // background images
         $slider = Slider::orderBy('id', 'asc')->get();
         
@@ -34,6 +38,7 @@ class FrontendSpainController extends Controller
             'testimonials' => $testimonials,
             'langLink' => route('frontend.index'),
             'sliders' => $slider,
+            'faqs' => $faqs
         ]);
     }
 
