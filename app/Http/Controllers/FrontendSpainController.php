@@ -22,7 +22,7 @@ class FrontendSpainController extends Controller
     public function index() {
         $services = Service::where('active', true)->where('lang', 'es')->get();
         // id 1 => language = Espagnole
-        $last_posts = Post::where('category_id', 1)->orderBy('id', 'asc')->limit(3)->get();
+        $last_posts = Post::where('lang', 'es')->orderBy('id', 'asc')->limit(3)->get();
         // get testimonials
         $testimonials = Testimonial::where('active', true)->where('lang', 'es')->get();
 
