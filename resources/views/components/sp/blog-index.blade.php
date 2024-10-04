@@ -1,9 +1,9 @@
 <div class="section without-bottom-spacing">
     <div class="base-container w-container">
       <div data-w-id="e4b01cad-d7fb-7d45-4504-1016bae76010" style="opacity:0" class="section-title-wrapper">
-        <h2 class="section-title">Latest news</h2>
-        <p>We&#x27;re here to guide you every step of the way. Our experienced team of experts is dedicated to making
-          your journey to a new country as smooth and stress-free as possible.</p>
+        <h2 class="section-title">Últimas noticias</h2>
+        <p>Estamos aquí para guiarte en cada paso del camino. Nuestro experimentado equipo de expertos está dedicado a hacer
+          que tu viaje a un nuevo país sea lo más fluido y libre de estrés posible.</p>
       </div>
       <div class="home-blog-collection w-dyn-list">
         <div role="list" class="home-blog-list w-dyn-items">
@@ -15,7 +15,7 @@
                     <article class="home-blog-wrapper"><a href="{{ route('frontend.post', $article) }}"
                         class="home-blog-image w-inline-block"><img
                         src="{{ asset('storage/'.$article->image) }}"
-                        loading="lazy" alt="photo"
+                        loading="lazy" alt="foto"
                         sizes="(max-width: 479px) 30vw, (max-width: 1279px) 31vw, (max-width: 1919px) 372.046875px, 435.65625px"
                         class="blog-grid-image" /></a>
                     <div class="home-blog-content">
@@ -27,8 +27,8 @@
                         </p>
                         </div>
                         <div class="button-wrapper smaller-spacing"><a href="{{ route('frontend.post', $article) }}"
-                            class="link-with-arrow-underline">Read full post</a></div>
-                    </div><a href="{{ route('frontend.post', $article) }}" class="home-blog-category">Immigration</a>
+                            class="link-with-arrow-underline">Leer la publicación completa</a></div>
+                    </div><a href="{{ route('frontend.post', $article) }}" class="home-blog-category">Inmigración</a>
                     </article>
                 </div>
 
@@ -38,4 +38,4 @@
         </div>
       </div>
     </div>
-  </div>
+</div>

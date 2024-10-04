@@ -51,6 +51,14 @@ class FrontendSpainController extends Controller
         ]);
     }
 
+    public function services() {
+        $testimonials = Testimonial::where('active', true)->where('lang', 'es')->get();
+
+        return view('frontend.sp.services',[
+            'testimonials' => $testimonials,
+        ]);
+    }
+
 
 
 

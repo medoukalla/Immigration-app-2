@@ -5,9 +5,9 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Immigration 128 - Webflow HTML website template</title>
-  <meta content="Immigration 128 - Webflow HTML website template" property="og:title" />
-  <meta content="Immigration 128 - Webflow HTML website template" property="twitter:title" />
+  <title>Immiworld v2</title>
+  <meta content="Immiworld v2" property="og:title" />
+  <meta content="Immiworld v2" property="twitter:title" />
   <meta content="width=device-width, initial-scale=1" name="viewport" />
   <meta content="Webflow" name="generator" />
   <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet" type="text/css" />

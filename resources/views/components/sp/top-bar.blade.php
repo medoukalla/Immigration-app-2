@@ -2,7 +2,7 @@
     <div class="base-container w-container">
       <div class="top-bar-wrapper">
         <div class="adress-class">
-          <div class="adress-time"><img src="{{ asset('assets/images/svg/top-time.svg') }}" alt="Time"> Lun-Ven | {{ setting('site.working-ours') }}
+          <div class="adress-time"><img src="{{ asset('assets/images/svg/top-time.svg') }}" alt="Time"> Lun - Vie | {{ setting('site.working-ours') }}
           </div>
           <div class="adress-whats"><img src="{{ asset('assets/images/svg/top-whatsapp.svg') }}" alt="whatsapp"> {{ setting('site.whatsapp') }}</div>
         </div>

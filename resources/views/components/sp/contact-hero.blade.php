@@ -1,16 +1,16 @@
 <div class="pages-banner blog">
     <div class="base-container w-container">
         <div class="min-hero-wrapper">
-            <h1>Contact us</h1>
-            <p>We're here to guide you every step of the way. Our experienced team of experts is dedicated to making
-                your journey to a new country as smooth and stress-free as possible.</p>
+            <h1>Contáctanos</h1>
+            <p>Estamos aquí para guiarte en cada paso del camino. Nuestro equipo de expertos está dedicado a hacer que
+                tu viaje a un nuevo país sea lo más fluido y libre de estrés posible.</p>
             <div class="pages-path">
                 <div class="p-path">
-                    Home
+                    Inicio
                 </div>
-                <img src="assets/images/svg/arrow.svg" alt="Path arrow">
+                <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
                 <div class="p-path">
-                    Contact us
+                    Contáctanos
                 </div>
             </div>
         </div>
