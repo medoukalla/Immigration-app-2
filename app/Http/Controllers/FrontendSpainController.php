@@ -43,6 +43,15 @@ class FrontendSpainController extends Controller
     }
 
 
+    public function contact() {
+        $testimonials = Testimonial::where('active', true)->where('lang', 'es')->get();
+
+        return view('frontend.sp.contact',[
+            'testimonials' => $testimonials,
+        ]);
+    }
+
+
 
 
     // checkout page 

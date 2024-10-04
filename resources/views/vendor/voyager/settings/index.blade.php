@@ -377,7 +377,7 @@
         <div style="clear:both"></div>
 
         @can('add', Voyager::model('Setting'))
-        @if ( Auth::user()->role->id == 3)    
+        {{-- @if ( Auth::user()->role->id == 3)     --}}
             <div class="panel new-setting-section" style="margin-top:10px;">
                 {{-- <div class="panel-heading new-setting">
                     <hr>
@@ -439,7 +439,7 @@
                     </form>
                 </div>
             </div>
-        @endif
+        {{-- @endif --}}
         @endcan
     </div>
 

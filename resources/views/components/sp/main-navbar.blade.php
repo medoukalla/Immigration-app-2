@@ -44,7 +44,7 @@
                     </span>Testimonials</a><a href="/faq" class="nav-dropdown-link w-dropdown-link"><span
                       class="nav-dropdown-link-line"> </span>FAQ</a><a href="/career"
                     class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line"> </span>Career</a><a
-                    href="/contact-us-1" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
+                    href="{{  route('frontend.sp.contact') }}" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
                     </span>Contact us</a></div>
               </nav>
             </div><a href="/services" class="nav-link w-nav-link">Services</a>
@@ -109,7 +109,7 @@
                       Details</a></div>
                 </div>
                 <div class="nav-dropdown-column">
-                  <div class="nav-dropdown-link-wrapper"><a href="/contact-us-1"
+                  <div class="nav-dropdown-link-wrapper"><a href="{{  route('frontend.sp.contact') }}"
                       class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line"> </span>Contact
                       Us</a><a href="/contact-us-2" class="nav-dropdown-link w-dropdown-link"><span
                         class="nav-dropdown-link-line"> </span>Contact Us 2</a><a href="/contact-us-3"
@@ -127,11 +127,11 @@
                 </div>
               </nav>
             </div>
-            <div class="button-wrapper"><a href="/contact-us-1" class="primary-button nav-tablet w-button">Contact
+            <div class="button-wrapper"><a href="{{  route('frontend.sp.contact') }}" class="primary-button nav-tablet w-button">Contact
                 Us</a></div>
           </div>
         </nav>
-        <div class="search-shop-con"><a href="/contact-us-1" class="primary-button w-button">Contact Us</a></div>
+        <div class="search-shop-con"><a href="{{  route('frontend.sp.contact') }}" class="primary-button w-button">Contact Us</a></div>
         <div class="menu-button w-nav-button"><img
             src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c17aa/651f2c08c5bd81eb296c18c9_menu-btn.svg"
             loading="lazy" alt="icon" height="16" class="image-burger white-style" /></div>

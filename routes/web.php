@@ -63,6 +63,7 @@ Route::group(['prefix' => 'admin'], function () {
 // Espaign
 
 Route::get('/', [FrontendSpainController::class, 'index'])->name('frontend.sp.index');
+Route::get('/Contacto', [FrontendSpainController::class, 'contact'])->name('frontend.sp.contact');
 Route::get('/logements/{id}', [FrontendSpainController::class, 'appartement'])->name('frontend.sp.appartement');
 Route::get('/logements/{id}/checkout', [FrontendSpainController::class, 'checkout'])->name('frontend.sp.checkout');
 Route::get('/assurance', [FrontendSpainController::class, 'assurance'])->name('frontend.sp.assurance');
