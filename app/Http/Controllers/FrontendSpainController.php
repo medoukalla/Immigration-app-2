@@ -260,6 +260,12 @@ class FrontendSpainController extends Controller
         ]);
     }
 
+    public function about() {
+        return view('frontend.sp.about',[
+            'langLink' => route('frontend.about'),
+        ]);
+    }
+
 
     public function politique() {
         return view('frontend.sp.politique',[

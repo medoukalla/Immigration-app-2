@@ -1,6 +1,6 @@
 <x-sp.head title="{{ setting('site.title') }}" />
 
-<x-sp.blog-index :articles="$posts" />
+
 
 
 <x-sp.footer />

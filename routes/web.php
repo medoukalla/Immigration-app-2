@@ -78,6 +78,7 @@ Route::get('/preparation', [FrontendSpainController::class, 'preparation'])->nam
 Route::get('/programmes', [FrontendSpainController::class, 'programmes'])->name('frontend.sp.programmes');
 Route::get('/service/{service}/{slug}', [FrontendSpainController::class, 'service'])->name('frontend.sp.service');
 Route::get('/blog', [FrontendSpainController::class, 'blog'])->name('frontend.sp.blog');
+Route::get('/about', [FrontendSpainController::class, 'about'])->name('frontend.sp.about');
 Route::get('/post/{post}', [FrontendSpainController::class, 'post'])->name('frontend.sp.post');
 
 Route::get('/nos_packs', [FrontendSpainController::class, 'nos_packs'])->name('frontend.sp.nos_packs');
@@ -118,6 +119,7 @@ Route::group(['prefix' => 'fr'], function () {
     Route::get('/programmes', [FrontendController::class, 'programmes'])->name('frontend.programmes');
     Route::get('/service/{service}', [FrontendController::class, 'service'])->name('frontend.service');
     Route::get('/blog', [FrontendController::class, 'blog'])->name('frontend.blog');
+    Route::get('/about', [FrontendController::class, 'about'])->name('frontend.about');
     Route::get('/post/{post}', [FrontendController::class, 'post'])->name('frontend.post');
 
 

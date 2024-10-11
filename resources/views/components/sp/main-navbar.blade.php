@@ -28,7 +28,8 @@
               </div>
             </nav>
           </div>
-          <div data-hover="true" data-delay="0" data-w-id="ba67b287-f196-4627-29a8-f080f7e8b1b5"
+
+          {{-- <div data-hover="true" data-delay="0" data-w-id="ba67b287-f196-4627-29a8-f080f7e8b1b5"
             class="nav-dropdown w-dropdown">
             <div class="nav-dropdown-toggle w-dropdown-toggle">
               <div class="nav-dropdown-icon w-icon-dropdown-toggle"></div>
@@ -48,25 +49,14 @@
                     class="nav-dropdown-link-line">
                   </span>Contáctanos</a></div>
             </nav>
-          </div><a href="{{ route('frontend.sp.services') }}" class="nav-link w-nav-link">Servicios</a>
-          <div data-hover="true" data-delay="0" data-w-id="ba67b287-f196-4627-29a8-f080f7e8b1d8"
-            class="nav-dropdown w-dropdown">
-            <div class="nav-dropdown-toggle w-dropdown-toggle">
-              <div class="nav-dropdown-icon w-icon-dropdown-toggle"></div>
-              <p class="nav-item-title">País</p>
-            </div>
-            <nav class="nav-dropdown-list w-dropdown-list">
-              <div class="nav-dropdown-link-wrapper"><a href="/countries-1"
-                  class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line"> </span>País
-                  1</a><a href="/countries-2" class="nav-dropdown-link w-dropdown-link"><span
-                    class="nav-dropdown-link-line"> </span>País 2</a><a href="/countries-3"
-                  class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line"> </span>País
-                  3</a><a href="https://immigration-128.webflow.io/countries/canada"
-                  class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line"> </span>Detalles
-                  del País</a></div>
-            </nav>
-          </div><a href="/visa" class="nav-link w-nav-link">Visa</a><a href="/blog" class="nav-link w-nav-link">Blog</a>
-          <div data-hover="true" data-delay="0" data-w-id="ba67b287-f196-4627-29a8-f080f7e8b145"
+          </div> --}}
+          
+          <a href="{{ route('frontend.sp.services') }}" class="nav-link w-nav-link">Servicios</a>
+          <a href="/programmes" class="nav-link w-nav-link">Programmes</a>
+          <a href="/blog" class="nav-link w-nav-link">Blog</a>
+          <a href="/about" class="nav-link w-nav-link">About us</a>
+
+          {{-- <div data-hover="true" data-delay="0" data-w-id="ba67b287-f196-4627-29a8-f080f7e8b145"
             class="nav-dropdown w-dropdown">
             <div class="nav-dropdown-toggle w-dropdown-toggle">
               <div class="nav-dropdown-icon w-icon-dropdown-toggle"></div>
@@ -126,7 +116,7 @@
                       class="nav-dropdown-link-line"> </span>Preguntas Frecuentes</a></div>
               </div>
             </nav>
-          </div>
+          </div> --}}
           <div class="button-wrapper"><a href="{{ route('frontend.sp.contact') }}"
               class="primary-button nav-tablet w-button">Contáctanos
             </a></div>
