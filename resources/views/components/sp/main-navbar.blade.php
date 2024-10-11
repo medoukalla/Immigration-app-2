@@ -54,6 +54,7 @@
           <a href="{{ route('frontend.sp.services') }}" class="nav-link w-nav-link">Servicios</a>
           <a href="/programmes" class="nav-link w-nav-link">Programmes</a>
           <a href="/blog" class="nav-link w-nav-link">Blog</a>
+          <a href="/assurance" class="nav-link w-nav-link">Assurance</a>
           <a href="/about" class="nav-link w-nav-link">About us</a>
 
           {{-- <div data-hover="true" data-delay="0" data-w-id="ba67b287-f196-4627-29a8-f080f7e8b145"
