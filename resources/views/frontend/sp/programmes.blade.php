@@ -557,6 +557,101 @@
         </div>
     </div>
 </div>
+<!-- contact-components -->
+<div class="section contact-components">
+    <div class="base-container w-container">
+        <div class="contact-component-wrapper">
+            <div class="c-c-block">
+                <img src="/assets/images/svg/component-email.svg" alt="Email icone">
+                <div class="c-c-name">
+                    Email
+                </div>
+                <p>Direct all your queries to our dedicated customer support email.</p>
+                <a href="#">
+                    <div class="c-c-link">
+                        hello@nimble.llc
+                    </div>
+                </a>
+            </div>
+            <div class="c-c-block">
+                <img src="/assets/images/svg/component-chat.svg" alt="Email icone">
+                <div class="c-c-name">
+                    Email
+                </div>
+                <p>For real-time assistance, initiate a chat with our representative.</p>
+                <a href="#">
+                    <div class="c-c-link">Start new chat
+                    </div>
+                </a>
+            </div>
+            <div class="c-c-block">
+                <img src="/assets/images/svg/component-phone.svg" alt="Email icone">
+                <div class="c-c-name">
+                    Email
+                </div>
+                <p>Call us for immediate responses to your questions or concerns.</p>
+                <a href="#">
+                    <div class="c-c-link">+1 (555) 000-0000
+                    </div>
+                </a>
+            </div>
+            <div class="c-c-block">
+                <img src="/assets/images/svg/component-location.svg" alt="Email icone">
+                <div class="c-c-name">
+                    Email
+                </div>
+                <p>If you're in the area, feel free to drop by our office for assistance.</p>
+                <a href="#">
+                    <div class="c-c-link">123 Sample St, Los Angeles 2000 US
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Solutions -->
+    <div class="section solution-section without-bottom-spacing">
+        <div class="base-container w-container">
+            <div class="solution-heading">
+                <h2>Ofrecemos una gama de <span>soluciones para sus
+                        necesidades</span> legales en Espana.</h2>
+            </div>
+            <div class="solution-wrapper">
+                <div class="sol-block">
+                    <div class="sol-overlay"></div>
+                    <img src="/assets/images/solution-0.png" alt="Solutions Image">
+                    <div class="sol-content">
+                        <div class="sol-heading">Golden visa</div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+                <div class="sol-block">
+                    <div class="sol-overlay"></div>
+                    <img src="/assets/images/solution-1.png" alt="Solutions Image">
+                    <div class="sol-content">
+                        <div class="sol-heading">Golden visa</div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+                <div class="sol-block">
+                    <div class="sol-overlay"></div>
+                    <img src="/assets/images/solution-2.png" alt="Solutions Image">
+                    <div class="sol-content">
+                        <div class="sol-heading">Cuenta propia</div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+                <div class="sol-block">
+                    <div class="sol-overlay"></div>
+                    <img src="/assets/images/solution-3.png" alt="Solutions Image">
+                    <div class="sol-content">
+                        <div class="sol-heading">Visa de estudiante</div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <x-sp.footer />
