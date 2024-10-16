@@ -49,7 +49,7 @@
 </div>
 {{-- Hero section ENDS  --}}
 
-<div class="section programmes-section">
+<div class="section programmes-section" style="padding-top:0px;">
     {{-- Programmes de Séjour linguistique --}}
     <div class="programmes-box base-container w-container">
             {{-- Programme Heading --}}

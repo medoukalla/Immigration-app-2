@@ -928,6 +928,36 @@ textarea.w-select {
     left: auto;
     right: auto;
   }
+
+  .programmes-section .programmes-wrapper {
+    gap: 10px;
+  }
+
+  .contact-components .c-c-block:hover {
+    width: calc(100% / 4);
+  }
+
+  .contact-components .c-c-block p {
+    width: 100% !important;
+  }
+
+  .solution-section .solution-wrapper {
+    gap: 10px;
+  }
+
+  .solution-section .sol-block {
+    height: 250px !important;
+  }
+
+  .footer-links-wrapper:first-child {
+    width: 100%;
+  }
+
+  .institutions {
+    width: 100%;
+    text-align: start;
+  }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -8842,10 +8872,6 @@ select.white-style,
     row-gap: 20px;
   }
 
-  .programme-wrapper {
-    width: 80%;
-  }
-
   .programmes-box {
     margin-top: 50px !important;
   }
@@ -9486,6 +9512,10 @@ select.white-style,
   font-size: 20px;
   color: white;
   padding-top: 20px;
+}
+
+.solution-section .solution-heading {
+  margin-bottom: 20px;
 }
 
 .solution-section .solution-heading h2 {
