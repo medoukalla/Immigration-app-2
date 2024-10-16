@@ -8640,7 +8640,8 @@ select.white-style,
   }
 
   .footer-links-wrapper {
-    align-items: center;
+    align-items: flex-start;
+    width: 100%;
   }
 
   .style-guide-content-wrapper.no-wrap {
@@ -8829,6 +8830,73 @@ select.white-style,
     bottom: 90px;
     left: auto;
     right: 12px;
+  }
+
+  .programmes-section .programme-heading {
+    line-height: 34px;
+    text-align: center !important;
+  }
+
+  .programmes-section .programmes-wrapper {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .programme-wrapper {
+    width: 80%;
+  }
+
+  .programmes-box {
+    margin-top: 50px !important;
+  }
+
+  .contact-components .contact-component-wrapper {
+    flex-direction: column !important;
+  }
+
+  .contact-components .c-c-block {
+    border-right: none;
+    border-bottom: 1px solid var(--primary-dark);
+    width: 100% !important;
+  }
+
+  .contact-components .c-c-block:first-child {
+    border-radius: 0 !important;
+  }
+
+  .contact-components .c-c-block:last-child {
+    border-radius: 0 !important;
+  }
+
+  .solution-section .solution-heading h2 {
+    font-size: 28px;
+  }
+
+  .solution-section .solution-wrapper {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .solution-section .sol-block {
+    width: 100% !important;
+  }
+
+  .solution-section .sol-block img {
+    width: 100%;
+  }
+
+  .footer-links-wrapper:first-child {
+    width: 100%;
+  }
+
+  .footer-links-wrapper .social-media {
+    width: 100%;
+    gap: 10px;
+    justify-content: start;
+  }
+
+  .footer .footer-links-wrapper .adress-wrapper .adress {
+    margin-bottom: 20px;
   }
 }
 
@@ -9434,8 +9502,8 @@ select.white-style,
 .solution-section .sol-block {
   position: relative;
   background-color: #000;
-  height: 400px;
-  width: 325px;
+  height: 350px;
+  width: 280px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
@@ -9581,11 +9649,11 @@ select.white-style,
 }
 
 .contact-components .c-c-block:first-child {
-  border-radius: 30px 0px 0px 30px !important;
+  border-radius: 30px 0px 0px 30px;
 }
 
 .contact-components .c-c-block:last-child {
-  border-radius: 0px 30px 30px 0px !important;
+  border-radius: 0px 30px 30px 0px;
 }
 
 
