@@ -21,7 +21,7 @@
     </div>
 </div>
 <div class="numbers-wrapper">
-    <div data-w-id="221627f6-3a31-260f-8a97-6ec174e99870" style="opacity:0" class="w-layout-grid working-numbers">
+    <div data-w-id="221627f6-3a31-260f-8a97-6ec174e99870" class="w-layout-grid working-numbers">
         <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e99871-296c1813" class="working-wrap">
             <div class="numbers">15+</div>
             <div class="numbers-text white-style">Años de experiencia</div>
