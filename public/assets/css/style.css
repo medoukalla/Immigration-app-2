@@ -878,6 +878,12 @@ textarea.w-select {
   .solution-section .sol-block {
     height: 300px !important;
   }
+
+  .our-journey .left-side h2 {
+    font-size: 32px !important;
+    width: 100% !important;
+  }
+
 }
 
 @media screen and (max-width: 991px) {
@@ -1115,6 +1121,15 @@ textarea.w-select {
 
   .w-col-tiny-12 {
     width: 100%;
+  }
+
+  .our-journey {
+    flex-direction: column;
+  }
+
+  .our-journey .left-side,
+  .our-journey .right-side {
+    width: 100% !important;
   }
 }
 
@@ -7142,6 +7157,25 @@ select.white-style,
     flex-direction: column;
   }
 
+  .contacts-2-content-wrapper .contacts-title {
+    text-align: start;
+    width: 100% !important;
+  }
+
+  .contacts-2-content-wrapper .contacts-title .in-section-title {
+    text-align: center;
+  }
+
+  .call-to-action-b-box .call-b-subtitle {
+    width: 100% !important;
+    font-size: 42px !important;
+  }
+
+  .solution-section .sol-block .sol-content p {
+    font-size: 14px;
+    line-height: 1.2em;
+  }
+
   .arraigo-wrapper .arraigo-content {
     width: auto !important;
   }
@@ -8547,6 +8581,18 @@ select.white-style,
 }
 
 @media screen and (max-width: 479px) {
+  .min-hero-wrapper h1 {
+    font-size: 32px !important;
+  }
+
+  .min-hero-wrapper p {
+    font-size: 14px;
+  }
+
+  .min-hero-wrapper .pages-path .p-path {
+    font-size: 14px;
+  }
+
   .grid-system-wrapper {
     flex-direction: row;
   }
@@ -8923,8 +8969,9 @@ select.white-style,
   }
 
   .programmes-section .programme-heading {
-    line-height: 34px;
-    text-align: center !important;
+    font-size: 28px !important;
+    line-height: 28px !important;
+    margin-bottom: 20px !important;
   }
 
   .programmes-section .programmes-wrapper {
@@ -8986,7 +9033,7 @@ select.white-style,
   }
 
   .programme-wrapper {
-    width: 90% !important;
+    width: 100% !important;
   }
 
   /* Assurance */
@@ -10041,4 +10088,33 @@ input[type="radio"] {
 
 .check-type .type input[type="radio"] {
   accent-color: var(--primary);
+}
+
+/* About page */
+
+.our-journey {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.our-journey .right-side,
+.our-journey .left-side {
+  width: 50%;
+}
+
+.our-journey .left-side .journey-subtitle {
+  color: var(--primary);
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.our-journey .left-side h2 {
+  font-size: 42px;
+  width: 80%;
+}
+
+.our-journey p {
+  margin: 0;
 }

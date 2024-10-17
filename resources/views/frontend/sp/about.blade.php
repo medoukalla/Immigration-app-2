@@ -49,6 +49,116 @@
 </div>
 {{-- Hero section ENDS  --}}
 
+<div class="section about-section">
+    <div class="base-container w-container">
+        <div class="our-journey">
+            <div class="left-side">
+                <div class="journey-subtitle">Our journey</div>
+                <h2>The birth of an unparalleled notary service</h2>
+            </div>
+            <div class="right-side">
+                <p>Our journey began with a simple mission - to make document legalization accessible and effortless for all. A group of legal enthusiasts saw the difficulties people faced with the notary process and decided to do something about it. They envisioned a service that would bring the notary to the client, irrespective of location, ensuring comfort and convenience.</p>
+                <p>
+                    The concept turned into reality and thus, our notary service was born. Initially, we focused on mobile notary services, going from door-to-door, building trust with each document signed. As the digital revolution unfolded, we introduced remote notarization, revolutionizing the way people viewed the notarization process.
+                </p>
+                <p>    
+                    Today, we're proud to be the trusted choice for countless clients, eliminating the hurdles of traditional notary services with our innovative solutions.</p>
+            </div>
+        </div>
 
+    </div>
+</div>
+
+<!-- Arraigo section -->
+<div class="section arraigo-section">
+    <div class="base-container w-container">
+        <div class="arraigo-wrapper">
+            <div class="arraigo-content">
+                <h1>¡Elija Carbray! ¡Hemos ayudado a cientos de clientes en la misma situación que usted!</h1>
+                <p>
+                    En Carbray sabemos que su proceso de inmigración no se limita al papeleo. Significa puertas
+                    abiertas y oportunidades emocionantes. Significa un nuevo futuro.
+                </p>
+                <p>
+                    Si ha pasado horas en Internet estudiando los requisitos legales para su situación, comparando
+                    información obsoleta en sitios web impersonales y perdiéndose en la jerga burocrática, puede
+                    poner fin a su búsqueda aquí.
+                </p>
+                <p>
+                    Nuestro equipo de abogados de extranjería en España lleva más de una década creando un camino
+                    fluido, rápido y sin estrés para nuestros clientes. Le guiaremos a través de todo el proceso,
+                    para que pueda dar este paso tan importante en su vida con la confianza de que cada detalle ha
+                    sido atendido por un experto.
+                </p>
+                <p>Nuestra próxima historia de éxito es la suya.</p>
+            </div>
+            <div class="arraigo-img-box">
+                <img src="assets/images/arraigro-family.png" alt="Arraigo family picture">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Call to action -->
+<div class="section call-to-action">
+<div class="base-container w-container">
+    <div class="call-to-action-box">
+    <div class="call-subtitle">Ofrecemos el mejor servicio</div>
+    <div class="call-title">
+        Te ofrecemos la mejor manera de <br>
+        <span>Lograr tu migración</span>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis delectus tenetur fugiat, praesentium
+        facere magnam labore laborum officiis architecto eum!</p>
+    <div class="button-wrapper smaller-spacing">
+        <a href="#" class="link-with-arrow-underline white-style">Contáctanos</a>
+    </div>
+    </div>
+</div>
+</div>
+
+    <!-- Solutions -->
+    <div class="section solution-section without-bottom-spacing">
+        <div class="base-container w-container">
+            <div class="solution-heading">
+                <h2>Ofrecemos una gama de <span>soluciones para sus
+                        necesidades</span> legales en Espana.</h2>
+            </div>
+            <div class="solution-wrapper">
+                <div class="sol-block">
+                    <div class="sol-overlay"></div>
+                    <img src="/assets/images/solution-0.png" alt="Solutions Image">
+                    <div class="sol-content">
+                        <div class="sol-heading">Golden visa</div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+                <div class="sol-block">
+                    <div class="sol-overlay"></div>
+                    <img src="/assets/images/solution-1.png" alt="Solutions Image">
+                    <div class="sol-content">
+                        <div class="sol-heading">Golden visa</div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+                <div class="sol-block">
+                    <div class="sol-overlay"></div>
+                    <img src="/assets/images/solution-2.png" alt="Solutions Image">
+                    <div class="sol-content">
+                        <div class="sol-heading">Cuenta propia</div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+                <div class="sol-block">
+                    <div class="sol-overlay"></div>
+                    <img src="/assets/images/solution-3.png" alt="Solutions Image">
+                    <div class="sol-content">
+                        <div class="sol-heading">Visa de estudiante</div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <x-sp.footer />
