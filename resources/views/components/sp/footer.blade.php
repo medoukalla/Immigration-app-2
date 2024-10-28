@@ -42,7 +42,7 @@
       <div class="footer-wrapper">
         <div class="footer-links-wrapper">
           <div class="logo">
-            <img src="assets/images/svg/logo.svg" alt="Logo">
+            <img src="assets/img/logo-white.png" alt="Logo">
           </div>
           <div class="thanks">
             <p>We believe in an interconnected world, powered by mobility and prosperity. We clear the legal path
