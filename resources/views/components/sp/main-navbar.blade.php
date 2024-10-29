@@ -92,7 +92,7 @@
           </div>
       </nav>
       <div class="search-shop-con">
-        <a href="{{ route('frontend.sp.contact') }}" class="primary-button w-button">Pedir Cita</a>
+          <a href="javascript:void(0);" class="primary-button w-button" id="openModalButton">Pedir Cita</a>
       </div>
       <div class="menu-button w-nav-button"><img
           src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c17aa/651f2c08c5bd81eb296c18c9_menu-btn.svg"
@@ -100,3 +100,71 @@
     </div>
   </div>
 </div>
+
+
+<!-- Custom Modal for Calendly -->
+<div id="calendlyModal" class="modal-overlay">
+    <div class="modal-content">
+        <span class="close-modal" id="closeModalButton">&times;</span>
+        <h5>Elija el horario que mejor le convenga para su consulta.</h5>
+        <!-- Calendly Embed Code -->
+        <div class="calendly-inline-widget" data-url="https://calendly.com/d/y5v-9f3-ztd/marouane?primary_color=ff6524" style="min-width:320px;height:700px;"></div>
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+    </div>
+</div>
+
+<!-- Custom CSS for Modal -->
+<style>
+    /* Modal overlay */
+    .modal-overlay {
+        display: none; /* Hidden by default */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 9999;
+    }
+    /* Modal content */
+    .modal-content {
+        position: relative;
+        margin: 10% auto;
+        padding: 20px;
+        background-color: #fff;
+        width: 90%;
+        max-width: 600px;
+        border-radius: 8px;
+    }
+    /* Close button */
+    .close-modal {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        cursor: pointer;
+    }
+</style>
+
+<!-- jQuery to Control Modal Display -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        // Show modal when button is clicked
+        $('#openModalButton').on('click', function() {
+            $('#calendlyModal').fadeIn();
+        });
+
+        // Hide modal when close button is clicked
+        $('#closeModalButton, .modal-overlay').on('click', function() {
+            $('#calendlyModal').fadeOut();
+        });
+
+        // Prevent modal from closing when clicking inside the content area
+        $('.modal-content').on('click', function(event) {
+            event.stopPropagation();
+        });
+    });
+</script>
