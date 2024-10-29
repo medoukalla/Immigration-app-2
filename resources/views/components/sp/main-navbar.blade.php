@@ -1,11 +1,11 @@
 <div data-animation="over-left" class="navbar-absolute w-nav" data-easing2="ease" data-easing="ease"
   data-collapse="medium" role="banner" data-no-scroll="1" data-duration="400" data-doc-height="1">
   <div class="nav-container w-container">
-    <div class="nav-menu-wrapper"><a href="/" aria-current="page" class="brand w-nav-brand w--current"><img
-          src="{{ asset('assets/img/logo-black.png') }}"
+    <div class="nav-menu-wrapper"><a href="{{ route('frontend.sp.index') }}" aria-current="page" class="brand w-nav-brand w--current"><img
+          src="{{ asset('storage/'.setting('site.logo')) }}"
           loading="lazy" alt="logo" height="38" /></a>
       <nav role="navigation" class="nav-menu w-nav-menu">
-        <div class="tablet-menu"><a href="/" aria-current="page" class="brand-tablet w-nav-brand w--current"><img
+        <div class="tablet-menu"><a href="{{ route('frontend.sp.index') }}" aria-current="page" class="brand-tablet w-nav-brand w--current"><img
               src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c17aa/65269ae2dc5ceebc36a57753_logo-immigration.svg"
               loading="lazy" alt="logo" height="38" /></a>
           <div class="close-menu-button w-nav-button"><img
@@ -74,16 +74,16 @@
               </div>
               <nav class="nav-dropdown-list w-dropdown-list">
                 <div class="nav-dropdown-link-wrapper">
-                  <a href="/" aria-current="page" class="nav-dropdown-link w-dropdown-link w--current"><span
+                  <a href="{{ route('frontend.sp.services') }}" aria-current="page" class="nav-dropdown-link w-dropdown-link w--current"><span
                       class="nav-dropdown-link-line">
                     </span>Seguro</a>
-                    <a href="/home-2" class="nav-dropdown-link w-dropdown-link"><span
+                    <a href="{{ route('frontend.sp.services') }}" class="nav-dropdown-link w-dropdown-link"><span
                       class="nav-dropdown-link-line"> </span>Programas de estudio</a>
                 </div>
               </nav>
             </div>
-            <a href="/about" class="nav-link w-nav-link">Sobre nosotros</a>
-            <a href="/about" class="nav-link w-nav-link">Contacto</a>
+            <a href="{{ route('frontend.sp.about') }}" class="nav-link w-nav-link">Sobre nosotros</a>
+            <a href="{{ route('frontend.sp.contact') }}" class="nav-link w-nav-link">Contacto</a>
 
 
             <div class="button-wrapper"><a href="{{ route('frontend.sp.contact') }}"
@@ -91,8 +91,9 @@
               </a></div>
           </div>
       </nav>
-      <div class="search-shop-con"><a href="{{ route('frontend.sp.contact') }}" class="primary-button w-button">Pedir
-          Cita</a></div>
+      <div class="search-shop-con">
+        <a href="{{ route('frontend.sp.contact') }}" class="primary-button w-button">Pedir Cita</a>
+      </div>
       <div class="menu-button w-nav-button"><img
           src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c17aa/651f2c08c5bd81eb296c18c9_menu-btn.svg"
           loading="lazy" alt="icono" height="16" class="image-burger white-style" /></div>
