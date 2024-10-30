@@ -9326,7 +9326,7 @@ select.white-style,
 .section.top-bar .social-bar {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 .section.top-bar .adress-class img,
