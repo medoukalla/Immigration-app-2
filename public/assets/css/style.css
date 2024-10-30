@@ -1131,6 +1131,14 @@ textarea.w-select {
   .our-journey .right-side {
     width: 100% !important;
   }
+
+  .call-to-action-box {
+    width: 100% !important;
+  }
+
+  .call-to-action .call-title {
+    font-size: 38px !important;
+  }
 }
 
 .w-widget {
