@@ -2906,6 +2906,7 @@ blockquote {
   display: flex;
   position: relative;
   overflow: hidden;
+  width: 374px;
 }
 
 .nav-dropdown-link {

@@ -6,11 +6,11 @@
           loading="lazy" alt="logo" height="38" /></a>
       <nav role="navigation" class="nav-menu w-nav-menu">
         <div class="tablet-menu"><a href="/" aria-current="page" class="brand-tablet w-nav-brand w--current"><img
-              src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c17aa/65269ae2dc5ceebc36a57753_logo-immigration.svg"
-              loading="lazy" alt="logo" height="38" /></a>
+          src="{{ asset('assets/img/logo-black.png') }}"
+          loading="lazy" alt="logo" height="38" /></a>
           <div class="close-menu-button w-nav-button"><img
-              src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c17aa/651f2c08c5bd81eb296c18ca_close-btn.svg"
-              loading="lazy" alt="icono" class="nav-close-icon" /></div>
+          src="{{ asset('assets/img/logo-black.png') }}"
+          loading="lazy" alt="logo" height="38" /></div>
         </div>
         <div class="menu-wrap">
           <div data-hover="true" data-delay="0" data-w-id="ba67b287-f196-4627-29a8-f080f7e8b20d"

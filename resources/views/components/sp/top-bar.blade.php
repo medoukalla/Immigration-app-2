@@ -1,5 +1,5 @@
 <div class="section top-bar">
-    <div class="base-container w-container">
+    <div class="nav-container w-container">
       <div class="top-bar-wrapper">
         <div class="adress-class">
           <div class="adress-time"><img src="{{ asset('assets/images/svg/top-time.svg') }}" alt="Time"> Lun - Vie | {{ setting('site.working-ours') }}
