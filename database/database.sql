@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.36, for Linux (x86_64)
 --
--- Host: localhost    Database: immigration
+-- Host: localhost    Database: immigration-v2-db
 -- ------------------------------------------------------
 -- Server version	8.0.32
 
@@ -24,12 +24,12 @@ DROP TABLE IF EXISTS `assurance_requests`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `assurance_requests` (
   `id` int unsigned NOT NULL AUTO_INCREMENT,
-  `name` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `date` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `sex` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `phone` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `email` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `assurance` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `name` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `date` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `sex` varchar(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `phone` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `email` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `assurance` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
@@ -57,8 +57,8 @@ CREATE TABLE `categories` (
   `id` int unsigned NOT NULL AUTO_INCREMENT,
   `parent_id` int unsigned DEFAULT NULL,
   `order` int NOT NULL DEFAULT '1',
-  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `slug` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `slug` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`),
@@ -87,16 +87,16 @@ DROP TABLE IF EXISTS `data_rows`;
 CREATE TABLE `data_rows` (
   `id` int unsigned NOT NULL AUTO_INCREMENT,
   `data_type_id` int unsigned NOT NULL,
-  `field` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `type` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `display_name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `field` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `type` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `display_name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `required` tinyint(1) NOT NULL DEFAULT '0',
   `browse` tinyint(1) NOT NULL DEFAULT '1',
   `read` tinyint(1) NOT NULL DEFAULT '1',
   `edit` tinyint(1) NOT NULL DEFAULT '1',
   `add` tinyint(1) NOT NULL DEFAULT '1',
   `delete` tinyint(1) NOT NULL DEFAULT '1',
-  `details` text COLLATE utf8mb4_unicode_ci,
+  `details` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
   `order` int NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`),
   KEY `data_rows_data_type_id_foreign` (`data_type_id`),
@@ -123,18 +123,18 @@ DROP TABLE IF EXISTS `data_types`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `data_types` (
   `id` int unsigned NOT NULL AUTO_INCREMENT,
-  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `slug` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `display_name_singular` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `display_name_plural` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `icon` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `model_name` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `policy_name` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `controller` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `description` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `slug` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `display_name_singular` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `display_name_plural` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `icon` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `model_name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `policy_name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `controller` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `description` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `generate_permissions` tinyint(1) NOT NULL DEFAULT '0',
   `server_side` tinyint NOT NULL DEFAULT '0',
-  `details` text COLLATE utf8mb4_unicode_ci,
+  `details` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`),
@@ -162,11 +162,11 @@ DROP TABLE IF EXISTS `failed_jobs`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `failed_jobs` (
   `id` bigint unsigned NOT NULL AUTO_INCREMENT,
-  `uuid` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `connection` text COLLATE utf8mb4_unicode_ci NOT NULL,
-  `queue` text COLLATE utf8mb4_unicode_ci NOT NULL,
-  `payload` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
-  `exception` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
+  `uuid` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `connection` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `queue` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `payload` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `exception` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `failed_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`),
   UNIQUE KEY `failed_jobs_uuid_unique` (`uuid`)
@@ -191,12 +191,12 @@ DROP TABLE IF EXISTS `faq`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `faq` (
   `id` int unsigned NOT NULL AUTO_INCREMENT,
-  `question` varchar(250) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `answer` mediumtext COLLATE utf8mb4_unicode_ci,
+  `question` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `answer` mediumtext CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   `deleted_at` timestamp NULL DEFAULT NULL,
-  `lang` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'es',
+  `lang` varchar(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'es',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -244,8 +244,8 @@ DROP TABLE IF EXISTS `housing_items`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `housing_items` (
   `id` bigint unsigned NOT NULL AUTO_INCREMENT,
-  `name` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `icon` varchar(250) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `name` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `icon` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
@@ -270,7 +270,7 @@ DROP TABLE IF EXISTS `housing_spaces`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `housing_spaces` (
   `id` bigint unsigned NOT NULL AUTO_INCREMENT,
-  `name` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'bedroom',
+  `name` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'bedroom',
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
@@ -296,17 +296,17 @@ DROP TABLE IF EXISTS `menu_items`;
 CREATE TABLE `menu_items` (
   `id` int unsigned NOT NULL AUTO_INCREMENT,
   `menu_id` int unsigned DEFAULT NULL,
-  `title` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `url` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `target` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '_self',
-  `icon_class` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `color` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `title` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `url` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `target` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '_self',
+  `icon_class` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `color` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `parent_id` int DEFAULT NULL,
   `order` int NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
-  `route` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `parameters` text COLLATE utf8mb4_unicode_ci,
+  `route` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `parameters` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
   PRIMARY KEY (`id`),
   KEY `menu_items_menu_id_foreign` (`menu_id`),
   CONSTRAINT `menu_items_menu_id_foreign` FOREIGN KEY (`menu_id`) REFERENCES `menus` (`id`) ON DELETE CASCADE
@@ -332,7 +332,7 @@ DROP TABLE IF EXISTS `menus`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `menus` (
   `id` int unsigned NOT NULL AUTO_INCREMENT,
-  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`),
@@ -359,7 +359,7 @@ DROP TABLE IF EXISTS `migrations`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `migrations` (
   `id` int unsigned NOT NULL AUTO_INCREMENT,
-  `migration` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `migration` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `batch` int NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=37 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -384,16 +384,16 @@ DROP TABLE IF EXISTS `orders`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `orders` (
   `id` bigint unsigned NOT NULL AUTO_INCREMENT,
-  `name` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `prenom` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `nom_de_famille` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `email` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `numero` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `jour` varchar(5) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `mois` varchar(5) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `annee` varchar(8) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `pays` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `sexe` varchar(8) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `name` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `prenom` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `nom_de_famille` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `email` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `numero` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `jour` varchar(5) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `mois` varchar(5) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `annee` varchar(8) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `pays` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `sexe` varchar(8) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `payed` tinyint(1) NOT NULL DEFAULT '0',
   `house_id` bigint unsigned NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
@@ -420,13 +420,13 @@ DROP TABLE IF EXISTS `packs`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `packs` (
   `id` int unsigned NOT NULL AUTO_INCREMENT,
-  `title` varchar(250) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `image` varchar(250) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `title` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `image` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `price` int unsigned DEFAULT NULL,
-  `description` longtext COLLATE utf8mb4_unicode_ci,
-  `hidden_description` text COLLATE utf8mb4_unicode_ci,
+  `description` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+  `hidden_description` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
   `active` int DEFAULT NULL,
-  `language` varchar(10) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `language` varchar(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `translate` int DEFAULT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
@@ -454,17 +454,17 @@ DROP TABLE IF EXISTS `pages`;
 CREATE TABLE `pages` (
   `id` int unsigned NOT NULL AUTO_INCREMENT,
   `author_id` int NOT NULL DEFAULT '1',
-  `title` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `excerpt` text COLLATE utf8mb4_unicode_ci,
-  `body` text COLLATE utf8mb4_unicode_ci,
-  `image` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `slug` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `meta_description` text COLLATE utf8mb4_unicode_ci,
-  `meta_keywords` text COLLATE utf8mb4_unicode_ci,
+  `title` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `excerpt` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+  `body` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+  `image` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `slug` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `meta_description` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+  `meta_keywords` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
   `active` tinyint NOT NULL DEFAULT '1',
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
-  `lang` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'fr',
+  `lang` varchar(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'fr',
   PRIMARY KEY (`id`),
   UNIQUE KEY `pages_slug_unique` (`slug`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -488,8 +488,8 @@ DROP TABLE IF EXISTS `password_resets`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `password_resets` (
-  `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `token` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `email` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `token` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`email`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -541,7 +541,7 @@ DROP TABLE IF EXISTS `permissions`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `permissions` (
   `id` bigint unsigned NOT NULL AUTO_INCREMENT,
-  `key` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `key` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `table_name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
@@ -569,11 +569,11 @@ DROP TABLE IF EXISTS `personal_access_tokens`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `personal_access_tokens` (
   `id` bigint unsigned NOT NULL AUTO_INCREMENT,
-  `tokenable_type` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `tokenable_type` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `tokenable_id` bigint unsigned NOT NULL,
-  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `token` varchar(64) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `abilities` text COLLATE utf8mb4_unicode_ci,
+  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `token` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `abilities` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
   `last_used_at` timestamp NULL DEFAULT NULL,
   `expires_at` timestamp NULL DEFAULT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
@@ -604,20 +604,20 @@ CREATE TABLE `posts` (
   `id` int unsigned NOT NULL AUTO_INCREMENT,
   `author_id` int DEFAULT NULL,
   `category_id` int DEFAULT NULL,
-  `title` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `seo_title` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `title` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `seo_title` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `excerpt` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
-  `body` text COLLATE utf8mb4_unicode_ci NOT NULL,
-  `image` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `slug` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `body` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `image` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `slug` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `meta_description` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
   `meta_keywords` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
   `status` int NOT NULL,
   `featured` tinyint(1) NOT NULL DEFAULT '0',
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
-  `lang` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'fr',
-  `picture` varchar(250) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `lang` varchar(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'fr',
+  `picture` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -641,15 +641,15 @@ DROP TABLE IF EXISTS `programmes`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `programmes` (
   `id` int unsigned NOT NULL AUTO_INCREMENT,
-  `title` varchar(250) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `image` varchar(250) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `title` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `image` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `price` int unsigned DEFAULT NULL,
   `active` int unsigned DEFAULT '1',
-  `language` varchar(10) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `year` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `group` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `city` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `duree_de_programme` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `language` varchar(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `year` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `group` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `city` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `duree_de_programme` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `deleted_at` timestamp NULL DEFAULT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
@@ -676,8 +676,8 @@ DROP TABLE IF EXISTS `roles`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `roles` (
   `id` bigint unsigned NOT NULL AUTO_INCREMENT,
-  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `display_name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `display_name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`),
@@ -704,15 +704,15 @@ DROP TABLE IF EXISTS `services`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `services` (
   `id` int NOT NULL AUTO_INCREMENT,
-  `title` varchar(250) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `mini_description` varchar(250) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `icon` varchar(250) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `image` varchar(250) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `content` longtext COLLATE utf8mb4_unicode_ci,
-  `slug` varchar(250) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `active` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `lang` varchar(25) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `route_name` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `title` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `mini_description` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `icon` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `image` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `content` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+  `slug` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `active` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `lang` varchar(25) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `route_name` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `deleted_at` timestamp NULL DEFAULT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
@@ -756,7 +756,7 @@ CREATE TABLE `settings` (
 
 LOCK TABLES `settings` WRITE;
 /*!40000 ALTER TABLE `settings` DISABLE KEYS */;
-INSERT INTO `settings` VALUES (1,'site.title','Site Title','Immiworld v2','','text',1,'Site'),(2,'site.description','Site Description','Site Description','','text',2,'Site'),(3,'site.logo','Site Logo','','','image',3,'Site'),(4,'site.google_analytics_tracking_id','Google Analytics Tracking ID',NULL,'','text',4,'Site'),(5,'admin.bg_image','Admin Background Image','settings/May2023/pJYawA2iWK6yHgHwd3EZ.png','','image',5,'Admin'),(6,'admin.title','Admin Title','IMW','','text',1,'Admin'),(7,'admin.description','Admin Description','consulting services and solutions','','text',2,'Admin'),(8,'admin.loader','Admin Loader','settings/September2024/YpkIyoR9wiJsuwdNqfZR.png','','image',3,'Admin'),(9,'admin.icon_image','Admin Icon Image','settings/September2024/QDHOP5ZMVdTsQd7I7HAE.png','','image',4,'Admin'),(10,'admin.google_analytics_client_id','Google Analytics Client ID (used for admin dashboard)',NULL,'','text',1,'Admin'),(12,'site.whatsapp','Whatsapp number','+34 (657) 933 788',NULL,'text',6,'Site'),(13,'site.facebook','Facebook link','https://www.facebook.com/',NULL,'text',7,'Site'),(14,'site.instagram','Instagram link','https://instagram.com/',NULL,'text',8,'Site'),(15,'site.working-ours','Working hours','09:00-16:00',NULL,'text',9,'Site'),(16,'site.live-chat-link','Live chat link',NULL,NULL,'text',10,'Site'),(17,'site.address','Address','Calle maestro locuona 1 local 7 Málaga, 29006 - Spain',NULL,'text',11,'Site'),(18,'site.whatsapp_link','Whatsapp link','https://wa.me/+34657933788',NULL,'text',12,'Site'),(19,'pages.politique_de_confidentialite_francais','Politique de confidentialité Francais','<h2>Politique de confidentialit&eacute;</h2>\r\n<p>Chez Immiworld, nous accordons une grande importance &agrave; la confidentialit&eacute; et &agrave; la protection des informations personnelles de nos utilisateurs. Cette politique de confidentialit&eacute; explique comment nous collectons, utilisons, stockons et prot&eacute;geons vos donn&eacute;es lorsque vous utilisez notre site web.<br><br></p>\r\n<p>Collecte et utilisation des informations :</p>\r\n<p>Lorsque vous visitez notre site web, nous pouvons collecter certaines informations personnelles vous concernant, telles que votre nom, votre adresse e-mail, votre num&eacute;ro de t&eacute;l&eacute;phone et toute autre information que vous choisissez de nous fournir. Nous utilisons ces informations pour r&eacute;pondre &agrave; vos demandes, vous fournir des services personnalis&eacute;s, am&eacute;liorer notre site web et communiquer avec vous.<br><br></p>\r\n<p>Cookies et technologies similaires :</p>\r\n<p>Nous utilisons des cookies et d\'autres technologies similaires pour collecter des informations sur votre utilisation de notre site web. Les cookies sont de petits fichiers textes stock&eacute;s sur votre appareil qui nous aident &agrave; personnaliser votre exp&eacute;rience en ligne. Vous avez la possibilit&eacute; de d&eacute;sactiver les cookies dans les param&egrave;tres de votre navigateur, mais cela peut limiter certaines fonctionnalit&eacute;s de notre site web.<br><br></p>\r\n<p>Partage des informations :</p>\r\n<p>Nous ne vendons, ne louons ni ne partageons vos informations personnelles avec des tiers, sauf dans les cas suivants : lorsque cela est n&eacute;cessaire pour fournir les services que vous avez demand&eacute;s, avec votre consentement, ou lorsque la loi l\'exige.<br><br></p>\r\n<p>S&eacute;curit&eacute; des donn&eacute;es :</p>\r\n<p>Nous prenons des mesures de s&eacute;curit&eacute; appropri&eacute;es pour prot&eacute;ger vos informations personnelles contre tout acc&egrave;s, utilisation ou divulgation non autoris&eacute;. Cependant, veuillez noter qu\'aucune m&eacute;thode de transmission de donn&eacute;es sur Internet ou de stockage &eacute;lectronique n\'est totalement s&eacute;curis&eacute;e.<br><br></p>\r\n<p>Liens vers des sites tiers :</p>\r\n<p>Notre site web peut contenir des liens vers des sites tiers. Nous ne sommes pas responsables des pratiques de confidentialit&eacute; ou du contenu de ces sites. Nous vous encourageons &agrave; consulter les politiques de confidentialit&eacute; de ces sites avant de fournir vos informations personnelles.<br><br></p>\r\n<p>Modifications de la politique de confidentialit&eacute; :</p>\r\n<p>Nous pouvons mettre &agrave; jour cette politique de confidentialit&eacute; de temps &agrave; autre. Toute modification sera affich&eacute;e sur cette page, et la date de la derni&egrave;re mise &agrave; jour sera indiqu&eacute;e en haut de la page. Veuillez v&eacute;rifier r&eacute;guli&egrave;rement cette politique de confidentialit&eacute; pour rester inform&eacute; de toute modification.<br><br></p>\r\n<p>Contact :</p>\r\n<p>Si vous avez des questions concernant notre politique de confidentialit&eacute;, veuillez nous contacter &agrave; l\'adresse suivante :&nbsp;<a href=\"mailto:support@immiworld.es\" target=\"_blank\" rel=\"noopener\">support@immiworld.es</a><br><br></p>\r\n<p>En utilisant notre site web, vous acceptez les termes de notre politique de confidentialit&eacute;. Merci de faire confiance &agrave; Immiworld pour la protection de vos informations personnelles.</p>',NULL,'rich_text_box',14,'Pages'),(24,'pages.politique_de_confidentialite_espagnol','Politique de confidentialité Espagnol','<h2>pol&iacute;tica de confidencialidad</h2>\r\n<p>En Immiworld, damos gran importancia a la privacidad y protecci&oacute;n de la informaci&oacute;n personal de nuestros usuarios. Esta pol&iacute;tica de privacidad explica c&oacute;mo recopilamos, usamos, almacenamos y protegemos sus datos cuando utiliza nuestro sitio web.</p>\r\n<p>&nbsp;</p>\r\n<p>Recopilaci&oacute;n y uso de la informaci&oacute;n:</p>\r\n<p>Cuando visita nuestro sitio web, podemos recopilar cierta informaci&oacute;n personal sobre usted, como su nombre, direcci&oacute;n de correo electr&oacute;nico, n&uacute;mero de tel&eacute;fono y cualquier otra informaci&oacute;n que elija proporcionarnos. Usamos esta informaci&oacute;n para responder a sus solicitudes, brindarle servicios personalizados, mejorar nuestro sitio web y comunicarnos con usted.</p>\r\n<p>&nbsp;</p>\r\n<p>Cookies y tecnolog&iacute;as similares:</p>\r\n<p>Utilizamos cookies y otras tecnolog&iacute;as similares para recopilar informaci&oacute;n sobre su uso de nuestro sitio web. Las cookies son peque&ntilde;os archivos de texto almacenados en su dispositivo que nos ayudan a personalizar su experiencia en l&iacute;nea. Tiene la opci&oacute;n de deshabilitar las cookies en la configuraci&oacute;n de su navegador, pero esto puede limitar ciertas funciones de nuestro sitio web.</p>\r\n<p>&nbsp;</p>\r\n<p>El intercambio de informaci&oacute;n:</p>\r\n<p>No vendemos, alquilamos ni compartimos su informaci&oacute;n personal con terceros excepto en los siguientes casos: cuando sea necesario para proporcionar los servicios que ha solicitado, con su consentimiento o cuando lo exija la ley.</p>\r\n<p>&nbsp;</p>\r\n<p>Seguridad de datos:</p>\r\n<p>Tomamos las medidas de seguridad adecuadas para proteger su informaci&oacute;n personal contra el acceso, uso o divulgaci&oacute;n no autorizados. Sin embargo, tenga en cuenta que ning&uacute;n m&eacute;todo de transmisi&oacute;n por Internet o m&eacute;todo de almacenamiento electr&oacute;nico es completamente seguro.</p>\r\n<p>&nbsp;</p>\r\n<p>Enlaces a sitios de terceros:</p>\r\n<p>Nuestro sitio web puede contener enlaces a sitios de terceros. No somos responsables de las pr&aacute;cticas de privacidad ni del contenido de dichos sitios. Le recomendamos que revise las pol&iacute;ticas de privacidad de esos sitios antes de proporcionar su informaci&oacute;n personal.</p>\r\n<p>&nbsp;</p>\r\n<p>Cambios en la pol&iacute;tica de privacidad:</p>\r\n<p>Podemos actualizar esta pol&iacute;tica de privacidad de vez en cuando. Cualquier cambio se publicar&aacute; en esta p&aacute;gina y la fecha de la &uacute;ltima actualizaci&oacute;n se indicar&aacute; en la parte superior de la p&aacute;gina. Consulte esta Pol&iacute;tica de privacidad regularmente para mantenerse informado de cualquier cambio.</p>\r\n<p>&nbsp;</p>\r\n<p>Contactar :</p>\r\n<p>Si tiene alguna pregunta sobre nuestra pol&iacute;tica de privacidad, cont&aacute;ctenos en: support@immiworld.es</p>\r\n<p>&nbsp;</p>\r\n<p>Al utilizar nuestro sitio web, usted acepta los t&eacute;rminos de nuestra pol&iacute;tica de privacidad. Gracias por confiar en Immiworld para proteger su informaci&oacute;n personal.</p>\r\n<p>&nbsp;</p>',NULL,'rich_text_box',15,'Pages'),(25,'site.avis_lien','Avis lien','https://www.google.com/maps/place/Immiworld/@36.7117375,-4.436239,15.39z/data=!4m6!3m5!1s0xd72f708bd115dd9:0x5f84e88420f6341b!8m2!3d36.7134488!4d-4.4355173!16s%2Fg%2F11kq7vr9sw?entry=ttu',NULL,'text',13,'Site'),(26,'site.consultation_fr_code','Consultation français code','<!-- Calendly inline widget begin --><div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/d/y5v-9f3-ztd/marouane?primary_color=ff6524\" style=\"min-width:320px;height:700px;\"></div><script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script><!-- Calendly inline widget end -->',NULL,'code_editor',16,'Site'),(27,'site.consultation_es_code','Consultation espanyol code','<!-- Calendly inline widget begin --><div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/d/y5v-9f3-ztd/marouane?primary_color=ff6524\" style=\"min-width:320px;height:700px;\"></div><script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script><!-- Calendly inline widget end -->',NULL,'code_editor',17,'Site'),(30,'pages.mention_legal','Mention legal Francais','<h2>INMI BEY S.L.</h2>\r\n<p><strong>CIF:</strong> B70633243</p>\r\n<p><strong>Nombre Comercial:</strong> Immiworld</p>\r\n<p><strong>Direcci&oacute;n:</strong> Calle Maestro Lecuano 1, Local 7</p>\r\n<p><strong>Code Postal: </strong>29006 M&aacute;laga</p>\r\n<p><strong>Courrier &Eacute;lectronique:</strong> <a href=\"mailto:hola@immiworld.es\">hola@immiworld.es</a></p>\r\n<p><strong>P&aacute;gina Web:</strong> <span style=\"color: rgb(230, 126, 35);\"><a href=\"http://www.immiworld.es/\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=http://www.immiworld.es/&amp;source=gmail&amp;ust=1708790338610000&amp;usg=AOvVaw1lOi_2utbjiITy7tHFjY-q\">www.immiworld.es</a></span></p>\r\n<p>&nbsp;</p>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>Propri&eacute;t&eacute; Intellectuelle et Industrielle</strong></span></p>\r\n<p>Tous les droits de propri&eacute;t&eacute; intellectuelle et industrielle du site web&nbsp;<a href=\"http://www.immiworld.es/\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=http://www.immiworld.es/&amp;source=gmail&amp;ust=1708790338610000&amp;usg=AOvVaw1lOi_2utbjiITy7tHFjY-q\">www.immiworld.es</a>&nbsp;et de ses contenus (textes, images, sons, audio, vid&eacute;o, dessins, cr&eacute;ations, logiciels) appartiennent &agrave; <em>INMI BEY S.L.</em> ou, le cas &eacute;ch&eacute;ant, &agrave; des tiers. L\'utilisateur peut visualiser tous les &eacute;l&eacute;ments, les imprimer, les copier et les stocker sur le disque dur de son ordinateur ou sur tout autre support physique, uniquement et exclusivement pour son usage personnel et priv&eacute;. Par cons&eacute;quent, toute utilisation &agrave; des fins commerciales, leur distribution, ainsi que leur modification, alt&eacute;ration ou d&eacute;compilation sont strictement interdites.</p>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>Protection des Donn&eacute;es Personnelles</strong></span></p>\r\n<p>Conform&eacute;ment au R&egrave;glement (UE) 2016/679 du Parlement europ&eacute;en et du Conseil, du <em>27 avril 2016</em>, relatif &agrave; la protection des personnes physiques &agrave; l\'&eacute;gard du traitement des donn&eacute;es &agrave; caract&egrave;re personnel et &agrave; la libre circulation de ces donn&eacute;es (GDPR), ainsi qu\'&agrave; la l&eacute;gislation nationale en mati&egrave;re de protection des donn&eacute;es, nous informons que les donn&eacute;es personnelles collect&eacute;es via le site web&nbsp;<a href=\"http://immiworld.es/\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=http://immiworld.es&amp;source=gmail&amp;ust=1708790338610000&amp;usg=AOvVaw38ySMTYfMuOAzZG_7jQ6qQ\">immiworld.es</a>&nbsp;seront trait&eacute;es conform&eacute;ment &agrave; la Politique de Confidentialit&eacute; disponible sur ledit site web.</p>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>L&eacute;gislation et Comp&eacute;tence Juridictionnelle Applicables</strong></span></p>\r\n<p>Cet avis l&eacute;gal est r&eacute;gi dans tous ses aspects par la loi espagnole. Pour toute question litigieuse d&eacute;coulant de l\'existence, de l\'acc&egrave;s, de l\'utilisation ou du contenu de l\'Avis L&eacute;gal, tant le Client que<em> INMI BEY S.L.</em> renoncent express&eacute;ment &agrave; tout autre tribunal qui pourrait leur &ecirc;tre comp&eacute;tent, se soumettant express&eacute;ment &agrave; la juridiction et comp&eacute;tence des tribunaux de M&aacute;laga.</p>',NULL,'rich_text_box',16,'Pages'),(31,'site.defaultSlide','Default slide image','settings/June2023/CJffp8FnNCVkmmHWPfX6.png',NULL,'image',18,'Site'),(32,'pages.mention_legal_espagnol','Mention legal Espagnol','<h2>INMI BEY S.L.</h2>\r\n<p><strong>CIF:</strong> B70633243</p>\r\n<p><strong>Nom Commercial:</strong> Immiworld</p>\r\n<p><strong>Adresse:</strong> Calle Maestro Lecuano 1, Local 7, C.P. 29006 M&aacute;laga</p>\r\n<p><strong>Correo Electr&oacute;nico:</strong> <a href=\"mailto:hola@immiworld.es\">hola@immiworld.es</a></p>\r\n<p><strong>P&aacute;gina Web:</strong> <span style=\"color: rgb(230, 126, 35);\"><a href=\"http://www.immiworld.es/\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=http://www.immiworld.es/&amp;source=gmail&amp;ust=1708790338610000&amp;usg=AOvVaw1lOi_2utbjiITy7tHFjY-q\">www.immiworld.es</a></span></p>\r\n<p>&nbsp;</p>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>Propiedad Intelectual e Industrial</strong></span></p>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><span style=\"color: rgb(0, 0, 0);\">Todos los derechos de propiedad intelectual e industrial del sitio web</span>&nbsp;<a href=\"http://www.immiworld.es/\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=http://www.immiworld.es/&amp;source=gmail&amp;ust=1708790338610000&amp;usg=AOvVaw1lOi_2utbjiITy7tHFjY-q\">www.immiworld.es</a>&nbsp;<span style=\"color: rgb(0, 0, 0);\">y de sus contenidos (textos, im&aacute;genes, sonidos, audio, v&iacute;deo, dise&ntilde;os, creatividades, software) pertenecen a <em>INMI BEY S.L</em>. o, en su caso, a terceras personas. El usuario puede visualizar todos los elementos, imprimirlos, copiarlos y almacenarlos en el disco duro de su computadora o en cualquier otro soporte f&iacute;sico siempre y cuando sea, &uacute;nica y exclusivamente, para su uso personal y privado, quedando, por tanto, terminantemente prohibida su utilizaci&oacute;n con fines comerciales, su distribuci&oacute;n, as&iacute; como su modificaci&oacute;n, alteraci&oacute;n o descompilaci&oacute;n.</span></span></p>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>Protecci&oacute;n de Datos Personales</strong></span></p>\r\n<p><span style=\"color: rgb(0, 0, 0);\">De conformidad con lo dispuesto en el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de <em>27 de abril de 2016</em>, relativo a la protecci&oacute;n de las personas f&iacute;sicas en lo que respecta al tratamiento de datos personales y a la libre circulaci&oacute;n de estos datos (GDPR), as&iacute; como en la normativa nacional en materia de protecci&oacute;n de datos, se informa que los datos personales recabados a trav&eacute;s del sitio web&nbsp;<a href=\"http://immiworld.es/\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=http://immiworld.es&amp;source=gmail&amp;ust=1708790338610000&amp;usg=AOvVaw38ySMTYfMuOAzZG_7jQ6qQ\">immiworld.es</a> ser&aacute;n tratados de acuerdo con la Pol&iacute;tica de Privacidad disponible en dicho sitio web.</span></p>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>Legislaci&oacute;n y Jurisdicci&oacute;n Aplicable</strong></span></p>\r\n<p><span style=\"color: rgb(0, 0, 0);\">Este aviso legal se rige en todos y cada uno de sus extremos por la ley espa&ntilde;ola. Para cualquier cuesti&oacute;n litigiosa derivada de la existencia, acceso, utilizaci&oacute;n o contenido del Aviso Legal, tanto el Cliente como <em>INMI BEY S.L</em>. renuncian expresamente a cualquier otro fuero que pudiera corresponderles, someti&eacute;ndose expresamente a la jurisdicci&oacute;n y competencia de los Juzgados y Tribunales de M&aacute;laga.</span></p>\r\n<p>&nbsp;</p>',NULL,'rich_text_box',17,'Pages'),(33,'pages.terms_et_conditions_francais','Terms et conditions Francais','<h2>Terms et conditions</h2>\r\n<p>Les pr&eacute;sents termes et conditions r&eacute;gissent l\'utilisation du site web&nbsp;<a href=\"http://immiworld.es/\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=http://immiworld.es&amp;source=gmail&amp;ust=1708790338604000&amp;usg=AOvVaw1lZhrLXOX0b9s6wlcz7Lw0\">immiworld.es</a>&nbsp;et des services propos&eacute;s par <em>INMI BEY S.L.</em> (ci-apr&egrave;s d&eacute;nomm&eacute;s \"Immiworld\"). En utilisant ce site web, vous acceptez ces termes et conditions dans leur int&eacute;gralit&eacute;. Si vous n\'acceptez pas ces termes et conditions, vous &ecirc;tes pri&eacute; de ne pas utiliser ce site web.<br><br></p>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>1. Utilisation du Site</strong></span></p>\r\n<ul>\r\n<li style=\"text-align: left;\"><span style=\"color: rgb(0, 0, 0);\">1</span>.1. Vous devez &ecirc;tre &acirc;g&eacute; d\'au moins 18 ans pour utiliser ce site web. En utilisant ce site, vous garantissez avoir au moins 18 ans.</li>\r\n<li><span style=\"color: rgb(0, 0, 0);\">1</span>.2. Vous &ecirc;tes responsable de votre acc&egrave;s &agrave; ce site web et de toutes les activit&eacute;s qui s\'y d&eacute;roulent sous votre nom d\'utilisateur.</li>\r\n</ul>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>2. Services</strong></span></p>\r\n<ul>\r\n<li>2.1. Immiworld se r&eacute;serve le droit de modifier ou d\'interrompre, temporairement ou d&eacute;finitivement, tout service ou fonctionnalit&eacute; du site web, avec ou sans pr&eacute;avis.</li>\r\n<li>2.2. Nous nous effor&ccedil;ons de garantir que toutes les informations fournies sur ce site web sont exactes et &agrave; jour, cependant, nous ne garantissons pas l\'exactitude, l\'exhaustivit&eacute; ou la pertinence de ces informations.</li>\r\n</ul>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>3. Propri&eacute;t&eacute; Intellectuelle</strong></span></p>\r\n<ul>\r\n<li>3.1. Tous les contenus pr&eacute;sents sur ce site web, y compris mais sans s\'y limiter, le texte, les images, les vid&eacute;os, les graphiques, les logos et les marques, sont la propri&eacute;t&eacute; d\'Immiworld ou de ses conc&eacute;dants de licence, et sont prot&eacute;g&eacute;s par les lois sur la propri&eacute;t&eacute; intellectuelle en vigueur.</li>\r\n<li>3.2. Aucun &eacute;l&eacute;ment de ce site web ne peut &ecirc;tre reproduit, modifi&eacute;, distribu&eacute;, diffus&eacute;, vendu, c&eacute;d&eacute;, lou&eacute;, conc&eacute;d&eacute; sous licence ou exploit&eacute; de quelque mani&egrave;re que ce soit sans le consentement &eacute;crit pr&eacute;alable d\'Immiworld</li>\r\n</ul>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>4. Responsabilit&eacute;</strong></span></p>\r\n<ul>\r\n<li>4.1. Immiworld ne sera en aucun cas responsable des dommages directs, indirects, sp&eacute;ciaux, fortuits ou cons&eacute;cutifs d&eacute;coulant de l\'utilisation ou de l\'impossibilit&eacute; d\'utiliser ce site web ou des services qui y sont propos&eacute;s.</li>\r\n<li>4.2. Vous utilisez ce site web &agrave; vos propres risques. Ce site web est fourni \"tel quel\" et \"tel que disponible\", sans garantie d\'aucune sorte, expresse ou implicite.</li>\r\n</ul>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>5. Modifications des Conditions</strong></span></p>\r\n<ul>\r\n<li>5.1. Immiworld se r&eacute;serve le droit de modifier ces termes et conditions &agrave; tout moment. Les modifications entreront en vigueur d&egrave;s leur publication sur ce site web.</li>\r\n</ul>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>6. Loi Applicable et Juridiction</strong></span></p>\r\n<ul>\r\n<li>6.1. Les pr&eacute;sentes conditions sont r&eacute;gies par la loi espagnole. Tout litige d&eacute;coulant de ces termes et conditions sera soumis &agrave; la juridiction exclusive des tribunaux de M&aacute;laga.</li>\r\n</ul>',NULL,'rich_text_box',18,'Pages'),(34,'pages.terms_et_conditions_espagnol','Terms et conditions Espagnol','<h2><strong>T&eacute;rminos y Condiciones</strong></h2>\r\n<p>Estos t&eacute;rminos y condiciones regulan el uso del sitio web&nbsp;<a href=\"http://immiworld.es/\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=http://immiworld.es&amp;source=gmail&amp;ust=1708790338605000&amp;usg=AOvVaw08cjxyywMpkRWn8v5Nb8BF\">immiworld.es</a>&nbsp;y los servicios ofrecidos por<em> INMI BEY S.L</em>. (en adelante \"Immiworld\"). Al utilizar este sitio web, aceptas estos t&eacute;rminos y condiciones en su totalidad. Si no est&aacute;s de acuerdo con estos t&eacute;rminos y condiciones, te rogamos que no utilices este sitio web.<br><br></p>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>1. Uso del Sitio</strong></span></p>\r\n<ul>\r\n<li>1.1. Debes tener al menos 18 a&ntilde;os de edad para utilizar este sitio web. Al utilizar este sitio, garantizas tener al menos 18 a&ntilde;os.</li>\r\n<li>1.2. Eres responsable de tu acceso a este sitio web y de todas las actividades que ocurran bajo tu nombre de usuario.</li>\r\n</ul>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>2. Servicios</strong></span></p>\r\n<ul>\r\n<li>2.1. Immiworld se reserva el derecho de modificar o discontinuar, temporal o permanentemente, cualquier servicio o funcionalidad del sitio web, con o sin previo aviso.</li>\r\n<li>2.2. Nos esforzamos por garantizar que toda la informaci&oacute;n proporcionada en este sitio web sea precisa y actualizada; sin embargo, no garantizamos la exactitud, integridad o relevancia de dicha informaci&oacute;n.</li>\r\n</ul>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>3. Propiedad Intelectual</strong></span></p>\r\n<ul>\r\n<li>3.1. Todo el contenido presente en este sitio web, incluyendo pero no limit&aacute;ndose a texto, im&aacute;genes, videos, gr&aacute;ficos, logotipos y marcas, es propiedad de Immiworld o de sus licenciantes, y est&aacute; protegido por las leyes de propiedad intelectual vigentes.</li>\r\n<li>3.2. Ning&uacute;n elemento de este sitio web puede ser reproducido, modificado, distribuido, transmitido, vendido, cedido, alquilado, concesionado o explotado de ninguna manera sin el consentimiento previo por escrito de Immiworld.</li>\r\n</ul>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>4. Responsabilidad</strong></span></p>\r\n<ul>\r\n<li>4.1. Immiworld no ser&aacute; responsable en ning&uacute;n caso de da&ntilde;os directos, indirectos, especiales, incidentales o consecuentes derivados del uso o la imposibilidad de uso de este sitio web o de los servicios ofrecidos en el mismo.</li>\r\n<li>4.2. Utilizas este sitio web bajo tu propio riesgo. Este sitio web se proporciona \"tal cual\" y \"seg&uacute;n disponibilidad\", sin garant&iacute;a de ning&uacute;n tipo, expresa o impl&iacute;cita.</li>\r\n</ul>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>5. Modificaciones de los T&eacute;rminos</strong></span></p>\r\n<ul>\r\n<li>5.1. Immiworld se reserva el derecho de modificar estos t&eacute;rminos y condiciones en cualquier momento. Las modificaciones entrar&aacute;n en vigencia una vez publicadas en este sitio web.</li>\r\n</ul>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>6. Ley Aplicable y Jurisdicci&oacute;n</strong></span></p>\r\n<ul>\r\n<li>6.1. Estos t&eacute;rminos y condiciones se rigen por la ley espa&ntilde;ola. Cualquier disputa derivada de estos t&eacute;rminos y condiciones estar&aacute; sujeta a la jurisdicci&oacute;n exclusiva de los tribunales de M&aacute;laga.&nbsp;</li>\r\n</ul>',NULL,'rich_text_box',19,'Pages'),(40,'site.phone_call_link','Phone number to call','tel:+0034657933788',NULL,'text',6,'Site'),(41,'site.footer-description','Footer description','',NULL,'text_area',20,'Site');
+INSERT INTO `settings` VALUES (1,'site.title','Site Title','Immiworld v2','','text',1,'Site'),(2,'site.description','Site Description','Site Description','','text',2,'Site'),(3,'site.logo','Site Logo','settings/October2024/IUFlDlZuikSwZHaRr7Ie.png','','image',3,'Site'),(4,'site.google_analytics_tracking_id','Google Analytics Tracking ID',NULL,'','text',4,'Site'),(5,'admin.bg_image','Admin Background Image','settings/May2023/pJYawA2iWK6yHgHwd3EZ.png','','image',5,'Admin'),(6,'admin.title','Admin Title','IMW','','text',1,'Admin'),(7,'admin.description','Admin Description','consulting services and solutions','','text',2,'Admin'),(8,'admin.loader','Admin Loader','settings/September2024/YpkIyoR9wiJsuwdNqfZR.png','','image',3,'Admin'),(9,'admin.icon_image','Admin Icon Image','settings/September2024/QDHOP5ZMVdTsQd7I7HAE.png','','image',4,'Admin'),(10,'admin.google_analytics_client_id','Google Analytics Client ID (used for admin dashboard)',NULL,'','text',1,'Admin'),(12,'site.whatsapp','Whatsapp number','+34 (657) 933 788',NULL,'text',6,'Site'),(13,'site.facebook','Facebook link','https://www.facebook.com/',NULL,'text',7,'Site'),(14,'site.instagram','Instagram link','https://instagram.com/',NULL,'text',8,'Site'),(15,'site.working-ours','Working hours','09:00-16:00',NULL,'text',9,'Site'),(16,'site.live-chat-link','Live chat link',NULL,NULL,'text',10,'Site'),(17,'site.address','Address','Calle maestro locuona 1 local 7 Málaga, 29006 - Spain',NULL,'text',11,'Site'),(18,'site.whatsapp_link','Whatsapp link','https://wa.me/+34657933788',NULL,'text',12,'Site'),(19,'pages.politique_de_confidentialite_francais','Politique de confidentialité Francais','<h2>Politique de confidentialit&eacute;</h2>\r\n<p>Chez Immiworld, nous accordons une grande importance &agrave; la confidentialit&eacute; et &agrave; la protection des informations personnelles de nos utilisateurs. Cette politique de confidentialit&eacute; explique comment nous collectons, utilisons, stockons et prot&eacute;geons vos donn&eacute;es lorsque vous utilisez notre site web.<br><br></p>\r\n<p>Collecte et utilisation des informations :</p>\r\n<p>Lorsque vous visitez notre site web, nous pouvons collecter certaines informations personnelles vous concernant, telles que votre nom, votre adresse e-mail, votre num&eacute;ro de t&eacute;l&eacute;phone et toute autre information que vous choisissez de nous fournir. Nous utilisons ces informations pour r&eacute;pondre &agrave; vos demandes, vous fournir des services personnalis&eacute;s, am&eacute;liorer notre site web et communiquer avec vous.<br><br></p>\r\n<p>Cookies et technologies similaires :</p>\r\n<p>Nous utilisons des cookies et d\'autres technologies similaires pour collecter des informations sur votre utilisation de notre site web. Les cookies sont de petits fichiers textes stock&eacute;s sur votre appareil qui nous aident &agrave; personnaliser votre exp&eacute;rience en ligne. Vous avez la possibilit&eacute; de d&eacute;sactiver les cookies dans les param&egrave;tres de votre navigateur, mais cela peut limiter certaines fonctionnalit&eacute;s de notre site web.<br><br></p>\r\n<p>Partage des informations :</p>\r\n<p>Nous ne vendons, ne louons ni ne partageons vos informations personnelles avec des tiers, sauf dans les cas suivants : lorsque cela est n&eacute;cessaire pour fournir les services que vous avez demand&eacute;s, avec votre consentement, ou lorsque la loi l\'exige.<br><br></p>\r\n<p>S&eacute;curit&eacute; des donn&eacute;es :</p>\r\n<p>Nous prenons des mesures de s&eacute;curit&eacute; appropri&eacute;es pour prot&eacute;ger vos informations personnelles contre tout acc&egrave;s, utilisation ou divulgation non autoris&eacute;. Cependant, veuillez noter qu\'aucune m&eacute;thode de transmission de donn&eacute;es sur Internet ou de stockage &eacute;lectronique n\'est totalement s&eacute;curis&eacute;e.<br><br></p>\r\n<p>Liens vers des sites tiers :</p>\r\n<p>Notre site web peut contenir des liens vers des sites tiers. Nous ne sommes pas responsables des pratiques de confidentialit&eacute; ou du contenu de ces sites. Nous vous encourageons &agrave; consulter les politiques de confidentialit&eacute; de ces sites avant de fournir vos informations personnelles.<br><br></p>\r\n<p>Modifications de la politique de confidentialit&eacute; :</p>\r\n<p>Nous pouvons mettre &agrave; jour cette politique de confidentialit&eacute; de temps &agrave; autre. Toute modification sera affich&eacute;e sur cette page, et la date de la derni&egrave;re mise &agrave; jour sera indiqu&eacute;e en haut de la page. Veuillez v&eacute;rifier r&eacute;guli&egrave;rement cette politique de confidentialit&eacute; pour rester inform&eacute; de toute modification.<br><br></p>\r\n<p>Contact :</p>\r\n<p>Si vous avez des questions concernant notre politique de confidentialit&eacute;, veuillez nous contacter &agrave; l\'adresse suivante :&nbsp;<a href=\"mailto:support@immiworld.es\" target=\"_blank\" rel=\"noopener\">support@immiworld.es</a><br><br></p>\r\n<p>En utilisant notre site web, vous acceptez les termes de notre politique de confidentialit&eacute;. Merci de faire confiance &agrave; Immiworld pour la protection de vos informations personnelles.</p>',NULL,'rich_text_box',14,'Pages'),(24,'pages.politique_de_confidentialite_espagnol','Politique de confidentialité Espagnol','<h2>pol&iacute;tica de confidencialidad</h2>\r\n<p>En Immiworld, damos gran importancia a la privacidad y protecci&oacute;n de la informaci&oacute;n personal de nuestros usuarios. Esta pol&iacute;tica de privacidad explica c&oacute;mo recopilamos, usamos, almacenamos y protegemos sus datos cuando utiliza nuestro sitio web.</p>\r\n<p>&nbsp;</p>\r\n<p>Recopilaci&oacute;n y uso de la informaci&oacute;n:</p>\r\n<p>Cuando visita nuestro sitio web, podemos recopilar cierta informaci&oacute;n personal sobre usted, como su nombre, direcci&oacute;n de correo electr&oacute;nico, n&uacute;mero de tel&eacute;fono y cualquier otra informaci&oacute;n que elija proporcionarnos. Usamos esta informaci&oacute;n para responder a sus solicitudes, brindarle servicios personalizados, mejorar nuestro sitio web y comunicarnos con usted.</p>\r\n<p>&nbsp;</p>\r\n<p>Cookies y tecnolog&iacute;as similares:</p>\r\n<p>Utilizamos cookies y otras tecnolog&iacute;as similares para recopilar informaci&oacute;n sobre su uso de nuestro sitio web. Las cookies son peque&ntilde;os archivos de texto almacenados en su dispositivo que nos ayudan a personalizar su experiencia en l&iacute;nea. Tiene la opci&oacute;n de deshabilitar las cookies en la configuraci&oacute;n de su navegador, pero esto puede limitar ciertas funciones de nuestro sitio web.</p>\r\n<p>&nbsp;</p>\r\n<p>El intercambio de informaci&oacute;n:</p>\r\n<p>No vendemos, alquilamos ni compartimos su informaci&oacute;n personal con terceros excepto en los siguientes casos: cuando sea necesario para proporcionar los servicios que ha solicitado, con su consentimiento o cuando lo exija la ley.</p>\r\n<p>&nbsp;</p>\r\n<p>Seguridad de datos:</p>\r\n<p>Tomamos las medidas de seguridad adecuadas para proteger su informaci&oacute;n personal contra el acceso, uso o divulgaci&oacute;n no autorizados. Sin embargo, tenga en cuenta que ning&uacute;n m&eacute;todo de transmisi&oacute;n por Internet o m&eacute;todo de almacenamiento electr&oacute;nico es completamente seguro.</p>\r\n<p>&nbsp;</p>\r\n<p>Enlaces a sitios de terceros:</p>\r\n<p>Nuestro sitio web puede contener enlaces a sitios de terceros. No somos responsables de las pr&aacute;cticas de privacidad ni del contenido de dichos sitios. Le recomendamos que revise las pol&iacute;ticas de privacidad de esos sitios antes de proporcionar su informaci&oacute;n personal.</p>\r\n<p>&nbsp;</p>\r\n<p>Cambios en la pol&iacute;tica de privacidad:</p>\r\n<p>Podemos actualizar esta pol&iacute;tica de privacidad de vez en cuando. Cualquier cambio se publicar&aacute; en esta p&aacute;gina y la fecha de la &uacute;ltima actualizaci&oacute;n se indicar&aacute; en la parte superior de la p&aacute;gina. Consulte esta Pol&iacute;tica de privacidad regularmente para mantenerse informado de cualquier cambio.</p>\r\n<p>&nbsp;</p>\r\n<p>Contactar :</p>\r\n<p>Si tiene alguna pregunta sobre nuestra pol&iacute;tica de privacidad, cont&aacute;ctenos en: support@immiworld.es</p>\r\n<p>&nbsp;</p>\r\n<p>Al utilizar nuestro sitio web, usted acepta los t&eacute;rminos de nuestra pol&iacute;tica de privacidad. Gracias por confiar en Immiworld para proteger su informaci&oacute;n personal.</p>\r\n<p>&nbsp;</p>',NULL,'rich_text_box',15,'Pages'),(25,'site.avis_lien','Avis lien','https://www.google.com/maps/place/Immiworld/@36.7117375,-4.436239,15.39z/data=!4m6!3m5!1s0xd72f708bd115dd9:0x5f84e88420f6341b!8m2!3d36.7134488!4d-4.4355173!16s%2Fg%2F11kq7vr9sw?entry=ttu',NULL,'text',13,'Site'),(26,'site.consultation_fr_code','Consultation français code','<!-- Calendly inline widget begin --><div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/d/y5v-9f3-ztd/marouane?primary_color=ff6524\" style=\"min-width:320px;height:700px;\"></div><script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script><!-- Calendly inline widget end -->',NULL,'code_editor',16,'Site'),(27,'site.consultation_es_code','Consultation espanyol code','<!-- Calendly inline widget begin --><div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/d/y5v-9f3-ztd/marouane?primary_color=ff6524\" style=\"min-width:320px;height:700px;\"></div><script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script><!-- Calendly inline widget end -->',NULL,'code_editor',17,'Site'),(30,'pages.mention_legal','Mention legal Francais','<h2>INMI BEY S.L.</h2>\r\n<p><strong>CIF:</strong> B70633243</p>\r\n<p><strong>Nombre Comercial:</strong> Immiworld</p>\r\n<p><strong>Direcci&oacute;n:</strong> Calle Maestro Lecuano 1, Local 7</p>\r\n<p><strong>Code Postal: </strong>29006 M&aacute;laga</p>\r\n<p><strong>Courrier &Eacute;lectronique:</strong> <a href=\"mailto:hola@immiworld.es\">hola@immiworld.es</a></p>\r\n<p><strong>P&aacute;gina Web:</strong> <span style=\"color: rgb(230, 126, 35);\"><a href=\"http://www.immiworld.es/\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=http://www.immiworld.es/&amp;source=gmail&amp;ust=1708790338610000&amp;usg=AOvVaw1lOi_2utbjiITy7tHFjY-q\">www.immiworld.es</a></span></p>\r\n<p>&nbsp;</p>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>Propri&eacute;t&eacute; Intellectuelle et Industrielle</strong></span></p>\r\n<p>Tous les droits de propri&eacute;t&eacute; intellectuelle et industrielle du site web&nbsp;<a href=\"http://www.immiworld.es/\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=http://www.immiworld.es/&amp;source=gmail&amp;ust=1708790338610000&amp;usg=AOvVaw1lOi_2utbjiITy7tHFjY-q\">www.immiworld.es</a>&nbsp;et de ses contenus (textes, images, sons, audio, vid&eacute;o, dessins, cr&eacute;ations, logiciels) appartiennent &agrave; <em>INMI BEY S.L.</em> ou, le cas &eacute;ch&eacute;ant, &agrave; des tiers. L\'utilisateur peut visualiser tous les &eacute;l&eacute;ments, les imprimer, les copier et les stocker sur le disque dur de son ordinateur ou sur tout autre support physique, uniquement et exclusivement pour son usage personnel et priv&eacute;. Par cons&eacute;quent, toute utilisation &agrave; des fins commerciales, leur distribution, ainsi que leur modification, alt&eacute;ration ou d&eacute;compilation sont strictement interdites.</p>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>Protection des Donn&eacute;es Personnelles</strong></span></p>\r\n<p>Conform&eacute;ment au R&egrave;glement (UE) 2016/679 du Parlement europ&eacute;en et du Conseil, du <em>27 avril 2016</em>, relatif &agrave; la protection des personnes physiques &agrave; l\'&eacute;gard du traitement des donn&eacute;es &agrave; caract&egrave;re personnel et &agrave; la libre circulation de ces donn&eacute;es (GDPR), ainsi qu\'&agrave; la l&eacute;gislation nationale en mati&egrave;re de protection des donn&eacute;es, nous informons que les donn&eacute;es personnelles collect&eacute;es via le site web&nbsp;<a href=\"http://immiworld.es/\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=http://immiworld.es&amp;source=gmail&amp;ust=1708790338610000&amp;usg=AOvVaw38ySMTYfMuOAzZG_7jQ6qQ\">immiworld.es</a>&nbsp;seront trait&eacute;es conform&eacute;ment &agrave; la Politique de Confidentialit&eacute; disponible sur ledit site web.</p>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>L&eacute;gislation et Comp&eacute;tence Juridictionnelle Applicables</strong></span></p>\r\n<p>Cet avis l&eacute;gal est r&eacute;gi dans tous ses aspects par la loi espagnole. Pour toute question litigieuse d&eacute;coulant de l\'existence, de l\'acc&egrave;s, de l\'utilisation ou du contenu de l\'Avis L&eacute;gal, tant le Client que<em> INMI BEY S.L.</em> renoncent express&eacute;ment &agrave; tout autre tribunal qui pourrait leur &ecirc;tre comp&eacute;tent, se soumettant express&eacute;ment &agrave; la juridiction et comp&eacute;tence des tribunaux de M&aacute;laga.</p>',NULL,'rich_text_box',16,'Pages'),(31,'site.defaultSlide','Default slide image','settings/June2023/CJffp8FnNCVkmmHWPfX6.png',NULL,'image',18,'Site'),(32,'pages.mention_legal_espagnol','Mention legal Espagnol','<h2>INMI BEY S.L.</h2>\r\n<p><strong>CIF:</strong> B70633243</p>\r\n<p><strong>Nom Commercial:</strong> Immiworld</p>\r\n<p><strong>Adresse:</strong> Calle Maestro Lecuano 1, Local 7, C.P. 29006 M&aacute;laga</p>\r\n<p><strong>Correo Electr&oacute;nico:</strong> <a href=\"mailto:hola@immiworld.es\">hola@immiworld.es</a></p>\r\n<p><strong>P&aacute;gina Web:</strong> <span style=\"color: rgb(230, 126, 35);\"><a href=\"http://www.immiworld.es/\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=http://www.immiworld.es/&amp;source=gmail&amp;ust=1708790338610000&amp;usg=AOvVaw1lOi_2utbjiITy7tHFjY-q\">www.immiworld.es</a></span></p>\r\n<p>&nbsp;</p>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>Propiedad Intelectual e Industrial</strong></span></p>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><span style=\"color: rgb(0, 0, 0);\">Todos los derechos de propiedad intelectual e industrial del sitio web</span>&nbsp;<a href=\"http://www.immiworld.es/\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=http://www.immiworld.es/&amp;source=gmail&amp;ust=1708790338610000&amp;usg=AOvVaw1lOi_2utbjiITy7tHFjY-q\">www.immiworld.es</a>&nbsp;<span style=\"color: rgb(0, 0, 0);\">y de sus contenidos (textos, im&aacute;genes, sonidos, audio, v&iacute;deo, dise&ntilde;os, creatividades, software) pertenecen a <em>INMI BEY S.L</em>. o, en su caso, a terceras personas. El usuario puede visualizar todos los elementos, imprimirlos, copiarlos y almacenarlos en el disco duro de su computadora o en cualquier otro soporte f&iacute;sico siempre y cuando sea, &uacute;nica y exclusivamente, para su uso personal y privado, quedando, por tanto, terminantemente prohibida su utilizaci&oacute;n con fines comerciales, su distribuci&oacute;n, as&iacute; como su modificaci&oacute;n, alteraci&oacute;n o descompilaci&oacute;n.</span></span></p>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>Protecci&oacute;n de Datos Personales</strong></span></p>\r\n<p><span style=\"color: rgb(0, 0, 0);\">De conformidad con lo dispuesto en el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de <em>27 de abril de 2016</em>, relativo a la protecci&oacute;n de las personas f&iacute;sicas en lo que respecta al tratamiento de datos personales y a la libre circulaci&oacute;n de estos datos (GDPR), as&iacute; como en la normativa nacional en materia de protecci&oacute;n de datos, se informa que los datos personales recabados a trav&eacute;s del sitio web&nbsp;<a href=\"http://immiworld.es/\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=http://immiworld.es&amp;source=gmail&amp;ust=1708790338610000&amp;usg=AOvVaw38ySMTYfMuOAzZG_7jQ6qQ\">immiworld.es</a> ser&aacute;n tratados de acuerdo con la Pol&iacute;tica de Privacidad disponible en dicho sitio web.</span></p>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>Legislaci&oacute;n y Jurisdicci&oacute;n Aplicable</strong></span></p>\r\n<p><span style=\"color: rgb(0, 0, 0);\">Este aviso legal se rige en todos y cada uno de sus extremos por la ley espa&ntilde;ola. Para cualquier cuesti&oacute;n litigiosa derivada de la existencia, acceso, utilizaci&oacute;n o contenido del Aviso Legal, tanto el Cliente como <em>INMI BEY S.L</em>. renuncian expresamente a cualquier otro fuero que pudiera corresponderles, someti&eacute;ndose expresamente a la jurisdicci&oacute;n y competencia de los Juzgados y Tribunales de M&aacute;laga.</span></p>\r\n<p>&nbsp;</p>',NULL,'rich_text_box',17,'Pages'),(33,'pages.terms_et_conditions_francais','Terms et conditions Francais','<h2>Terms et conditions</h2>\r\n<p>Les pr&eacute;sents termes et conditions r&eacute;gissent l\'utilisation du site web&nbsp;<a href=\"http://immiworld.es/\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=http://immiworld.es&amp;source=gmail&amp;ust=1708790338604000&amp;usg=AOvVaw1lZhrLXOX0b9s6wlcz7Lw0\">immiworld.es</a>&nbsp;et des services propos&eacute;s par <em>INMI BEY S.L.</em> (ci-apr&egrave;s d&eacute;nomm&eacute;s \"Immiworld\"). En utilisant ce site web, vous acceptez ces termes et conditions dans leur int&eacute;gralit&eacute;. Si vous n\'acceptez pas ces termes et conditions, vous &ecirc;tes pri&eacute; de ne pas utiliser ce site web.<br><br></p>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>1. Utilisation du Site</strong></span></p>\r\n<ul>\r\n<li style=\"text-align: left;\"><span style=\"color: rgb(0, 0, 0);\">1</span>.1. Vous devez &ecirc;tre &acirc;g&eacute; d\'au moins 18 ans pour utiliser ce site web. En utilisant ce site, vous garantissez avoir au moins 18 ans.</li>\r\n<li><span style=\"color: rgb(0, 0, 0);\">1</span>.2. Vous &ecirc;tes responsable de votre acc&egrave;s &agrave; ce site web et de toutes les activit&eacute;s qui s\'y d&eacute;roulent sous votre nom d\'utilisateur.</li>\r\n</ul>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>2. Services</strong></span></p>\r\n<ul>\r\n<li>2.1. Immiworld se r&eacute;serve le droit de modifier ou d\'interrompre, temporairement ou d&eacute;finitivement, tout service ou fonctionnalit&eacute; du site web, avec ou sans pr&eacute;avis.</li>\r\n<li>2.2. Nous nous effor&ccedil;ons de garantir que toutes les informations fournies sur ce site web sont exactes et &agrave; jour, cependant, nous ne garantissons pas l\'exactitude, l\'exhaustivit&eacute; ou la pertinence de ces informations.</li>\r\n</ul>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>3. Propri&eacute;t&eacute; Intellectuelle</strong></span></p>\r\n<ul>\r\n<li>3.1. Tous les contenus pr&eacute;sents sur ce site web, y compris mais sans s\'y limiter, le texte, les images, les vid&eacute;os, les graphiques, les logos et les marques, sont la propri&eacute;t&eacute; d\'Immiworld ou de ses conc&eacute;dants de licence, et sont prot&eacute;g&eacute;s par les lois sur la propri&eacute;t&eacute; intellectuelle en vigueur.</li>\r\n<li>3.2. Aucun &eacute;l&eacute;ment de ce site web ne peut &ecirc;tre reproduit, modifi&eacute;, distribu&eacute;, diffus&eacute;, vendu, c&eacute;d&eacute;, lou&eacute;, conc&eacute;d&eacute; sous licence ou exploit&eacute; de quelque mani&egrave;re que ce soit sans le consentement &eacute;crit pr&eacute;alable d\'Immiworld</li>\r\n</ul>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>4. Responsabilit&eacute;</strong></span></p>\r\n<ul>\r\n<li>4.1. Immiworld ne sera en aucun cas responsable des dommages directs, indirects, sp&eacute;ciaux, fortuits ou cons&eacute;cutifs d&eacute;coulant de l\'utilisation ou de l\'impossibilit&eacute; d\'utiliser ce site web ou des services qui y sont propos&eacute;s.</li>\r\n<li>4.2. Vous utilisez ce site web &agrave; vos propres risques. Ce site web est fourni \"tel quel\" et \"tel que disponible\", sans garantie d\'aucune sorte, expresse ou implicite.</li>\r\n</ul>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>5. Modifications des Conditions</strong></span></p>\r\n<ul>\r\n<li>5.1. Immiworld se r&eacute;serve le droit de modifier ces termes et conditions &agrave; tout moment. Les modifications entreront en vigueur d&egrave;s leur publication sur ce site web.</li>\r\n</ul>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>6. Loi Applicable et Juridiction</strong></span></p>\r\n<ul>\r\n<li>6.1. Les pr&eacute;sentes conditions sont r&eacute;gies par la loi espagnole. Tout litige d&eacute;coulant de ces termes et conditions sera soumis &agrave; la juridiction exclusive des tribunaux de M&aacute;laga.</li>\r\n</ul>',NULL,'rich_text_box',18,'Pages'),(34,'pages.terms_et_conditions_espagnol','Terms et conditions Espagnol','<h2><strong>T&eacute;rminos y Condiciones</strong></h2>\r\n<p>Estos t&eacute;rminos y condiciones regulan el uso del sitio web&nbsp;<a href=\"http://immiworld.es/\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=http://immiworld.es&amp;source=gmail&amp;ust=1708790338605000&amp;usg=AOvVaw08cjxyywMpkRWn8v5Nb8BF\">immiworld.es</a>&nbsp;y los servicios ofrecidos por<em> INMI BEY S.L</em>. (en adelante \"Immiworld\"). Al utilizar este sitio web, aceptas estos t&eacute;rminos y condiciones en su totalidad. Si no est&aacute;s de acuerdo con estos t&eacute;rminos y condiciones, te rogamos que no utilices este sitio web.<br><br></p>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>1. Uso del Sitio</strong></span></p>\r\n<ul>\r\n<li>1.1. Debes tener al menos 18 a&ntilde;os de edad para utilizar este sitio web. Al utilizar este sitio, garantizas tener al menos 18 a&ntilde;os.</li>\r\n<li>1.2. Eres responsable de tu acceso a este sitio web y de todas las actividades que ocurran bajo tu nombre de usuario.</li>\r\n</ul>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>2. Servicios</strong></span></p>\r\n<ul>\r\n<li>2.1. Immiworld se reserva el derecho de modificar o discontinuar, temporal o permanentemente, cualquier servicio o funcionalidad del sitio web, con o sin previo aviso.</li>\r\n<li>2.2. Nos esforzamos por garantizar que toda la informaci&oacute;n proporcionada en este sitio web sea precisa y actualizada; sin embargo, no garantizamos la exactitud, integridad o relevancia de dicha informaci&oacute;n.</li>\r\n</ul>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>3. Propiedad Intelectual</strong></span></p>\r\n<ul>\r\n<li>3.1. Todo el contenido presente en este sitio web, incluyendo pero no limit&aacute;ndose a texto, im&aacute;genes, videos, gr&aacute;ficos, logotipos y marcas, es propiedad de Immiworld o de sus licenciantes, y est&aacute; protegido por las leyes de propiedad intelectual vigentes.</li>\r\n<li>3.2. Ning&uacute;n elemento de este sitio web puede ser reproducido, modificado, distribuido, transmitido, vendido, cedido, alquilado, concesionado o explotado de ninguna manera sin el consentimiento previo por escrito de Immiworld.</li>\r\n</ul>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>4. Responsabilidad</strong></span></p>\r\n<ul>\r\n<li>4.1. Immiworld no ser&aacute; responsable en ning&uacute;n caso de da&ntilde;os directos, indirectos, especiales, incidentales o consecuentes derivados del uso o la imposibilidad de uso de este sitio web o de los servicios ofrecidos en el mismo.</li>\r\n<li>4.2. Utilizas este sitio web bajo tu propio riesgo. Este sitio web se proporciona \"tal cual\" y \"seg&uacute;n disponibilidad\", sin garant&iacute;a de ning&uacute;n tipo, expresa o impl&iacute;cita.</li>\r\n</ul>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>5. Modificaciones de los T&eacute;rminos</strong></span></p>\r\n<ul>\r\n<li>5.1. Immiworld se reserva el derecho de modificar estos t&eacute;rminos y condiciones en cualquier momento. Las modificaciones entrar&aacute;n en vigencia una vez publicadas en este sitio web.</li>\r\n</ul>\r\n<p><span style=\"color: rgb(230, 126, 35);\"><strong>6. Ley Aplicable y Jurisdicci&oacute;n</strong></span></p>\r\n<ul>\r\n<li>6.1. Estos t&eacute;rminos y condiciones se rigen por la ley espa&ntilde;ola. Cualquier disputa derivada de estos t&eacute;rminos y condiciones estar&aacute; sujeta a la jurisdicci&oacute;n exclusiva de los tribunales de M&aacute;laga.&nbsp;</li>\r\n</ul>',NULL,'rich_text_box',19,'Pages'),(40,'site.phone_call_link','Phone number to call','tel:+0034657933788',NULL,'text',6,'Site'),(41,'site.footer-description','Footer description',NULL,NULL,'text_area',20,'Site');
 /*!40000 ALTER TABLE `settings` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -769,7 +769,7 @@ DROP TABLE IF EXISTS `sliders`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `sliders` (
   `id` bigint unsigned NOT NULL AUTO_INCREMENT,
-  `image` char(250) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `image` char(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `deleted_at` timestamp NULL DEFAULT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
@@ -795,9 +795,9 @@ DROP TABLE IF EXISTS `testimonials`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `testimonials` (
   `id` bigint unsigned NOT NULL AUTO_INCREMENT,
-  `name` char(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `textimonial` text COLLATE utf8mb4_unicode_ci,
-  `lang` char(10) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'es',
+  `name` char(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `textimonial` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+  `lang` char(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'es',
   `active` tinyint(1) NOT NULL DEFAULT '1',
   `deleted_at` timestamp NULL DEFAULT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
@@ -825,11 +825,11 @@ DROP TABLE IF EXISTS `translations`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `translations` (
   `id` int unsigned NOT NULL AUTO_INCREMENT,
-  `table_name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `column_name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `table_name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `column_name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `foreign_key` int unsigned NOT NULL,
-  `locale` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `value` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `locale` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `value` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`),
@@ -883,13 +883,13 @@ DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users` (
   `id` bigint unsigned NOT NULL AUTO_INCREMENT,
   `role_id` bigint unsigned DEFAULT NULL,
-  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `avatar` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT 'users/default.png',
+  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `email` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `avatar` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 'users/default.png',
   `email_verified_at` timestamp NULL DEFAULT NULL,
-  `password` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `remember_token` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `settings` text COLLATE utf8mb4_unicode_ci,
+  `password` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `remember_token` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `settings` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`),
@@ -918,4 +918,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-10-11 13:13:28
+-- Dump completed on 2024-10-29  0:58:07

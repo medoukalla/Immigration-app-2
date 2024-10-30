@@ -1,21 +1,19 @@
 <div class="pages-banner blog">
     <div class="base-container w-container">
         <div class="min-hero-wrapper">
-            <h1>Arraigo familiar</h1>
-            <p>Estamos aquí para guiarte en cada paso del camino. Nuestro equipo de expertos está dedicado a hacer que
-                tu viaje a un nuevo país sea lo más fluido y libre de estrés posible.</p>
+            <h1>Servicios</h1>
+            <p>
+                Ofrecemos una amplia gama de servicios diseñados para facilitar tu transición a un nuevo país. Nuestro equipo de profesionales está comprometido a brindarte el apoyo y la orientación que necesitas en cada etapa del proceso, asegurando que te sientas seguro y bien informado en tu viaje.
+            </p>
             <div class="pages-path">
                 <div class="p-path">
                     Inicio
                 </div>
                 <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
                 <div class="p-path">
-                    Extrajería
+                    Servicios
                 </div>
-                <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
-                <div class="p-path">
-                    Arraigo familiar
-                </div>
+                
             </div>
         </div>
     </div>
