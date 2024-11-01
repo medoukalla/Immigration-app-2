@@ -8,14 +8,13 @@
                       <div>
                           <h6 class="text-white">Find Us</h6><a
                               href="https://www.google.com/maps/place/14+Tottenham+Ct+Rd,+London+W1T+7RQ,+%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0+%D0%91%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D1%96%D1%8F/@51.5170065,-0.1305656,17z/data=!3m1!4b1!4m6!3m5!1s0x48761b2d06098567:0x657781e4c62dccae!8m2!3d51.5170065!4d-0.1305656!16s%2Fg%2F11c1ysp_5k?entry=ttu"
-                              target="_blank" class="link-white">14 Tottenham Road, London, England</a>
+                              target="_blank" class="link-white">{{ setting('site.address') }}</a>
                       </div>
                       <div>
                           <h6 class="text-white">Message Us</h6>
-                          <div class="gap-8-px-row"><a href="mailto:information@office.com"
-                                  class="link-white">information@office.com</a><a href="tel:(704)358-1528"
-                                  class="link-white">(704)
-                                  358-1528</a></div>
+                          <div class="gap-8-px-row"><a href="mailto:support@immiworld.es"
+                                  class="link-white">support@immiworld.es</a><a href="tel:(704)358-1528"
+                                  class="link-white">{{ setting('site.phone_call_link') }}</a></div>
                       </div>
                   </div>
                   <div class="_1-home-map-block">
@@ -42,32 +41,32 @@
       <div class="footer-wrapper">
         <div class="footer-links-wrapper">
           <div class="logo">
-            {{-- <img src="{{ asset('storage/'.setting('site.logo')) }}" alt="Logo"> --}}
+            <img src="{{ asset('storage/'.setting('site.logo-white')) }}" alt="Logo">
           </div>
           <div class="thanks">
             <p>We believe in an interconnected world, powered by mobility and prosperity. We clear the legal path
               enabling people and businesses to thrive in Spain and Europe.</p>
           </div>
           <div class="institutions">
-            <img src="assets/images/legal-2.png" alt="">
-            <img src="assets/images/legal-1.png" alt="">
+            <img src="{{ asset('assets/images/legal-2.png') }}" alt="">
+            <img src="{{ asset('assets/images/legal-1.png') }}" alt="">
           </div>
         </div>
         <div class="footer-links-wrapper">
           <h5 class="white-text mb-15">CONTACT US</h5>
-          <a href="/our-team" class="footer-link email-support">support@immiworld.es</a>
+          <a href="mail:support@immiworld.es" class="footer-link email-support">support@immiworld.es</a>
           <div class="social-media">
-            <a href="#">
-              <img src="assets/images/svg/facebook.svg" alt="facebook">
+            <a target="_blanck" href="{{ setting('site.facebook') }}">
+              <img src="{{ asset('assets/images/svg/facebook.svg') }}" alt="facebook">
             </a>
-            <a href="#">
-              <img src="assets/images/svg/instagram.svg" alt="instagram">
+            <a target="_blanck" href="{{ setting('site.instagram') }}">
+              <img src="{{ asset('assets/images/svg/instagram.svg') }}" alt="instagram">
             </a>
-            <a href="#">
-              <img src="assets/images/svg/linkedin.svg" alt="linkedin">
+            <a target="_blanck" href="{{ setting('site.linkedin') }}">
+              <img src="{{ asset('assets/images/svg/linkedin.svg') }}" alt="linkedin">
             </a>
-            <a href="#">
-              <img src="assets/images/svg/whatsapp.svg" alt="whatsapp">
+            <a target="_blanck" href="{{ setting('site.whatsapp_link') }}">
+              <img src="{{ asset('assets/images/svg/whatsapp.svg') }}" alt="whatsapp">
             </a>
           </div>
         </div>
