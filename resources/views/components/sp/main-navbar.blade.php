@@ -26,25 +26,25 @@
                   </span>Residencia para Emprendedores</a><a href="/home-2"
                   class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line"> </span>Arraigo para la
                   formación</a>
-                <a href="/home-3" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
+                <a href="/" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
                   </span>Arraigo Familiar</a>
-                <a href="/home-3" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
+                <a href="/" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
                   </span>Arraigo Laboral</a>
-                <a href="/home-3" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
+                <a href="/" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
                   </span>Arraigo Social</a>
-                <a href="/home-3" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
+                <a href="/" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
                   </span>Residencia no lucrativa</a>
-                <a href="/home-3" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
+                <a href="/" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
                   </span>Nómada digital</a>
-                <a href="/home-3" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
+                <a href="/" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
                   </span>Residencia de Familiar de Ciudadano de la UE</a>
-                <a href="/home-3" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
+                <a href="/" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
                   </span>Reagrupación familiar</a>
-                <a href="/home-3" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
+                <a href="/" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
                   </span>Residencia Larga duracion</a>
-                <a href="/home-3" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
+                <a href="/" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
                   </span>Recurso contencioso administrativo</a>
-                <a href="/home-3" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
+                <a href="/" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
                   </span>Recurso administrativo</a>
               </div>
             </nav>
@@ -74,10 +74,10 @@
               </div>
               <nav class="nav-dropdown-list w-dropdown-list">
                 <div class="nav-dropdown-link-wrapper">
-                  <a href="{{ route('frontend.sp.services') }}" aria-current="page" class="nav-dropdown-link w-dropdown-link w--current"><span
+                  <a href="{{ route('frontend.sp.assurance') }}" aria-current="page" class="nav-dropdown-link w-dropdown-link w--current"><span
                       class="nav-dropdown-link-line">
                     </span>Seguro</a>
-                    <a href="{{ route('frontend.sp.services') }}" class="nav-dropdown-link w-dropdown-link"><span
+                    <a href="{{ route('frontend.sp.programmes') }}" class="nav-dropdown-link w-dropdown-link"><span
                       class="nav-dropdown-link-line"> </span>Programas de estudio</a>
                 </div>
               </nav>
@@ -86,9 +86,9 @@
             <a href="{{ route('frontend.sp.contact') }}" class="nav-link w-nav-link">Contacto</a>
 
 
-            <div class="button-wrapper"><a href="{{ route('frontend.sp.contact') }}"
-                class="primary-button nav-tablet w-button">Contáctanos
-              </a></div>
+            <div class="button-wrapper">
+              <a href="javascript:void(0);" class="primary-button nav-tablet w-button" id="openModalButton">Pedir Cita</a>
+            </div>
           </div>
       </nav>
       <div class="search-shop-con">
