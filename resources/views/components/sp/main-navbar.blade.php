@@ -86,16 +86,26 @@
             <a href="{{ route('frontend.sp.about') }}" class="nav-link w-nav-link">Sobre nosotros</a>
             <a href="{{ route('frontend.sp.contact') }}" class="nav-link w-nav-link">Contacto</a>
 
-
-            {{-- Language --}}
-            
             <div class="button-wrapper">
               <a href="javascript:void(0);" class="primary-button nav-tablet w-button" id="openModalButton">Pedir Cita</a>
             </div>
           </div>
       </nav>
-      <div class="search-shop-con">
-          <a href="javascript:void(0);" class="primary-button w-button" id="openModalButton">Pedir Cita</a>
+      {{-- Language --}}
+      <div class="lang-wrapper">
+        <div class="lang-wrap">
+          <div class="lang-selected" style="display: block">
+            <img src="{{ asset('assets/images/svg/eng.svg') }}" alt="">
+            <span>English</span>
+          </div>
+          <div class="lang-choose" style="display: none">
+            <img src="{{ asset('assets/images/svg/sp.svg') }}" alt="">
+            <span>Spanish</span>
+          </div>
+        </div>
+        <div class="search-shop-con">
+            <a href="javascript:void(0);" class="primary-button w-button" id="openModalButton">Pedir Cita</a>
+        </div>
       </div>
       <div class="menu-button w-nav-button"><img
           src="{{ asset('assets/images/svg/menu-btn.svg') }}"
