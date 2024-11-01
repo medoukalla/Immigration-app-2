@@ -99,8 +99,8 @@
                             <input type="number" placeholder="Mes">
                             <input type="number" placeholder="Ano">
                         </div>
-                        <h6>4 -  Sexo:</h6>
-                        <div class="check-type" style="margin-bottom: 20px">
+                        <h6 style="margin-top: 20px">4 -  Sexo:</h6>
+                        <div class="check-type" style="margin-bottom: 40px">
                             <div class="type man">
                                 <input type="radio">
                                 <label for="">Hombre</label>

@@ -5000,6 +5000,10 @@ select.white-style,
   margin-bottom: 0;
 }
 
+.form-block-contacts h6 {
+  font-size: 16px;
+}
+
 .home-title {
   z-index: 999;
   color: #fff;
@@ -10267,6 +10271,7 @@ select.white-style,
 
 .check-type .type label {
   margin: 0;
+  font-size: 16px;
 }
 
 .check-type .type input[type="checkbox"],
