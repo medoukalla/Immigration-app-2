@@ -5,15 +5,16 @@
           src="{{ asset('storage/'.setting('site.logo')) }}"
           loading="lazy" alt="logo" height="38" /></a>
       <nav role="navigation" class="nav-menu w-nav-menu">
-        <div class="tablet-menu"><a href="{{ route('frontend.sp.index') }}" aria-current="page" class="brand-tablet w-nav-brand w--current"><img
+        <div class="tablet-menu">
+          <a href="{{ route('frontend.sp.index') }}" aria-current="page" class="brand-tablet w-nav-brand w--current"><img
               src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c17aa/65269ae2dc5ceebc36a57753_logo-immigration.svg"
               loading="lazy" alt="logo" height="38" /></a>
           <div class="close-menu-button w-nav-button"><img
           src="{{ asset('assets/img/logo-black.png') }}"
           loading="lazy" alt="logo" height="38" /></div>
         </div>
-        <div class="menu-wrap">
-          <div data-hover="true" data-delay="0" data-w-id="ba67b287-f196-4627-29a8-f080f7e8b20d"
+          <div class="menu-wrap">
+            <div data-hover="true" data-delay="0" data-w-id="ba67b287-f196-4627-29a8-f080f7e8b20d"
             class="nav-dropdown w-dropdown">
             <div class="nav-dropdown-toggle w-dropdown-toggle">
               <div class="nav-dropdown-icon w-icon-dropdown-toggle"></div>
@@ -49,7 +50,6 @@
               </div>
             </nav>
           </div>
-          <div class="menu-wrap">
             <div data-hover="true" data-delay="0" data-w-id="ba67b287-f196-4627-29a8-f080f7e8b20d"
               class="nav-dropdown w-dropdown">
               <div class="nav-dropdown-toggle w-dropdown-toggle">
@@ -86,16 +86,18 @@
             <a href="{{ route('frontend.sp.contact') }}" class="nav-link w-nav-link">Contacto</a>
 
 
-            <div class="button-wrapper"><a href="{{ route('frontend.sp.contact') }}"
+            <div class="button-wrapper">
+              <a href="{{ route('frontend.sp.contact') }}"
                 class="primary-button nav-tablet w-button">Contáctanos
-              </a></div>
+              </a>
+            </div>
           </div>
       </nav>
       <div class="search-shop-con">
           <a href="javascript:void(0);" class="primary-button w-button" id="openModalButton">Pedir Cita</a>
       </div>
       <div class="menu-button w-nav-button"><img
-          src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c17aa/651f2c08c5bd81eb296c18c9_menu-btn.svg"
+          src="{{ asset('assets/images/svg/menu-btn.svg') }}"
           loading="lazy" alt="icono" height="16" class="image-burger white-style" /></div>
     </div>
   </div>

@@ -74,7 +74,7 @@
     <div class="base-container w-container">
         <div class="arraigo-wrapper">
             <div class="arraigo-content">
-                <h1>¡Elija Carbray! ¡Hemos ayudado a cientos de clientes en la misma situación que usted!</h1>
+                <h2>¡Elija Carbray! ¡Hemos ayudado a cientos de clientes en la misma situación que usted!</h2>
                 <p>
                     En Carbray sabemos que su proceso de inmigración no se limita al papeleo. Significa puertas
                     abiertas y oportunidades emocionantes. Significa un nuevo futuro.
