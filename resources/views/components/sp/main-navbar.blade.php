@@ -65,7 +65,7 @@
                 </div>
               </nav>
             </div>
-            <a href="/assurance" class="nav-link w-nav-link">Nacionalidad</a>
+            <a href="/" class="nav-link w-nav-link">Nacionalidad</a>
             <div data-hover="true" data-delay="0" data-w-id="ba67b287-f196-4627-29a8-f080f7e8b20d"
               class="nav-dropdown w-dropdown">
               <div class="nav-dropdown-toggle w-dropdown-toggle">
