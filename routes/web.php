@@ -135,3 +135,18 @@ Route::group(['prefix' => 'fr'], function () {
 
 });
 
+
+Route::get('lang', function() {
+
+    // first get current language 
+    $current = Session::get('lang');
+
+    if ( $current == 'en' ) {
+        Session::forget('lang');
+        Session::put('lang', 'es');
+    }else {
+        Session::forget('lang');
+        Session::put('lang', 'en');
+    }
+    return back();
+})->name('change.language');

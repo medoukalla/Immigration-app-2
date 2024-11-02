@@ -94,14 +94,22 @@
       {{-- Language --}}
       <div class="lang-wrapper">
         <div class="lang-wrap">
-          <div class="lang-selected" style="display: block">
-            <img src="{{ asset('assets/images/svg/eng.svg') }}" alt="">
-            <span>English</span>
-          </div>
-          <div class="lang-choose" style="display: none">
-            <img src="{{ asset('assets/images/svg/sp.svg') }}" alt="">
-            <span>Spanish</span>
-          </div>
+          @if ( Session::get('lang') == 'en')
+            <div class="lang-choose">
+              <a href="{{ route('change.language') }}">
+                <img src="{{ asset('assets/images/svg/sp.svg') }}" alt="">
+                <span>Spanish</span>
+              </a>
+            </div>
+          @else
+            <div class="lang-selected">
+              <a href="{{ route('change.language') }}">
+                <img src="{{ asset('assets/images/svg/eng.svg') }}" alt="">
+                <span>English</span>
+              </a>
+            </div>
+          @endif
+          
         </div>
         <div class="search-shop-con">
             <a href="javascript:void(0);" class="primary-button w-button openModalButton">Pedir Cita</a>

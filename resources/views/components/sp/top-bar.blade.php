@@ -4,7 +4,7 @@
         <div class="adress-class">
           <div class="adress-time"><img src="{{ asset('assets/images/svg/top-time.svg') }}" alt="Time"> Lun - Vie | {{ setting('site.working-ours') }}
           </div>
-          <div class="adress-whats"><img src="{{ asset('assets/images/svg/top-whatsapp.svg') }}" alt="whatsapp"> {{ setting('site.whatsapp') }}</div>
+          <div class="adress-whats"><img src="{{ asset('assets/images/svg/top-whatsapp.svg') }}" alt="whatsapp"> <a href="{{ setting('site.whatsapp_link') }}" target="_blanck">{{ setting('site.whatsapp') }}</a></div>
         </div>
         <div class="social-bar">
           <a href="{{ setting('site.facebook') }}" target="_blanck">
