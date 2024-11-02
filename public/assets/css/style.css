@@ -10356,9 +10356,16 @@ input[type="radio"] {
   position: relative;
 }
 
-.lang-wrapper .lang-selected {
+.lang-wrapper .lang-selected,
+.lang-wrapper .lang-choose {
+  display: flex;
+  cursor: pointer;
+}
+
+.lang-wrapper .lang-selected a,
+.lang-wrapper .lang-choose a {
   display: flex;
   align-items: center;
   gap: 5px;
-  cursor: pointer;
+  color: var(--primary-dark);
 }
