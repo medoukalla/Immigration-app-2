@@ -9504,7 +9504,10 @@ select.white-style,
   margin-right: 20px;
 }
 
-.section.top-bar .adress-time,
+.section.top-bar .adress-time {
+  color: #a0a0a0;
+}
+
 .section.top-bar .adress-whats {
   color: #a0a0a0;
   display: flex;
@@ -9514,7 +9517,12 @@ select.white-style,
   transition: all 0.3s ease-in-out;
 }
 
+.section.top-bar .adress-whats a {
+  color: #a0a0a0;
+}
+
 .section.top-bar .adress-time:hover,
+.section.top-bar .adress-whats:hover a,
 .section.top-bar .adress-whats:hover {
   color: var(--primary);
 }
