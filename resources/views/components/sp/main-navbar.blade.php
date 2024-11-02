@@ -149,13 +149,15 @@
     }
     /* Modal content */
     .modal-content {
-        position: relative;
-        margin: 10% auto;
-        padding: 20px;
-        background-color: #fff;
-        width: 90%;
-        max-width: 600px;
-        border-radius: 8px;
+      position: absolute;
+      padding: 20px;
+      background-color: #fff;
+      width: 90%;
+      max-width: 600px;
+      border-radius: 8px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
     /* Close button */
     .close-modal {
