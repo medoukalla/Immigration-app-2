@@ -9151,7 +9151,7 @@ select.white-style,
   }
 }
 
-@media (max-width:480px) {
+@media screen and (max-width:480px) {
 
   .call-to-action-box,
   .faq .faq-left-content,
@@ -9278,6 +9278,7 @@ select.white-style,
     padding-top: 10px !important;
     padding-bottom: 10px !important;
   }
+
 }
 
 #w-node-_81e0904a-eecd-343b-48fe-3b75e2885562-296c17ee,
@@ -9721,6 +9722,11 @@ select.white-style,
   background: var(--primary) !important;
 }
 
+/* Swiper black section */
+.partner-section {
+  background-color: var(--primary-dark);
+}
+
 /* Mini hero section */
 .min-hero-wrapper h1 {
   font-size: 70px;
@@ -9912,18 +9918,23 @@ select.white-style,
   height: 100%;
   width: 100%;
   object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+
+.solution-section .sol-block:hover img {
+  transform: scale(1.1);
 }
 
 .solution-section .sol-block .sol-overlay {
   position: absolute;
-  background-color: #0000002c;
+  background-color: hsla(0, 0%, 0%, 0.2);
   height: 100%;
   width: 100%;
+  transition: all 0.3s ease-in-out;
 }
 
 .solution-section .sol-block:hover .sol-overlay {
   background-color: hsla(0, 0%, 0%, 0.5);
-  transition: all 0.3s ease-in-out;
 }
 
 .solution-section .sol-block .sol-content {

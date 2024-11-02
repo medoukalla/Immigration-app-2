@@ -6,7 +6,7 @@
 
 
     <!-- Services contact form -->
-    <div class="section">
+    <div class="section without-bottom-spacing">
         <div class="base-container w-container">
             <div data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237" class="contacts-2-wrapper">
                 <div class="contacts-2-content-wrapper">
@@ -128,7 +128,7 @@
     <div class="section partners-section">
         <div class="base-container w-container">
             <div class="partners-heading">
-                <h2>Asociados con empresas líderes de la industria</h2>
+                <h2>Partnered with industry-leading firms</h2>
             </div>
             <div class="partners-logos">
                 <!-- Aquí puedes agregar los logos de los socios -->
