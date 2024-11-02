@@ -100,7 +100,7 @@
 </div>
 
 {{-- Partner section --}}
-<x-sp.partners />
+<x-sp.partners-black />
 
 <!-- Call to action -->
 <div class="section call-to-action">

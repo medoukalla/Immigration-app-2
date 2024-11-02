@@ -2940,6 +2940,11 @@ blockquote {
   line-height: 1em;
 }
 
+.nav-item-title:hover,
+.w-nav-link:hover {
+  color: var(--primary);
+}
+
 .nav-item-title.white-style {
   color: var(--white);
 }
@@ -9501,9 +9506,17 @@ select.white-style,
 
 .section.top-bar .adress-time,
 .section.top-bar .adress-whats {
+  color: #a0a0a0;
   display: flex;
   align-items: center;
   gap: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.section.top-bar .adress-time:hover,
+.section.top-bar .adress-whats:hover {
+  color: var(--primary);
 }
 
 .section.top-bar .social-bar {

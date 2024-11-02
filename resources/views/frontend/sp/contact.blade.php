@@ -125,16 +125,7 @@
     </div>
 
     <!-- Partners -->
-    <div class="section partners-section">
-        <div class="base-container w-container">
-            <div class="partners-heading">
-                <h2>Partnered with industry-leading firms</h2>
-            </div>
-            <div class="partners-logos">
-                <!-- Aquí puedes agregar los logos de los socios -->
-            </div>
-        </div>
-    </div>
+    <x-sp.partners-white />
     
 
     <!-- contact-components -->

@@ -40,7 +40,7 @@
     }
 
     .partner-wrappers .partner-wrap {
-        height: 80px;
+        height: 50px;
     }
     
     .partner-wrappers .partner-wrap img{
