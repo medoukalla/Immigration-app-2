@@ -87,7 +87,7 @@
             <a href="{{ route('frontend.sp.contact') }}" class="nav-link w-nav-link">Contacto</a>
 
             <div class="button-wrapper">
-              <a href="javascript:void(0);" class="primary-button nav-tablet w-button" id="openModalButton">Pedir Cita</a>
+              <a href="javascript:void(0);" class="primary-button nav-tablet w-button openModalButton">Pedir Cita</a>
             </div>
           </div>
       </nav>
@@ -104,7 +104,7 @@
           </div>
         </div>
         <div class="search-shop-con">
-            <a href="javascript:void(0);" class="primary-button w-button" id="openModalButton">Pedir Cita</a>
+            <a href="javascript:void(0);" class="primary-button w-button openModalButton">Pedir Cita</a>
         </div>
       </div>
       <div class="menu-button w-nav-button"><img
@@ -166,7 +166,7 @@
 <script>
     $(document).ready(function() {
         // Show modal when button is clicked
-        $('#openModalButton').on('click', function() {
+        $('.openModalButton').on('click', function() {
             $('#calendlyModal').fadeIn();
         });
 
