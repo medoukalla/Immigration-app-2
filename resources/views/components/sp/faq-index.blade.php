@@ -3,12 +3,10 @@
     <div data-w-id="8989ee74-68aa-89b0-f9fb-c214c3221b28" class="accordion-wrapper">
       <div class="faq-left-content">
         <div class="faq-title">
-          Preguntas comunes
-          <br>
-          <span>respondidas</span>
+          Preguntas
+          <span>Frecuentes</span>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum ipsa deserunt id delectus quibusdam non
-            eos, ratione quas commodi! Voluptas.
+            Encuentra respuestas claras y detalladas a las dudas más comunes sobre nuestros servicios legales, Estamos aquí para ayudarte en cada paso de tu proceso.
           </p>
           <div class="faq-img">
             <img src="assets/images/flags-img.png" alt="Imagen de FAQ">

@@ -1,12 +1,12 @@
 <div class="banner-section-photo">
     <div data-w-id="cc582f0b-75ba-d7bd-9fe3-5b2888ed64e5" style="opacity:0" class="banner-content-container">
-      <h1 data-w-id="cc582f0b-75ba-d7bd-9fe3-5b2888ed64e6" style="opacity:0" class="home-title">Tu puerta de entrada a una
-        inmigración sin complicaciones</h1>
+      <h1 data-w-id="cc582f0b-75ba-d7bd-9fe3-5b2888ed64e6" style="opacity:0" class="home-title">
+        Tu Despacho de Abogados Especializado en Extranjería en Málaga
+      </h1>
       <p data-w-id="cc582f0b-75ba-d7bd-9fe3-5b2888ed64e8" style="opacity:0" class="home-main-banner-discription">
-        Estamos aquí para guiarte en cada paso del camino. Nuestro equipo de expertos está dedicado a hacer que tu
-        viaje a un nuevo país sea lo más fluido y libre de estrés posible.</p>
+        Nuestro equipo de abogados especializados en extranjería te acompaña en cada paso del proceso migratorio, desde la obtención de visados hasta la residencia y la nacionalidad española.</p>
       <div data-w-id="cc582f0b-75ba-d7bd-9fe3-5b2888ed64ea" style="opacity:0" class="buttons-wrapper"><a
-          href="/services" class="primary-button w-button">Explorar detalles</a></div>
+          href="/services" class="primary-button w-button">Reservar consulta</a></div>
     </div>
     <div class="banner-numbers-wrapper">
       <div data-w-id="26438732-168a-0ab6-1fa0-8136b2be6fd3" style="opacity:0" class="w-layout-grid working-numbers">

@@ -1,9 +1,8 @@
 <div class="section without-bottom-spacing">
     <div class="base-container w-container">
       <div data-w-id="e4b01cad-d7fb-7d45-4504-1016bae76010" style="opacity:0" class="section-title-wrapper">
-        <h2 class="section-title">Últimas noticias</h2>
-        <p>Estamos aquí para guiarte en cada paso del camino. Nuestro experimentado equipo de expertos está dedicado a hacer
-          que tu viaje a un nuevo país sea lo más fluido y libre de estrés posible.</p>
+        <h2 class="section-title">Nuestro Blog</h2>
+        <p>Explora artículos y novedades sobre extranjería, visas, y asesoría legal. Mantente informado con nuestras guías y consejos prácticos.</p>
       </div>
       <div class="home-blog-collection w-dyn-list">
         <div role="list" class="home-blog-list w-dyn-items">

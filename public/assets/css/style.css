@@ -562,8 +562,8 @@ label {
   display: block;
 }
 
-.w-input,
-.w-select {
+select,
+.w-input {
   color: #333;
   vertical-align: middle;
   background-color: #fff;
@@ -3982,7 +3982,7 @@ select.white-style,
 }
 
 .contacts-2-wrapper {
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
   display: flex;
   gap: 20px;
@@ -4309,7 +4309,7 @@ select.white-style,
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 0 !important;
   display: flex;
   position: relative;
 }
@@ -5015,7 +5015,7 @@ select.white-style,
   width: 64%;
   margin-top: 0;
   margin-bottom: 20px;
-  font-size: 58px;
+  font-size: 60px;
   position: relative;
 }
 
@@ -6762,7 +6762,7 @@ select.white-style,
   }
 
   .home-title {
-    font-size: 70px;
+    font-size: 60px;
   }
 
   .banner-content-container {
@@ -9128,6 +9128,8 @@ select.white-style,
   }
 }
 
+/* New responsive */
+
 @media screen and (max-width: 768px) {
   div#w-nav-overlay-0 {
     height: 100vh !important;
@@ -9153,6 +9155,10 @@ select.white-style,
 
   .faq .faq-left-content .faq-img {
     width: 100% !important;
+  }
+
+  .desktop-lan {
+    display: none !important;
   }
 }
 
@@ -9284,6 +9290,13 @@ select.white-style,
     padding-bottom: 10px !important;
   }
 
+  .nav-mobile-bottom-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+  }
 }
 
 #w-node-_81e0904a-eecd-343b-48fe-3b75e2885562-296c17ee,
@@ -9586,6 +9599,7 @@ select.white-style,
   margin-bottom: 0;
   color: var(--light-gray);
   font-weight: 300;
+  margin-bottom: 20px;
 }
 
 /* Feedback section */
@@ -9597,7 +9611,7 @@ select.white-style,
 } */
 
 .faq .faq-left-content {
-  width: 50%;
+  width: 48%;
 }
 
 .faq .faq-left-content .faq-title {
@@ -9608,7 +9622,7 @@ select.white-style,
 }
 
 .faq .faq-left-content .faq-title span {
-  color: var(--paragraph-gray);
+  color: var(--primary);
 }
 
 .faq .faq-left-content p {
@@ -10368,4 +10382,9 @@ input[type="radio"] {
   align-items: center;
   gap: 5px;
   color: var(--primary-dark);
+}
+
+.mobile-lang .lang-choose,
+.lang-wrapper .mobile-btn {
+  display: none;
 }

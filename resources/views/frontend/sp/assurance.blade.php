@@ -61,7 +61,7 @@
                     <h2 class="in-section-title">SEGURO</h2>
                 </div>
                 <div class="contacts-2-content">
-                    <p>En Immiworld, Nos comprometemos a ofrecer el mejor precio para nuestros servicios de seguro obligatorio para extranjeros en España. Entendemos que este servicio es esencial para los solicitantes de visado.</p>
+                    <p>Contar con un seguro de salud es esencial para los trámites de extranjería en España. Este servicio asegura el acceso a atención médica y es un requisito clave para la obtención de visados y permisos de residencia</p>
                 </div>
             </div>
             <!-- Contact Form -->

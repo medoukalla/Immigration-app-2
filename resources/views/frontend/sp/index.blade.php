@@ -13,38 +13,32 @@
             <div id="w-node-c651ba22-4432-547d-7cd0-369831cf9fba-296c1808" class="left-advatages-content">
               <div data-w-id="c651ba22-4432-547d-7cd0-369831cf9fbb" style="opacity:0" class="advantages-wrap">
                 <div class="heading-advantages">
-                  <h5>Consulta y Evaluación Inicial</h5>
+                  <h5>Consulta y Evaluación Legal</h5>
                   <div class="number">01</div>
                 </div>
-                <p class="small-paragraph _w-95">Nuestro equipo experimentado de expertos en inmigración está dedicado a hacer que tu
-                  viaje a un nuevo país sea libre de estrés.<br /></p>
+                <p class="small-paragraph _w-95">Evaluamos tu situación actual, ya sea que estés en España o en el extranjero. Nuestros abogados de extranjería te ofrecerán asesoría sobre la mejor opción legal para tu caso.<br /></p>
               </div>
               <div data-w-id="c651ba22-4432-547d-7cd0-369831cf9fc3" style="opacity:0" class="advantages-wrap">
                 <div class="heading-advantages">
-                  <h5 class="">Orientación y Apoyo Personalizados</h5>
+                  <h5 class="">Preparación de Documentos</h5>
                   <div class="number">02</div>
                 </div>
-                <p class="small-paragraph">Nuestro equipo experimentado de expertos en inmigración está dedicado a hacer que
-                  tu viaje a un nuevo país sea libre de estrés.<br /></p>
+                <p class="small-paragraph">Te ayudamos a recopilar y preparar todos los documentos necesarios, garantizando que estén en orden para su presentación ante las autoridades.<br /></p>
               </div>
               <div data-w-id="c651ba22-4432-547d-7cd0-369831cf9fcb" style="opacity:0" class="advantages-wrap">
                 <div class="heading-advantages">
-                  <h5>Seguimiento y Asistencia Continua</h5>
+                  <h5>Seguimiento de Solicitud</h5>
                   <div class="number">03</div>
                 </div>
-                <p class="small-paragraph _w-95">Nuestro equipo experimentado de expertos en inmigración está dedicado a hacer que tu
-                  viaje a un nuevo país sea libre de estrés.<br /></p>
+                <p class="small-paragraph _w-95">Presentamos tu solicitud a la oficina de extranjería y hacemos un seguimiento constante del estado del expediente, manteniéndote informado en cada etapa..<br /></p>
               </div>
             </div>
             <div id="w-node-c651ba22-4432-547d-7cd0-369831cf9fd3-296c1808" class="right-advantages-content">
-              <div data-w-id="c651ba22-4432-547d-7cd0-369831cf9fd4" style="opacity:0" class="subtitle-text">Ventajas</div>
-              <h2 data-w-id="c651ba22-4432-547d-7cd0-369831cf9fd6" style="opacity:0" class="in-section-title">¿Listo para
-                embarcarte en tu viaje?</h2>
-              <p data-w-id="c651ba22-4432-547d-7cd0-369831cf9fd8" style="opacity:0">Ofrecemos consultas integrales
-                para ayudarte a determinar la opción de visa más adecuada según tus circunstancias y objetivos únicos. Nuestros
-                expertos evaluarán tu elegibilidad y te guiarán a través de los requisitos necesarios.<br /></p>
+              <div data-w-id="c651ba22-4432-547d-7cd0-369831cf9fd4" style="opacity:0" class="subtitle-text">Nuestro Proceso</div>
+              <h2 data-w-id="c651ba22-4432-547d-7cd0-369831cf9fd6" style="opacity:0" class="in-section-title">Te Guiamos en Cada Paso de Tu Trámite de Extranjería</h2>
+              <p data-w-id="c651ba22-4432-547d-7cd0-369831cf9fd8" style="opacity:0">En Immiworld, entendemos que los trámites de extranjería pueden ser complicados, tanto si te encuentras en España como si planeas venir desde tu país de origen. Te acompañamos en cada etapa del proceso para asegurarte de que cumplas con todos los requisitos legales.<br /></p>
               <div data-w-id="c651ba22-4432-547d-7cd0-369831cf9fda" style="opacity:0" class="button-wrapper"><a
-                  href="/contact-us-1" class="primary-button dark">Obtener una Consulta Gratuita</a></div>
+                  href="/contact-us-1" class="primary-button dark">Reservar consulta ?</a></div>
             </div>
           </div>
         </div>
@@ -56,8 +50,7 @@
         <div class="section-heading">
           <div data-w-id="e4b01cad-d7fb-7d45-4504-1016bae76010" style="opacity:0" class="section-title-wrapper">
             <h2 class="section-title">Nuestros Servicios</h2>
-            <p>Estamos aquí para guiarte en cada paso del camino. Nuestro equipo experimentado de expertos está dedicado a hacer que
-              tu viaje a un nuevo país sea lo más fluido y libre de estrés posible.</p>
+            <p>Ofrecemos soluciones integrales en extranjería para satisfacer todas tus necesidades legales en España, Desde la obtención de permisos de residencia hasta la asesoría personalizada en trámites complejos.</p>
           </div>
         </div>
         <div class="w-layout-grid work-coach">
@@ -70,9 +63,9 @@
                   class="work-wrapper"><img loading="lazy"
                     src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652db2fc45a71830e136ff99_fi_3022243.svg"
                     alt="" class="icon-work" /><a href="/services/study-abroad-program-support" class="w-inline-block">
-                    <h5 class="services-titles">Apoyo para Programas de Estudio en el Extranjero</h5>
+                    <h5 class="services-titles">Residencia No Lucrativa</h5>
                   </a>
-                  <p class="service-item-description">Desde completar formularios de solicitud hasta recopilar documentos de apoyo, te asistimos en completar la solicitud de visa con precisión.</p>
+                  <p class="service-item-description">Obtén tu residencia en España sin necesidad de trabajar, garantizando tu estabilidad económica.</p>
                   <div class="button-wrapper smaller-spacing"><a href="/services/study-abroad-program-support"
                       class="link-with-arrow-underline white-style">Saber más</a></div>
                   <div class="dark-overlay"></div>
@@ -89,9 +82,9 @@
                   class="work-wrapper"><img loading="lazy"
                     src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652db2fc45a71830e136ff99_fi_3022243.svg"
                     alt="" class="icon-work" /><a href="/services/study-abroad-program-support" class="w-inline-block">
-                    <h5 class="services-titles">Apoyo para Programas de Estudio en el Extranjero</h5>
+                    <h5 class="services-titles">Nacionalidad Española</h5>
                   </a>
-                  <p class="service-item-description">Desde completar formularios de solicitud hasta recopilar documentos de apoyo, te asistimos en completar la solicitud de visa con precisión.</p>
+                  <p class="service-item-description">Conviértete en ciudadano español y disfruta de todos los derechos y beneficios que ofrece.</p>
                   <div class="button-wrapper smaller-spacing"><a href="/services/study-abroad-program-support"
                       class="link-with-arrow-underline white-style">Saber más</a></div>
                   <div class="dark-overlay"></div>
@@ -108,9 +101,9 @@
                   class="work-wrapper"><img loading="lazy"
                     src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/6528915357f15ad2b94de740_visa.svg"
                     alt="" class="icon-work" /><a href="/services/visa-application-assistance" class="w-inline-block">
-                    <h5 class="services-titles">Asistencia en Solicitudes de Visa</h5>
+                    <h5 class="services-titles">Visado de Estudiante</h5>
                   </a>
-                  <p class="service-item-description">Desde completar formularios de solicitud hasta recopilar documentos de apoyo, te asistimos en completar la solicitud de visa con precisión.</p>
+                  <p class="service-item-description">Estudia en España con un visado que te permite acceder a una educación de calidad.</p>
                   <div class="button-wrapper smaller-spacing"><a href="/services/visa-application-assistance"
                       class="link-with-arrow-underline white-style">Saber más</a></div>
                   <div class="dark-overlay"></div>
@@ -127,9 +120,9 @@
                   class="work-wrapper"><img loading="lazy"
                     src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/6528916057f15ad2b94df35b_relocation.svg"
                     alt="" class="icon-work" /><a href="/services/relocation-assistance" class="w-inline-block">
-                    <h5 class="services-titles">Asistencia en Reubicación</h5>
+                    <h5 class="services-titles">Visado para Nómadas Digitales</h5>
                   </a>
-                  <p class="service-item-description">Mudarse a un nuevo país implica más que solo obtener una visa. Te proporcionamos orientación sobre todos los aspectos cruciales para ayudarte a establecerte sin problemas.</p>
+                  <p class="service-item-description">Trabaja y vive en España mientras desarrollas tu carrera desde cualquier lugar del mundo.</p>
                   <div class="button-wrapper smaller-spacing"><a href="/services/relocation-assistance"
                       class="link-with-arrow-underline white-style">Saber más</a></div>
                   <div class="dark-overlay"></div>
@@ -147,10 +140,9 @@
                     src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652891689ec9911fdd305464_immigration.svg"
                     alt="" class="icon-work" /><a href="/services/immigration-planning-and-strategy"
                     class="w-inline-block">
-                    <h5 class="services-titles">Planificación y Estrategia de Inmigración</h5>
+                    <h5 class="services-titles">Golden Visa</h5>
                   </a>
-                  <p class="service-item-description">Creamos estrategias de inmigración personalizadas que se alinean con tus
-                    objetivos a largo plazo, considerando diferentes factores.</p>
+                  <p class="service-item-description">Invierte en España y obtén la residencia a través de nuestra opción de Golden Visa.</p>
                   <div class="button-wrapper smaller-spacing"><a href="/services/immigration-planning-and-strategy"
                       class="link-with-arrow-underline white-style">Saber más</a></div>
                   <div class="dark-overlay"></div>
@@ -168,9 +160,9 @@
                     src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/65289172057200ddd4f42749_documents.svg"
                     alt="" class="icon-work" /><a href="/services/document-verification-and-review"
                     class="w-inline-block">
-                    <h5 class="services-titles">Verificación y Revisión de Documentos</h5>
+                    <h5 class="services-titles">Residencia para Emprendedores</h5>
                   </a>
-                  <p class="service-item-description">Nuestro equipo revisa meticulosamente todos tus documentos para asegurarse de que cumplen con los requisitos específicos de las autoridades de inmigración.</p>
+                  <p class="service-item-description">Lanza tu negocio en España con un permiso de residencia diseñado para emprendedores.</p>
                   <div class="button-wrapper smaller-spacing"><a href="/services/document-verification-and-review"
                       class="link-with-arrow-underline white-style">Saber más</a></div>
                   <div class="dark-overlay"></div>
@@ -187,15 +179,14 @@
     <div class="section call-to-action">
       <div class="base-container w-container">
         <div class="call-to-action-box">
-          <div class="call-subtitle">Ofrecemos el mejor servicio</div>
-          <div class="call-title">
-            Te ofrecemos la mejor manera de <br>
-            <span>Lograr tu migración</span>
+          <div class="call-subtitle">Tu futuro empieza aquí</div>
+          <div class="call-title">Obtén la asistencia legal que necesitas para tu proceso de<br>
+            <span>inmigración en España</span>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis delectus tenetur fugiat, praesentium
-            facere magnam labore laborum officiis architecto eum!</p>
+          <p>A sea que vivas en España o estés planificando venir, nuestros abogados expertos en extranjería te acompañarán en cada paso. Gestionamos tus trámites de manera eficiente para que puedas
+            enfocarte en tu nuevo comienzo.</p>
           <div class="button-wrapper smaller-spacing">
-            <a href="#" class="link-with-arrow-underline white-style">Contáctanos</a>
+            <a href="#" class="link-with-arrow-underline white-style">Contáctanos hoy</a>
           </div>
         </div>
       </div>

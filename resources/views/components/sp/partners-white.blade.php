@@ -1,7 +1,7 @@
 <!-- Swiper -->
 <div class="section partner-white-section">
     <div class="base-container w-container">
-        <h2>Partnered with industry-leading firms</h2>
+        <h2>Socios que Confían en Nosotros</h2>
         <div class="partner-wrappers">
             <div class="partner-wrap">
                 <img src="{{ asset('assets/images/partner-svg/partner-logo-b-0.svg') }}" alt="Partner Logo">

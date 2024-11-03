@@ -14,11 +14,10 @@
                         <img src="assets/images/contact-image.png" alt="Contact image">
                     </div>
                     <div class="contacts-title">
-                        <h2 class="in-section-title">Residencia por arraigo social</h2>
+                        <h2 class="in-section-title">Contactanos Estamos aquí para atenderte!</h2>
                     </div>
                     <div class="contacts-2-content">
-                        <p>El arraigo social es una autorización de residencia temporal por circunstancias
-                            excepcionales que se podrá conceder...</p>
+                        <p>Si tienes dudas sobre los trámites de extranjería, contáctanos. Estaremos encantados de atenderte.</p>
                     </div>
                     <div class="contacts-info">
                         <div class="contacts-info-wrapper">
@@ -62,52 +61,50 @@
                         <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form"
                             data-wf-page-id="651f2c08c5bd81eb296c17fd"
                             data-wf-element-id="502c5dca-196a-0aae-1f67-5b18c9a9023a">
-                            <h3 class="form-heading">Contacta con nosotros</h3>
+                            <h3 class="form-heading">Formulario de Contacto</h3>
                             <br>
-                            <h6>1 - Tu nombre</h6>
+                            <h6>1 - Su nombre</h6>
                             <input class="contacts-input white-style w-input" maxlength="256" name="name-2"
-                                data-name="Name 2" placeholder="Tu nombre" type="text" id="name-2" required="" />
-                            <h6>2 - Tu correo electrónico</h6>
+                                data-name="Name 2" placeholder="Indique su nombre." type="text" id="name-2" required="" />
+                            <h6>2 - Su apellido:</h6>
                             <input class="contacts-input white-style w-input" maxlength="256" name="email-2"
-                                data-name="Email 2" placeholder="Tu correo electrónico" type="email" id="email-2" required="" />
-                            <h6>3 - Tu número de teléfono</h6>
+                                data-name="Email 2" placeholder="Indique su apellido." type="email" id="email-2" required="" />
+                            <h6>3 - Su dirección de correo electrónico:</h6>
                             <input class="contacts-input white-style w-input" maxlength="256" name="phone-2"
-                                data-name="Phone 2" placeholder="Tu número de teléfono" type="tel" id="phone-2" required="" />
+                                data-name="Phone 2" placeholder="Indique su dirección de correo electrónico." type="tel" id="phone-2" required="" />
                             <!-- Teléfono -->
-                            <h6>4 - Tu número de teléfono</h6>
+                            <h6>4 - Su número de teléfono:</h6>
                             <input class="contacts-input white-style w-input" maxlength="256" name="phone-2"
-                                data-name="Phone 2" placeholder="Tu número de teléfono" type="tel" id="phone-2" required="" />
+                                data-name="Phone 2" placeholder="Indique su número de teléfono." type="tel" id="phone-2" required="" />
                             <!-- Select -->
-                            <h6>5 - Servicio que deseas</h6>
+                            <h6>5 - Servicio que le interesa:</h6>
                             <select name="service" id="service" class="white-style">
-                                <option value="">Seleccionar</option>
+                                <option value="">Seleccione el servicio que le interesa:</option>
                                 <option value="servicio1">Servicio 1</option>
                                 <option value="servicio2">Servicio 2</option>
                                 <option value="servicio3">Servicio 3</option>
                                 <option value="servicio4">Servicio 4</option>
                             </select>
                             <!-- Select -->
-                            <h6>6 - Tu nacionalidad</h6>
+                            <h6>6 - Su nacionalidad:</h6>
                             <select name="nationality" id="nationality" class="white-style">
-                                <option value="">Seleccionar</option>
+                                <option value="">Indique su nacionalidad.</option>
                                 <option value="nacionalidad1">Nacionalidad 1</option>
                                 <option value="nacionalidad2">Nacionalidad 2</option>
                                 <option value="nacionalidad3">Nacionalidad 3</option>
                                 <option value="nacionalidad4">Nacionalidad 4</option>
                             </select>
                             <!-- Select -->
-                            <h6>7 - Dónde vives ahora</h6>
+                            <h6>7 - ¿Dónde reside?</h6>
                             <select name="location" id="location" class="white-style">
-                                <option value="">Seleccionar</option>
+                                <option value="">Indique su lugar de residencia.</option>
                                 <option value="ubicacion1">Ubicación 1</option>
                                 <option value="ubicacion2">Ubicación 2</option>
                                 <option value="ubicacion3">Ubicación 3</option>
                                 <option value="ubicacion4">Ubicación 4</option>
                             </select>
-                            <h6>8 - Información sobre tu situación</h6>
-                            <input class="contacts-input white-style w-input" maxlength="256" name="situation-info"
-                                data-name="Situation Info" placeholder="Información sobre tu situación" type="text" id="situation-info"
-                                required="" />
+                            <h6>8 - Cuéntanos más sobre su situación:</h6>
+                            <textarea class="contacts-input white-style w-input" name="" id="" cols="30" rows="10" placeholder="Describa su situación en unas pocas frases."></textarea>
                             <input type="submit" data-wait="Por favor espera..."
                                 class="primary-button full-width-mobile w-button" value="Enviar" />
                         </form>
@@ -135,7 +132,7 @@
                 <div class="c-c-block">
                     <img src="/assets/images/svg/component-email.svg" alt="Ícono de correo electrónico">
                     <div class="c-c-name">
-                        Correo Electrónico
+                        Formulario de Contacto
                     </div>
                     <p>Dirija todas sus consultas a nuestro correo de soporte al cliente dedicado.</p>
                     <a href="mailto:hello@nimble.llc">

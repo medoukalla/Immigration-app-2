@@ -86,13 +86,40 @@
             <a href="{{ route('frontend.sp.about') }}" class="nav-link w-nav-link">Sobre nosotros</a>
             <a href="{{ route('frontend.sp.contact') }}" class="nav-link w-nav-link">Contacto</a>
 
-            <div class="button-wrapper">
-              <a href="javascript:void(0);" class="primary-button nav-tablet w-button openModalButton">Pedir Cita</a>
+            <div class="nav-mobile-bottom-btn">
+              <div class="button-wrapper">
+                <a href="javascript:void(0);" class="primary-button nav-tablet w-button openModalButton">Pedir Cita</a>
+              </div>
+
+              {{-- Language --}}
+              <div class="lang-wrapper">
+                <div class="lang-wrap mobile-lang">
+                  @if ( Session::get('lang') == 'en')
+                    <div class="lang-choose">
+                      <a href="{{ route('change.language') }}">
+                        <img src="{{ asset('assets/images/svg/sp.svg') }}" alt="">
+                        <span>Spanish</span>
+                      </a>
+                    </div>
+                  @else
+                    <div class="lang-selected">
+                      <a href="{{ route('change.language') }}">
+                        <img src="{{ asset('assets/images/svg/eng.svg') }}" alt="">
+                        <span>English</span>
+                      </a>
+                    </div>
+                  @endif
+                  
+                </div>
+                <div class="search-shop-con mobile-btn">
+                    <a href="javascript:void(0);" class="primary-button w-button openModalButton">Pedir Cita</a>
+                </div>
+              </div>
             </div>
           </div>
       </nav>
       {{-- Language --}}
-      <div class="lang-wrapper">
+      <div class="lang-wrapper desktop-lang">
         <div class="lang-wrap">
           @if ( Session::get('lang') == 'en')
             <div class="lang-choose">
@@ -115,9 +142,11 @@
             <a href="javascript:void(0);" class="primary-button w-button openModalButton">Pedir Cita</a>
         </div>
       </div>
-      <div class="menu-button w-nav-button"><img
+      <div class="menu-button w-nav-button">
+        <img
           src="{{ asset('assets/images/svg/menu-btn.svg') }}"
-          loading="lazy" alt="icono" height="16" class="image-burger white-style" /></div>
+          loading="lazy" alt="icono" height="16" class="image-burger white-style" />
+      </div>
     </div>
   </div>
 </div>
