@@ -506,7 +506,7 @@
     <!-- partenaires end -->
 
     <!-- Avis start  -->
-    <div class="AvisDo">
+    {{-- <div class="AvisDo">
         <div class="container">
             <div class="box">
                 <h2>Avis de <span>nos clients</span></h2>
@@ -560,7 +560,7 @@
 
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- Avis end -->
 
     <!-- visa étudiant start  -->
