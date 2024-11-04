@@ -87,17 +87,22 @@
                         <div class="note-important">
                             Rellena los siguientes datos para calcular el precio de tu seguro
                         </div>
-                        <h6>1 - Apellido y Nombre :</h6>
+                        <h6>1 - Apellido y Nombre:</h6>
                         <input class="contacts-input white-style w-input" maxlength="256" name="name-2"
                             data-name="Name 2" placeholder="Your name" type="text" id="name-2" required="" />
-                        <h6>2 - Seleccionar seguro :</h6>
-                        <input class="contacts-input white-style w-input" maxlength="256" name="email-2"
-                            data-name="Email 2" placeholder="Your email" type="email" id="email-2" required="" />
-                        <h6>3 -  Fecha de nacimiento :</h6>
+                        <h6>2 - Seleccionar seguro:</h6>
+                        <select name="service" id="service" class="white-style">
+                            <option value="DKV">DKV</option>
+                            <option value="SANITAS">SANITAS</option>
+                            <option value="MAPFRE">MAPFRE</option>
+                            <option value="ASISA">ASISA</option>
+                            <option value="ADESLAS">ADESLAS</option>
+                        </select>
+                        <h6>3 -  Fecha de nacimiento:</h6>
                         <div class="date">
-                            <input type="number" placeholder="Dia">
+                            <input type="number" placeholder="Día">
                             <input type="number" placeholder="Mes">
-                            <input type="number" placeholder="Ano">
+                            <input type="number" placeholder="Año">
                         </div>
                         <h6 style="margin-top: 20px">4 -  Sexo:</h6>
                         <div class="check-type" style="margin-bottom: 40px">
@@ -111,7 +116,7 @@
                             </div>
                         </div>
                         <input type="submit" data-wait="Please wait..."
-                            class="primary-button full-width-mobile w-button" value="Submit" />
+                            class="primary-button full-width-mobile w-button" value="Calcular el precio del seguro" />
                     </form>
                     <div class="success-message w-form-done">
                         <div>Thank you! Your submission has been received!</div>
@@ -181,8 +186,7 @@
     <div class="section solution-section without-bottom-spacing">
         <div class="base-container w-container">
             <div class="solution-heading">
-                <h2>Ofrecemos una gama de <span>soluciones para sus
-                        necesidades</span> legales en Espana.</h2>
+                <h2>Ofrecemos <span>soluciones personalizadas para todas sus necesidades</span> legales en España.</h2>
             </div>
             <div class="solution-wrapper">
                 <div class="sol-block">
