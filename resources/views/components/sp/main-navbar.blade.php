@@ -23,31 +23,42 @@
               </div>
               <nav class="nav-dropdown-list w-dropdown-list">
                 <div class="nav-dropdown-link-wrapper">
-                  <a href="/" aria-current="page" class="nav-dropdown-link w-dropdown-link w--current"><span
-                      class="nav-dropdown-link-line">
-                    </span>Residencia para Emprendedores</a><a href="/home-2"
-                    class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line"> </span>Arraigo para la
-                    formación</a>
-                  <a href="/" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
-                    </span>Arraigo Familiar</a>
-                  <a href="/" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
-                    </span>Arraigo Laboral</a>
-                  <a href="/" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
-                    </span>Arraigo Social</a>
-                  <a href="/" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
-                    </span>Residencia no lucrativa</a>
-                  <a href="/" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
-                    </span>Nómada digital</a>
-                  <a href="/" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
-                    </span>Residencia de Familiar de Ciudadano de la UE</a>
-                  <a href="/" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
-                    </span>Reagrupación familiar</a>
-                  <a href="/" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
-                    </span>Residencia Larga duracion</a>
-                  <a href="/" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
-                    </span>Recurso contencioso administrativo</a>
-                  <a href="/" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
-                    </span>Recurso administrativo</a>
+                  <a href="{{ route('frontend.sp.residencia_para_emprendedores') }}" class="nav-dropdown-link w-dropdown-link">
+                    <span class="nav-dropdown-link-line"></span>Residencia para Emprendedores
+                  </a>
+                  <a href="{{ route('frontend.sp.arraigo_para_la_formacion') }}" class="nav-dropdown-link w-dropdown-link">
+                    <span class="nav-dropdown-link-line"></span>Arraigo para la formación
+                  </a>
+                  <a href="{{ route('frontend.sp.arraigo_familiar') }}" class="nav-dropdown-link w-dropdown-link">
+                    <span class="nav-dropdown-link-line"></span>Arraigo Familiar
+                  </a>
+                  <a href="{{ route('frontend.sp.arraigo_laboral') }}" class="nav-dropdown-link w-dropdown-link">
+                    <span class="nav-dropdown-link-line"></span>Arraigo Laboral
+                  </a>
+                  <a href="{{ route('frontend.sp.arraigo_social') }}" class="nav-dropdown-link w-dropdown-link">
+                    <span class="nav-dropdown-link-line"></span>Arraigo Social
+                  </a>
+                  <a href="{{ route('frontend.sp.residencia_no_lucrativa') }}" class="nav-dropdown-link w-dropdown-link">
+                    <span class="nav-dropdown-link-line"></span>Residencia no lucrativa
+                  </a>
+                  <a href="{{ route('frontend.sp.nomada_digital') }}" class="nav-dropdown-link w-dropdown-link">
+                    <span class="nav-dropdown-link-line"></span>Nómada digital
+                  </a>
+                  <a href="{{ route('frontend.sp.residencia_familiar_ue') }}" class="nav-dropdown-link w-dropdown-link">
+                    <span class="nav-dropdown-link-line"></span>Residencia de Familiar de Ciudadano de la UE
+                  </a>
+                  <a href="{{ route('frontend.sp.reagrupacion_familiar') }}" class="nav-dropdown-link w-dropdown-link">
+                    <span class="nav-dropdown-link-line"></span>Reagrupación familiar
+                  </a>
+                  <a href="{{ route('frontend.sp.residencia_larga_duracion') }}" class="nav-dropdown-link w-dropdown-link">
+                    <span class="nav-dropdown-link-line"></span>Residencia Larga duración
+                  </a>
+                  <a href="{{ route('frontend.sp.recurso_contencioso_administrativo') }}" class="nav-dropdown-link w-dropdown-link">
+                    <span class="nav-dropdown-link-line"></span>Recurso contencioso administrativo
+                  </a>
+                  <a href="{{ route('frontend.sp.recurso_administrativo') }}" class="nav-dropdown-link w-dropdown-link">
+                    <span class="nav-dropdown-link-line"></span>Recurso administrativo
+                  </a>
                 </div>
               </nav>
             </div>
@@ -93,24 +104,7 @@
 
               {{-- Language --}}
               <div class="lang-wrapper">
-                <div class="lang-wrap mobile-lang">
-                  @if ( Session::get('lang') == 'en')
-                    <div class="lang-choose">
-                      <a href="{{ route('change.language') }}">
-                        <img src="{{ asset('assets/images/svg/sp.svg') }}" alt="">
-                        <span>Spanish</span>
-                      </a>
-                    </div>
-                  @else
-                    <div class="lang-selected">
-                      <a href="{{ route('change.language') }}">
-                        <img src="{{ asset('assets/images/svg/eng.svg') }}" alt="">
-                        <span>English</span>
-                      </a>
-                    </div>
-                  @endif
-                  
-                </div>
+                
                 <div class="search-shop-con mobile-btn">
                     <a href="javascript:void(0);" class="primary-button w-button openModalButton">Pedir Cita</a>
                 </div>

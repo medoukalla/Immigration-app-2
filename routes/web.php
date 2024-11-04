@@ -95,6 +95,19 @@ Route::get('/mencionar_legal', [FrontendSpainController::class, 'mencionar_legal
 Route::get('page/{slug}', [FrontendSpainController::class, 'page'])->name('frontend.sp.page');
 
 
+Route::get('/residencia_para_emprendedores', [FrontendSpainController::class, 'residencia_para_emprendedores'])->name('frontend.sp.residencia_para_emprendedores');
+Route::get('/arraigo_para_la_formacion', [FrontendSpainController::class, 'arraigo_para_la_formacion'])->name('frontend.sp.arraigo_para_la_formacion');
+Route::get('/arraigo_familiar', [FrontendSpainController::class, 'arraigo_familiar'])->name('frontend.sp.arraigo_familiar');
+Route::get('/arraigo_laboral', [FrontendSpainController::class, 'arraigo_laboral'])->name('frontend.sp.arraigo_laboral');
+Route::get('/arraigo_social', [FrontendSpainController::class, 'arraigo_social'])->name('frontend.sp.arraigo_social');
+Route::get('/residencia_no_lucrativa', [FrontendSpainController::class, 'residencia_no_lucrativa'])->name('frontend.sp.residencia_no_lucrativa');
+Route::get('/nomada_digital', [FrontendSpainController::class, 'nomada_digital'])->name('frontend.sp.nomada_digital');
+Route::get('/residencia_familiar_ue', [FrontendSpainController::class, 'residencia_familiar_ue'])->name('frontend.sp.residencia_familiar_ue');
+Route::get('/reagrupacion_familiar', [FrontendSpainController::class, 'reagrupacion_familiar'])->name('frontend.sp.reagrupacion_familiar');
+Route::get('/residencia_larga_duracion', [FrontendSpainController::class, 'residencia_larga_duracion'])->name('frontend.sp.residencia_larga_duracion');
+Route::get('/recurso_contencioso_administrativo', [FrontendSpainController::class, 'recurso_contencioso_administrativo'])->name('frontend.sp.recurso_contencioso_administrativo');
+Route::get('/recurso_administrativo', [FrontendSpainController::class, 'recurso_administrativo'])->name('frontend.sp.recurso_administrativo');
+
 // Route::get('checkout', [FrontendSpainController::class, 'checkout'])->name('frontend.sp.checkout');
 
 

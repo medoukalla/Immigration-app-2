@@ -60,6 +60,102 @@ class FrontendSpainController extends Controller
     }
 
 
+    public function residencia_para_emprendedores() {
+        $testimonials = Testimonial::where('active', true)->where('lang', 'es')->get();
+
+        return view('frontend.sp.residencia_para_emprendedores', [
+            'testimonials' => $testimonials,
+        ]);
+    }
+
+    public function arraigo_para_la_formacion() {
+        $testimonials = Testimonial::where('active', true)->where('lang', 'es')->get();
+
+        return view('frontend.sp.arraigo_para_la_formacion', [
+            'testimonials' => $testimonials,
+        ]);
+    }
+
+    public function arraigo_familiar() {
+        $testimonials = Testimonial::where('active', true)->where('lang', 'es')->get();
+
+        return view('frontend.sp.arraigo_familiar', [
+            'testimonials' => $testimonials,
+        ]);
+    }
+
+    public function arraigo_laboral() {
+        $testimonials = Testimonial::where('active', true)->where('lang', 'es')->get();
+
+        return view('frontend.sp.arraigo_laboral', [
+            'testimonials' => $testimonials,
+        ]);
+    }
+
+    public function arraigo_social() {
+        $testimonials = Testimonial::where('active', true)->where('lang', 'es')->get();
+
+        return view('frontend.sp.arraigo_social', [
+            'testimonials' => $testimonials,
+        ]);
+    }
+
+    public function residencia_no_lucrativa() {
+        $testimonials = Testimonial::where('active', true)->where('lang', 'es')->get();
+
+        return view('frontend.sp.residencia_no_lucrativa', [
+            'testimonials' => $testimonials,
+        ]);
+    }
+
+    public function nomada_digital() {
+        $testimonials = Testimonial::where('active', true)->where('lang', 'es')->get();
+
+        return view('frontend.sp.nomada_digital', [
+            'testimonials' => $testimonials,
+        ]);
+    }
+
+    public function residencia_familiar_ue() {
+        $testimonials = Testimonial::where('active', true)->where('lang', 'es')->get();
+
+        return view('frontend.sp.residencia_familiar_ue', [
+            'testimonials' => $testimonials,
+        ]);
+    }
+
+    public function reagrupacion_familiar() {
+        $testimonials = Testimonial::where('active', true)->where('lang', 'es')->get();
+
+        return view('frontend.sp.reagrupacion_familiar', [
+            'testimonials' => $testimonials,
+        ]);
+    }
+
+    public function residencia_larga_duracion() {
+        $testimonials = Testimonial::where('active', true)->where('lang', 'es')->get();
+
+        return view('frontend.sp.residencia_larga_duracion', [
+            'testimonials' => $testimonials,
+        ]);
+    }
+
+    public function recurso_contencioso_administrativo() {
+        $testimonials = Testimonial::where('active', true)->where('lang', 'es')->get();
+
+        return view('frontend.sp.recurso_contencioso_administrativo', [
+            'testimonials' => $testimonials,
+        ]);
+    }
+
+    public function recurso_administrativo() {
+        $testimonials = Testimonial::where('active', true)->where('lang', 'es')->get();
+
+        return view('frontend.sp.recurso_administrativo', [
+            'testimonials' => $testimonials,
+        ]);
+    }
+
 
 
     // checkout page 
