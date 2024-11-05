@@ -9131,6 +9131,15 @@ select.white-style,
 /* New responsive */
 
 @media screen and (max-width: 768px) {
+  .lang-wrapper.desktop-lang {
+    display: none;
+  }
+
+  .lang-wrapper.mobile-lang {
+    display: flex !important;
+  }
+
+
   div#w-nav-overlay-0 {
     height: 100vh !important;
     width: 100% !important;
@@ -10414,7 +10423,6 @@ input[type="radio"] {
   color: var(--primary-dark);
 }
 
-.mobile-lang .lang-choose,
-.lang-wrapper .mobile-btn {
-  display: none;
+.mobile-lang {
+  display: none !important;
 }
