@@ -186,7 +186,7 @@
           <p>A sea que vivas en España o estés planificando venir, nuestros abogados expertos en extranjería te acompañarán en cada paso. Gestionamos tus trámites de manera eficiente para que puedas
             enfocarte en tu nuevo comienzo.</p>
           <div class="button-wrapper smaller-spacing">
-            <a href="#" class="link-with-arrow-underline white-style">Contáctanos hoy</a>
+            <a href="{{ route('frontend.sp.contact') }}" class="link-with-arrow-underline white-style">Contáctanos hoy</a>
           </div>
         </div>
       </div>
@@ -194,7 +194,7 @@
 
 
     <!-- Feedback -->
-    {{-- <x-sp.testimonials :testimonials="$testimonials" /> --}}
+    <x-sp.testimonials :testimonials="$testimonials" />
 
     <!-- FAQ -->
     <x-sp.faq-index :faqs="$faqs" />

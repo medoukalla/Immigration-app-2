@@ -59,6 +59,9 @@
                   <a href="{{ route('frontend.sp.recurso_administrativo') }}" class="nav-dropdown-link w-dropdown-link">
                     <span class="nav-dropdown-link-line"></span>Recurso administrativo
                   </a>
+                  <a href="{{ route('frontend.sp.renovación_de_la_tarjeta_de_residencia') }}" class="nav-dropdown-link w-dropdown-link">
+                    <span class="nav-dropdown-link-line"></span>Renovación de la tarjeta de residencia (NIE)
+                  </a>
                 </div>
               </nav>
             </div>
@@ -70,14 +73,14 @@
               </div>
               <nav class="nav-dropdown-list w-dropdown-list">
                 <div class="nav-dropdown-link-wrapper">
-                  <a href="/" aria-current="page" class="nav-dropdown-link w-dropdown-link w--current"><span
+                  <a href="{{ route('frontend.sp.visa_de_estudiante') }}" aria-current="page" class="nav-dropdown-link w-dropdown-link w--current"><span
                       class="nav-dropdown-link-line">
-                    </span>Visado de estudiante</a><a href="/home-2" class="nav-dropdown-link w-dropdown-link"><span
+                    </span>Visado de estudiante</a><a href="{{ route('frontend.sp.golden_visa') }}" class="nav-dropdown-link w-dropdown-link"><span
                       class="nav-dropdown-link-line"> </span>Golden visa</a>
                 </div>
               </nav>
             </div>
-            <a href="/" class="nav-link w-nav-link">Nacionalidad</a>
+            <a href="{{ route('frontend.sp.nacionalidad') }}" class="nav-link w-nav-link">Nacionalidad</a>
             <div data-hover="true" data-delay="0" data-w-id="ba67b287-f196-4627-29a8-f080f7e8b20d"
               class="nav-dropdown w-dropdown">
               <div class="nav-dropdown-toggle w-dropdown-toggle">

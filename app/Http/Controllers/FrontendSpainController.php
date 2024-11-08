@@ -156,6 +156,38 @@ class FrontendSpainController extends Controller
         ]);
     }
 
+    public function nacionalidad() {
+        $testimonials = Testimonial::where('active', true)->where('lang', 'es')->get();
+
+        return view('frontend.sp.nacionalidad', [
+            'testimonials' => $testimonials,
+        ]);
+    }
+
+    public function golden_visa() {
+        $testimonials = Testimonial::where('active', true)->where('lang', 'es')->get();
+
+        return view('frontend.sp.golden_visa', [
+            'testimonials' => $testimonials,
+        ]);
+    }
+
+    public function visa_de_estudiante() {
+        $testimonials = Testimonial::where('active', true)->where('lang', 'es')->get();
+
+        return view('frontend.sp.visa_de_estudiante', [
+            'testimonials' => $testimonials,
+        ]);
+    }
+
+    public function renovación_de_la_tarjeta_de_residencia() {
+        $testimonials = Testimonial::where('active', true)->where('lang', 'es')->get();
+
+        return view('frontend.sp.renovación_de_la_tarjeta_de_residencia', [
+            'testimonials' => $testimonials,
+        ]);
+    }
+
 
 
     // checkout page 

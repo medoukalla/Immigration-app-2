@@ -57,9 +57,13 @@
                         <h2 class="in-section-title">Presentación del Servicio</h2>
                     </div>
                     <div class="contacts-2-content">
-                        <p>El <b>arraigo social</b> es una autorización de residencia en España destinada a extranjeros en situación irregular que
-                            desean regularizar su estatus. Este permiso busca facilitar la integración de los extranjeros en la sociedad española,
-                            permitiéndoles vivir y trabajar legalmente en el país. </p>
+                        <p>
+                            En Immiworld, ofrecemos un servicio completo para la obtención de la visa de estudiante, que permite a ciudadanos
+                            extranjeros residir en España mientras realizan estudios en instituciones educativas reconocidas. Este visado es ideal
+                            para quienes desean aprovechar la oferta académica del país y sumergirse en su cultura. Nuestro equipo de expertos
+                            le guiará a lo largo de todo el proceso, garantizando que su solicitud sea eficiente y cumpla con todos los requisitos
+                            legales. 
+                        </p>
                     </div>
                 </div>
                 <!-- Contact Form -->
@@ -104,18 +108,29 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Permanencia mínima</b>: Al menos tres años de residencia en España. 
+                        Carta de aceptación de una institución educativa española que indique la duración y nivel del programa. 
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Vínculos</b>: Tener vínculos familiares, laborales o sociales en el país
+                        Pasaporte vigente
                     </div>
-                    
+                    <div class="doc-block">
+                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
+                        Comprobación de medios económicos suficientes para su estancia (extractos bancarios o nóminas).
+                    </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block">
-                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Contrato de trabajo</b>: Presentar un contrato de trabajo válido (si aplica). 
+                        <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
+                        Seguro médico válido para España
+                    </div>
+                    <div class="doc-block">
+                        <img src="{{ asset('assets/images/svg/badge-5.svg') }}" alt="Badge">
+                        Certificado de antecedentes penales (si corresponde).
+                    </div>
+                    <div class="doc-block">
+                        <img src="{{ asset('assets/images/svg/badge-6.svg') }}" alt="Badge">
+                        Prueba de residencia en el país de origen. 
                     </div>
                 </div>
             </div>
@@ -126,37 +141,36 @@
     <div class="section documents-section without-bottom-spacing">
         <div class="base-container w-container">
             <div class="heading">
-                <h2>Procedimiento a Seguir</h2>
+                <h2>Procedimiento a Seguir </h2>
             </div>
             <div class="doc-wrapper w-layout-grid">
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Evaluación Inicial</b><br>
-                        <p>Realizamos una consulta personalizada para evaluar su situación y verificar que cumple con los requisitos. Le
-                            aclaramos los detalles del proceso y la documentación necesaria.</p>
+                        <b>Evaluación Inicial </b><br>
+                        <p>Ofrecemos una consulta para analizar su situación y verificar los requisitos, brindándole detalles sobre los pasos
+                            y tiempos del proceso. </p>
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Revisión y Envío de Documentación</b><br>
-                        <p>Reunimos y revisamos toda la documentación requerida, asegurándonos de que cumpla con las normativas vigentes. </p>
+                        <b>Revisión y Envío de Documentación </b><br>
+                        <p>Le asistimos en la obtención de la carta de aceptación y reunimos toda la documentación necesaria para la
+                            solicitud. </p>
                     </div>
                     
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Gestión del Proceso</b><br>
-                        <p>Acreditamos los vínculos familiares o sociales necesarios. </p>
-                        <p>Asistimos en la obtención de un contrato de trabajo, si es necesario.</p>
-                        <p>Presentamos la solicitud ante la oficina de extranjería, completando todos los formularios y requisitos. </p>
+                        <b> Gestión del Proceso</b><br>
+                        <p>Presentamos la solicitud de visa en la embajada o consulado correspondiente, asegurándonos de que todo
+                            cumpla con los requisitos. </p>
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Asesoría Posterior</b><br>
-                        <p>Hacemos un seguimiento continuo de la solicitud, manteniéndole informado. Una vez obtenida la resolución
-                            favorable, le orientamos en los pasos finales, como la obtención de su tarjeta de residencia. Si la resolución es
-                            desfavorable, le asesoramos sobre las opciones de recurso disponibles. </p>
+                        <b>Asesoría Posterior </b><br>
+                        <p>Al obtener la visa, le orientamos en los pasos para su entrada a España y, una vez aquí, le ayudamos en el
+                            empadronamiento, obtención del NIE y renovaciones. </p>
                     </div>
                 </div>
             </div>

@@ -5,7 +5,7 @@
     <div class="pages-banner blog">
         <div class="base-container w-container">
             <div class="min-hero-wrapper">
-                <h1>Servicios</h1>
+                <h1>ServiLa renovación de la tarjeta de residencia (NIE)cios</h1>
                 <p>
                     Ofrecemos una amplia gama de servicios diseñados para facilitar tu transición a un nuevo país. Nuestro equipo de profesionales está comprometido a brindarte el apoyo y la orientación que necesitas en cada etapa del proceso, asegurando que te sientas seguro y bien informado en tu viaje.
                 </p>
@@ -57,9 +57,15 @@
                         <h2 class="in-section-title">Presentación del Servicio</h2>
                     </div>
                     <div class="contacts-2-content">
-                        <p>El <b>arraigo social</b> es una autorización de residencia en España destinada a extranjeros en situación irregular que
-                            desean regularizar su estatus. Este permiso busca facilitar la integración de los extranjeros en la sociedad española,
-                            permitiéndoles vivir y trabajar legalmente en el país. </p>
+                        <p>
+                            La renovación de la tarjeta de residencia (NIE) es un trámite esencial para los extranjeros que desean continuar su
+                            estancia legal en España. Este proceso garantiza que los solicitantes mantengan su estatus migratorio y puedan
+                            acceder a los servicios y derechos correspondientes.
+                            <br>
+                            Realizar la renovación a tiempo es crucial para evitar problemas legales y asegurar la continuidad de su estatus
+                            migratorio. Nuestro equipo de expertos le guiará en cada paso, garantizando que el proceso sea eficiente y cumpla
+                            con todos los requisitos. 
+                        </p>
                     </div>
                 </div>
                 <!-- Contact Form -->
@@ -104,18 +110,26 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Permanencia mínima</b>: Al menos tres años de residencia en España. 
+                        NIE actual.
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Vínculos</b>: Tener vínculos familiares, laborales o sociales en el país
+                        Pasaporte válido o documento de identidad. 
                     </div>
-                    
-                </div>
-                <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Contrato de trabajo</b>: Presentar un contrato de trabajo válido (si aplica). 
+                        Justificación de medios económicos para su estancia. 
+                    </div>
+                </div>
+                <div class="doc-block-wrapper doc-block-right">
+                    
+                    <div class="doc-block">
+                        <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
+                        Certificado de empadronamiento. 
+                    </div>
+                    <div class="doc-block">
+                        <img src="{{ asset('assets/images/svg/badge-5.svg') }}" alt="Badge">
+                        Documentación que acredite su situación laboral, académica, o familiar, según aplique. 
                     </div>
                 </div>
             </div>
@@ -126,20 +140,22 @@
     <div class="section documents-section without-bottom-spacing">
         <div class="base-container w-container">
             <div class="heading">
-                <h2>Procedimiento a Seguir</h2>
+                <h2>Procedimiento a Seguir </h2>
             </div>
             <div class="doc-wrapper w-layout-grid">
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
                         <b>Evaluación Inicial</b><br>
-                        <p>Realizamos una consulta personalizada para evaluar su situación y verificar que cumple con los requisitos. Le
-                            aclaramos los detalles del proceso y la documentación necesaria.</p>
+                        <p>Comenzamos con una consulta para evaluar su situación y revisar los requisitos específicos. Confirmamos los
+                            plazos, la documentación necesaria y resolvemos cualquier duda inicial.</p>
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
                         <b>Revisión y Envío de Documentación</b><br>
-                        <p>Reunimos y revisamos toda la documentación requerida, asegurándonos de que cumpla con las normativas vigentes. </p>
+                        <p>Le ayudamos a recopilar toda la documentación necesaria para la renovación. Esto incluye la revisión de su NIE,
+                            pasaporte, pruebas de solvencia económica y documentos adicionales según su situación personal. 
+                        </p>
                     </div>
                     
                 </div>
@@ -147,16 +163,16 @@
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
                         <b>Gestión del Proceso</b><br>
-                        <p>Acreditamos los vínculos familiares o sociales necesarios. </p>
-                        <p>Asistimos en la obtención de un contrato de trabajo, si es necesario.</p>
-                        <p>Presentamos la solicitud ante la oficina de extranjería, completando todos los formularios y requisitos. </p>
+                        <p>
+                            Asistimos en la preparación y presentación de la solicitud de renovación ante la oficina de extranjería. Nos aseguramos de que la solicitud cumpla con todos los requisitos para evitar posibles demoras. 
+                        </p>
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
                         <b>Asesoría Posterior</b><br>
-                        <p>Hacemos un seguimiento continuo de la solicitud, manteniéndole informado. Una vez obtenida la resolución
-                            favorable, le orientamos en los pasos finales, como la obtención de su tarjeta de residencia. Si la resolución es
-                            desfavorable, le asesoramos sobre las opciones de recurso disponibles. </p>
+                        <p>Una vez recibida la resolución, le orientamos en los próximos pasos, como la recogida de su tarjeta renovada.
+                            Además, le asesoramos sobre futuras renovaciones y posibles cambios de estatus que puedan interesarle en el
+                            futuro.</p>
                     </div>
                 </div>
             </div>

@@ -53,71 +53,46 @@
     <div class="base-container w-container">
         <div class="our-journey">
             <div class="left-side">
-                <div class="journey-subtitle">Our journey</div>
-                <h2>The birth of an unparalleled notary service</h2>
+                <div class="journey-subtitle">Nuestra Historia</div>
+                <h2>Expertos en Extranjería y Derecho de Inmigración en Málaga</h2>
             </div>
             <div class="right-side">
-                <p>Our journey began with a simple mission - to make document legalization accessible and effortless for all. A group of legal enthusiasts saw the difficulties people faced with the notary process and decided to do something about it. They envisioned a service that would bring the notary to the client, irrespective of location, ensuring comfort and convenience.</p>
                 <p>
-                    The concept turned into reality and thus, our notary service was born. Initially, we focused on mobile notary services, going from door-to-door, building trust with each document signed. As the digital revolution unfolded, we introduced remote notarization, revolutionizing the way people viewed the notarization process.
-                </p>
+                    En Immiworld, comenzamos con una misión clara es facilitar los trámites de extranjería e inmigración para personas y familias que desean establecerse en España, especialmente en Málaga. Nuestro despacho de abogados especializado en extranjería ha crecido gracias a la confianza de nuestros clientes, ofreciendo soluciones legales adaptadas a cada situación. Málaga, como una de las ciudades más dinámicas y atractivas para vivir, es el epicentro de nuestros servicios, ayudando a quienes buscan un nuevo comienzo en esta región.
+                </p> <br>
+                <p>
+                    Desde la residencia no lucrativa hasta el visado para emprendedores o nómadas digitales, guiamos a nuestros clientes en cada paso del proceso, asegurándonos de cumplir con todos los requisitos legales. Con un equipo de abogados expertos en Málaga, Immiworld se ha posicionado como referente en asesoría de inmigración y extranjería, brindando apoyo personalizado y soluciones eficaces para la obtención de permisos de residencia, nacionalidad, y otros trámites complejos en España.
+                </p> <br>
                 <p>    
-                    Today, we're proud to be the trusted choice for countless clients, eliminating the hurdles of traditional notary services with our innovative solutions.</p>
+                    Estamos aquí para hacer que tu proceso de inmigración sea simple y exitoso, siempre con un enfoque local y personalizado. Málaga es nuestra base, y desde aquí ayudamos a personas de todo el mundo a cumplir sus metas en España
+                </p>
             </div>
         </div>
 
     </div>
 </div>
 
-<!-- Arraigo section -->
-<div class="section arraigo-section">
-    <div class="base-container w-container">
-        <div class="arraigo-wrapper">
-            <div class="arraigo-content">
-                <h2>¡Elija Carbray! ¡Hemos ayudado a cientos de clientes en la misma situación que usted!</h2>
-                <p>
-                    En Carbray sabemos que su proceso de inmigración no se limita al papeleo. Significa puertas
-                    abiertas y oportunidades emocionantes. Significa un nuevo futuro.
-                </p>
-                <p>
-                    Si ha pasado horas en Internet estudiando los requisitos legales para su situación, comparando
-                    información obsoleta en sitios web impersonales y perdiéndose en la jerga burocrática, puede
-                    poner fin a su búsqueda aquí.
-                </p>
-                <p>
-                    Nuestro equipo de abogados de extranjería en España lleva más de una década creando un camino
-                    fluido, rápido y sin estrés para nuestros clientes. Le guiaremos a través de todo el proceso,
-                    para que pueda dar este paso tan importante en su vida con la confianza de que cada detalle ha
-                    sido atendido por un experto.
-                </p>
-                <p>Nuestra próxima historia de éxito es la suya.</p>
-            </div>
-            <div class="arraigo-img-box">
-                <img src="assets/images/arraigro-family.png" alt="Arraigo family picture">
-            </div>
-        </div>
-    </div>
-</div>
+<x-sp.trust_immiworld />
+
 
 {{-- Partner section --}}
 <x-sp.partners-black />
 
 <!-- Call to action -->
 <div class="section call-to-action">
-<div class="base-container w-container">
-    <div class="call-to-action-box">
-    <div class="call-subtitle">Ofrecemos el mejor servicio</div>
-    <div class="call-title">
-        Te ofrecemos la mejor manera de <br>
-        <span>Lograr tu migración</span>
+    <div class="base-container w-container">
+      <div class="call-to-action-box">
+        <div class="call-subtitle">Tu futuro empieza aquí</div>
+        <div class="call-title">Obtén la asistencia legal que necesitas para tu proceso de<br>
+          <span>inmigración en España</span>
+        </div>
+        <p>A sea que vivas en España o estés planificando venir, nuestros abogados expertos en extranjería te acompañarán en cada paso. Gestionamos tus trámites de manera eficiente para que puedas
+          enfocarte en tu nuevo comienzo.</p>
+        <div class="button-wrapper smaller-spacing">
+          <a href="{{ route('frontend.sp.contact') }}" class="link-with-arrow-underline white-style">Contáctanos hoy</a>
+        </div>
+      </div>
     </div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis delectus tenetur fugiat, praesentium
-        facere magnam labore laborum officiis architecto eum!</p>
-    <div class="button-wrapper smaller-spacing">
-        <a href="#" class="link-with-arrow-underline white-style">Contáctanos</a>
-    </div>
-    </div>
-</div>
 </div>
 
 <!-- Solutions -->

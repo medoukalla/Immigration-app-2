@@ -57,9 +57,11 @@
                         <h2 class="in-section-title">Presentación del Servicio</h2>
                     </div>
                     <div class="contacts-2-content">
-                        <p>El <b>arraigo social</b> es una autorización de residencia en España destinada a extranjeros en situación irregular que
-                            desean regularizar su estatus. Este permiso busca facilitar la integración de los extranjeros en la sociedad española,
-                            permitiéndoles vivir y trabajar legalmente en el país. </p>
+                        <p>Golden Visa es un programa de residencia dirigido a inversores extranjeros que deseen establecerse en España.
+                            Este visado permite a los titulares y a sus familias residir y trabajar en el país mediante una inversión significativa en
+                            propiedades, empresas o depósitos en el país. La Golden Visa es una opción ideal para quienes buscan diversificar
+                            sus inversiones y beneficiarse de vivir en un entorno europeo. Nuestro equipo de expertos le acompañará en cada
+                            paso para una gestión eficiente y profesional. </p>
                     </div>
                 </div>
                 <!-- Contact Form -->
@@ -104,18 +106,26 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Permanencia mínima</b>: Al menos tres años de residencia en España. 
+                        <p>
+                            Realizar una inversión mínima en uno de los siguientes ámbitos: <br>
+                            Propiedades en España con un valor mínimo de 500,000 euros.  <br>
+                            Inversiones en empresas o acciones por un mínimo de 1 millón de euros <br>
+                            Depósitos bancarios en una entidad española por al menos 1 millón de euros.
+                        </p>
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Vínculos</b>: Tener vínculos familiares, laborales o sociales en el país
+                        Pasaporte vigente del solicitante y familiares (si aplica). 
                     </div>
-                    
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Contrato de trabajo</b>: Presentar un contrato de trabajo válido (si aplica). 
+                        Certificados de antecedentes penales y médicos. 
+                    </div>
+                    <div class="doc-block">
+                        <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
+                        Comprobación de capacidad financiera para mantener la inversión. 
                     </div>
                 </div>
             </div>
@@ -132,14 +142,17 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Evaluación Inicial</b><br>
-                        <p>Realizamos una consulta personalizada para evaluar su situación y verificar que cumple con los requisitos. Le
-                            aclaramos los detalles del proceso y la documentación necesaria.</p>
+                        <b>Evaluación Inicial </b><br>
+                        <p>Iniciamos con una consulta personalizada para evaluar su situación financiera y objetivos de inversión. Revisamos
+                            que cumpla con los requisitos de inversión necesarios y le brindamos detalles sobre el proceso y los plazos
+                            involucrados. </p>
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
                         <b>Revisión y Envío de Documentación</b><br>
-                        <p>Reunimos y revisamos toda la documentación requerida, asegurándonos de que cumpla con las normativas vigentes. </p>
+                        <p>Asesoramos en la selección del tipo de inversión que mejor se adapte a sus metas. Esto incluye la recopilación de
+                            toda la documentación requerida, como pasaporte, certificados de inversión, antecedentes penales y pruebas de
+                            capacidad financiera. </p>
                     </div>
                     
                 </div>
@@ -147,16 +160,16 @@
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
                         <b>Gestión del Proceso</b><br>
-                        <p>Acreditamos los vínculos familiares o sociales necesarios. </p>
-                        <p>Asistimos en la obtención de un contrato de trabajo, si es necesario.</p>
-                        <p>Presentamos la solicitud ante la oficina de extranjería, completando todos los formularios y requisitos. </p>
+                        <p>Preparamos y presentamos su solicitud de Golden Visa ante la oficina de extranjería correspondiente. Nos
+                            aseguramos de que los formularios y la documentación estén completos y en cumplimiento con los requisitos legales. </p>
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
                         <b>Asesoría Posterior</b><br>
-                        <p>Hacemos un seguimiento continuo de la solicitud, manteniéndole informado. Una vez obtenida la resolución
-                            favorable, le orientamos en los pasos finales, como la obtención de su tarjeta de residencia. Si la resolución es
-                            desfavorable, le asesoramos sobre las opciones de recurso disponibles. </p>
+                        <p>Tras la resolución de su solicitud, le notificamos y le orientamos sobre la obtención de su tarjeta de residencia, sus
+                            derechos y obligaciones con la Golden Visa, y los procesos de renovación. Además, proporcionamos asesoría para
+                            incluir a su cónyuge e hijos menores en el visado, asegurando que toda la familia disfrute de los beneficios de la
+                            Golden Visa. </p>
                     </div>
                 </div>
             </div>

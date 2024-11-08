@@ -107,6 +107,10 @@ Route::get('/reagrupacion_familiar', [FrontendSpainController::class, 'reagrupac
 Route::get('/residencia_larga_duracion', [FrontendSpainController::class, 'residencia_larga_duracion'])->name('frontend.sp.residencia_larga_duracion');
 Route::get('/recurso_contencioso_administrativo', [FrontendSpainController::class, 'recurso_contencioso_administrativo'])->name('frontend.sp.recurso_contencioso_administrativo');
 Route::get('/recurso_administrativo', [FrontendSpainController::class, 'recurso_administrativo'])->name('frontend.sp.recurso_administrativo');
+Route::get('/nacionalidad', [FrontendSpainController::class, 'nacionalidad'])->name('frontend.sp.nacionalidad');
+Route::get('/golden_visa', [FrontendSpainController::class, 'golden_visa'])->name('frontend.sp.golden_visa');
+Route::get('/visa_de_estudiante', [FrontendSpainController::class, 'visa_de_estudiante'])->name('frontend.sp.visa_de_estudiante');
+Route::get('/renovación_de_la_tarjeta_de_residencia', [FrontendSpainController::class, 'renovación_de_la_tarjeta_de_residencia'])->name('frontend.sp.renovación_de_la_tarjeta_de_residencia');
 
 // Route::get('checkout', [FrontendSpainController::class, 'checkout'])->name('frontend.sp.checkout');
 

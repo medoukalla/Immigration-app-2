@@ -14,7 +14,7 @@
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
         <!-- Caja de comentarios -->
-{{-- 
+
         @foreach ($testimonials as $testimonial)
         
           <div class="swiper-slide">
@@ -42,7 +42,7 @@
               </p>
           </div>
             
-        @endforeach --}}
+        @endforeach
 
       </div>
       <div class="swiper-pagination"></div>

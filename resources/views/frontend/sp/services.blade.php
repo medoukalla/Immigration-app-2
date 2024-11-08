@@ -54,19 +54,12 @@
             <div data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237" class="contacts-2-wrapper">
                 <div class="contacts-2-content-wrapper">
                     <div class="contacts-title">
-                        <h2 class="in-section-title">Residencia por arraigo social</h2>
+                        <h2 class="in-section-title">Presentación del Servicio</h2>
                     </div>
                     <div class="contacts-2-content">
                         <p>El arraigo social es una autorización de residencia temporal por circunstancias
                             excepcionales que se podrá conceder a ciudadanos extranjeros que se hallen en España
                             y tengan vínculos familiares en España o estén integrados socialmente.</p>
-                    </div>
-                    <div class="contacts-2-content">
-                        <p>El caso más común de arraigo social es la solicitud de la autorización de residencia temporal
-                            por circunstancias excepcionales que se puede conceder a ciudadanos extranjeros que se
-                            hallen en España durante al menos 3 años de forma irregular y que puedan acreditarlo, que
-                            cuenten con un contrato de trabajo de al menos 1 año de duración y que, además, tengan
-                            vínculos familiares en España o bien presenten un informe...</p>
                     </div>
                 </div>
                 <!-- Contact Form -->
@@ -100,35 +93,7 @@
             </div>
         </div>
     </div>
-    <!-- Arraigo section -->
-    <div class="section arraigo-section">
-        <div class="base-container w-container">
-            <div class="arraigo-wrapper">
-                <div class="arraigo-content">
-                    <h1>¡Elija Carbray! ¡Hemos ayudado a cientos de clientes en la misma situación que usted!</h1>
-                    <p>
-                        En Carbray sabemos que su proceso de inmigración no se limita al papeleo. Significa puertas
-                        abiertas y oportunidades emocionantes. Significa un nuevo futuro.
-                    </p>
-                    <p>
-                        Si ha pasado horas en Internet estudiando los requisitos legales para su situación, comparando
-                        información obsoleta en sitios web impersonales y perdiéndose en la jerga burocrática, puede
-                        poner fin a su búsqueda aquí.
-                    </p>
-                    <p>
-                        Nuestro equipo de abogados de extranjería en España lleva más de una década creando un camino
-                        fluido, rápido y sin estrés para nuestros clientes. Le guiaremos a través de todo el proceso,
-                        para que pueda dar este paso tan importante en su vida con la confianza de que cada detalle ha
-                        sido atendido por un experto.
-                    </p>
-                    <p>Nuestra próxima historia de éxito es la suya.</p>
-                </div>
-                <div class="arraigo-img-box">
-                    <img src="assets/images/arraigro-family.png" alt="Arraigo family picture">
-                </div>
-            </div>
-        </div>
-    </div>
+    <x-sp.trust_immiworld />
     <!-- Necessary documents -->
     <div class="section documents-section">
         <div class="base-container w-container">
@@ -176,20 +141,7 @@
             </div>
         </div>
     </div>
-    <!-- call to action new section -->
-    <div class="section call-to-action-b">
-        <div class="overlay-wrapper"></div>
-        <div class="base-container w-container">
-            <div class="call-to-action-b-box">
-                <div class="call-b-subtitle">Solicita una asesoría personalizada por sólo 50€</div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis delectus tenetur fugiat,
-                    praesentium
-                    facere magnam labore laborum officiis architecto eum!</p>
-                <div data-w-id="cc582f0b-75ba-d7bd-9fe3-5b2888ed64ea" class="buttons-wrapper"><a href="/services"
-                        class="primary-button w-button light-button">Contact us</a></div>
-            </div>
-        </div>
-    </div>
+    <x-sp.call_to_action />
     <!-- Necessary documents -->
     <div class="section documents-section without-bottom-spacing">
         <div class="base-container w-container">

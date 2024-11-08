@@ -57,9 +57,14 @@
                         <h2 class="in-section-title">Presentación del Servicio</h2>
                     </div>
                     <div class="contacts-2-content">
-                        <p>El <b>arraigo social</b> es una autorización de residencia en España destinada a extranjeros en situación irregular que
-                            desean regularizar su estatus. Este permiso busca facilitar la integración de los extranjeros en la sociedad española,
-                            permitiéndoles vivir y trabajar legalmente en el país. </p>
+                        <p>
+                            La <b>Tramitación de la Nacionalidad Española</b> es el proceso que permite a personas extranjeras obtener la
+                            ciudadanía española, con todos sus derechos y obligaciones. Las vías principales incluyen residencia, matrimonio
+                            con un español, descendencia, o nacimiento en España en ciertos casos. Este trámite requiere cumplir requisitos de
+                            arraigo, presentar documentación específica y, en algunos casos, aprobar pruebas de conocimientos y lengua.
+                            Finaliza con el juramento de nacionalidad en el Registro Civil, momento en el cual el solicitante se convierte
+                            oficialmente en ciudadano español. 
+                        </p>
                     </div>
                 </div>
                 <!-- Contact Form -->
@@ -104,18 +109,29 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Permanencia mínima</b>: Al menos tres años de residencia en España. 
+                        Pasaporte vigente
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Vínculos</b>: Tener vínculos familiares, laborales o sociales en el país
+                        Certificado de nacimiento. 
                     </div>
-                    
+                    <div class="doc-block">
+                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
+                        Certificado de antecedentes penales. 
+                    </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block">
-                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Contrato de trabajo</b>: Presentar un contrato de trabajo válido (si aplica). 
+                        <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
+                        Justificantes de residencia en España. 
+                    </div>
+                    <div class="doc-block">
+                        <img src="{{ asset('assets/images/svg/badge-5.svg') }}" alt="Badge">
+                        Exámenes de conocimiento (CCSE y, en algunos casos, DELE). 
+                    </div>
+                    <div class="doc-block">
+                        <img src="{{ asset('assets/images/svg/badge-6.svg') }}" alt="Badge">
+                        Exámenes de conocimiento (CCSE y, en algunos casos, DELE). 
                     </div>
                 </div>
             </div>
@@ -133,13 +149,16 @@
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
                         <b>Evaluación Inicial</b><br>
-                        <p>Realizamos una consulta personalizada para evaluar su situación y verificar que cumple con los requisitos. Le
-                            aclaramos los detalles del proceso y la documentación necesaria.</p>
+                        <p>Comenzamos con una consulta personalizada para evaluar la situación del solicitante y confirmar si cumple con los
+                            requisitos para solicitar la nacionalidad, orientándolo sobre el tipo de solicitud aplicable y los plazos y documentos
+                            necesarios. </p>
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
                         <b>Revisión y Envío de Documentación</b><br>
-                        <p>Reunimos y revisamos toda la documentación requerida, asegurándonos de que cumpla con las normativas vigentes. </p>
+                        <p>Revisamos exhaustivamente los documentos necesarios, como pasaporte, certificados de nacimiento y penales, y
+                            justificantes de residencia, asegurando que toda la documentación esté en orden y cumpla con los requisitos de las
+                            autoridades.</p>
                     </div>
                     
                 </div>
@@ -147,17 +166,18 @@
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
                         <b>Gestión del Proceso</b><br>
-                        <p>Acreditamos los vínculos familiares o sociales necesarios. </p>
-                        <p>Asistimos en la obtención de un contrato de trabajo, si es necesario.</p>
-                        <p>Presentamos la solicitud ante la oficina de extranjería, completando todos los formularios y requisitos. </p>
+                        <p>Si el proceso incluye exámenes de conocimiento (CCSE o DELE), ofrecemos asesoría para la inscripción y
+                            preparación de estos exámenes. Una vez lista toda la documentación, presentamos la solicitud ante el Ministerio de
+                            Justicia, confirmando que cada detalle esté correcto para evitar demoras.</p>
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
                         <b>Asesoría Posterior</b><br>
-                        <p>Hacemos un seguimiento continuo de la solicitud, manteniéndole informado. Una vez obtenida la resolución
-                            favorable, le orientamos en los pasos finales, como la obtención de su tarjeta de residencia. Si la resolución es
-                            desfavorable, le asesoramos sobre las opciones de recurso disponibles. </p>
+                        <p>Seguimos de cerca el progreso de la solicitud, manteniendo al cliente informado de cualquier avance. Si la solicitud
+                            es aprobada, le guiamos en el juramento de nacionalidad en el Registro Civil. En caso de denegación, ofrecemos
+                            asesoría sobre recursos y alternativas adicionales. </p>
                     </div>
+                    
                 </div>
             </div>
         </div>
