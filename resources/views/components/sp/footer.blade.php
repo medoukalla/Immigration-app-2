@@ -48,8 +48,7 @@
               enabling people and businesses to thrive in Spain and Europe.</p>
           </div>
           <div class="institutions">
-            <img src="{{ asset('assets/images/legal-2.png') }}" alt="" style=" width: 77px; margin-top: 10px; ">
-            <img src="{{ asset('assets/images/legal-1.png') }}" alt="" style=" width: 240px; margin-left: 20px; ">
+            <img src="{{ asset('assets/images/partner-svg/gobierno.svg') }}" alt="" style="margin-top: 10px; width: 100%"> 
           </div>
         </div>
         <div class="footer-links-wrapper">
