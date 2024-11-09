@@ -4,22 +4,22 @@
         <h2>Socios que Confían en Nosotros</h2>
         <div class="partner-wrappers">
             <div class="partner-wrap">
-                <img src="{{ asset('assets/images/partner-svg/partner-logo-0.svg') }}" alt="Partner Logo">
+                <img src="{{ asset('assets/images/partner-svg/new-b/santander.svg') }}" alt="Partner Logo">
             </div>
             <div class="partner-wrap">
-                <img src="{{ asset('assets/images/partner-svg/partner-logo-1.svg') }}" alt="Partner Logo">
+                <img src="{{ asset('assets/images/partner-svg/new-b/bbva.svg') }}" alt="Partner Logo">
             </div>
             <div class="partner-wrap">
-                <img src="{{ asset('assets/images/partner-svg/partner-logo-2.svg') }}" alt="Partner Logo">
+                <img src="{{ asset('assets/images/partner-svg/new-b/dkv.svg') }}" alt="Partner Logo">
             </div>
             <div class="partner-wrap">
-                <img src="{{ asset('assets/images/partner-svg/partner-logo-3.svg') }}" alt="Partner Logo">
+                <img src="{{ asset('assets/images/partner-svg/new-b/mapfre.svg') }}" alt="Partner Logo">
             </div>
             <div class="partner-wrap">
-                <img src="{{ asset('assets/images/partner-svg/partner-logo-4.svg') }}" alt="Partner Logo">
+                <img src="{{ asset('assets/images/partner-svg/new-b/uned.svg') }}" alt="Partner Logo">
             </div>
             <div class="partner-wrap">
-                <img src="{{ asset('assets/images/partner-svg/partner-logo-5.svg') }}" alt="Partner Logo">
+                <img src="{{ asset('assets/images/partner-svg/new-b/gobierno_de_espana.svg') }}" alt="Partner Logo">
             </div>
         </div>
     </div>
@@ -36,7 +36,7 @@
         justify-content: space-between;
         width: 100%;
         margin-top: 50px;
-        gap: 20px;
+        gap: 60px;
     }
 
     .partner-wrappers .partner-wrap {
