@@ -122,50 +122,39 @@
             </div>
         </div>
     </div>
+
     <x-sp.call_to_action />
+
     <!-- Necessary documents -->
     <div class="section documents-section without-bottom-spacing">
         <div class="base-container w-container">
             <div class="heading">
-                <h2>Procedimiento a Seguir</h2>
+                <h2>Procedimiento para la residencia no lucrativa</h2>
             </div>
             <div class="doc-wrapper w-layout-grid">
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
                         <b>Evaluación Inicial </b><br>
-                        <p>
-                            Realizamos una consulta personalizada para evaluar su situación familiar. <br>
-                            Verificamos el cumplimiento de los requisitos necesarios para la reagrupación familiar. <br>
-                            Proporcionamos información clara sobre el proceso, plazos y documentación necesaria. 
-                        </p>
+                        <p>Realizamos una consulta personalizada para evaluar a fondo su situación y confirmar que cumple con los requisitos generales. Además, le proporcionamos un resumen claro del proceso y de la documentación necesaria.</p>
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Revisión y Envío de Documentación</b><br>
-                        <p>
-                            Identificamos a los familiares que pueden ser objeto de la reagrupación.  <br>
-                            Revisamos y preparamos toda la documentación requerida, incluyendo pasaportes, certificados de matrimonio, certificados de nacimiento, y pruebas de la situación económica. <br>
-                            Acreditamos que se cuentan con los medios económicos y una vivienda adecuada para el sostenimiento de los familiares reagrupados.
-                        </p>
+                        <b>Revisión y Preparación de Documentación</b><br>
+                        <p>Reunimos y revisamos toda la documentación requerida, verificando su conformidad con las normativas vigentes. Nuestro equipo organiza y prepara los documentos de manera exhaustiva para evitar retrasos en la solicitud. </p>
                     </div>
+                    
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Gestión del Proceso</b><br>
-                        <p>
-                            Presentamos la solicitud de reagrupación familiar ante la oficina de extranjería correspondiente, asegurándonos de que toda la información se presente correctamente. <br>
-                            Realizamos un seguimiento continuo del estado de la solicitud, manteniéndole informado sobre cualquier avance o requerimiento adicional. 
-                        </p>
+                        <b>Gestión Integral del Proceso</b><br>
+                        <p>Nos ocupamos de gestionar todo el proceso desde la preparación hasta la presentación de su solicitud. También asistimos en cualquier requisito adicional necesario para asegurar el éxito del trámite.</p>
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Asesoría Posterior</b><br>
-                        <p>
-                            Notificamos inmediatamente la resolución de su solicitud y le asistimos en los pasos finales, como la obtención de las tarjetas de residencia para sus familiares.  <br>
-                            En caso de una resolución desfavorable, le asesoramos sobre las opciones de recurso y las alternativas disponibles para lograr la reagrupación familiar. 
-                        </p>
+                        <b>Asesoría y Seguimiento Posterior</b><br>
+                        <p>Realizamos un seguimiento continuo de la solicitud y le mantenemos informado de cada avance importante. En caso de resolución favorable, le orientamos en los pasos finales; si es desfavorable, le asesoramos sobre las opciones de recurso.</p>
                     </div>
                 </div>
             </div>
@@ -174,7 +163,7 @@
 
 
     <!-- Feedback -->
-    <x-sp.testimonials :testimonials="$testimonials" />
+    {{-- <x-sp.testimonials :testimonials="$testimonials" /> --}}
 
     <!-- Solutions -->
     <div class="section solution-section without-bottom-spacing">

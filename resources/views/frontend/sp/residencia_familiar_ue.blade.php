@@ -132,43 +132,40 @@
             </div>
         </div>
     </div>
+
     <x-sp.call_to_action />
+
     <!-- Necessary documents -->
     <div class="section documents-section without-bottom-spacing">
         <div class="base-container w-container">
             <div class="heading">
-                <h2>Procedimiento a Seguir</h2>
+                <h2>Procedimiento para la residencia no lucrativa</h2>
             </div>
             <div class="doc-wrapper w-layout-grid">
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Evaluación Inicial</b><br>
-                        <p>Realizamos una consulta inicial (presencial u online) para confirmar la elegibilidad del solicitante de acuerdo con la
-                            normativa de la UE, aclarando dudas sobre requisitos y plazos</p>
+                        <b>Evaluación Inicial </b><br>
+                        <p>Realizamos una consulta personalizada para evaluar a fondo su situación y confirmar que cumple con los requisitos generales. Además, le proporcionamos un resumen claro del proceso y de la documentación necesaria.</p>
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Revisión y Envío de Documentación</b><br>
-                        <p>Recopilamos y revisamos los documentos necesarios, incluyendo los que prueben la relación familiar y residencia del
-                            ciudadano de la UE. Gestionamos traducciones y legalizaciones cuando es necesario.</p>
+                        <b>Revisión y Preparación de Documentación</b><br>
+                        <p>Reunimos y revisamos toda la documentación requerida, verificando su conformidad con las normativas vigentes. Nuestro equipo organiza y prepara los documentos de manera exhaustiva para evitar retrasos en la solicitud. </p>
                     </div>
                     
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Gestión del Proceso</b><br>
-                        <p>Presentamos la solicitud ante las autoridades competentes y realizamos un seguimiento continuo, manteniendo al
-                            cliente informado de cualquier actualización o requerimiento adicional.</p>
+                        <b>Gestión Integral del Proceso</b><br>
+                        <p>Nos ocupamos de gestionar todo el proceso desde la preparación hasta la presentación de su solicitud. También asistimos en cualquier requisito adicional necesario para asegurar el éxito del trámite.</p>
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Asesoría Posterior </b><br>
-                        <p>Una vez emitida la resolución, asistimos al cliente con la obtención de la tarjeta de residencia o, si es necesario,
-                            orientamos sobre recursos y alternativas para regularizar su situación. </p>
+                        <b>Asesoría y Seguimiento Posterior</b><br>
+                        <p>Realizamos un seguimiento continuo de la solicitud y le mantenemos informado de cada avance importante. En caso de resolución favorable, le orientamos en los pasos finales; si es desfavorable, le asesoramos sobre las opciones de recurso.</p>
                     </div>
-                    
                 </div>
             </div>
         </div>
@@ -176,7 +173,7 @@
 
 
     <!-- Feedback -->
-    <x-sp.testimonials :testimonials="$testimonials" />
+    {{-- <x-sp.testimonials :testimonials="$testimonials" /> --}}
 
     <!-- Solutions -->
     <div class="section solution-section without-bottom-spacing">

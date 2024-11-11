@@ -129,7 +129,9 @@
             </div>
         </div>
     </div>
+
     <x-sp.call_to_action />
+    <!-- Necessary documents -->
     <!-- Necessary documents -->
     <div class="section documents-section without-bottom-spacing">
         <div class="base-container w-container">
@@ -140,37 +142,26 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Evaluación Inicial</b><br>
-                        <p>Comenzamos con una consulta personalizada para analizar su situación y determinar si cumple con los requisitos
-                            para solicitar el arraigo laboral. Le explicamos el proceso y los documentos necesarios. </p>
+                        <b>Evaluación Inicial </b><br>
+                        <p>Realizamos una consulta personalizada para evaluar a fondo su situación y confirmar que cumple con los requisitos generales. Además, le proporcionamos un resumen claro del proceso y de la documentación necesaria.</p>
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
                         <b>Revisión y Preparación de Documentación</b><br>
-                        <p>Revisamos y organizamos toda la documentación requerida, asegurándonos de que todos los documentos cumplan
-                            con los requisitos necesarios para evitar rechazos o demoras.</p>
+                        <p>Reunimos y revisamos toda la documentación requerida, verificando su conformidad con las normativas vigentes. Nuestro equipo organiza y prepara los documentos de manera exhaustiva para evitar retrasos en la solicitud. </p>
                     </div>
                     
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Gestión del Proceso</b><br>
-                        <p>
-                            <b>Asesoría en la Obtención de Pruebas de Relación Laboral</b>: Le ayudamos a presentar la documentación
-                            adecuada para acreditar su relación laboral, ya sea a través de contratos, denuncias previas a la Inspección
-                            de Trabajo o pruebas indirectas.
-                            <br>
-                            <b>Presentación de la Solicitud</b>:  Con la documentación completa, presentamos la solicitud en la oficina de
-                            extranjería correspondiente, asegurando el cumplimiento de los estándares requeridos. 
-                        </p>
+                        <b>Gestión Integral del Proceso</b><br>
+                        <p>Nos ocupamos de gestionar todo el proceso desde la preparación hasta la presentación de su solicitud. También asistimos en cualquier requisito adicional necesario para asegurar el éxito del trámite.</p>
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Asesoría Posterior</b><br>
-                        <p>Realizamos un seguimiento activo de su solicitud, manteniéndole informado de cualquier actualización. Al recibir la
-                            resolución, le asistimos en los pasos finales, como la obtención de su tarjeta de residencia. Si la solicitud es
-                            denegada, le asesoramos sobre las opciones de recurso disponibles para regularizar su situación en España.</p>
+                        <b>Asesoría y Seguimiento Posterior</b><br>
+                        <p>Realizamos un seguimiento continuo de la solicitud y le mantenemos informado de cada avance importante. En caso de resolución favorable, le orientamos en los pasos finales; si es desfavorable, le asesoramos sobre las opciones de recurso.</p>
                     </div>
                 </div>
             </div>
@@ -179,7 +170,7 @@
 
 
     <!-- Feedback -->
-    <x-sp.testimonials :testimonials="$testimonials" />
+    {{-- <x-sp.testimonials :testimonials="$testimonials" /> --}}
 
     <!-- Solutions -->
     <div class="section solution-section without-bottom-spacing">

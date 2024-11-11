@@ -152,30 +152,25 @@
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
                         <b>Evaluación Inicial </b><br>
-                        <p>Realizamos una consulta personalizada para evaluar su situación familiar y verificar que cumple con los requisitos
-                            legales. En esta fase, resolvemos sus dudas y orientamos sobre los documentos específicos a presentar. </p>
+                        <p>Realizamos una consulta personalizada para evaluar a fondo su situación y confirmar que cumple con los requisitos generales. Además, le proporcionamos un resumen claro del proceso y de la documentación necesaria.</p>
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Revisión y Envío de Documentación</b><br>
-                        <p>Revisamos y organizamos toda la documentación necesaria, asegurándonos de que cumpla con los requisitos para
-                            evitar retrasos en la solicitud. </p>
+                        <b>Revisión y Preparación de Documentación</b><br>
+                        <p>Reunimos y revisamos toda la documentación requerida, verificando su conformidad con las normativas vigentes. Nuestro equipo organiza y prepara los documentos de manera exhaustiva para evitar retrasos en la solicitud. </p>
                     </div>
                     
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Gestión del Proceso</b><br>
-                        <p>Si es necesario, gestionamos la acreditación formal de la relación familiar y presentamos la solicitud de arraigo
-                            familiar en la oficina de extranjería correspondiente, cuidando todos los detalles del trámite.</p>
+                        <b>Gestión Integral del Proceso</b><br>
+                        <p>Nos ocupamos de gestionar todo el proceso desde la preparación hasta la presentación de su solicitud. También asistimos en cualquier requisito adicional necesario para asegurar el éxito del trámite.</p>
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Asesoría Posterior</b><br>
-                        <p>Hacemos un seguimiento continuo de su expediente y le mantenemos informado sobre el estado de su solicitud. Una
-                            vez obtenida la resolución favorable, le asistimos en la obtención de su tarjeta de residencia y le asesoramos sobre
-                            posibles recursos en caso de resolución desfavorable. </p>
+                        <b>Asesoría y Seguimiento Posterior</b><br>
+                        <p>Realizamos un seguimiento continuo de la solicitud y le mantenemos informado de cada avance importante. En caso de resolución favorable, le orientamos en los pasos finales; si es desfavorable, le asesoramos sobre las opciones de recurso.</p>
                     </div>
                 </div>
             </div>
@@ -184,7 +179,7 @@
 
 
     <!-- Feedback -->
-    <x-sp.testimonials :testimonials="$testimonials" />
+    {{-- <x-sp.testimonials :testimonials="$testimonials" /> --}}
 
     <!-- Solutions -->
     <div class="section solution-section without-bottom-spacing">

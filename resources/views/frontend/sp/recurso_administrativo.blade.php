@@ -126,47 +126,39 @@
             </div>
         </div>
     </div>
+    
     <x-sp.call_to_action />
+
     <!-- Necessary documents -->
     <div class="section documents-section without-bottom-spacing">
         <div class="base-container w-container">
             <div class="heading">
-                <h2>Procedimiento a Seguir </h2>
+                <h2>Procedimiento para la residencia no lucrativa</h2>
             </div>
             <div class="doc-wrapper w-layout-grid">
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
                         <b>Evaluación Inicial </b><br>
-                        <p>La primera etapa incluye una consulta exhaustiva donde analizamos la situación y la resolución administrativa que
-                            desea impugnar. En esta consulta, revisamos los motivos de la denegación y le explicamos las posibles opciones de
-                            acción, resolviendo todas sus dudas sobre el proceso de presentación del recurso. </p>
+                        <p>Realizamos una consulta personalizada para evaluar a fondo su situación y confirmar que cumple con los requisitos generales. Además, le proporcionamos un resumen claro del proceso y de la documentación necesaria.</p>
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Revisión y Envío de Documentación</b><br>
-                        <p>Realizamos un análisis detallado de la resolución negativa, identificando los fundamentos legales y argumentos de la
-                            administración. Si es necesario, le asesoramos sobre la documentación adicional que pueda requerirse, como
-                            pruebas de situación personal o laboral. Esta documentación será clave para fundamentar y reforzar el recurso
-                            administrativo. </p>
+                        <b>Revisión y Preparación de Documentación</b><br>
+                        <p>Reunimos y revisamos toda la documentación requerida, verificando su conformidad con las normativas vigentes. Nuestro equipo organiza y prepara los documentos de manera exhaustiva para evitar retrasos en la solicitud. </p>
                     </div>
                     
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Gestión del Proceso</b><br>
-                        <p>Nuestro equipo redacta el recurso administrativo de manera clara y precisa, cumpliendo con todos los requisitos
-                            legales. Nos encargamos de presentar el recurso ante la autoridad competente, respetando los plazos establecidos, y
-                            de realizar un seguimiento continuo del estado del proceso. Mantenemos al cliente informado de cualquier
-                            actualización o solicitud adicional que surja durante esta etapa. </p>
+                        <b>Gestión Integral del Proceso</b><br>
+                        <p>Nos ocupamos de gestionar todo el proceso desde la preparación hasta la presentación de su solicitud. También asistimos en cualquier requisito adicional necesario para asegurar el éxito del trámite.</p>
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Asesoría Posterior </b><br>
-                        <p>Al recibir la resolución del recurso, notificamos inmediatamente al cliente sobre el resultado. Si el recurso ha sido
-                            favorable, le orientamos sobre los próximos pasos para regularizar su situación. En caso de una resolución
-                            desfavorable, le brindamos asesoría sobre las opciones de apelación o cualquier recurso legal adicional disponible. </p>
+                        <b>Asesoría y Seguimiento Posterior</b><br>
+                        <p>Realizamos un seguimiento continuo de la solicitud y le mantenemos informado de cada avance importante. En caso de resolución favorable, le orientamos en los pasos finales; si es desfavorable, le asesoramos sobre las opciones de recurso.</p>
                     </div>
                 </div>
             </div>
@@ -175,7 +167,7 @@
 
 
     <!-- Feedback -->
-    <x-sp.testimonials :testimonials="$testimonials" />
+    {{-- <x-sp.testimonials :testimonials="$testimonials" /> --}}
 
     <!-- Solutions -->
     <div class="section solution-section without-bottom-spacing">

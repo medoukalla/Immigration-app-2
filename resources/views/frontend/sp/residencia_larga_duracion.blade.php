@@ -92,6 +92,7 @@
             </div>
         </div>
     </div>
+    
     <x-sp.trust_immiworld />
     <!-- Necessary documents -->
     <div class="section documents-section">
@@ -127,39 +128,39 @@
             </div>
         </div>
     </div>
+    
     <x-sp.call_to_action />
+
     <!-- Necessary documents -->
     <div class="section documents-section without-bottom-spacing">
         <div class="base-container w-container">
             <div class="heading">
-                <h2>Procedimiento a Seguir</h2>
+                <h2>Procedimiento para la residencia no lucrativa</h2>
             </div>
             <div class="doc-wrapper w-layout-grid">
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Evaluación Inicial</b><br>
-                        <p>Iniciamos el proceso con una consulta detallada en la que revisamos su historial de residencia y situación personal para confirmar que cumple con los requisitos necesarios para solicitar la residencia de larga duración. Aclaramos dudas sobre el proceso y plazos.</p>
+                        <b>Evaluación Inicial </b><br>
+                        <p>Realizamos una consulta personalizada para evaluar a fondo su situación y confirmar que cumple con los requisitos generales. Además, le proporcionamos un resumen claro del proceso y de la documentación necesaria.</p>
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Revisión y Envío de Documentación</b><br>
-                        <p>Le asistimos en la recopilación y revisión de todos los documentos necesarios, tales como comprobantes de residencia continua, antecedentes penales y documentación de medios económicos, asegurando que estén en orden antes de la presentación.</p>
+                        <b>Revisión y Preparación de Documentación</b><br>
+                        <p>Reunimos y revisamos toda la documentación requerida, verificando su conformidad con las normativas vigentes. Nuestro equipo organiza y prepara los documentos de manera exhaustiva para evitar retrasos en la solicitud. </p>
                     </div>
                     
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Gestión del Proceso</b><br>
-                        <p>Nos encargamos de la preparación y presentación de su solicitud de residencia ante la oficina de extranjería correspondiente, garantizando el cumplimiento de los plazos y de los requisitos formales necesarios para una gestión sin inconvenientes.
-                        </p>
+                        <b>Gestión Integral del Proceso</b><br>
+                        <p>Nos ocupamos de gestionar todo el proceso desde la preparación hasta la presentación de su solicitud. También asistimos en cualquier requisito adicional necesario para asegurar el éxito del trámite.</p>
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Asesoría Posterior</b><br>
-                        <p>Al obtener la resolución favorable, le asesoramos sobre los pasos a seguir para recibir su tarjeta de residencia de larga duración y sobre sus derechos y obligaciones en España. También le ofrecemos orientación sobre futuras renovaciones y otros trámites migratorios que podrían ser de su interés.
-                        </p>
+                        <b>Asesoría y Seguimiento Posterior</b><br>
+                        <p>Realizamos un seguimiento continuo de la solicitud y le mantenemos informado de cada avance importante. En caso de resolución favorable, le orientamos en los pasos finales; si es desfavorable, le asesoramos sobre las opciones de recurso.</p>
                     </div>
                 </div>
             </div>
@@ -168,7 +169,7 @@
 
 
     <!-- Feedback -->
-    <x-sp.testimonials :testimonials="$testimonials" />
+    {{-- <x-sp.testimonials :testimonials="$testimonials" /> --}}
 
     <!-- Solutions -->
     <div class="section solution-section without-bottom-spacing">
