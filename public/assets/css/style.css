@@ -10191,7 +10191,7 @@ select.white-style,
 
 .programme-wrapper {
   height: 100%;
-  width: 430px;
+  width: 100%;
   overflow: hidden;
   background-color: var(--light-gray);
   box-shadow: 0 3px 6px rgb(0, 0, 0, 25%);
@@ -10322,6 +10322,7 @@ select.white-style,
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
 
 /* Assurance styles */
