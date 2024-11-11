@@ -137,47 +137,40 @@
             </div>
         </div>
     </div>
+
     <x-sp.call_to_action />
+   
     <!-- Necessary documents -->
     <div class="section documents-section without-bottom-spacing">
         <div class="base-container w-container">
             <div class="heading">
-                <h2>Procedimiento a Seguir</h2>
+                <h2>Procedimiento para la residencia no lucrativa</h2>
             </div>
             <div class="doc-wrapper w-layout-grid">
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Evaluación Inicial</b><br>
-                        <p>Comenzamos con una consulta personalizada para evaluar la situación del solicitante y confirmar si cumple con los
-                            requisitos para solicitar la nacionalidad, orientándolo sobre el tipo de solicitud aplicable y los plazos y documentos
-                            necesarios. </p>
+                        <b>Evaluación Inicial </b><br>
+                        <p>Realizamos una consulta personalizada para evaluar a fondo su situación y confirmar que cumple con los requisitos generales. Además, le proporcionamos un resumen claro del proceso y de la documentación necesaria.</p>
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Revisión y Envío de Documentación</b><br>
-                        <p>Revisamos exhaustivamente los documentos necesarios, como pasaporte, certificados de nacimiento y penales, y
-                            justificantes de residencia, asegurando que toda la documentación esté en orden y cumpla con los requisitos de las
-                            autoridades.</p>
+                        <b>Revisión y Preparación de Documentación</b><br>
+                        <p>Reunimos y revisamos toda la documentación requerida, verificando su conformidad con las normativas vigentes. Nuestro equipo organiza y prepara los documentos de manera exhaustiva para evitar retrasos en la solicitud. </p>
                     </div>
                     
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Gestión del Proceso</b><br>
-                        <p>Si el proceso incluye exámenes de conocimiento (CCSE o DELE), ofrecemos asesoría para la inscripción y
-                            preparación de estos exámenes. Una vez lista toda la documentación, presentamos la solicitud ante el Ministerio de
-                            Justicia, confirmando que cada detalle esté correcto para evitar demoras.</p>
+                        <b>Gestión Integral del Proceso</b><br>
+                        <p>Nos ocupamos de gestionar todo el proceso desde la preparación hasta la presentación de su solicitud. También asistimos en cualquier requisito adicional necesario para asegurar el éxito del trámite.</p>
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Asesoría Posterior</b><br>
-                        <p>Seguimos de cerca el progreso de la solicitud, manteniendo al cliente informado de cualquier avance. Si la solicitud
-                            es aprobada, le guiamos en el juramento de nacionalidad en el Registro Civil. En caso de denegación, ofrecemos
-                            asesoría sobre recursos y alternativas adicionales. </p>
+                        <b>Asesoría y Seguimiento Posterior</b><br>
+                        <p>Realizamos un seguimiento continuo de la solicitud y le mantenemos informado de cada avance importante. En caso de resolución favorable, le orientamos en los pasos finales; si es desfavorable, le asesoramos sobre las opciones de recurso.</p>
                     </div>
-                    
                 </div>
             </div>
         </div>
@@ -185,7 +178,7 @@
 
 
     <!-- Feedback -->
-    <x-sp.testimonials :testimonials="$testimonials" />
+    {{-- <x-sp.testimonials :testimonials="$testimonials" /> --}}
 
     <!-- Solutions -->
     <div class="section solution-section without-bottom-spacing">
