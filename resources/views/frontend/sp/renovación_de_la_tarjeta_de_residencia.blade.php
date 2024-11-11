@@ -5,7 +5,7 @@
     <div class="pages-banner blog">
         <div class="base-container w-container">
             <div class="min-hero-wrapper">
-                <h1>ServiLa renovación de la tarjeta de residencia (NIE)</h1>
+                <h1>Renovación de la tarjeta de residencia (NIE)</h1>
                 <p>
                     Mantén tu estatus de residencia sin interrupciones renovando tu tarjeta de residencia a tiempo. Nos encargamos de todo el proceso para asegurar tu residencia continua.
                 </p>
@@ -19,7 +19,7 @@
                     </div>
                     <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
                     <div class="p-path">
-                        ServiLa renovación de la tarjeta de residencia (NIE)
+                        Renovación de la tarjeta de residencia (NIE)
                     </div>
                     
                 </div>
@@ -183,48 +183,7 @@
     {{-- <x-sp.testimonials :testimonials="$testimonials" /> --}}
 
     <!-- Solutions -->
-    <div class="section solution-section without-bottom-spacing">
-        <div class="base-container w-container">
-            <div class="solution-heading">
-                <h2>Ofrecemos una gama de <span>soluciones para sus
-                        necesidades</span> legales en Espana.</h2>
-            </div>
-            <div class="solution-wrapper">
-                <div class="sol-block">
-                    <div class="sol-overlay"></div>
-                    <img src="/assets/images/solution-0.png" alt="Solutions Image">
-                    <div class="sol-content">
-                        <div class="sol-heading">Golden visa</div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </div>
-                </div>
-                <div class="sol-block">
-                    <div class="sol-overlay"></div>
-                    <img src="/assets/images/solution-1.png" alt="Solutions Image">
-                    <div class="sol-content">
-                        <div class="sol-heading">Golden visa</div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </div>
-                </div>
-                <div class="sol-block">
-                    <div class="sol-overlay"></div>
-                    <img src="/assets/images/solution-2.png" alt="Solutions Image">
-                    <div class="sol-content">
-                        <div class="sol-heading">Cuenta propia</div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </div>
-                </div>
-                <div class="sol-block">
-                    <div class="sol-overlay"></div>
-                    <img src="/assets/images/solution-3.png" alt="Solutions Image">
-                    <div class="sol-content">
-                        <div class="sol-heading">Visa de estudiante</div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <x-sp.solutions />
 
 <x-sp.footer />
 
