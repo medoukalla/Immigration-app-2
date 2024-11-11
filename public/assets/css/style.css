@@ -9823,6 +9823,8 @@ select.white-style,
 /* Swiper black section */
 .partner-section {
   background-color: var(--primary-dark);
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 /* Mini hero section */
