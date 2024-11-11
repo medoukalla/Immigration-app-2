@@ -104,18 +104,30 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Permanencia mínima</b>: Al menos tres años de residencia en España. 
+                        <b>Permanencia mínima</b> 
+                        <br>
+                        <p>
+                            Al menos tres años de residencia en España. 
+                        </p>
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Vínculos</b>: Tener vínculos familiares, laborales o sociales en el país
+                        <b>Vínculos</b>
+                        <br>
+                        <p>
+                            Tener vínculos familiares, laborales o sociales en el país
+                        </p>
                     </div>
                     
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Contrato de trabajo</b>: Presentar un contrato de trabajo válido (si aplica). 
+                        <b>Contrato de trabajo</b>
+                        <br>
+                        <p>
+                            Presentar un contrato de trabajo válido (si aplica). 
+                        </p>
                     </div>
                 </div>
             </div>
@@ -165,7 +177,7 @@
 
 
     <!-- Feedback -->
-    <x-sp.testimonials :testimonials="$testimonials" />
+    {{-- <x-sp.testimonials :testimonials="$testimonials" /> --}}
 
     <!-- Solutions -->
     <div class="section solution-section without-bottom-spacing">
