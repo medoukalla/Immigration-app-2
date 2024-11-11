@@ -9127,6 +9127,7 @@ select.white-style,
   .documents-section .doc-block {
     font-size: 16px !important;
     padding: 30px 20px 20px !important;
+    height: fit-content !important;
   }
 
   .primary-button.light-button {
@@ -9348,7 +9349,7 @@ select.white-style,
   }
 
   .arraigo-wrapper .arraigo-content h1 {
-    font-size: 36px !important;
+    font-size: 28px !important;
   }
 
 }
@@ -9928,6 +9929,7 @@ select.white-style,
   padding: 30px 40px;
   font-size: 20px;
   width: 100%;
+  height: 200px;
   margin-bottom: 20px;
   line-height: 1.5em;
 }
@@ -10038,15 +10040,15 @@ select.white-style,
 
 .solution-section .sol-block .sol-overlay {
   position: absolute;
-  background: rgb(255, 84, 0);
   background: linear-gradient(0deg, rgba(255, 84, 0, 0.5) 50%, rgba(0, 212, 255, 0) 100%);
   height: 100%;
   width: 100%;
-  transition: all 0.1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
-.solution-section .sol-block .sol-overlay:hover {
-  background: transparent;
+.solution-section .sol-block:hover .sol-overlay {
+  background: rgb(255, 84, 0);
+  background: linear-gradient(0deg, rgba(255, 84, 0, 1) 0%, rgba(0, 212, 255, 1) 100%);
 }
 
 .solution-section .sol-block .sol-content {
@@ -10055,12 +10057,13 @@ select.white-style,
   left: 0;
   text-align: center;
   transform: translateY(-50%);
+  transition: all 0.3s ease-in-out;
 }
 
 .solution-section .sol-block:hover .sol-content {
   top: 48%;
   transform: translateY(-52%);
-  transition: all 0.3s ease-in-out;
+
 }
 
 .solution-section .sol-block .sol-content .sol-heading {

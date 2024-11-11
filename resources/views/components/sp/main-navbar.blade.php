@@ -153,7 +153,7 @@
       <div class="menu-button w-nav-button">
         <img
           src="{{ asset('assets/images/svg/menu-btn.svg') }}"
-          loading="lazy" alt="icono" height="16" class="image-burger white-style" />
+          loading="lazy" alt="icono" height="16" class="image-burger" />
       </div>
     </div>
   </div>
