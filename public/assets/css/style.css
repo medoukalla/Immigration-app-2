@@ -1527,9 +1527,9 @@ textarea.w-select {
   height: 1em;
   margin: auto 20px auto auto;
   position: absolute;
-  top: 0;
+  top: 3px;
   bottom: 0;
-  right: 0;
+  right: -20px;
 }
 
 .w-dropdown-list {
@@ -2873,7 +2873,7 @@ blockquote {
 
 .nav-dropdown-icon {
   font-size: 16px;
-  display: none;
+  display: block;
 }
 
 .nav-dropdown-list {
@@ -9850,6 +9850,11 @@ select.white-style,
 
 .min-hero-wrapper .pages-path .p-path {
   color: var(--light-gray);
+}
+
+.min-hero-wrapper .pages-path .p-path:last-child {
+  color: var(--primary) !important;
+  text-decoration: underline;
 }
 
 .min-hero-wrapper .pages-path .p-path:first-child {

@@ -6,19 +6,18 @@
     <div class="base-container w-container">
         <div class="min-hero-wrapper">
             <h1>Programas de estudio</h1>
-            <p>Estamos aquí para guiarte en cada paso del camino. Nuestro equipo de expertos está dedicado a hacer que
-                tu viaje a un nuevo país sea lo más fluido y libre de estrés posible.</p>
+            <p>Descubre una amplia variedad de programas educativos en España, desde universidades hasta cursos profesionales. Te asesoramos para que elijas el programa adecuado y cumplas con todos los requisitos para estudiar en España.</p>
             <div class="pages-path">
                 <div class="p-path">
-                    Inicio
+                    Bienvenida
                 </div>
                 <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
                 <div class="p-path">
-                    Extrajería
+                    Servicios
                 </div>
                 <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
                 <div class="p-path">
-                    Arraigo familiar
+                    Programas de estudio
                 </div>
             </div>
         </div>

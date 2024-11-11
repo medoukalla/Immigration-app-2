@@ -5,20 +5,16 @@
 <div class="pages-banner blog">
     <div class="base-container w-container">
         <div class="min-hero-wrapper">
-            <h1>Arraigo familiar</h1>
-            <p>Estamos aquí para guiarte en cada paso del camino. Nuestro equipo de expertos está dedicado a hacer que
-                tu viaje a un nuevo país sea lo más fluido y libre de estrés posible.</p>
+            <h1>Sobre Nosotros</h1>
+            <p>En Immiworld, nos especializamos en guiarte en cada paso de tu proceso de inmigración. Con un equipo de expertos y años de experiencia, te ayudamos a alcanzar tus objetivos en España de manera efectiva y sin complicaciones.
+            </p>
             <div class="pages-path">
                 <div class="p-path">
-                    Inicio
+                    Bienvenida
                 </div>
                 <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
                 <div class="p-path">
-                    Extrajería
-                </div>
-                <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
-                <div class="p-path">
-                    Arraigo familiar
+                    Sobre Nosotros
                 </div>
             </div>
         </div>

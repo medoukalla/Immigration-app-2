@@ -5,17 +5,21 @@
     <div class="pages-banner blog">
         <div class="base-container w-container">
             <div class="min-hero-wrapper">
-                <h1>Servicios</h1>
+                <h1>Residencia de Larga Duración</h1>
                 <p>
-                    Ofrecemos una amplia gama de servicios diseñados para facilitar tu transición a un nuevo país. Nuestro equipo de profesionales está comprometido a brindarte el apoyo y la orientación que necesitas en cada etapa del proceso, asegurando que te sientas seguro y bien informado en tu viaje.
+                    Obtén la residencia de Larga Duración en España y disfruta de todos los beneficios como ciudadano. Te asistimos en el proceso para garantizar que cumplas todos los requisitos y puedas vivir tranquilamente a largo plazo.
                 </p>
                 <div class="pages-path">
                     <div class="p-path">
-                        Inicio
+                        Bienvenida
                     </div>
                     <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
                     <div class="p-path">
-                        Servicios
+                        Extranjeria
+                    </div>
+                    <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
+                    <div class="p-path">
+                        Residencia de Larga Duración
                     </div>
                     
                 </div>

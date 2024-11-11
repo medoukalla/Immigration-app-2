@@ -5,17 +5,21 @@
     <div class="pages-banner blog">
         <div class="base-container w-container">
             <div class="min-hero-wrapper">
-                <h1>Servicios</h1>
+                <h1>Visa para Nómadas Digitales</h1>
                 <p>
-                    Ofrecemos una amplia gama de servicios diseñados para facilitar tu transición a un nuevo país. Nuestro equipo de profesionales está comprometido a brindarte el apoyo y la orientación que necesitas en cada etapa del proceso, asegurando que te sientas seguro y bien informado en tu viaje.
+                    Vive y trabaja remotamente desde España, disfrutando de su cultura y estilo de vida. Simplificamos el proceso de solicitud para que puedas centrarte en tu experiencia
                 </p>
                 <div class="pages-path">
                     <div class="p-path">
-                        Inicio
+                        Bienvenida
                     </div>
                     <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
                     <div class="p-path">
-                        Servicios
+                        Extranjeria
+                    </div>
+                    <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
+                    <div class="p-path">
+                        Visa para Nómadas Digitales
                     </div>
                     
                 </div>

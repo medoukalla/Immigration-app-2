@@ -5,17 +5,21 @@
     <div class="pages-banner blog">
         <div class="base-container w-container">
             <div class="min-hero-wrapper">
-                <h1>Servicios</h1>
+                <h1>Residencia para Emprendedores</h1>
                 <p>
-                    Ofrecemos una amplia gama de servicios diseñados para facilitar tu transición a un nuevo país. Nuestro equipo de profesionales está comprometido a brindarte el apoyo y la orientación que necesitas en cada etapa del proceso, asegurando que te sientas seguro y bien informado en tu viaje.
+                    Comienza tu negocio en España con el apoyo de una residencia diseñada para emprendedores. Te ayudamos a cumplir con todos los requisitos legales y hacer realidad tu proyecto.
                 </p>
                 <div class="pages-path">
                     <div class="p-path">
-                        Inicio
+                        Bienvenida
                     </div>
                     <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
                     <div class="p-path">
-                        Servicios
+                        Extranjería
+                    </div>
+                    <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
+                    <div class="p-path">
+                        Residencia para Emprendedores
                     </div>
                     
                 </div>

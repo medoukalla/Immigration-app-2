@@ -5,9 +5,9 @@
     <div class="pages-banner blog">
         <div class="base-container w-container">
             <div class="min-hero-wrapper">
-                <h1>Servicios</h1>
+                <h1>Recurso Contencioso Administrativo</h1>
                 <p>
-                    Ofrecemos una amplia gama de servicios diseñados para facilitar tu transición a un nuevo país. Nuestro equipo de profesionales está comprometido a brindarte el apoyo y la orientación que necesitas en cada etapa del proceso, asegurando que te sientas seguro y bien informado en tu viaje.
+                    Impugna decisiones que afectan tu residencia o estatus migratorio con seguridad, respaldado por nuestro equipo legal experimentado
                 </p>
                 <div class="pages-path">
                     <div class="p-path">
@@ -15,7 +15,11 @@
                     </div>
                     <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
                     <div class="p-path">
-                        Servicios
+                        Extranjeria
+                    </div>
+                    <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
+                    <div class="p-path">
+                        Recurso Contencioso Administrativo
                     </div>
                     
                 </div>

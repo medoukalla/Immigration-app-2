@@ -5,17 +5,21 @@
     <div class="pages-banner blog">
         <div class="base-container w-container">
             <div class="min-hero-wrapper">
-                <h1>Servicios</h1>
+                <h1>Visa de Estudiante</h1>
                 <p>
-                    Ofrecemos una amplia gama de servicios diseñados para facilitar tu transición a un nuevo país. Nuestro equipo de profesionales está comprometido a brindarte el apoyo y la orientación que necesitas en cada etapa del proceso, asegurando que te sientas seguro y bien informado en tu viaje.
+                    Emprende tu camino educativo en España con un proceso de visa fácil y rápido. Nuestro equipo te asiste en toda la documentación y los requisitos
                 </p>
                 <div class="pages-path">
                     <div class="p-path">
-                        Inicio
+                        Bienvenida
                     </div>
                     <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
                     <div class="p-path">
-                        Servicios
+                        Visados
+                    </div>
+                    <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
+                    <div class="p-path">
+                        Visa de Estudiante
                     </div>
                     
                 </div>

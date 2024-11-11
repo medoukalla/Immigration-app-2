@@ -5,17 +5,21 @@
     <div class="pages-banner blog">
         <div class="base-container w-container">
             <div class="min-hero-wrapper">
-                <h1>ServiLa renovación de la tarjeta de residencia (NIE)cios</h1>
+                <h1>ServiLa renovación de la tarjeta de residencia (NIE)</h1>
                 <p>
-                    Ofrecemos una amplia gama de servicios diseñados para facilitar tu transición a un nuevo país. Nuestro equipo de profesionales está comprometido a brindarte el apoyo y la orientación que necesitas en cada etapa del proceso, asegurando que te sientas seguro y bien informado en tu viaje.
+                    Mantén tu estatus de residencia sin interrupciones renovando tu tarjeta de residencia a tiempo. Nos encargamos de todo el proceso para asegurar tu residencia continua.
                 </p>
                 <div class="pages-path">
                     <div class="p-path">
-                        Inicio
+                        Bienvenida
                     </div>
                     <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
                     <div class="p-path">
-                        Servicios
+                        Extranjeria
+                    </div>
+                    <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
+                    <div class="p-path">
+                        ServiLa renovación de la tarjeta de residencia (NIE)
                     </div>
                     
                 </div>

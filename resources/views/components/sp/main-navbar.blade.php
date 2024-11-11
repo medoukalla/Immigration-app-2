@@ -69,7 +69,7 @@
               class="nav-dropdown w-dropdown">
               <div class="nav-dropdown-toggle w-dropdown-toggle">
                 <div class="nav-dropdown-icon w-icon-dropdown-toggle"></div>
-                <p class="nav-item-title">Viasdos</p>
+                <p class="nav-item-title">Visados</p>
               </div>
               <nav class="nav-dropdown-list w-dropdown-list">
                 <div class="nav-dropdown-link-wrapper">
