@@ -64,6 +64,7 @@ Route::group(['prefix' => 'admin'], function () {
 
 Route::get('/', [FrontendSpainController::class, 'index'])->name('frontend.sp.index');
 Route::get('/Contacto', [FrontendSpainController::class, 'contact'])->name('frontend.sp.contact');
+Route::post('/Contacto', [FrontendSpainController::class, 'contact_store'])->name('frontend.sp.contact.store');
 Route::get('/Servicios', [FrontendSpainController::class, 'services'])->name('frontend.sp.services');
 Route::get('/logements/{id}', [FrontendSpainController::class, 'appartement'])->name('frontend.sp.appartement');
 Route::get('/logements/{id}/checkout', [FrontendSpainController::class, 'checkout'])->name('frontend.sp.checkout');

@@ -9,7 +9,7 @@
             <p>Descubre una amplia variedad de programas educativos en España, desde universidades hasta cursos profesionales. Te asesoramos para que elijas el programa adecuado y cumplas con todos los requisitos para estudiar en España.</p>
             <div class="pages-path">
                 <div class="p-path">
-                    Bienvenida
+                    <a href="{{ route('frontend.sp.index') }}">Bienvenida</a>
                 </div>
                 <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
                 <div class="p-path">

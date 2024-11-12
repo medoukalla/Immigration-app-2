@@ -9,7 +9,7 @@
                 tu viaje a un nuevo país sea lo más fluido y libre de estrés posible.</p>
             <div class="pages-path">
                 <div class="p-path">
-                    Bienvenida
+                    <a href="{{ route('frontend.sp.index') }}">Bienvenida</a>
                 </div>
                 <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
                 <div class="p-path">
@@ -45,6 +45,8 @@
 {{-- Hero section ENDS  --}}
 
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
 <!-- Services contact form -->
 <div class="section">
     <div class="base-container w-container">
@@ -63,9 +65,10 @@
             <!-- Contact Form -->
             <div class="contacts-2-form-wrapper">
                 <div class="form-block-contacts w-form" style="padding-top:40px">
-                    <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form"
-                        data-wf-page-id="651f2c08c5bd81eb296c17fd"
-                        data-wf-element-id="502c5dca-196a-0aae-1f67-5b18c9a9023a">
+                    <form  method="post" action="{{ route('frontend.sp.assurance.store') }}" class="form" id="assurance-form" >
+
+                        @csrf
+
                         <div class="contact-method-payment">
                             <div class="banks">
                                 <p>Aceptamos todos los métodos de pago en Marruecos</p>
@@ -84,10 +87,10 @@
                             Rellena los siguientes datos para calcular el precio de tu seguro
                         </div>
                         <h6>1 - Apellido y Nombre:</h6>
-                        <input class="contacts-input white-style w-input" maxlength="256" name="name-2"
+                        <input class="contacts-input white-style w-input" maxlength="256" name="name"
                             data-name="Name 2" placeholder="Your name" type="text" id="name-2" required="" />
                         <h6>2 - Seleccionar seguro:</h6>
-                        <select name="service" id="service" class="white-style">
+                        <select name="assurance" id="assurance" class="white-style" required>
                             <option value="DKV">DKV</option>
                             <option value="SANITAS">SANITAS</option>
                             <option value="MAPFRE">MAPFRE</option>
@@ -96,30 +99,56 @@
                         </select>
                         <h6>3 -  Fecha de nacimiento:</h6>
                         <div class="date">
-                            <input type="number" placeholder="Día">
-                            <input type="number" placeholder="Mes">
-                            <input type="number" placeholder="Año">
+                            <input type="number" name="day" placeholder="Día" required>
+                            <input type="number" name="month" placeholder="Mes" required>
+                            <input type="number" name="year" placeholder="Año" required>
                         </div>
                         <h6 style="margin-top: 20px">4 -  Sexo:</h6>
                         <div class="check-type" style="margin-bottom: 40px">
                             <div class="type man">
-                                <input type="radio">
-                                <label for="">Hombre</label>
+                                <input type="radio" name="sex" value="Hombre" id="man">
+                                <label for="man">Hombre</label>
                             </div>
                             <div class="type femal">
-                                <input type="radio">
-                                <label for="">Mujer</label>
+                                <input type="radio" name="sex" value="Mujer" id="woman">
+                                <label for="woman">Mujer</label>
+                            </div>
+                        </div>   
+                        
+                        <div class="success-message w-form-done" style="color: rgb(89, 209, 143) !important;">
+                        </div>
+                        <div class="error-message w-form-fail">
+                        </div>
+
+                        <input type="button" class="primary-button full-width-mobile w-button" value="Calcular el precio del seguro" id="submitBtn" data-bs-toggle="modal" data-bs-target="#exampleModal" />
+
+                        <div class="modal coustomModal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" >
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h4>Rellena los siguientes datos para recibir el precio de tu seguro
+                                        </h4>
+                                        <form action="">
+                                            <div class="InputItem">
+                                                <label for="number">Número de teléfono:</label>
+                                                <input type="number" name="phone" id="number" class="fcontacts-input white-style w-input" placeholder="+000 000 000 000" required>
+                                            </div>
+                                            <div class="InputItem">
+                                                <label for="mail">Dirección de correo electrónico:</label>
+                                                <input type="mail" name="email" id="mail" class="fcontacts-input white-style w-input" placeholder="exemple@domaine.com" required>
+                                            </div>
+                                            <button class="primary-button full-width-mobile w-button" type="submit" data-bs-toggle="modal" data-bs-target="#SuccessModal">Recibe el premio</button>
+                                        </form>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
-                        <input type="submit" data-wait="Please wait..."
-                            class="primary-button full-width-mobile w-button" value="Calcular el precio del seguro" />
                     </form>
-                    <div class="success-message w-form-done">
-                        <div>Thank you! Your submission has been received!</div>
-                    </div>
-                    <div class="error-message w-form-fail">
-                        <div>Oops! Something went wrong while submitting the form.</div>
-                    </div>
+                        
                 </div>
             </div>
         </div>

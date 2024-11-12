@@ -5,7 +5,7 @@
             <p>Si tienes preguntas o necesitas asistencia, no dudes en ponerte en contacto con nosotros. Nuestro equipo está disponible para resolver cualquier duda sobre tus procesos de inmigración.</p>
             <div class="pages-path">
                 <div class="p-path">
-                    Bienvenida
+                    <a href="{{ route('frontend.sp.index') }}">Bienvenida</a>
                 </div>
                 <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
                 <div class="p-path">

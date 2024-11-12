@@ -11,8 +11,10 @@ use App\Models\Service;
 use App\Models\Slider;
 use App\Models\Testimonial;
 use App\Models\User;
+use App\Models\ContactForm;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Validator;
 use TCG\Voyager\Models\Page;
 use TCG\Voyager\Models\Post;
 
@@ -48,6 +50,49 @@ class FrontendSpainController extends Controller
 
         return view('frontend.sp.contact',[
             'testimonials' => $testimonials,
+        ]);
+    }
+
+
+    public function contact_store(Request $request)
+    {
+        // Validate the incoming request data
+        $validator = Validator::make($request->all(), [
+            'first_name' => 'required|string|max:256',
+            'last_name' => 'required|string|max:256',
+            'email' => 'required|email|max:256',
+            'phone' => 'required|string|max:256',
+            'service_interest' => 'required|string',
+            'nationality' => 'required|string',
+            'residence' => 'required|string',
+            'situation_description' => 'nullable|string',
+        ]);
+
+        if ($validator->fails()) {
+            // Return validation errors
+            return response()->json([
+                'status' => 'error',
+                'message' => 'There were validation errors.',
+                'errors' => $validator->errors(),
+            ], 400);
+        }
+
+        // If validation passes, save the data to the database
+        $contactForm = ContactForm::create([
+            'first_name' => $request->input('first_name'),
+            'last_name' => $request->input('last_name'),
+            'email' => $request->input('email'),
+            'phone' => $request->input('phone'),
+            'service_interest' => $request->input('service_interest'),
+            'nationality' => $request->input('nationality'),
+            'residence' => $request->input('residence'),
+            'situation_description' => $request->input('situation_description'),
+        ]);
+
+        // Return a success response
+        return response()->json([
+            'status' => 'success',
+            'message' => '¡Gracias! Tu envío ha sido recibido.',
         ]);
     }
 
@@ -252,17 +297,46 @@ class FrontendSpainController extends Controller
     }
 
     public function assurance_store(Request $request) {
-        // store tthe assurance request into database 
         
-        $assurance = new AssuranceRequest();
-        $assurance->name = $request->input('name');
-        $assurance->date = $request->input('day').'/'.$request->input('month').'/'.$request->input('year');
-        $assurance->sex  = $request->input('sex');
-        $assurance->phone = $request->input('phone');
-        $assurance->email = $request->input('email');
-        $assurance->save();
+        // Validate the incoming request
+        $validator = Validator::make($request->all(), [
+            'name' => 'required|string|max:255',
+            'assurance' => 'required|string',
+            'day' => 'required',
+            'month' => 'required',
+            'year' => 'required',
+            'sex' => 'required|string|in:Hombre,Mujer',
+            'phone' => 'required|string|max:50',
+            'email' => 'required|email|max:50',
+        ]);
 
-        return redirect()->route('frontend.index');
+
+
+        // Check if validation fails
+        if ($validator->fails()) {
+            return response()->json([
+                'status' => 'error',
+                'message' => 'Validation failed',
+                'errors' => $validator->errors()
+            ], 422); // Return 422 Unprocessable Entity with errors
+        }
+
+        // Create a new assurance request entry in the database
+        $assuranceRequest = AssuranceRequest::create([
+            'name' => $request->input('name'),
+            'assurance' => $request->input('assurance'),
+            'date' => $request->input('day').'/'.$request->input('month').'/'.$request->input('year'),
+            'sex' => $request->input('sex'),
+            'phone' => $request->input('phone'),
+            'email' => $request->input('email'),
+        ]);
+
+        // Return a success response with the created data
+        return response()->json([
+            'status' => 'success',
+            'message' => 'La solicitud de seguro ha sido registrada exitosamente.',
+            'data' => $assuranceRequest // Optionally return the stored data
+        ], 201); // 201 Created
     }
 
     public function etudier() {
