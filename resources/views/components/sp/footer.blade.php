@@ -44,15 +44,14 @@
             <img src="{{ asset('storage/'.setting('site.logo-white')) }}" alt="Logo" style=" max-width: 50% !important;!i;!; float: left; ">
           </div>
           <div class="thanks">
-            <p>We believe in an interconnected world, powered by mobility and prosperity. We clear the legal path
-              enabling people and businesses to thrive in Spain and Europe.</p>
+            <p>En Immiworld, especialistas en extranjería e inmigración, te ayudamos a gestionar tus trámites de residencia en España de forma rápida y segura</p>
           </div>
           <div class="institutions">
             <img src="{{ asset('assets/images/partner-svg/gobierno.svg') }}" alt="" style="margin-top: 10px; width: 100%"> 
           </div>
         </div>
         <div class="footer-links-wrapper">
-          <h5 class="white-text mb-15">CONTACT US</h5>
+          <h5 class="white-text mb-15">CONTÁCTENOS</h5>
           <a href="mail:support@immiworld.es" class="footer-link email-support">support@immiworld.es</a>
           <div class="social-media">
             <a target="_blanck" href="{{ setting('site.facebook') }}">
@@ -70,41 +69,29 @@
           </div>
         </div>
         <div class="footer-links-wrapper">
-          <h5 class="white-text mb-15">OUR OFFICES</h5>
+          <h5 class="white-text mb-15">Nuestras oficinas</h5>
           <div class="adress-wrapper">
             <div class="adress mb-10">
-              <div class="adress-p">Barcelona Office</div>
-              <span>Bailén, 20 Principal 1º</span>
-            </div>
-            <div class="adress">
-              <div class="adress-p">Madrid Office</div>
-              <span>Claudio Coello, 22 1ºB</span>
-            </div>
-            <div class="adress">
-              <div class="adress-p">Málaga Office</div>
-              <span>Avenida Pries 32, 2″-1</span>
-            </div>
-            <div class="adress">
-              <div class="adress-p">Lisbon Office</div>
-              <span>Avenida Fontes Pereira de Melo, 31</span>
+              <div class="adress-p">Oficina de Málaga</div>
+              <span>Maestro Lecuona 1, Local 7</span>
             </div>
           </div>
         </div>
         <div class="footer-links-wrapper">
-          <h5 class="white-text mb-15">Our Services</h5>
-          <a href="/visa" class="footer-link">Immigration</a>
-          <a href="/services" class="footer-link">Global Mobility</a>
-          <a href="/coachings" class="footer-link">Nationality & Citizenship</a>
-          <a href="/coachings" class="footer-link">Business</a>
-          <a href="/coachings" class="footer-link">Property & Assets</a>
+          <h5 class="white-text mb-15">Nuestros servicios</h5>
+          <a href="{{ route('frontend.sp.nacionalidad') }}" class="footer-link">Nacionalidad</a>
+          <a href="{{ route('frontend.sp.nomada_digital') }}" class="footer-link">Nomada Digital</a>
+          <a href="{{ route('frontend.sp.golden_visa') }}" class="footer-link">Golden Visa</a>
+          <a href="{{ route('frontend.sp.residencia_no_lucrativa') }}" class="footer-link">Residencia No Lucrativa</a>
+          <a href="{{ route('frontend.sp.reagrupacion_familiar') }}" class="footer-link">Reagrupación Familiar</a>
         </div>
       </div>
       <div class="footer-bottom-wrapper">
-        <div class="footer-copyright">© Immigration. All Rights Reserved 2024. <br>
+        <div class="footer-copyright">© 2024 Immiworld - todos los derechos reservados  <br>
           <span style="margin-top: 10px;">
-            <a href="#">Legal Note</a> |
-            <a href="#">Cookies Policy</a> |
-            <a href="#">Privacy Policy</a>
+            <a href="#">política de confidencialidad</a> |
+            <a href="#">Aviso legal</a> |
+            <a href="#">Términos y Condiciones</a>
           </span>
         </div>
         <div class="footer-rights-wrapper">
