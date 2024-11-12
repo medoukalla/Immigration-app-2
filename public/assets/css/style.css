@@ -693,6 +693,10 @@ textarea.w-select {
   display: flex;
 }
 
+.m-left {
+  margin-left: 20px !important;
+}
+
 .w-file-upload-file {
   background-color: #fafafa;
   border: 1px solid #ccc;
@@ -976,6 +980,10 @@ textarea.w-select {
   .institutions {
     width: 100%;
     text-align: start;
+  }
+
+  .m-left {
+    margin-left: 0 !important;
   }
 
 }
@@ -7003,7 +7011,7 @@ select.white-style,
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 0;
+    padding-left: 0 !important;
     display: flex;
   }
 

@@ -66,21 +66,23 @@
               </nav>
             </div>
             <div data-hover="true" data-delay="0" data-w-id="ba67b287-f196-4627-29a8-f080f7e8b20d"
-              class="nav-dropdown w-dropdown">
+              class="nav-dropdown w-dropdown m-left">
               <div class="nav-dropdown-toggle w-dropdown-toggle">
                 <div class="nav-dropdown-icon w-icon-dropdown-toggle"></div>
                 <p class="nav-item-title">Visados</p>
               </div>
               <nav class="nav-dropdown-list w-dropdown-list">
                 <div class="nav-dropdown-link-wrapper">
-                  <a href="{{ route('frontend.sp.visa_de_estudiante') }}" aria-current="page" class="nav-dropdown-link w-dropdown-link w--current"><span
+                  <a href="{{ route('frontend.sp.visa_de_estudiante') }}" aria-current="page" class="nav-dropdown-link w-dropdown-link"><span
                       class="nav-dropdown-link-line">
-                    </span>Visado de estudiante</a><a href="{{ route('frontend.sp.golden_visa') }}" class="nav-dropdown-link w-dropdown-link"><span
-                      class="nav-dropdown-link-line"> </span>Golden visa</a>
+                    </span>Visado de estudiante</a>
+                    <a href="{{ route('frontend.sp.golden_visa') }}" class="nav-dropdown-link w-dropdown-link">
+                      <span class="nav-dropdown-link-line"> </span>Golden visa
+                    </a>
                 </div>
               </nav>
             </div>
-            <a href="{{ route('frontend.sp.nacionalidad') }}" class="nav-link w-nav-link">Nacionalidad</a>
+            <a href="{{ route('frontend.sp.nacionalidad') }}" class="nav-link w-nav-link m-left">Nacionalidad</a>
             <div data-hover="true" data-delay="0" data-w-id="ba67b287-f196-4627-29a8-f080f7e8b20d"
               class="nav-dropdown w-dropdown">
               <div class="nav-dropdown-toggle w-dropdown-toggle">
@@ -89,7 +91,7 @@
               </div>
               <nav class="nav-dropdown-list w-dropdown-list">
                 <div class="nav-dropdown-link-wrapper">
-                  <a href="{{ route('frontend.sp.assurance') }}" aria-current="page" class="nav-dropdown-link w-dropdown-link w--current"><span
+                  <a href="{{ route('frontend.sp.assurance') }}" aria-current="page" class="nav-dropdown-link w-dropdown-link "><span
                       class="nav-dropdown-link-line">
                     </span>Seguro</a>
                     <a href="{{ route('frontend.sp.programmes') }}" class="nav-dropdown-link w-dropdown-link"><span
@@ -97,7 +99,7 @@
                 </div>
               </nav>
             </div>
-            <a href="{{ route('frontend.sp.about') }}" class="nav-link w-nav-link">Sobre nosotros</a>
+            <a href="{{ route('frontend.sp.about') }}" class="nav-link w-nav-link m-left">Sobre nosotros</a>
             <a href="{{ route('frontend.sp.contact') }}" class="nav-link w-nav-link">Contacto</a>
             {{-- Language --}}
             <div class="lang-wrapper mobile-lang">
