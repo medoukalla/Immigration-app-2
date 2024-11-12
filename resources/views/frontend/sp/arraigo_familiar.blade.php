@@ -182,7 +182,7 @@
 
 
     <!-- Feedback -->
-    {{-- <x-sp.testimonials :testimonials="$testimonials" /> --}}
+    <x-sp.testimonials :testimonials="$testimonials" />
 
     <!-- Solutions -->
     <x-sp.solutions />
