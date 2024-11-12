@@ -6,7 +6,7 @@
       <p data-w-id="cc582f0b-75ba-d7bd-9fe3-5b2888ed64e8" style="opacity:0" class="home-main-banner-discription">
         Nuestro equipo de abogados especializados en extranjería te acompaña en cada paso del proceso migratorio, desde la obtención de visados hasta la residencia y la nacionalidad española.</p>
       <div data-w-id="cc582f0b-75ba-d7bd-9fe3-5b2888ed64ea" style="opacity:0" class="buttons-wrapper"><a
-          href="/services" class="primary-button w-button">Reservar consulta</a></div>
+          href="javascript:void(0);" class="primary-button w-button openModalButton">Reservar consulta</a></div>
     </div>
     <div class="banner-numbers-wrapper">
       <div data-w-id="26438732-168a-0ab6-1fa0-8136b2be6fd3" style="opacity:0" class="w-layout-grid working-numbers">

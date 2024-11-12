@@ -38,7 +38,7 @@
               <h2 data-w-id="c651ba22-4432-547d-7cd0-369831cf9fd6" style="opacity:0" class="in-section-title">Te Guiamos en Cada Paso de Tu Trámite de Extranjería</h2>
               <p data-w-id="c651ba22-4432-547d-7cd0-369831cf9fd8" style="opacity:0">En Immiworld, entendemos que los trámites de extranjería pueden ser complicados, tanto si te encuentras en España como si planeas venir desde tu país de origen. Te acompañamos en cada etapa del proceso para asegurarte de que cumplas con todos los requisitos legales.<br /></p>
               <div data-w-id="c651ba22-4432-547d-7cd0-369831cf9fda" style="opacity:0" class="button-wrapper"><a
-                  href="/contact-us-1" class="primary-button dark">Reservar consulta ?</a></div>
+                  href="javascript:void(0);" class="primary-button dark openModalButton">Reservar consulta ?</a></div>
             </div>
           </div>
         </div>
@@ -62,11 +62,11 @@
                   style="background-image:url(&quot;https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652ea6d6583f67a8de3fa46e_pexels-keira-burton-6146978.jpg&quot;);opacity:0"
                   class="work-wrapper"><img loading="lazy"
                     src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652db2fc45a71830e136ff99_fi_3022243.svg"
-                    alt="" class="icon-work" /><a href="/services/study-abroad-program-support" class="w-inline-block">
+                    alt="" class="icon-work" /><a href="{{ route('frontend.sp.residencia_no_lucrativa') }}" class="w-inline-block">
                     <h5 class="services-titles">Residencia No Lucrativa</h5>
                   </a>
                   <p class="service-item-description">Obtén tu residencia en España sin necesidad de trabajar, garantizando tu estabilidad económica.</p>
-                  <div class="button-wrapper smaller-spacing"><a href="/services/study-abroad-program-support"
+                  <div class="button-wrapper smaller-spacing"><a href="{{ route('frontend.sp.residencia_no_lucrativa') }}"
                       class="link-with-arrow-underline white-style">Saber más</a></div>
                   <div class="dark-overlay"></div>
                 </div>
@@ -81,11 +81,11 @@
                   style="background-image:url(&quot;https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652ea6d6583f67a8de3fa46e_pexels-keira-burton-6146978.jpg&quot;);opacity:0"
                   class="work-wrapper"><img loading="lazy"
                     src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652db2fc45a71830e136ff99_fi_3022243.svg"
-                    alt="" class="icon-work" /><a href="/services/study-abroad-program-support" class="w-inline-block">
+                    alt="" class="icon-work" /><a href="{{ route('frontend.sp.nacionalidad') }}" class="w-inline-block">
                     <h5 class="services-titles">Nacionalidad Española</h5>
                   </a>
                   <p class="service-item-description">Conviértete en ciudadano español y disfruta de todos los derechos y beneficios que ofrece.</p>
-                  <div class="button-wrapper smaller-spacing"><a href="/services/study-abroad-program-support"
+                  <div class="button-wrapper smaller-spacing"><a href="{{ route('frontend.sp.nacionalidad') }}"
                       class="link-with-arrow-underline white-style">Saber más</a></div>
                   <div class="dark-overlay"></div>
                 </div>
@@ -100,11 +100,11 @@
                   style="background-image:url(&quot;https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/65286fb263f107046ea7900e_nicole-geri-gMJ3tFOLvnA-unsplash.jpg&quot;);opacity:0"
                   class="work-wrapper"><img loading="lazy"
                     src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/6528915357f15ad2b94de740_visa.svg"
-                    alt="" class="icon-work" /><a href="/services/visa-application-assistance" class="w-inline-block">
+                    alt="" class="icon-work" /><a href="{{ route('frontend.sp.visa_de_estudiante') }}" class="w-inline-block">
                     <h5 class="services-titles">Visado de Estudiante</h5>
                   </a>
                   <p class="service-item-description">Estudia en España con un visado que te permite acceder a una educación de calidad.</p>
-                  <div class="button-wrapper smaller-spacing"><a href="/services/visa-application-assistance"
+                  <div class="button-wrapper smaller-spacing"><a href="{{ route('frontend.sp.visa_de_estudiante') }}"
                       class="link-with-arrow-underline white-style">Saber más</a></div>
                   <div class="dark-overlay"></div>
                 </div>
@@ -119,11 +119,11 @@
                   style="background-image:url(&quot;https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652891bd3236320ae1f0b84c_pexels-oleksandr-p-1008155.jpg&quot;);opacity:0"
                   class="work-wrapper"><img loading="lazy"
                     src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/6528916057f15ad2b94df35b_relocation.svg"
-                    alt="" class="icon-work" /><a href="/services/relocation-assistance" class="w-inline-block">
+                    alt="" class="icon-work" /><a href="{{ route('frontend.sp.nomada_digital') }}" class="w-inline-block">
                     <h5 class="services-titles">Visado para Nómadas Digitales</h5>
                   </a>
                   <p class="service-item-description">Trabaja y vive en España mientras desarrollas tu carrera desde cualquier lugar del mundo.</p>
-                  <div class="button-wrapper smaller-spacing"><a href="/services/relocation-assistance"
+                  <div class="button-wrapper smaller-spacing"><a href="{{ route('frontend.sp.nomada_digital') }}"
                       class="link-with-arrow-underline white-style">Saber más</a></div>
                   <div class="dark-overlay"></div>
                 </div>
@@ -138,12 +138,12 @@
                   style="background-image:url(&quot;https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652891e0a6170d2717dd7e55_pexels-vlada-karpovich-7368310.jpg&quot;);opacity:0"
                   class="work-wrapper"><img loading="lazy"
                     src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652891689ec9911fdd305464_immigration.svg"
-                    alt="" class="icon-work" /><a href="/services/immigration-planning-and-strategy"
+                    alt="" class="icon-work" /><a href="{{ route('frontend.sp.golden_visa') }}"
                     class="w-inline-block">
                     <h5 class="services-titles">Golden Visa</h5>
                   </a>
                   <p class="service-item-description">Invierte en España y obtén la residencia a través de nuestra opción de Golden Visa.</p>
-                  <div class="button-wrapper smaller-spacing"><a href="/services/immigration-planning-and-strategy"
+                  <div class="button-wrapper smaller-spacing"><a href="{{ route('frontend.sp.golden_visa') }}"
                       class="link-with-arrow-underline white-style">Saber más</a></div>
                   <div class="dark-overlay"></div>
                 </div>
@@ -158,12 +158,12 @@
                   style="background-image:url(&quot;https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652892299ec9911fdd311500_pexels-cytonn-photography-955389.jpg&quot;);opacity:0"
                   class="work-wrapper"><img loading="lazy"
                     src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/65289172057200ddd4f42749_documents.svg"
-                    alt="" class="icon-work" /><a href="/services/document-verification-and-review"
+                    alt="" class="icon-work" /><a href="{{ route('frontend.sp.residencia_para_emprendedores') }}"
                     class="w-inline-block">
                     <h5 class="services-titles">Residencia para Emprendedores</h5>
                   </a>
                   <p class="service-item-description">Lanza tu negocio en España con un permiso de residencia diseñado para emprendedores.</p>
-                  <div class="button-wrapper smaller-spacing"><a href="/services/document-verification-and-review"
+                  <div class="button-wrapper smaller-spacing"><a href="{{ route('frontend.sp.residencia_para_emprendedores') }}"
                       class="link-with-arrow-underline white-style">Saber más</a></div>
                   <div class="dark-overlay"></div>
                 </div>
