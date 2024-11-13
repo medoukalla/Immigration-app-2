@@ -4,22 +4,22 @@
         <h2>Socios que Confían en Nosotros</h2>
         <div class="partner-wrappers">
             <div class="partner-wrap">
-                <img src="{{ asset('assets/images/partner-svg/new/santander.svg') }}" alt="Partner Logo">
+                <img src="{{ asset('assets/images/partner-svg/new-w/santander.svg') }}" alt="Partner Logo">
             </div>
             <div class="partner-wrap">
-                <img src="{{ asset('assets/images/partner-svg/new/BBVA.svg') }}" alt="Partner Logo">
+                <img src="{{ asset('assets/images/partner-svg/new-w/BBVA.svg') }}" alt="Partner Logo">
             </div>
             <div class="partner-wrap">
-                <img src="{{ asset('assets/images/partner-svg/new/dkv.svg') }}" alt="Partner Logo">
+                <img src="{{ asset('assets/images/partner-svg/new-w/dkv.svg') }}" alt="Partner Logo">
             </div>
             <div class="partner-wrap">
-                <img src="{{ asset('assets/images/partner-svg/new/mapfre.svg') }}" alt="Partner Logo">
+                <img src="{{ asset('assets/images/partner-svg/new-w/mapfre.svg') }}" alt="Partner Logo">
             </div>
             <div class="partner-wrap">
-                <img src="{{ asset('assets/images/partner-svg/new/uned.svg') }}" alt="Partner Logo">
+                <img src="{{ asset('assets/images/partner-svg/new-w/uned.svg') }}" alt="Partner Logo">
             </div>
             <div class="partner-wrap">
-                <img src="{{ asset('assets/images/partner-svg/new/gobierno_de_espana.svg') }}" alt="Partner Logo">
+                <img src="{{ asset('assets/images/partner-svg/new-w/gobierno_de_espana.svg') }}" alt="Partner Logo">
             </div>
         </div>
     </div>
