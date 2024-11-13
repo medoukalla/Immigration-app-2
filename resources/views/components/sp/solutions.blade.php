@@ -6,7 +6,6 @@
         <div class="solution-wrapper">
             <div class="sol-block">
                 <a href="{{ route('frontend.sp.golden_visa') }}">
-                    <div class="sol-overlay"></div>
                     <img src="/assets/images/solution-0.png" alt="Solutions Image">
                     <div class="sol-content">
                         <div class="sol-heading">Golden Visa</div>
@@ -16,7 +15,6 @@
             </div>
             <div class="sol-block">
                 <a href="{{ route('frontend.sp.nacionalidad') }}">
-                    <div class="sol-overlay"></div>
                     <img src="/assets/images/solution-1.png" alt="Solutions Image">
                     <div class="sol-content">
                         <div class="sol-heading">Nacionalidad Española</div>
@@ -26,7 +24,6 @@
             </div>
             <div class="sol-block">
                 <a href="{{ route('frontend.sp.residencia_para_emprendedores') }}">
-                    <div class="sol-overlay"></div>
                     <img src="/assets/images/solution-2.png" alt="Solutions Image">
                     <div class="sol-content">
                         <div class="sol-heading">Residencia <br> para Emprendedores</div>
@@ -36,7 +33,6 @@
             </div>
             <div class="sol-block">
                 <a href="{{ route('frontend.sp.nomada_digital') }}">
-                    <div class="sol-overlay"></div>
                     <img src="/assets/images/solution-3.png" alt="Solutions Image">
                     <div class="sol-content">
                         <div class="sol-heading">Visa para Nómadas Digitales</div>

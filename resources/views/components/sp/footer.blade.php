@@ -14,19 +14,16 @@
                         <h6 class="text-white">Message Us</h6>
                         <div class="gap-8-px-row"><a href="mailto:support@immiworld.es"
                                 class="link-white">support@immiworld.es</a><a href="tel:(704)358-1528"
-                                class="link-white">{{ setting('site.phone_call_link') }}</a></div>
+                                class="link-white"></a></div>
                     </div>
                 </div>
                 <div class="_1-home-map-block">
                     <div class="map-2 w-widget w-widget-map" data-widget-style="roadmap" data-widget-latlng=""
                         aria-label="" data-enable-scroll="true" role="region" title="" data-enable-touch="true"
                         data-widget-zoom="12" data-widget-tooltip=""></div><img
-                        src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c17aa/65271b2f808944101867a4f0_Light%20Gray%20-%20Snazzy%20Maps%20-%20Free%20Styles%20for%20Google%20Maps%202023-07-14%2014-26-51.webp"
+                        src="{{ asset('assets/images/malaga-casa-meknes.png') }}"
                         loading="lazy"
                         sizes="(max-width: 479px) 94vw, (max-width: 767px) 96vw, (max-width: 1279px) 58vw, (max-width: 1919px) 702px, 822px"
-                        srcset="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c17aa/65271b2f808944101867a4f0_Light%2520Gray%2520-%2520Snazzy%2520Maps%2520-%2520Free%2520Styles%2520for%2520Google%2520Maps%25202023-07-14%252014-26-51-p-500.png 500w, https://cdn.prod.website-files.com/651f2c08c5bd81eb296c17aa/65271b2f808944101867a4f0_Light%2520Gray%2520-%2520Snazzy%2520Maps%2520-%2520Free%2520Styles%2520for%2520Google%2520Maps%25202023-07-14%252014-26-51-p-800.png 800w, https://cdn.prod.website-files.com/651f2c08c5bd81eb296c17aa/65271b2f808944101867a4f0_Light%2520Gray%2520-%2520Snazzy%2520Maps%2520-%2520Free%2520Styles%2520for%2520Google%2520Maps%25202023-07-14%252014-26-51-p-1080.png 1080w, https://cdn.prod.website-files.com/651f2c08c5bd81eb296c17aa/65271b2f808944101867a4f0_Light%2520Gray%2520-%2520Snazzy%2520Maps%2520-%2520Free%2520Styles%2520for%2520Google%2520Maps%25202023-07-14%252014-26-51-p-1600.png 1600w, https://cdn.prod.website-files.com/651f2c08c5bd81eb296c17aa/65271b2f808944101867a4f0_Light%20Gray%20-%20Snazzy%20Maps%20-%20Free%20Styles%20for%20Google%20Maps%202023-07-14%2014-26-51.webp 1680w"
-                        alt="map" class="map-1-temporary-image" /><img
-                        src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c17aa/652878b13beb5d19372d8ae6_map-icon.svg"
                         loading="lazy" alt="icon" class="map-tag" />
                 </div>
             </div>
