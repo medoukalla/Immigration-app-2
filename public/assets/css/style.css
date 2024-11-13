@@ -3757,6 +3757,13 @@ blockquote {
   display: block;
 }
 
+.accordion-toggle.w--open h6 {
+  color: var(--primary) !important;
+}
+.accordion-toggle h6 {
+  color: var(--primary-dark) !important;
+}
+
 .accordion-wrapper {
   width: 100%;
   display: flex;
@@ -8629,6 +8636,11 @@ select.white-style,
   .promotion-label-left {
     max-width: 300px;
   }
+
+  .swiper-slide {
+    width: 100% !important;
+  }
+
 }
 
 @media screen and (max-width: 479px) {
@@ -9762,7 +9774,7 @@ select.white-style,
   gap: 20px;
   font-size: 18px;
   background: var(--primary-light);
-  width: calc(100% / 3) !important;
+  width: calc(100% / 3);
   padding: 20px;
   margin-right: 10px !important;
 }
