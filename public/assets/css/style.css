@@ -3760,6 +3760,7 @@ blockquote {
 .accordion-toggle.w--open h6 {
   color: var(--primary) !important;
 }
+
 .accordion-toggle h6 {
   color: var(--primary-dark) !important;
 }
@@ -10492,4 +10493,8 @@ input[type="radio"] {
 
 .mobile-lang {
   display: none !important;
+}
+
+.w--open .accordion-icon {
+  color: var(--primary) !important;
 }

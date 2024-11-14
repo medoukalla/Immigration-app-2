@@ -2,10 +2,9 @@
   <div class="base-container w-container">
     <div class="feedback-heading">
       <div class="feedback-big-title">
-        ¡No te quedes solo con nuestra palabra! <br>
+        Reseñas <br>
         <span>
-          ¡Mira lo que nuestros antiguos clientes tienen que decir sobre
-          nosotros!
+          ¡Descubre lo que nuestros clientes dicen de nosotros!
         </span>
       </div>
       <img class="google-rating" src="assets/images/svg/google-rating-reviews.svg" alt="Calificación de Google">
