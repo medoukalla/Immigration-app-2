@@ -1,30 +1,32 @@
-<x-sp.head title="{{ setting('site.title') }}" />
+<x-en.head title="{{ setting('site.title') }}" />
 
 
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
             <div class="min-hero-wrapper">
-                <h1>Arraigo Laboral</h1>
+                <h1>Arraigo Familiar (Arraigo Familiar)</h1>
                 <p>
-                    Obtén la residencia en España demostrando tu experiencia laboral. Nuestro equipo te guía en la preparación de tu solicitud para garantizar una resolución favorable
+                    Ofrecemos una amplia gama de servicios diseñados para facilitar su transición a un nuevo país. Nuestro equipo de profesionales se compromete a brindarle el apoyo y la orientación que necesita en cada etapa del proceso, asegurándose de que se sienta seguro y bien informado durante su viaje.
                 </p>
                 <div class="pages-path">
                     <div class="p-path">
-                        Bienvenida
-                    <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
-                    <div class="p-path">
-                        Extranjeria
+                        Bienvenido
                     </div>
-                    <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
+                    <img src="assets/images/svg/arrow.svg" alt="Path Arrow">
                     <div class="p-path">
-                        Arraigo Laboral
+                        Inmigración
                     </div>
-                    
+                    <img src="assets/images/svg/arrow.svg" alt="Path Arrow">
+                    <div class="p-path">
+                        Arraigo familiar
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    
+
     <div class="numbers-wrapper">
         <div data-w-id="221627f6-3a31-260f-8a97-6ec174e99870" class="w-layout-grid working-numbers">
             <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e99871-296c1813" class="working-wrap">
@@ -101,7 +103,9 @@
             </div>
         </div>
     </div>
+
     <x-sp.trust_immiworld />
+    
     <!-- Necessary documents -->
     <div class="section documents-section">
         <div class="base-container w-container">
@@ -133,7 +137,7 @@
         </div>
     </div>
 
-    <x-sp.call_to_action />
+    <x-en.call_to_action />
     <!-- Necessary documents -->
     <!-- Necessary documents -->
     <div class="section documents-section without-bottom-spacing">
@@ -173,10 +177,10 @@
 
 
     <!-- Feedback -->
-    <x-sp.testimonials :testimonials="$testimonials" />
+    <x-en.testimonials :testimonials="$testimonials" />
 
     <!-- Solutions -->
-    <x-sp.solutions />
+    <x-en.solutions />
 
-<x-sp.footer />
+<x-en.footer />
 

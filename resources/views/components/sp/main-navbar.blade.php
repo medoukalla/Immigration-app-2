@@ -124,8 +124,8 @@
         <div class="lang-wrap">
             <div class="lang-choose">
               <a href="{{ route('frontend.index') }}">
-                <img src="{{ asset('assets/images/svg/sp.svg') }}" alt="">
-                <span>Spanish</span>
+                <img src="{{ asset('assets/images/svg/eng.svg') }}" alt="">
+                <span>English</span>
               </a>
             </div>
         </div>
