@@ -16,7 +16,7 @@ class testimonials extends Component
      */
     public function __construct()
     {
-        $this->testimonials = Testimonial::where('active', true)->where('lang', 'fr')->get();
+        $this->testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
     }
 
     /**

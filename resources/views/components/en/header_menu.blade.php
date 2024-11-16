@@ -1,6 +1,6 @@
 <!-- header start  -->
 <header>
-    <nav class="navbar  navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg">
         <div class="container">
 
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
@@ -27,19 +27,18 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                Servicios
+                                Services
                             </a>
                             <ul class="dropdown-menu">
 
                                 <li><a class="dropdown-item"
-                                        href="{{ url('page/preparacion-de-expediente-de-visdao') }}">Preparación
-                                        de expediente de visado</a>
+                                        href="{{ url('page/preparacion-de-expediente-de-visdao') }}">Visa File
+                                        Preparation</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ route('frontend.sp.logements') }}">Alojamiento</a>
+                                <li><a class="dropdown-item" href="{{ route('frontend.sp.logements') }}">Accommodation</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ route('frontend.sp.assurance') }}">Seguro</a></li>
-                                <li><a class="dropdown-item" href="{{ route('frontend.sp.programmes') }}">Programas de
-                                        estudio</a></li>
+                                <li><a class="dropdown-item" href="{{ route('frontend.sp.assurance') }}">Insurance</a></li>
+                                <li><a class="dropdown-item" href="{{ route('frontend.sp.programmes') }}">Study Programs</a></li>
                             </ul>
                         </li>
                         <!-- dropdown end  -->
@@ -49,29 +48,29 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                Estudiar en España
+                                Study in Spain
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="{{ url('page/estudiar-en-espana') }}">Qué puedo
-                                        estudiar en España ?</a></li>
+                                <li><a class="dropdown-item" href="{{ url('page/estudiar-en-espana') }}">What can I study
+                                        in Spain?</a></li>
                                 <li><a class="dropdown-item"
-                                        href="{{ url('page/Estudiar-en-Espana-sin-Selectividad') }}">Estudiar en
-                                        España sin selectividad</a></li>
+                                        href="{{ url('page/Estudiar-en-Espana-sin-Selectividad') }}">Study in Spain
+                                        without Selectividad</a></li>
                                 <li><a class="dropdown-item"
-                                        href="{{ url('page/estudiar-el-idioma-en-espana') }}">Estudiar el idioma en
-                                        España</a></li>
+                                        href="{{ url('page/estudiar-el-idioma-en-espana') }}">Study the language in
+                                        Spain</a></li>
                                 <li><a class="dropdown-item"
-                                        href="{{ url('page/estudiar-selectividad-en-espana') }}">Estudiar la
-                                        selectividad en España</a></li>
+                                        href="{{ url('page/estudiar-selectividad-en-espana') }}">Study Selectividad in
+                                        Spain</a></li>
                                 <li><a class="dropdown-item"
-                                        href="{{ url('page/estudiar-la-licenciatura-en-espana') }}">Estudiar un grado
-                                        en España</a></li>
+                                        href="{{ url('page/estudiar-la-licenciatura-en-espana') }}">Study a degree in
+                                        Spain</a></li>
                                 <li><a class="dropdown-item"
-                                        href="{{ url('page/estudia-el-master-en-espana') }}">Estudiar un máster en
-                                        España</a></li>
+                                        href="{{ url('page/estudia-el-master-en-espana') }}">Study a master's degree in
+                                        Spain</a></li>
                                 <li><a class="dropdown-item"
-                                        href="{{ url('page/estudiar-el-grado-superior-en-espana') }}">Estudiar el Grado
-                                        superior en España</a></li>
+                                        href="{{ url('page/estudiar-el-grado-superior-en-espana') }}">Study a higher
+                                        degree in Spain</a></li>
 
                             </ul>
                         </li>
@@ -81,38 +80,38 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                Extranjería
+                                Immigration
                             </a>
                             <ul class="dropdown-menu">
 
                                 <li class="nav-item dropdownB">
                                     <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdownB"
                                         aria-expanded="false">
-                                        Arraigo
+                                        Rooted Residency
                                     </a>
                                     <ul>
-                                        <li><a class="dropdown-item" style=" padding-left: 40px !important; "
-                                                href="{{ url('page/arraigo-para-la-formacion') }}">Arraigo para la
-                                                formación</a></li>
-                                        <li><a class="dropdown-item" style=" padding-left: 40px !important; "
-                                                href="{{ url('page/arraigo-familiar') }}">Arraigo Familiar</a></li>
-                                        <li><a class="dropdown-item" style=" padding-left: 40px !important; "
-                                                href="{{ url('page/arraigo-laboral') }}">Arraigo Laboral</a></li>
-                                        <li><a class="dropdown-item" style=" padding-left: 40px !important; "
-                                                href="{{ url('page/arraigo-social') }}">Arraigo Social</a></li>
+                                        <li><a class="dropdown-item" style="padding-left: 40px !important; "
+                                                href="{{ url('page/arraigo-para-la-formacion') }}">Rooted for
+                                                Training</a></li>
+                                        <li><a class="dropdown-item" style="padding-left: 40px !important; "
+                                                href="{{ url('page/arraigo-familiar') }}">Family Rooted Residency</a></li>
+                                        <li><a class="dropdown-item" style="padding-left: 40px !important; "
+                                                href="{{ url('page/arraigo-laboral') }}">Labor Rooted Residency</a></li>
+                                        <li><a class="dropdown-item" style="padding-left: 40px !important; "
+                                                href="{{ url('page/arraigo-social') }}">Social Rooted Residency</a></li>
                                     </ul>
                                 </li>
                                 <li><a class="dropdown-item"
-                                        href="{{ url('page/residencia-no-lucrativa') }}">Residencia no lucrativa</a>
+                                        href="{{ url('page/residencia-no-lucrativa') }}">Non-lucrative Residency</a>
                                 </li>
                                 <li><a class="dropdown-item"
-                                        href="{{ url('page/renovacion-de-la-tarjeta-de-residencia-nie') }}">Renovación
-                                        del permiso de residencia</a></li>
+                                        href="{{ url('page/renovacion-de-la-tarjeta-de-residencia-nie') }}">Residence Card
+                                        Renewal</a></li>
                                 <li><a class="dropdown-item"
-                                        href="{{ url('page/autorizacion-de-estancia-por-estudios') }}">Visado de
-                                        estudios en España</a></li>
-                                <li><a class="dropdown-item" href="{{ url('page/apelacion-administrativa') }}">Recurso
-                                        administrativo</a></li>
+                                        href="{{ url('page/autorizacion-de-estancia-por-estudios') }}">Student Visa for
+                                        Spain</a></li>
+                                <li><a class="dropdown-item" href="{{ url('page/apelacion-administrativa') }}">Administrative
+                                        Appeal</a></li>
                             </ul>
                         </li>
                         <!-- dropdown end  -->
@@ -121,24 +120,24 @@
                         <!-- nav link start  -->
                         <li class="nav-item ">
                             <a class="nav-link" href="{{ route('frontend.sp.quisommes_nous') }}">
-                                Sobre nosotros
+                                About Us
                             </a>
                         </li>
-                        <!-- nav link  end  -->
+                        <!-- nav link end  -->
                         <!-- nav link start  -->
                         <li class="nav-item ">
                             <a class="nav-link" href="{{ route('frontend.sp.nos_packs') }}">
-                                Nuestros paquetes
+                                Our Packages
                             </a>
                         </li>
-                        <!-- nav link  end  -->
+                        <!-- nav link end  -->
                         <!-- nav link start  -->
                         <li class="nav-item ">
                             <a class="nav-link" href="{{ route('frontend.sp.blog') }}">
                                 Blog
                             </a>
                         </li>
-                        <!-- nav link  end  -->
+                        <!-- nav link end  -->
 
 
                     </ul>
