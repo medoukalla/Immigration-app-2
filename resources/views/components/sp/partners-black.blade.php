@@ -7,7 +7,7 @@
                 <img src="{{ asset('assets/images/partner-svg/new-b/santander.svg') }}" alt="Partner Logo">
             </div>
             <div class="partner-wrap">
-                <img src="{{ asset('assets/images/partner-svg/new-b/bbva.svg') }}" alt="Partner Logo">
+                <img src="{{ asset('assets/images/partner-svg/new-b/BBVA.svg') }}" alt="Partner Logo">
             </div>
             <div class="partner-wrap">
                 <img src="{{ asset('assets/images/partner-svg/new-b/dkv.svg') }}" alt="Partner Logo">
