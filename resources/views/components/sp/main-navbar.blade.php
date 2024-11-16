@@ -104,21 +104,12 @@
             {{-- Language --}}
             <div class="lang-wrapper mobile-lang">
               <div class="lang-wrap">
-                @if ( Session::get('lang') == 'en')
-                  <div class="lang-choose">
-                    <a href="{{ route('change.language') }}">
-                      <img src="{{ asset('assets/images/svg/sp.svg') }}" alt="">
-                      <span>Spanish</span>
-                    </a>
-                  </div>
-                @else
                   <div class="lang-selected">
-                    <a href="{{ route('change.language') }}">
+                    <a href="{{ route('frontend.index') }}">
                       <img src="{{ asset('assets/images/svg/eng.svg') }}" alt="">
                       <span>English</span>
                     </a>
                   </div>
-                @endif
               </div>
               <div class="nav-mobile-bottom-btn">
                 <div class="button-wrapper">
@@ -131,22 +122,12 @@
       {{-- Language --}}
       <div class="lang-wrapper desktop-lang">
         <div class="lang-wrap">
-          @if ( Session::get('lang') == 'en')
             <div class="lang-choose">
-              <a href="{{ route('change.language') }}">
+              <a href="{{ route('frontend.index') }}">
                 <img src="{{ asset('assets/images/svg/sp.svg') }}" alt="">
                 <span>Spanish</span>
               </a>
             </div>
-          @else
-            <div class="lang-selected">
-              <a href="{{ route('change.language') }}">
-                <img src="{{ asset('assets/images/svg/eng.svg') }}" alt="">
-                <span>English</span>
-              </a>
-            </div>
-          @endif
-          
         </div>
         <div class="search-shop-con">
             <a href="javascript:void(0);" class="primary-button w-button openModalButton">Pedir Cita</a>
