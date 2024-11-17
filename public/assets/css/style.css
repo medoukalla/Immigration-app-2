@@ -546,14 +546,14 @@ button,
   text-align: center;
   background-color: #ddd;
   padding: 20px;
-  display: none;
+  /* display: none; */
 }
 
 .w-form-fail {
   background-color: #ffdede;
   margin-top: 10px;
   padding: 10px;
-  display: none;
+  /* display: none; */
 }
 
 label {
@@ -5025,12 +5025,12 @@ select.white-style,
 .success-message {
   background-color: var(--transperent-w-base);
   color: var(--primary);
-  text-align: center;
+  text-align: start;
 }
 
 .error-message {
   color: var(--primary);
-  text-align: center;
+  text-align: start;
   background-color: #0000;
   padding: 0;
 }

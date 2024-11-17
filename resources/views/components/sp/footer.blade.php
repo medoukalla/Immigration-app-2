@@ -135,6 +135,8 @@
       }
     }
   </style>
+
+@livewireScripts
 </body>
 
 </html>

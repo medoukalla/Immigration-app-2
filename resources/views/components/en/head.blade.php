@@ -28,6 +28,9 @@
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XCVQHS447H"></script>
   <script
     type="text/javascript">window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('set', 'developer_id.dZGVlNj', true); gtag('config', 'G-XCVQHS447H');</script>
+
+
+    @livewireStyles
 </head>
 
 <body>

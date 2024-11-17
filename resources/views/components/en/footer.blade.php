@@ -132,6 +132,9 @@
       }
     }
 </style>
+
+
+@livewireScripts
 </body>
 
 </html>
