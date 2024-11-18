@@ -1,12 +1,12 @@
 <div data-animation="over-left" class="navbar-absolute w-nav" data-easing2="ease" data-easing="ease"
   data-collapse="medium" role="banner" data-no-scroll="1" data-duration="400" data-doc-height="1">
   <div class="nav-container w-container">
-    <div class="nav-menu-wrapper"><a href="{{ route('frontend.sp.index') }}" aria-current="page" class="brand w-nav-brand w--current"><img
+    <div class="nav-menu-wrapper"><a href="{{ route('frontend.index') }}" aria-current="page" class="brand w-nav-brand w--current"><img
           src="{{ asset('storage/'.setting('site.logo')) }}"
           loading="lazy" alt="logo" height="38" /></a>
       <nav role="navigation" class="nav-menu w-nav-menu">
         <div class="tablet-menu">
-          <a href="{{ route('frontend.sp.index') }}" aria-current="page" class="brand-tablet w-nav-brand w--current"><img
+          <a href="{{ route('frontend.index') }}" aria-current="page" class="brand-tablet w-nav-brand w--current"><img
               src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c17aa/65269ae2dc5ceebc36a57753_logo-immigration.svg"
               loading="lazy" alt="logo" height="38" /></a>
           <div class="close-menu-button w-nav-button"><img
@@ -19,48 +19,48 @@
               <div class="nav-dropdown-toggle w-dropdown-toggle">
                 <div class="nav-dropdown-icon w-icon-dropdown-toggle">
                 </div>
-                <p class="nav-item-title">Foreigners</p>
+                <p class="nav-item-title">Immigration</p>
               </div>
               <nav class="nav-dropdown-list w-dropdown-list">
                 <div class="nav-dropdown-link-wrapper">
-                  <a href="{{ route('frontend.sp.residencia_para_emprendedores') }}" class="nav-dropdown-link w-dropdown-link">
-                    <span class="nav-dropdown-link-line"></span>Residency for Entrepreneurs
+                  <a href="{{ route('frontend.residencia_para_emprendedores') }}" class="nav-dropdown-link w-dropdown-link">
+                    <span class="nav-dropdown-link-line"></span>Entrepreneurs Residency
                   </a>
-                  <a href="{{ route('frontend.sp.arraigo_para_la_formacion') }}" class="nav-dropdown-link w-dropdown-link">
-                    <span class="nav-dropdown-link-line"></span>Immigration for Training
+                  <a href="{{ route('frontend.arraigo_para_la_formacion') }}" class="nav-dropdown-link w-dropdown-link">
+                    <span class="nav-dropdown-link-line"></span>Arraigo para la formación
                   </a>
-                  <a href="{{ route('frontend.sp.arraigo_familiar') }}" class="nav-dropdown-link w-dropdown-link">
-                    <span class="nav-dropdown-link-line"></span>Family Immigration
+                  <a href="{{ route('frontend.arraigo_familiar') }}" class="nav-dropdown-link w-dropdown-link">
+                    <span class="nav-dropdown-link-line"></span>Arraigo Familiar
                   </a>
-                  <a href="{{ route('frontend.sp.arraigo_laboral') }}" class="nav-dropdown-link w-dropdown-link">
-                    <span class="nav-dropdown-link-line"></span>Work-Based Immigration
+                  <a href="{{ route('frontend.arraigo_laboral') }}" class="nav-dropdown-link w-dropdown-link">
+                    <span class="nav-dropdown-link-line"></span>Arraigo Laboral
                   </a>
-                  <a href="{{ route('frontend.sp.arraigo_social') }}" class="nav-dropdown-link w-dropdown-link">
-                    <span class="nav-dropdown-link-line"></span>Social Immigration
+                  <a href="{{ route('frontend.arraigo_social') }}" class="nav-dropdown-link w-dropdown-link">
+                    <span class="nav-dropdown-link-line"></span>Arraigo Social
                   </a>
-                  <a href="{{ route('frontend.sp.residencia_no_lucrativa') }}" class="nav-dropdown-link w-dropdown-link">
-                    <span class="nav-dropdown-link-line"></span>Non-Profit Residency
+                  <a href="{{ route('frontend.residencia_no_lucrativa') }}" class="nav-dropdown-link w-dropdown-link">
+                    <span class="nav-dropdown-link-line"></span>Non-lucrative Residency
                   </a>
-                  <a href="{{ route('frontend.sp.nomada_digital') }}" class="nav-dropdown-link w-dropdown-link">
-                    <span class="nav-dropdown-link-line"></span>Digital Nomad
+                  <a href="{{ route('frontend.nomada_digital') }}" class="nav-dropdown-link w-dropdown-link">
+                    <span class="nav-dropdown-link-line"></span>Digital nomad
                   </a>
-                  <a href="{{ route('frontend.sp.residencia_familiar_ue') }}" class="nav-dropdown-link w-dropdown-link">
-                    <span class="nav-dropdown-link-line"></span>EU Family Residency
+                  <a href="{{ route('frontend.residencia_familiar_ue') }}" class="nav-dropdown-link w-dropdown-link">
+                    <span class="nav-dropdown-link-line"></span>Residency of Family Members of EU Citizens
                   </a>
-                  <a href="{{ route('frontend.sp.reagrupacion_familiar') }}" class="nav-dropdown-link w-dropdown-link">
-                    <span class="nav-dropdown-link-line"></span>Family Reunification
+                  <a href="{{ route('frontend.reagrupacion_familiar') }}" class="nav-dropdown-link w-dropdown-link">
+                    <span class="nav-dropdown-link-line"></span>Family reunification
                   </a>
-                  <a href="{{ route('frontend.sp.residencia_larga_duracion') }}" class="nav-dropdown-link w-dropdown-link">
-                    <span class="nav-dropdown-link-line"></span>Long-Term Residency
+                  <a href="{{ route('frontend.residencia_larga_duracion') }}" class="nav-dropdown-link w-dropdown-link">
+                    <span class="nav-dropdown-link-line"></span>Long-term residence
                   </a>
-                  <a href="{{ route('frontend.sp.recurso_contencioso_administrativo') }}" class="nav-dropdown-link w-dropdown-link">
-                    <span class="nav-dropdown-link-line"></span>Administrative Court Appeal
+                  <a href="{{ route('frontend.recurso_contencioso_administrativo') }}" class="nav-dropdown-link w-dropdown-link">
+                    <span class="nav-dropdown-link-line"></span>Administrative litigation appeal
                   </a>
-                  <a href="{{ route('frontend.sp.recurso_administrativo') }}" class="nav-dropdown-link w-dropdown-link">
-                    <span class="nav-dropdown-link-line"></span>Administrative Appeal
+                  <a href="{{ route('frontend.recurso_administrativo') }}" class="nav-dropdown-link w-dropdown-link">
+                    <span class="nav-dropdown-link-line"></span>Administrative appeal
                   </a>
-                  <a href="{{ route('frontend.sp.renovación_de_la_tarjeta_de_residencia') }}" class="nav-dropdown-link w-dropdown-link">
-                    <span class="nav-dropdown-link-line"></span>Renewal of Residence Card (NIE)
+                  <a href="{{ route('frontend.renovación_de_la_tarjeta_de_residencia') }}" class="nav-dropdown-link w-dropdown-link">
+                    <span class="nav-dropdown-link-line"></span>Renewal of residence card (NIE)
                   </a>
                 </div>
               </nav>
@@ -73,16 +73,16 @@
               </div>
               <nav class="nav-dropdown-list w-dropdown-list">
                 <div class="nav-dropdown-link-wrapper">
-                  <a href="{{ route('frontend.sp.visa_de_estudiante') }}" aria-current="page" class="nav-dropdown-link w-dropdown-link"><span
+                  <a href="{{ route('frontend.visa_de_estudiante') }}" aria-current="page" class="nav-dropdown-link w-dropdown-link"><span
                       class="nav-dropdown-link-line">
-                    </span>Student Visa</a>
-                    <a href="{{ route('frontend.sp.golden_visa') }}" class="nav-dropdown-link w-dropdown-link">
+                    </span>Student visa</a>
+                    <a href="{{ route('frontend.golden_visa') }}" class="nav-dropdown-link w-dropdown-link">
                       <span class="nav-dropdown-link-line"> </span>Golden Visa
                     </a>
                 </div>
               </nav>
             </div>
-            <a href="{{ route('frontend.sp.nacionalidad') }}" class="nav-link w-nav-link m-left">Nationality</a>
+            <a href="{{ route('frontend.nacionalidad') }}" class="nav-link w-nav-link m-left">Nationality</a>
             <div data-hover="true" data-delay="0" data-w-id="ba67b287-f196-4627-29a8-f080f7e8b20d"
               class="nav-dropdown w-dropdown">
               <div class="nav-dropdown-toggle w-dropdown-toggle">
@@ -91,16 +91,16 @@
               </div>
               <nav class="nav-dropdown-list w-dropdown-list">
                 <div class="nav-dropdown-link-wrapper">
-                  <a href="{{ route('frontend.sp.assurance') }}" aria-current="page" class="nav-dropdown-link w-dropdown-link "><span
+                  <a href="{{ route('frontend.assurance') }}" aria-current="page" class="nav-dropdown-link w-dropdown-link "><span
                       class="nav-dropdown-link-line">
                     </span>Insurance</a>
-                    <a href="{{ route('frontend.sp.programmes') }}" class="nav-dropdown-link w-dropdown-link"><span
+                    <a href="{{ route('frontend.programmes') }}" class="nav-dropdown-link w-dropdown-link"><span
                       class="nav-dropdown-link-line"> </span>Study Programs</a>
                 </div>
               </nav>
             </div>
-            <a href="{{ route('frontend.sp.about') }}" class="nav-link w-nav-link m-left">About Us</a>
-            <a href="{{ route('frontend.sp.contact') }}" class="nav-link w-nav-link">Contact</a>
+            <a href="{{ route('frontend.about') }}" class="nav-link w-nav-link m-left">About Us</a>
+            <a href="{{ route('frontend.contact') }}" class="nav-link w-nav-link">Contact</a>
             {{-- Language --}}
             <div class="lang-wrapper mobile-lang">
               <div class="lang-wrap">
@@ -113,7 +113,7 @@
               </div>
               <div class="nav-mobile-bottom-btn">
                 <div class="button-wrapper">
-                  <a href="javascript:void(0);" class="primary-button nav-tablet w-button openModalButton">Book Appointment</a>
+                  <a href="javascript:void(0);" class="primary-button nav-tablet w-button openModalButton">Book a Consultation</a>
                 </div>
               </div>
             </div>
@@ -128,7 +128,7 @@
           </a>
         </div>
         <div class="search-shop-con">
-            <a href="javascript:void(0);" class="primary-button w-button openModalButton">Book Appointment</a>
+            <a href="javascript:void(0);" class="primary-button w-button openModalButton">Book a Consultation</a>
         </div>
       </div>
       <div class="menu-button w-nav-button">
