@@ -125,6 +125,7 @@ Route::group(['prefix' => 'en'], function () {
     Route::get('checkout_success', [StripeController::class, 'success_en']);
 
     Route::get('/', [FrontendEnglishController::class, 'index'])->name('frontend.index');
+    Route::get('/Contacto', [FrontendEnglishController::class, 'contact'])->name('frontend.contact');
     Route::get('/logements/{id}', [FrontendEnglishController::class, 'appartement'])->name('frontend.appartement');
     Route::get('/logements/{id}/Checkout', [FrontendEnglishController::class, 'checkout'])->name('frontend.checkout');
     Route::get('/assurance', [FrontendEnglishController::class, 'assurance'])->name('frontend.assurance');
