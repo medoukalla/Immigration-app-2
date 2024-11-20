@@ -98,97 +98,47 @@
     <div class="section documents-section">
         <div class="base-container w-container">
             <div class="heading">
-                <h2>Procedimiento para la residencia no lucrativa</h2>
+                <h2>Requisitos Requeridos</h2>
             </div>
             <div class="doc-wrapper w-layout-grid">
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        El recorrido para la obtención de la residencia no lucrativa comienza solicitando la
-                        “Autorización
-                        de residencia temporal” y el correspondiente visado ante
+                        Un proyecto empresarial innovador que incluya inversión inicial y potencial de creación de empleo
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        El solicitante tendrá un plazo de un mes para recoger el visado concedido en
-                        el Consulado. Posteriormente deberá tener en cuenta el plazo para entrar en España según el
-                        plazo indicado.
+                        Plan de negocio detallado. 
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        El primer permiso de residencia no lucrativa será por 1 año, el cual podrá
-                        ser renovado al término del mismo. (Ver trámites de Renovación de Residencia).
+                        Justificación de medios económicos suficientes.
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        El plazo máximo que tiene la Administración Pública (Delegación o
-                        Subdelegación del Gobierno) para resolver la solicitud de autorización es de un mes...
+                        Seguro médico. 
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-5.svg') }}" alt="Badge">
-                        Una vez en España, habrá de ser solicitada la Tarjeta de Identidad de
-                        Extranjero de forma personal y en el plazo de un mes desde la llegada. (Ver trámite de Tarjeta
-                        de Identidad de Extranjero).
+                        Certificado de antecedentes penales.
                     </div>
                     <div class="doc-block">
                         <img src="{{ asset('assets/images/svg/badge-6.svg') }}" alt="Badge">
-                        Póngase en contacto con nosotros y solicite más información. Nuestro equipo legal le solucionará
-                        sus dudas, le dará la información más completa
+                        Pasaporte vigente
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
     <x-en.call_to_action />
+
+    
     <!-- Necessary documents -->
-    <div class="section documents-section without-bottom-spacing">
-        <div class="base-container w-container">
-            <div class="heading">
-                <h2>Procedimiento para la residencia no lucrativa</h2>
-            </div>
-            <div class="doc-wrapper w-layout-grid">
-                <div class="doc-block-wrapper doc-block-left">
-                    <div class="doc-block">
-                        <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        El recorrido para la obtención de la residencia no lucrativa comienza solicitando la
-                        “Autorización
-                        de residencia temporal” y el correspondiente visado ante
-                    </div>
-                    <div class="doc-block">
-                        <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        El solicitante tendrá un plazo de un mes para recoger el visado concedido en
-                        el Consulado. Posteriormente deberá tener en cuenta el plazo para entrar en España según el
-                        plazo indicado.
-                    </div>
-                    <div class="doc-block">
-                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        El primer permiso de residencia no lucrativa será por 1 año, el cual podrá
-                        ser renovado al término del mismo. (Ver trámites de Renovación de Residencia).
-                    </div>
-                </div>
-                <div class="doc-block-wrapper doc-block-right">
-                    <div class="doc-block">
-                        <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        El plazo máximo que tiene la Administración Pública (Delegación o
-                        Subdelegación del Gobierno) para resolver la solicitud de autorización es de un mes...
-                    </div>
-                    <div class="doc-block">
-                        <img src="{{ asset('assets/images/svg/badge-5.svg') }}" alt="Badge">
-                        Una vez en España, habrá de ser solicitada la Tarjeta de Identidad de
-                        Extranjero de forma personal y en el plazo de un mes desde la llegada. (Ver trámite de Tarjeta
-                        de Identidad de Extranjero).
-                    </div>
-                    <div class="doc-block">
-                        <img src="{{ asset('assets/images/svg/badge-6.svg') }}" alt="Badge">
-                        Póngase en contacto con nosotros y solicite más información. Nuestro equipo legal le solucionará
-                        sus dudas, le dará la información más completa
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <x-en.necessary-documents />
 
 
     <!-- Feedback -->

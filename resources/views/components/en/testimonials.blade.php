@@ -8,7 +8,7 @@
         </span>
       </div>
 
-      <img class="google-rating" src="assets/images/svg/google-rating-reviews.svg" alt="Calificación de Google">
+      <img class="google-rating" src="{{ asset('assets/images/svg/google-rating-reviews.svg') }}" alt="Calificación de Google">
     </div>
     <!-- Swiper -->
     <div class="swiper mySwiper">
