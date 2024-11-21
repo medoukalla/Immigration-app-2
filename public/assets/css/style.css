@@ -6406,6 +6406,12 @@ select.white-style,
   color: #ffffffb3;
 }
 
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
+  .solution-section .sol-block {
+    width: 260px !important;
+  }
+}
+
 @media screen and (min-width: 1280px) {
   h1 {
     font-size: 72px;
@@ -6693,6 +6699,10 @@ select.white-style,
 
   .video-in-section-careers {
     min-height: 390px;
+  }
+
+  .solution-section .sol-block {
+    width: 260px !important;
   }
 }
 
