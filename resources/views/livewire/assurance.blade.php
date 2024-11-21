@@ -105,8 +105,9 @@
                             </div>
 
                             <div @if ( $request_sent == 'false' ) style="display: none;" @endif >
-                                <div class="alert alert-success">
-                                    Success message here
+                                <div class="as-alert alert alert-success">
+                                    <img src="{{ asset('assets/images/svg/checkGreen.svg') }}" alt="Correct icon">
+                                    Tu solicitud ha sido recibida, te enviaremos el precio del seguro por email
                                 </div>
                             </div>
                         </div>
@@ -148,7 +149,6 @@
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            width: 100%;
             max-width: 500px; /* Max width for the modal */
         }
     

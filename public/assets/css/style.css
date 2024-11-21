@@ -10574,3 +10574,19 @@ input[type="radio"] {
 .mobile-map {
   display: none;
 }
+
+.as-alert {
+  text-align: center;
+  line-height: 25px;
+  font-weight: 400;
+  color: #434343;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.as-alert img {
+  height: 100px;
+}
