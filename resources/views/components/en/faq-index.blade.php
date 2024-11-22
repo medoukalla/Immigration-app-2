@@ -6,7 +6,8 @@
           Frequently
           <span>Asked Questions</span>
           <p>
-            Find clear and detailed answers to the most common questions about our legal services. We are here to help you every step of the way in your process.
+            Find clear and detailed answers to the most common questions about our legal services. We are here to help you every step of the way
+
           </p>
           <div class="faq-img" style=" width: 100% !important; ">
             <img src="assets/images/flags-img.png" alt="FAQ image" style=" padding-right: 70px; padding-top: 50px; ">

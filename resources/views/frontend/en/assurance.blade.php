@@ -4,16 +4,15 @@
 <div class="pages-banner blog">
     <div class="base-container w-container">
         <div class="min-hero-wrapper">
-            <h1>Seguro</h1>
-            <p>Estamos aquí para guiarte en cada paso del camino. Nuestro equipo de expertos está dedicado a hacer que
-                tu viaje a un nuevo país sea lo más fluido y libre de estrés posible.</p>
+            <h1>Insurance</h1>
+            <p>At Immiworld, we guide you in obtaining the mandatory insurance required by Extranjería and the consulate, ensuring a smooth immigration process in Spain.</p>
             <div class="pages-path">
                 <div class="p-path">
-                    <a href="{{ route('frontend.sp.index') }}">Bienvenida</a>
+                    <a href="{{ route('frontend.sp.index') }}">Welcome</a>
                 </div>
-                <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
+                <img {{ asset('assets/images/svg/arrow.svg') }} alt="Flecha de ruta">
                 <div class="p-path">
-                    Seguro
+                    Insurance
                 </div>
             </div>
         </div>
@@ -55,70 +54,22 @@
                     <img src="{{ asset('assets/images/contact-image.png') }}" alt="Contact image">
                 </div>
                 <div class="contacts-title">
-                    <h2 class="in-section-title">SEGURO</h2>
+                    <h2 class="in-section-title">INSURANCE</h2>
                 </div>
                 <div class="contacts-2-content">
-                    <p>Contar con un seguro de salud es esencial para los trámites de extranjería en España. Este servicio asegura el acceso a atención médica y es un requisito clave para la obtención de visados y permisos de residencia</p>
+                    <p>Having health insurance is essential for immigration procedures in Spain. This service ensures access to medical care and is a key requirement for obtaining visas and residence permits.</p>
                 </div>
             </div>
             <!-- Contact Form -->
-            @livewire('assurance')
+            @livewire('assurance-en')
         </div>
     </div>
 </div>
 
 <!-- contact-components -->
-<div class="section contact-components">
-    <div class="base-container w-container">
-        <div class="contact-component-wrapper">
-            <div class="c-c-block">
-                <img src="/assets/images/svg/component-email.svg" alt="Email icone">
-                <div class="c-c-name">
-                    Email
-                </div>
-                <p>Direct all your queries to our dedicated customer support email.</p>
-                <a href="#">
-                    <div class="c-c-link">
-                        hello@nimble.llc
-                    </div>
-                </a>
-            </div>
-            <div class="c-c-block">
-                <img src="/assets/images/svg/component-chat.svg" alt="Email icone">
-                <div class="c-c-name">
-                    Email
-                </div>
-                <p>For real-time assistance, initiate a chat with our representative.</p>
-                <a href="#">
-                    <div class="c-c-link">Start new chat
-                    </div>
-                </a>
-            </div>
-            <div class="c-c-block">
-                <img src="/assets/images/svg/component-phone.svg" alt="Email icone">
-                <div class="c-c-name">
-                    Email
-                </div>
-                <p>Call us for immediate responses to your questions or concerns.</p>
-                <a href="#">
-                    <div class="c-c-link">+1 (555) 000-0000
-                    </div>
-                </a>
-            </div>
-            <div class="c-c-block">
-                <img src="/assets/images/svg/component-location.svg" alt="Email icone">
-                <div class="c-c-name">
-                    Email
-                </div>
-                <p>If you're in the area, feel free to drop by our office for assistance.</p>
-                <a href="#">
-                    <div class="c-c-link">123 Sample St, Los Angeles 2000 US
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
+<x-en.contact-info />
+
+
 <!-- Solutions -->
 <x-en.solutions />
 

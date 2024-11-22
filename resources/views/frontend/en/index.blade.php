@@ -13,33 +13,34 @@
               <div id="w-node-c651ba22-4432-547d-7cd0-369831cf9fba-296c1808" class="left-advatages-content">
                   <div data-w-id="c651ba22-4432-547d-7cd0-369831cf9fbb" style="opacity:0" class="advantages-wrap">
                       <div class="heading-advantages">
-                          <h5>Legal Consultation and Evaluation</h5>
+                          <h5>Legal Consultation and Assessment</h5>
                           <div class="number">01</div>
                       </div>
-                      <p class="small-paragraph _w-95">We assess your current situation, whether you are in Spain or abroad. Our immigration lawyers will provide you with advice on the best legal option for your case.<br /></p>
+                      <p class="small-paragraph _w-95">We evaluate your current situation, whether you are in Spain or abroad. Our immigration lawyers will provide you with advice on the best legal option for your case.
+                        <br /></p>
                   </div>
                   <div data-w-id="c651ba22-4432-547d-7cd0-369831cf9fc3" style="opacity:0" class="advantages-wrap">
                       <div class="heading-advantages">
                           <h5 class="">Document Preparation</h5>
                           <div class="number">02</div>
                       </div>
-                      <p class="small-paragraph">We help you gather and prepare all the necessary documents, ensuring they are in order for submission to the authorities.<br /></p>
+                      <p class="small-paragraph">We assist you in gathering and preparing all necessary documents, ensuring they are organized for submission to the authorities.
+                        <br /></p>
                   </div>
                   <div data-w-id="c651ba22-4432-547d-7cd0-369831cf9fcb" style="opacity:0" class="advantages-wrap">
                       <div class="heading-advantages">
-                          <h5>Application Follow-up</h5>
+                          <h5>Application Monitoring</h5>
                           <div class="number">03</div>
                       </div>
                       <p class="small-paragraph _w-95">We submit your application to the immigration office and continuously monitor the status of your case, keeping you informed at every stage.<br /></p>
                   </div>
               </div>
               <div id="w-node-c651ba22-4432-547d-7cd0-369831cf9fd3-296c1808" class="right-advantages-content">
-                  <div data-w-id="c651ba22-4432-547d-7cd0-369831cf9fd4" style="opacity:0" class="subtitle-text">Our Process</div>
-                  <h2 data-w-id="c651ba22-4432-547d-7cd0-369831cf9fd6" style="opacity:0" class="in-section-title">We Guide You Every Step of Your Immigration Process</h2>
-                  <p data-w-id="c651ba22-4432-547d-7cd0-369831cf9fd8" style="opacity:0">At Immiworld, we understand that immigration procedures can be complicated, whether you are in Spain or planning to come from your home country. We assist you at every stage of the process to ensure that you meet all legal requirements.<br /></p>
-                  <div data-w-id="c651ba22-4432-547d-7cd0-369831cf9fda" style="opacity:0" class="button-wrapper">
-                      <a href="javascript:void(0);" class="primary-button dark openModalButton">Book a Consultation?</a>
-                  </div>
+                <div data-w-id="c651ba22-4432-547d-7cd0-369831cf9fd4" style="opacity:0" class="subtitle-text">Our Immigration Process</div>
+                <h2 data-w-id="c651ba22-4432-547d-7cd0-369831cf9fd6" style="opacity:0" class="in-section-title">We Guide You Through Every Step of Your Immigration Procedure</h2>
+                <p data-w-id="c651ba22-4432-547d-7cd0-369831cf9fd8" style="opacity:0">At Immiworld, we understand that immigration procedures can be complicated, whether you are in Spain or planning to come from your home country. We accompany you at every stage of the process to ensure that you meet all legal requirements.<br /></p>
+                <div data-w-id="c651ba22-4432-547d-7cd0-369831cf9fda" style="opacity:0" class="button-wrapper"><a
+                    href="javascript:void(0);" class="primary-button dark openModalButton">Book a consultation</a></div>
               </div>
           </div>
       </div>
@@ -51,8 +52,10 @@
       <div class="base-container w-container">
           <div class="section-heading">
               <div data-w-id="e4b01cad-d7fb-7d45-4504-1016bae76010" style="opacity:0" class="section-title-wrapper">
-                  <h2 class="section-title">Our Services</h2>
-                  <p>We offer comprehensive immigration solutions to meet all your legal needs in Spain, from obtaining residence permits to personalized advice on complex procedures.</p>
+                  <h2 class="section-title">Our Services
+                </h2>
+                  <p>We offer comprehensive solutions in immigration law to meet all your legal needs in Spain. From obtaining residence permits to personalized advice on complex procedures.
+                </p>
               </div>
           </div>
           <div class="w-layout-grid work-coach">
@@ -64,7 +67,8 @@
                               <a href="{{ route('frontend.sp.residencia_no_lucrativa') }}" class="w-inline-block">
                                   <h5 class="services-titles">Non-Lucrative Residence</h5>
                               </a>
-                              <p class="service-item-description">Obtain your residence in Spain without the need to work, ensuring your economic stability.</p>
+                              <p class="service-item-description">Live in Spain without work obligations. We assist you in securing a non-lucrative residence permit with the necessary financial proof.
+                            </p>
                               <div class="button-wrapper smaller-spacing"><a href="{{ route('frontend.sp.residencia_no_lucrativa') }}" class="link-with-arrow-underline white-style">Learn More</a></div>
                               <div class="dark-overlay"></div>
                           </div>
@@ -79,7 +83,8 @@
                               <a href="{{ route('frontend.sp.nacionalidad') }}" class="w-inline-block">
                                   <h5 class="services-titles">Spanish Nationality</h5>
                               </a>
-                              <p class="service-item-description">Become a Spanish citizen and enjoy all the rights and benefits that come with it.</p>
+                              <p class="service-item-description">Achieve Spanish citizenship through residency or marriage. Our experts guide you through the necessary steps and requirements.
+                            </p>
                               <div class="button-wrapper smaller-spacing"><a href="{{ route('frontend.sp.nacionalidad') }}" class="link-with-arrow-underline white-style">Learn More</a></div>
                               <div class="dark-overlay"></div>
                           </div>
@@ -94,7 +99,8 @@
                               <a href="{{ route('frontend.sp.visa_de_estudiante') }}" class="w-inline-block">
                                   <h5 class="services-titles">Student Visa</h5>
                               </a>
-                              <p class="service-item-description">Study in Spain with a visa that allows you to access high-quality education.</p>
+                              <p class="service-item-description">Obtain your student visa with our guidance, enabling you to study at recognized institutions while immersing yourself in Spanish culture.
+                            </p>
                               <div class="button-wrapper smaller-spacing"><a href="{{ route('frontend.sp.visa_de_estudiante') }}" class="link-with-arrow-underline white-style">Learn More</a></div>
                               <div class="dark-overlay"></div>
                           </div>
@@ -107,9 +113,11 @@
                           <div data-w-id="7c5488ea-0d30-2f2e-a337-1d3df6b31c45" style="background-image:url(&quot;https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652891bd3236320ae1f0b84c_pexels-oleksandr-p-1008155.jpg&quot;);opacity:0" class="work-wrapper">
                               <img loading="lazy" src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/6528916057f15ad2b94df35b_relocation.svg" alt="" class="icon-work" />
                               <a href="{{ route('frontend.sp.nomada_digital') }}" class="w-inline-block">
-                                  <h5 class="services-titles">Digital Nomad Visa</h5>
+                                  <h5 class="services-titles">Digital Nomad Visa
+                                </h5>
                               </a>
-                              <p class="service-item-description">Work and live in Spain while advancing your career from anywhere in the world.</p>
+                              <p class="service-item-description">Work remotely in Spain with the Digital Nomad Visa. We help you navigate the application process for this exciting opportunity.
+                            </p>
                               <div class="button-wrapper smaller-spacing"><a href="{{ route('frontend.sp.nomada_digital') }}" class="link-with-arrow-underline white-style">Learn More</a></div>
                               <div class="dark-overlay"></div>
                           </div>
@@ -122,9 +130,11 @@
                           <div data-w-id="fb7b6a25-057e-7357-a393-8453d9c0ef35" style="background-image:url(&quot;https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652891e0a6170d2717dd7e55_pexels-vlada-karpovich-7368310.jpg&quot;);opacity:0" class="work-wrapper">
                               <img loading="lazy" src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652891689ec9911fdd305464_immigration.svg" alt="" class="icon-work" />
                               <a href="{{ route('frontend.sp.golden_visa') }}" class="w-inline-block">
-                                  <h5 class="services-titles">Golden Visa</h5>
+                                  <h5 class="services-titles">Golden Visa
+                                </h5>
                               </a>
-                              <p class="service-item-description">Invest in Spain and obtain residence through our Golden Visa option.</p>
+                              <p class="service-item-description">Secure residency in Spain through significant investments in real estate or businesses, allowing you and your family to live and work freely.
+                            </p>
                               <div class="button-wrapper smaller-spacing"><a href="{{ route('frontend.sp.golden_visa') }}" class="link-with-arrow-underline white-style">Learn More</a></div>
                               <div class="dark-overlay"></div>
                           </div>
@@ -139,7 +149,8 @@
                               <a href="{{ route('frontend.sp.residencia_para_emprendedores') }}" class="w-inline-block">
                                   <h5 class="services-titles">Entrepreneur Residence</h5>
                               </a>
-                              <p class="service-item-description">Launch your business in Spain with a residence permit designed for entrepreneurs.</p>
+                              <p class="service-item-description">Launch your innovative business in Spain. We support you in obtaining the Entrepreneur Residency to contribute to the local economy.
+                            </p>
                               <div class="button-wrapper smaller-spacing"><a href="{{ route('frontend.sp.residencia_para_emprendedores') }}" class="link-with-arrow-underline white-style">Learn More</a></div>
                               <div class="dark-overlay"></div>
                           </div>
@@ -157,12 +168,15 @@
       <div class="base-container w-container">
           <div class="call-to-action-box">
               <div class="call-subtitle">Your future starts here</div>
-              <div class="call-title">Get the legal assistance you need for your<br>
+              <div class="call-title">Get the Legal Assistance You Need for Your
+                <br>
                   <span>immigration process in Spain</span>
               </div>
-              <p>Whether you live in Spain or are planning to come, our expert immigration lawyers will guide you through every step. We handle your paperwork efficiently so you can focus on your new beginning.</p>
+              <p>Whether you're already in Spain or planning to move, our expert immigration lawyers will guide you through every step. We handle your paperwork efficiently so you can focus on your new beginning.
+            </p>
               <div class="button-wrapper smaller-spacing">
-                  <a href="{{ route('frontend.sp.contact') }}" class="link-with-arrow-underline white-style">Contact us today</a>
+                  <a href="{{ route('frontend.sp.contact') }}" class="link-with-arrow-underline white-style">Contact us !
+                </a>
               </div>
           </div>
       </div>
@@ -171,7 +185,7 @@
 
 
     <!-- Feedback -->
-    {{-- <x-en.testimonials :testimonials="$testimonials" /> --}}
+    <x-en.testimonials :testimonials="$testimonials" />
 
     <!-- FAQ -->
     <x-en.faq-index :faqs="$faqs" />

@@ -11,11 +11,11 @@
                 <div class="p-path">
                     <a href="{{ route('frontend.sp.index') }}">Bienvenida</a>
                 </div>
-                <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
+                <img {{ asset('assets/images/svg/arrow.svg') }} alt="Flecha de ruta">
                 <div class="p-path">
                     Servicios
                 </div>
-                <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
+                <img {{ asset('assets/images/svg/arrow.svg') }} alt="Flecha de ruta">
                 <div class="p-path">
                     Programas de estudio
                 </div>
@@ -606,57 +606,8 @@
     </div>
 </div>
 <!-- contact-components -->
-<div class="section contact-components">
-    <div class="base-container w-container">
-        <div class="contact-component-wrapper">
-            <div class="c-c-block">
-                <img src="/assets/images/svg/component-email.svg" alt="Email icone">
-                <div class="c-c-name">
-                    Email
-                </div>
-                <p>Direct all your queries to our dedicated customer support email.</p>
-                <a href="#">
-                    <div class="c-c-link">
-                        hello@nimble.llc
-                    </div>
-                </a>
-            </div>
-            <div class="c-c-block">
-                <img src="/assets/images/svg/component-chat.svg" alt="Email icone">
-                <div class="c-c-name">
-                    Email
-                </div>
-                <p>For real-time assistance, initiate a chat with our representative.</p>
-                <a href="#">
-                    <div class="c-c-link">Start new chat
-                    </div>
-                </a>
-            </div>
-            <div class="c-c-block">
-                <img src="/assets/images/svg/component-phone.svg" alt="Email icone">
-                <div class="c-c-name">
-                    Email
-                </div>
-                <p>Call us for immediate responses to your questions or concerns.</p>
-                <a href="#">
-                    <div class="c-c-link">+1 (555) 000-0000
-                    </div>
-                </a>
-            </div>
-            <div class="c-c-block">
-                <img src="/assets/images/svg/component-location.svg" alt="Email icone">
-                <div class="c-c-name">
-                    Email
-                </div>
-                <p>If you're in the area, feel free to drop by our office for assistance.</p>
-                <a href="#">
-                    <div class="c-c-link">123 Sample St, Los Angeles 2000 US
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
+<x-sp.contact-info />
+
     <!-- Solutions -->
     <x-sp.solutions />
 </div>

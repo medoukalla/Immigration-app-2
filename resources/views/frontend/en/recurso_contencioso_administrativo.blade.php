@@ -13,11 +13,11 @@
                     <div class="p-path">
                         Bienvenida
                     </div>
-                    <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
+                    <img {{ asset('assets/images/svg/arrow.svg') }} alt="Flecha de ruta">
                     <div class="p-path">
                         Extranjería
                     </div>
-                    <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
+                    <img {{ asset('assets/images/svg/arrow.svg') }} alt="Flecha de ruta">
                     <div class="p-path">
                         Recurso Contencioso Administrativo
                     </div>

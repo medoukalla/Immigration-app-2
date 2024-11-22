@@ -9,7 +9,8 @@
                     <img src="/assets/images/solution-0.png" alt="Solutions Image">
                     <div class="sol-content">
                         <div class="sol-heading">Golden Visa</div>
-                        <p>Obtain your residency through a significant investment in Spain.</p>
+                        <p>Obtain your residency through a significant investment in Spain.
+                        </p>
                     </div>
                 </a>
             </div>
@@ -18,7 +19,8 @@
                     <img src="/assets/images/solution-1.png" alt="Solutions Image">
                     <div class="sol-content">
                         <div class="sol-heading">Spanish Nationality</div>
-                        <p>Meet the requirements to obtain Spanish nationality easily.</p>
+                        <p>Meet the requirements to easily acquire Spanish nationality.
+                            .</p>
                     </div>
                 </a>
             </div>
@@ -27,7 +29,8 @@
                     <img src="/assets/images/solution-2.png" alt="Solutions Image">
                     <div class="sol-content">
                         <div class="sol-heading">Residency <br> for Entrepreneurs</div>
-                        <p>Start your business in Spain with the appropriate residency.</p>
+                        <p>Start your business in Spain with the appropriate residency.
+                        </p>
                     </div>
                 </a>
             </div>
@@ -36,7 +39,7 @@
                     <img src="/assets/images/solution-3.png" alt="Solutions Image">
                     <div class="sol-content">
                         <div class="sol-heading">Digital Nomad Visa</div>
-                        <p>Live and work in Spain as a legal digital nomad.</p>
+                        <p>Live and work in Spain legally as a digital nomad.</p>
                     </div>
                 </a>
             </div>

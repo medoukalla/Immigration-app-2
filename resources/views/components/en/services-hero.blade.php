@@ -9,7 +9,7 @@
                 <div class="p-path">
                     Home
                 </div>
-                <img src="assets/images/svg/arrow.svg" alt="Path Arrow">
+                <img {{ asset('assets/images/svg/arrow.svg') }} alt="Path Arrow">
                 <div class="p-path">
                     Services
                 </div>

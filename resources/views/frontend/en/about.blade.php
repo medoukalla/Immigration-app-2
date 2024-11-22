@@ -11,7 +11,7 @@
                 <div class="p-path">
                     <a href="{{ route('frontend.sp.index') }}">Welcome</a>
                 </div>
-                <img src="assets/images/svg/arrow.svg" alt="Path arrow">
+                <img {{ asset('assets/images/svg/arrow.svg') }} alt="Path arrow">
                 <div class="p-path">
                     About Us
                 </div>
@@ -52,17 +52,18 @@
         <div class="our-journey">
             <div class="left-side">
                 <div class="journey-subtitle">Our Story</div>
-                <h2>Experts in Immigration and Foreigners' Law in Málaga</h2>
+                <h2>Experts in Immigration Law in Málaga</h2>
             </div>
             <div class="right-side">
                 <p>
-                    At Immiworld, we started with a clear mission: to simplify the immigration and foreign affairs procedures for individuals and families who wish to settle in Spain, especially in Málaga. Our law firm, specialized in immigration law, has grown thanks to the trust of our clients, offering legal solutions tailored to each situation. Málaga, as one of the most dynamic and attractive cities to live in, is the epicenter of our services, helping those looking for a fresh start in this region.
+                    At Immiworld, we began with a clear mission: to simplify immigration and residency processes for individuals and families seeking to establish their lives in Spain, with a special focus on Málaga. As a specialized law firm in immigration law, we have earned the trust of our clients by providing tailored legal solutions for each unique situation. Málaga, one of Spain's most dynamic and desirable cities, serves as the epicenter of our services, helping those who aspire to start a new chapter in this vibrant region.
                 </p> <br>
                 <p>
-                    From non-lucrative residence permits to visas for entrepreneurs or digital nomads, we guide our clients through every step of the process, ensuring compliance with all legal requirements. With a team of expert lawyers in Málaga, Immiworld has positioned itself as a reference in immigration and foreign affairs consulting, offering personalized support and effective solutions for obtaining residence permits, nationality, and other complex procedures in Spain.
+                    From non-lucrative residency permits to visas for entrepreneurs and digital nomads, we guide our clients through every step of the process, ensuring compliance with all legal requirements. With a team of highly skilled immigration attorneys based in Málaga, Immiworld has established itself as a leading authority in immigration and residency law, offering personalized support and efficient solutions for obtaining residence permits, citizenship, and other complex legal procedures in Spain.
+
                 </p> <br>
                 <p>    
-                    We are here to make your immigration process simple and successful, always with a local and personalized approach. Málaga is our base, and from here we help people from all over the world achieve their goals in Spain.
+                    Our goal is to make your immigration journey smooth and successful, always with a local and personalized approach. Málaga is our home, and from here, we assist individuals from around the world in achieving their goals in Spain.
                 </p>
             </div>
         </div>

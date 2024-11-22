@@ -2,7 +2,7 @@
     <div class="base-container w-container">
       <div data-w-id="e4b01cad-d7fb-7d45-4504-1016bae76010" style="opacity:0" class="section-title-wrapper">
         <h2 class="section-title">Our Blog</h2>
-        <p>Explore articles and news about immigration, visas, and legal advice. Stay informed with our guides and practical tips.</p>
+        <p>Explore articles and updates on immigration, visas, and legal advice. Stay informed with our guides and practical tips.</p>
       </div>
       <div class="home-blog-collection w-dyn-list">
         <div role="list" class="home-blog-list w-dyn-items">
