@@ -11,11 +11,11 @@
                 <div class="p-path">
                     Inicio
                 </div>
-                <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
+                <img {{ asset('assets/images/svg/arrow.svg') }} alt="Flecha de ruta">
                 <div class="p-path">
                     Extrajería
                 </div>
-                <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
+                <img {{ asset('assets/images/svg/arrow.svg') }} alt="Flecha de ruta">
                 <div class="p-path">
                     Arraigo familiar
                 </div>

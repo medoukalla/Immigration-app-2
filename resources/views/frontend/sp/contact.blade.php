@@ -128,61 +128,11 @@
     
 
     <!-- contact-components -->
-    <div class="section contact-components">
-        <div class="base-container w-container">
-            <div class="contact-component-wrapper">
-                <div class="c-c-block">
-                    <img src="/assets/images/svg/component-email.svg" alt="Ícono de correo electrónico">
-                    <div class="c-c-name">
-                        Formulario de Contacto
-                    </div>
-                    <p>Dirija todas sus consultas a nuestro correo de soporte al cliente dedicado.</p>
-                    <a href="mailto:hello@nimble.llc">
-                        <div class="c-c-link">
-                            hello@nimble.llc
-                        </div>
-                    </a>
-                </div>
-                <div class="c-c-block">
-                    <img src="/assets/images/svg/component-chat.svg" alt="Ícono de chat">
-                    <div class="c-c-name">
-                        Chat
-                    </div>
-                    <p>Para asistencia en tiempo real, inicie un chat con nuestro representante.</p>
-                    <a href="#">
-                        <div class="c-c-link">Iniciar nuevo chat
-                        </div>
-                    </a>
-                </div>
-                <div class="c-c-block">
-                    <img src="/assets/images/svg/component-phone.svg" alt="Ícono de teléfono">
-                    <div class="c-c-name">
-                        Teléfono
-                    </div>
-                    <p>Llámennos para respuestas inmediatas a sus preguntas o inquietudes.</p>
-                    <a href="tel:+15550000000">
-                        <div class="c-c-link">+1 (555) 000-0000
-                        </div>
-                    </a>
-                </div>
-                <div class="c-c-block">
-                    <img src="/assets/images/svg/component-location.svg" alt="Ícono de ubicación">
-                    <div class="c-c-name">
-                        Ubicación
-                    </div>
-                    <p>Si está en la zona, no dude en visitarnos en nuestra oficina para asistencia.</p>
-                    <a href="#">
-                        <div class="c-c-link">123 Sample St, Los Ángeles 2000 US
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <x-sp.contact-info />
     
     
     <!-- Feedback -->
-    {{-- <x-sp.testimonials :testimonials="$testimonials" /> --}}
+    <x-sp.testimonials :testimonials="$testimonials" />
     
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

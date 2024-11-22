@@ -62,52 +62,52 @@
 
                             @csrf
 
-                            <h3 class="form-heading">Formulario de Contacto</h3>
+                            <h3 class="form-heading">Contact Form</h3>
                             <br>
                         
-                            <h6>1 - Su nombre</h6>
-                            <input class="contacts-input white-style w-input" maxlength="256" name="first_name" placeholder="Indique su nombre." type="text" id="first_name" required>
+                            <h6>1 - Your First Name :</h6>
+                            <input class="contacts-input white-style w-input" maxlength="256" name="first_name" placeholder="Please provide your first name." type="text" id="first_name" required>
                         
-                            <h6>2 - Su apellido:</h6>
-                            <input class="contacts-input white-style w-input" maxlength="256" name="last_name" placeholder="Indique su apellido." type="text" id="last_name" required>
+                            <h6>2 - Your Last Name :</h6>
+                            <input class="contacts-input white-style w-input" maxlength="256" name="last_name" placeholder="Please provide your last name." type="text" id="last_name" required>
                         
-                            <h6>3 - Su dirección de correo electrónico:</h6>
-                            <input class="contacts-input white-style w-input" maxlength="256" name="email" placeholder="Indique su dirección de correo electrónico." type="email" id="email" required>
+                            <h6>3 - Your Email Address :</h6>
+                            <input class="contacts-input white-style w-input" maxlength="256" name="email" placeholder="Please provide your email address." type="email" id="email" required>
                         
-                            <h6>4 - Su número de teléfono:</h6>
-                            <input class="contacts-input white-style w-input" maxlength="256" name="phone" placeholder="Indique su número de teléfono." type="tel" id="phone" required>
+                            <h6>4 - Your Phone Number :</h6>
+                            <input class="contacts-input white-style w-input" maxlength="256" name="phone" placeholder="Please provide your phone number." type="tel" id="phone" required>
                         
-                            <h6>5 - Servicio que le interesa:</h6>
+                            <h6>5 - Service of Interest :</h6>
                             <select name="service_interest" id="service_interest" class="white-style">
-                                <option value="">Seleccione el servicio que le interesa:</option>
+                                <option value="">Select the service you are interested in.</option>
                                 <option value="servicio1">Servicio 1</option>
                                 <option value="servicio2">Servicio 2</option>
                                 <option value="servicio3">Servicio 3</option>
                                 <option value="servicio4">Servicio 4</option>
                             </select>
                         
-                            <h6>6 - Su nacionalidad:</h6>
+                            <h6>6 - Your Nationality :</h6>
                             <select name="nationality" id="nationality" class="white-style">
-                                <option value="">Indique su nacionalidad.</option>
+                                <option value="">Please indicate your nationality.</option>
                                 <option value="nacionalidad1">Nacionalidad 1</option>
                                 <option value="nacionalidad2">Nacionalidad 2</option>
                                 <option value="nacionalidad3">Nacionalidad 3</option>
                                 <option value="nacionalidad4">Nacionalidad 4</option>
                             </select>
                         
-                            <h6>7 - ¿Dónde reside?</h6>
+                            <h6>7 - Your Place of Residence </h6>
                             <select name="residence" id="residence" class="white-style">
-                                <option value="">Indique su lugar de residencia.</option>
+                                <option value="">Please indicate where you currently reside.</option>
                                 <option value="ubicacion1">Ubicación 1</option>
                                 <option value="ubicacion2">Ubicación 2</option>
                                 <option value="ubicacion3">Ubicación 3</option>
                                 <option value="ubicacion4">Ubicación 4</option>
                             </select>
                         
-                            <h6>8 - Cuéntanos más sobre su situación:</h6>
-                            <textarea class="contacts-input white-style w-input" name="situation_description" id="situation_description" cols="30" rows="10" placeholder="Describa su situación en unas pocas frases."></textarea>
+                            <h6>8 - Tell Us More About Your Situation :</h6>
+                            <textarea class="contacts-input white-style w-input" name="situation_description" id="situation_description" cols="30" rows="10" placeholder="Briefly describe your situation in a few sentences."></textarea>
                         
-                            <input type="submit" class="primary-button full-width-mobile w-button" value="Enviar">
+                            <input type="submit" class="primary-button full-width-mobile w-button" value="Submit">
                         </form>
                         
                         <div class="success-message w-form-done">
@@ -128,61 +128,11 @@
     
 
     <!-- contact-components -->
-    <div class="section contact-components">
-        <div class="base-container w-container">
-            <div class="contact-component-wrapper">
-                <div class="c-c-block">
-                    <img src="/assets/images/svg/component-email.svg" alt="Ícono de correo electrónico">
-                    <div class="c-c-name">
-                        Formulario de Contacto
-                    </div>
-                    <p>Dirija todas sus consultas a nuestro correo de soporte al cliente dedicado.</p>
-                    <a href="mailto:hello@nimble.llc">
-                        <div class="c-c-link">
-                            hello@nimble.llc
-                        </div>
-                    </a>
-                </div>
-                <div class="c-c-block">
-                    <img src="/assets/images/svg/component-chat.svg" alt="Ícono de chat">
-                    <div class="c-c-name">
-                        Chat
-                    </div>
-                    <p>Para asistencia en tiempo real, inicie un chat con nuestro representante.</p>
-                    <a href="#">
-                        <div class="c-c-link">Iniciar nuevo chat
-                        </div>
-                    </a>
-                </div>
-                <div class="c-c-block">
-                    <img src="/assets/images/svg/component-phone.svg" alt="Ícono de teléfono">
-                    <div class="c-c-name">
-                        Teléfono
-                    </div>
-                    <p>Llámennos para respuestas inmediatas a sus preguntas o inquietudes.</p>
-                    <a href="tel:+15550000000">
-                        <div class="c-c-link">+1 (555) 000-0000
-                        </div>
-                    </a>
-                </div>
-                <div class="c-c-block">
-                    <img src="/assets/images/svg/component-location.svg" alt="Ícono de ubicación">
-                    <div class="c-c-name">
-                        Ubicación
-                    </div>
-                    <p>Si está en la zona, no dude en visitarnos en nuestra oficina para asistencia.</p>
-                    <a href="#">
-                        <div class="c-c-link">123 Sample St, Los Ángeles 2000 US
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <x-en.contact-info />
     
     
     <!-- Feedback -->
-    {{-- <x-en.testimonials :testimonials="$testimonials" /> --}}
+    <x-en.testimonials :testimonials="$testimonials" />
     
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

@@ -12,7 +12,7 @@
                 <div class="p-path">
                     <a href="{{ route('frontend.sp.index') }}">Bienvenida</a>
                 </div>
-                <img src="assets/images/svg/arrow.svg" alt="Flecha de ruta">
+                <img {{ asset('assets/images/svg/arrow.svg') }} alt="Flecha de ruta">
                 <div class="p-path">
                     Sobre Nosotros
                 </div>

@@ -13,11 +13,11 @@
                     <div class="p-path">
                         Welcome
                     </div>
-                    <img src="assets/images/svg/arrow.svg" alt="Path Arrow">
+                    <img {{ asset('assets/images/svg/arrow.svg') }} alt="Path Arrow">
                     <div class="p-path">
                         Immigration
                     </div>
-                    <img src="assets/images/svg/arrow.svg" alt="Path Arrow">
+                    <img {{ asset('assets/images/svg/arrow.svg') }} alt="Path Arrow">
                     <div class="p-path">
                         Family Rooting
                     </div>

@@ -1,12 +1,13 @@
 <div class="banner-section-photo">
   <div data-w-id="cc582f0b-75ba-d7bd-9fe3-5b2888ed64e5" style="opacity:0" class="banner-content-container">
     <h1 data-w-id="cc582f0b-75ba-d7bd-9fe3-5b2888ed64e6" style="opacity:0" class="home-title">
-      Your Law Firm Specialized in Immigration in Málaga
+      Your Law Firm Specialized in Immigration in Málaga 
     </h1>
     <p data-w-id="cc582f0b-75ba-d7bd-9fe3-5b2888ed64e8" style="opacity:0" class="home-main-banner-discription">
-      Our team of immigration lawyers will guide you through every step of the immigration process, from obtaining visas to residency and Spanish nationality.</p>
+      Our team of lawyers specialized in immigration supports you at every step of the immigration process, from obtaining visas to residency and Spanish nationality.</p>
     <div data-w-id="cc582f0b-75ba-d7bd-9fe3-5b2888ed64ea" style="opacity:0" class="buttons-wrapper"><a
-        href="javascript:void(0);" class="primary-button w-button openModalButton">Book a Consultation</a></div>
+        href="javascript:void(0);" class="primary-button w-button openModalButton">Book a consultation
+      </a></div>
   </div>
   <div class="banner-numbers-wrapper">
     <div data-w-id="26438732-168a-0ab6-1fa0-8136b2be6fd3" style="opacity:0" class="w-layout-grid working-numbers">

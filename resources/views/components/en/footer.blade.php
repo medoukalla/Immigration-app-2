@@ -42,7 +42,7 @@
             <img src="{{ asset('storage/'.setting('site.logo-white')) }}" alt="Logo" style=" max-width: 50% !important;!i;!; float: left; ">
           </div>
           <div class="thanks">
-            <p>At Immiworld, specialists in immigration and foreign affairs, we help you manage your residence processes in Spain quickly and safely.</p>
+            <p>At Immiworld, we are experts in immigration and residency services, dedicated to streamlining your residency application process in Spain efficiently and reliably.</p>
           </div>
           <div class="institutions">
             <img src="{{ asset('assets/images/partner-svg/gobierno.svg') }}" alt="" style="margin-top: 10px; width: 100%"> 
