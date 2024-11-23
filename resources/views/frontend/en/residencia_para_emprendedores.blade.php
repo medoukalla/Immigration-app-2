@@ -13,11 +13,11 @@
                     <div class="p-path">
                         Welcome
                     </div>
-                    <img {{ asset('assets/images/svg/arrow.svg') }} alt="Path Arrow">
+                    <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
                     <div class="p-path">
                         Immigration
                     </div>
-                    <img {{ asset('assets/images/svg/arrow.svg') }} alt="Path Arrow">
+                    <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
                     <div class="p-path">
                         Family Rooting
                     </div>
@@ -147,7 +147,7 @@
 
 
     <!-- Feedback -->
-    <x-en.testimonials :testimonials="$testimonials" />
+    {{-- <x-en.testimonials :testimonials="$testimonials" /> --}}
 
     <!-- Solutions -->
     <x-en.solutions />

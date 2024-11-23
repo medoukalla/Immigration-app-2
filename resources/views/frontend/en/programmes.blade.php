@@ -11,11 +11,11 @@
                 <div class="p-path">
                     <a href="{{ route('frontend.sp.index') }}">Bienvenida</a>
                 </div>
-                <img {{ asset('assets/images/svg/arrow.svg') }} alt="Flecha de ruta">
+                <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
                 <div class="p-path">
                     Servicios
                 </div>
-                <img {{ asset('assets/images/svg/arrow.svg') }} alt="Flecha de ruta">
+                <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
                 <div class="p-path">
                     Programas de estudio
                 </div>

@@ -13,11 +13,11 @@
                     <div class="p-path">
                         Bienvenida
                     </div>
-                    <img {{ asset('assets/images/svg/arrow.svg') }} alt="Flecha de ruta">
+                    <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
                     <div class="p-path">
                         Extranjeria
                     </div>
-                    <img {{ asset('assets/images/svg/arrow.svg') }} alt="Flecha de ruta">
+                    <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
                     <div class="p-path">
                         Arraigo Social
                     </div>
@@ -176,7 +176,7 @@
 
 
     <!-- Feedback -->
-    <x-sp.testimonials :testimonials="$testimonials" />
+    {{-- <x-sp.testimonials :testimonials="$testimonials" /> --}}
 
     <!-- Solutions -->
     <x-sp.solutions />

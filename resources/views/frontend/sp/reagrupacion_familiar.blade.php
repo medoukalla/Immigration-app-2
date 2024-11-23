@@ -13,11 +13,11 @@
                     <div class="p-path">
                         Bienvenida
                     </div>
-                    <img {{ asset('assets/images/svg/arrow.svg') }} alt="Flecha de ruta">
+                    <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
                     <div class="p-path">
                         Extranjeria
                     </div>
-                    <img {{ asset('assets/images/svg/arrow.svg') }} alt="Flecha de ruta">
+                    <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
                     <div class="p-path">
                         Reagrupación Familiar
                     </div>
