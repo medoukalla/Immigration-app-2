@@ -86,10 +86,10 @@
                             <input type="submit" data-wait="Please wait..."
                                 class="primary-button full-width-mobile w-button" value="Submit" />
                         </form>
-                        <div class="success-message w-form-done">
+                        <div class="success-message w-form-done" style="display: none;">
                             <div>Thank you! Your submission has been received!</div>
                         </div>
-                        <div class="error-message w-form-fail">
+                        <div class="error-message w-form-fail" style="display: none;">
                             <div>Oops! Something went wrong while submitting the form.</div>
                         </div>
                     </div>

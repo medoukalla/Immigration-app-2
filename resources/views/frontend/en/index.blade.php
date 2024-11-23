@@ -64,12 +64,12 @@
                       <div role="listitem" class="collection-item-services w-dyn-item">
                           <div data-w-id="65a662c7-04b5-15a4-72a0-b5b3fdf07eb2" style="background-image:url(&quot;https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652ea6d6583f67a8de3fa46e_pexels-keira-burton-6146978.jpg&quot;);opacity:0" class="work-wrapper">
                               <img loading="lazy" src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652db2fc45a71830e136ff99_fi_3022243.svg" alt="" class="icon-work" />
-                              <a href="{{ route('frontend.sp.residencia_no_lucrativa') }}" class="w-inline-block">
+                              <a href="{{ route('frontend.residencia_no_lucrativa') }}" class="w-inline-block">
                                   <h5 class="services-titles">Non-Lucrative Residence</h5>
                               </a>
                               <p class="service-item-description">Live in Spain without work obligations. We assist you in securing a non-lucrative residence permit with the necessary financial proof.
                             </p>
-                              <div class="button-wrapper smaller-spacing"><a href="{{ route('frontend.sp.residencia_no_lucrativa') }}" class="link-with-arrow-underline white-style">Learn More</a></div>
+                              <div class="button-wrapper smaller-spacing"><a href="{{ route('frontend.residencia_no_lucrativa') }}" class="link-with-arrow-underline white-style">Learn More</a></div>
                               <div class="dark-overlay"></div>
                           </div>
                       </div>
@@ -80,12 +80,12 @@
                       <div role="listitem" class="collection-item-services w-dyn-item">
                           <div data-w-id="65a662c7-04b5-15a4-72a0-b5b3fdf07eb2" style="background-image:url(&quot;https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652ea6d6583f67a8de3fa46e_pexels-keira-burton-6146978.jpg&quot;);opacity:0" class="work-wrapper">
                               <img loading="lazy" src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652db2fc45a71830e136ff99_fi_3022243.svg" alt="" class="icon-work" />
-                              <a href="{{ route('frontend.sp.nacionalidad') }}" class="w-inline-block">
+                              <a href="{{ route('frontend.nacionalidad') }}" class="w-inline-block">
                                   <h5 class="services-titles">Spanish Nationality</h5>
                               </a>
                               <p class="service-item-description">Achieve Spanish citizenship through residency or marriage. Our experts guide you through the necessary steps and requirements.
                             </p>
-                              <div class="button-wrapper smaller-spacing"><a href="{{ route('frontend.sp.nacionalidad') }}" class="link-with-arrow-underline white-style">Learn More</a></div>
+                              <div class="button-wrapper smaller-spacing"><a href="{{ route('frontend.nacionalidad') }}" class="link-with-arrow-underline white-style">Learn More</a></div>
                               <div class="dark-overlay"></div>
                           </div>
                       </div>
@@ -96,12 +96,12 @@
                       <div role="listitem" class="collection-item-services w-dyn-item">
                           <div data-w-id="5d7f81dd-3082-2010-06ea-60427df78cf5" style="background-image:url(&quot;https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/65286fb263f107046ea7900e_nicole-geri-gMJ3tFOLvnA-unsplash.jpg&quot;);opacity:0" class="work-wrapper">
                               <img loading="lazy" src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/6528915357f15ad2b94de740_visa.svg" alt="" class="icon-work" />
-                              <a href="{{ route('frontend.sp.visa_de_estudiante') }}" class="w-inline-block">
+                              <a href="{{ route('frontend.visa_de_estudiante') }}" class="w-inline-block">
                                   <h5 class="services-titles">Student Visa</h5>
                               </a>
                               <p class="service-item-description">Obtain your student visa with our guidance, enabling you to study at recognized institutions while immersing yourself in Spanish culture.
                             </p>
-                              <div class="button-wrapper smaller-spacing"><a href="{{ route('frontend.sp.visa_de_estudiante') }}" class="link-with-arrow-underline white-style">Learn More</a></div>
+                              <div class="button-wrapper smaller-spacing"><a href="{{ route('frontend.visa_de_estudiante') }}" class="link-with-arrow-underline white-style">Learn More</a></div>
                               <div class="dark-overlay"></div>
                           </div>
                       </div>
@@ -112,13 +112,13 @@
                       <div role="listitem" class="collection-item-services w-dyn-item">
                           <div data-w-id="7c5488ea-0d30-2f2e-a337-1d3df6b31c45" style="background-image:url(&quot;https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652891bd3236320ae1f0b84c_pexels-oleksandr-p-1008155.jpg&quot;);opacity:0" class="work-wrapper">
                               <img loading="lazy" src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/6528916057f15ad2b94df35b_relocation.svg" alt="" class="icon-work" />
-                              <a href="{{ route('frontend.sp.nomada_digital') }}" class="w-inline-block">
+                              <a href="{{ route('frontend.nomada_digital') }}" class="w-inline-block">
                                   <h5 class="services-titles">Digital Nomad Visa
                                 </h5>
                               </a>
                               <p class="service-item-description">Work remotely in Spain with the Digital Nomad Visa. We help you navigate the application process for this exciting opportunity.
                             </p>
-                              <div class="button-wrapper smaller-spacing"><a href="{{ route('frontend.sp.nomada_digital') }}" class="link-with-arrow-underline white-style">Learn More</a></div>
+                              <div class="button-wrapper smaller-spacing"><a href="{{ route('frontend.nomada_digital') }}" class="link-with-arrow-underline white-style">Learn More</a></div>
                               <div class="dark-overlay"></div>
                           </div>
                       </div>
@@ -129,13 +129,13 @@
                       <div role="listitem" class="collection-item-services w-dyn-item">
                           <div data-w-id="fb7b6a25-057e-7357-a393-8453d9c0ef35" style="background-image:url(&quot;https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652891e0a6170d2717dd7e55_pexels-vlada-karpovich-7368310.jpg&quot;);opacity:0" class="work-wrapper">
                               <img loading="lazy" src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652891689ec9911fdd305464_immigration.svg" alt="" class="icon-work" />
-                              <a href="{{ route('frontend.sp.golden_visa') }}" class="w-inline-block">
+                              <a href="{{ route('frontend.golden_visa') }}" class="w-inline-block">
                                   <h5 class="services-titles">Golden Visa
                                 </h5>
                               </a>
                               <p class="service-item-description">Secure residency in Spain through significant investments in real estate or businesses, allowing you and your family to live and work freely.
                             </p>
-                              <div class="button-wrapper smaller-spacing"><a href="{{ route('frontend.sp.golden_visa') }}" class="link-with-arrow-underline white-style">Learn More</a></div>
+                              <div class="button-wrapper smaller-spacing"><a href="{{ route('frontend.golden_visa') }}" class="link-with-arrow-underline white-style">Learn More</a></div>
                               <div class="dark-overlay"></div>
                           </div>
                       </div>
@@ -146,12 +146,12 @@
                       <div role="listitem" class="collection-item-services w-dyn-item">
                           <div data-w-id="bf82eb32-4ca6-1452-57f4-b6426d6d696b" style="background-image:url(&quot;https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652892299ec9911fdd311500_pexels-cytonn-photography-955389.jpg&quot;);opacity:0" class="work-wrapper">
                               <img loading="lazy" src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/65289172057200ddd4f42749_documents.svg" alt="" class="icon-work" />
-                              <a href="{{ route('frontend.sp.residencia_para_emprendedores') }}" class="w-inline-block">
+                              <a href="{{ route('frontend.residencia_para_emprendedores') }}" class="w-inline-block">
                                   <h5 class="services-titles">Entrepreneur Residence</h5>
                               </a>
                               <p class="service-item-description">Launch your innovative business in Spain. We support you in obtaining the Entrepreneur Residency to contribute to the local economy.
                             </p>
-                              <div class="button-wrapper smaller-spacing"><a href="{{ route('frontend.sp.residencia_para_emprendedores') }}" class="link-with-arrow-underline white-style">Learn More</a></div>
+                              <div class="button-wrapper smaller-spacing"><a href="{{ route('frontend.residencia_para_emprendedores') }}" class="link-with-arrow-underline white-style">Learn More</a></div>
                               <div class="dark-overlay"></div>
                           </div>
                       </div>
@@ -175,7 +175,7 @@
               <p>Whether you're already in Spain or planning to move, our expert immigration lawyers will guide you through every step. We handle your paperwork efficiently so you can focus on your new beginning.
             </p>
               <div class="button-wrapper smaller-spacing">
-                  <a href="{{ route('frontend.sp.contact') }}" class="link-with-arrow-underline white-style">Contact us !
+                  <a href="{{ route('frontend.contact') }}" class="link-with-arrow-underline white-style">Contact us !
                 </a>
               </div>
           </div>
