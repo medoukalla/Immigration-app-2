@@ -10,7 +10,7 @@
               src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c17aa/65269ae2dc5ceebc36a57753_logo-immigration.svg"
               loading="lazy" alt="logo" height="38" /></a>
           <div class="close-menu-button w-nav-button"><img
-          src="{{ asset('assets/img/logo-black.png') }}"
+          src="{{ asset('assets/images/svg/close.svg') }}"
           loading="lazy" alt="logo" height="38" /></div>
         </div>
             <div class="menu-wrap">
