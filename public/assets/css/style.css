@@ -7056,6 +7056,7 @@ select.white-style,
     justify-content: center;
     align-items: stretch;
     width: 100%;
+    max-width: 100% !important;
     transition: opacity .5s;
     display: flex;
     overflow: hidden;
