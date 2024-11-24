@@ -11,7 +11,7 @@
                 <div class="p-path">
                     <a href="{{ route('frontend.sp.index') }}">Welcome</a>
                 </div>
-                <img {{ asset('assets/images/svg/arrow.svg') }} alt="Path arrow">
+                <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
                 <div class="p-path">
                     About Us
                 </div>

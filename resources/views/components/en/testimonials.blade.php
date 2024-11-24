@@ -32,11 +32,11 @@
                   </div>
               </div>
               <div class="writer-right">
-                  <img src="assets/images/svg/google.svg" alt="Imagen de Google">
+                  <img src="{{ asset('assets/images/svg/google.svg') }}" alt="Imagen de Google">
               </div>
               </div>
               <div class="stars">
-              <img class="google-stars" src="assets/images/svg/stars.svg" alt="Estrellas de Google">
+              <img class="google-stars" src="{{ asset('assets/images/svg/stars.svg') }}" alt="Estrellas de Google">
               </div>
               <p>
                   {{ $testimonial->textimonial }}

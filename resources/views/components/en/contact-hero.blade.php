@@ -7,7 +7,7 @@
                 <div class="p-path">
                     <a href="{{ route('frontend.sp.index') }}">Home</a>
                 </div>
-                <img {{ asset('assets/images/svg/arrow.svg') }} alt="Path arrow">
+                <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
                 <div class="p-path">
                     Contact Us
                 </div>
