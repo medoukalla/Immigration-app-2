@@ -10,9 +10,9 @@
                     Reúnete con tus seres queridos y consigue la residencia para ellos. Te ayudamos a gestionar un proceso ágil para un reencuentro feliz y sin complicaciones
                 </p>
                 <div class="pages-path">
-                    <div class="p-path">
-                        Bienvenida
-                    </div>
+<div class="p-path">
+    <a href="{{ route('frontend.sp.index') }}">Bienvenida</a>
+</div>
                     <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
                     <div class="p-path">
                         Extranjeria
@@ -167,7 +167,7 @@
 
 
     <!-- Feedback -->
-    <x-sp.testimonials :testimonials="$testimonials" />
+    {{-- <x-sp.testimonials :testimonials="$testimonials" /> --}}
 
     <!-- Solutions -->
     <x-sp.solutions />

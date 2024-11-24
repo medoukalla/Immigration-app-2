@@ -10,9 +10,9 @@
                     Vive y trabaja remotamente desde España, disfrutando de su cultura y estilo de vida. Simplificamos el proceso de solicitud para que puedas centrarte en tu experiencia
                 </p>
                 <div class="pages-path">
-                    <div class="p-path">
-                        Bienvenida
-                    </div>
+<div class="p-path">
+    <a href="{{ route('frontend.sp.index') }}">Bienvenida</a>
+</div>
                     <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
                     <div class="p-path">
                         Extranjeria
@@ -174,7 +174,7 @@
 
 
     <!-- Feedback -->
-    <x-sp.testimonials :testimonials="$testimonials" />
+    {{-- <x-sp.testimonials :testimonials="$testimonials" /> --}}
 
     <!-- Solutions -->
     <x-sp.solutions />

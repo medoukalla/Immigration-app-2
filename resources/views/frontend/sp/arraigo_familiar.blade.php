@@ -10,9 +10,9 @@
                     Ofrecemos una amplia gama de servicios diseñados para facilitar tu transición a un nuevo país. Nuestro equipo de profesionales está comprometido a brindarte el apoyo y la orientación que necesitas en cada etapa del proceso, asegurando que te sientas seguro y bien informado en tu viaje.
                 </p>
                 <div class="pages-path">
-                    <div class="p-path">
-                        Bienvenida
-                    </div>
+<div class="p-path">
+    <a href="{{ route('frontend.sp.index') }}">Bienvenida</a>
+</div>
                     <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
                     <div class="p-path">
                         Extranjeria
@@ -182,7 +182,7 @@
 
 
     <!-- Feedback -->
-    <x-sp.testimonials :testimonials="$testimonials" />
+    {{-- <x-sp.testimonials :testimonials="$testimonials" /> --}}
 
     <!-- Solutions -->
     <x-sp.solutions />

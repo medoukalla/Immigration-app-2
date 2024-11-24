@@ -10,9 +10,9 @@
                     Logra la residencia a través de tus vínculos sociales e integración. Te ayudamos a construir tu vida en España, garantizando que cumplas todos los requisitos.
                 </p>
                 <div class="pages-path">
-                    <div class="p-path">
-                        Bienvenida
-                    </div>
+<div class="p-path">
+    <a href="{{ route('frontend.sp.index') }}">Bienvenida</a>
+</div>
                     <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
                     <div class="p-path">
                         Extranjeria

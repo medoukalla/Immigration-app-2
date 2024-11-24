@@ -10,9 +10,9 @@
                     Obtén la residencia española mediante una inversión calificada. Nuestro equipo experto te acompañará en cada paso para garantizar un proceso fluido y eficiente
                 </p>
                 <div class="pages-path">
-                    <div class="p-path">
-                        Bienvenida
-                    </div>
+<div class="p-path">
+    <a href="{{ route('frontend.sp.index') }}">Bienvenida</a>
+</div>
                     <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
                     <div class="p-path">
                         Visados
@@ -176,7 +176,7 @@
 
 
     <!-- Feedback -->
-    <x-sp.testimonials :testimonials="$testimonials" />
+    {{-- <x-sp.testimonials :testimonials="$testimonials" /> --}}
 
     <!-- Solutions -->
     <x-sp.solutions />

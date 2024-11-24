@@ -10,9 +10,9 @@
                     Comienza tu negocio en España con el apoyo de una residencia diseñada para emprendedores. Te ayudamos a cumplir con todos los requisitos legales y hacer realidad tu proyecto.
                 </p>
                 <div class="pages-path">
-                    <div class="p-path">
-                        Bienvenida
-                    </div>
+<div class="p-path">
+    <a href="{{ route('frontend.sp.index') }}">Bienvenida</a>
+</div>
                     <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
                     <div class="p-path">
                         Extranjería

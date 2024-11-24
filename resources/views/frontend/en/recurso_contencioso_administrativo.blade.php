@@ -10,9 +10,9 @@
                     Si enfrentas solicitudes denegadas o problemas administrativos complejos, ofrecemos nuestra experiencia legal para impugnar decisiones y proteger tus derechos en España
                 </p>
                 <div class="pages-path">
-                    <div class="p-path">
-                        Bienvenida
-                    </div>
+<div class="p-path">
+    <a href="{{ route('frontend.sp.index') }}">Bienvenida</a>
+</div>
                     <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
                     <div class="p-path">
                         Extranjería

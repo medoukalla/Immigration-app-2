@@ -10,9 +10,9 @@
                     Obtén la residencia en España mientras realizas formación profesional. Te ofrecemos soporte para cumplir con todos los requisitos legales para una estancia exitosa.
                 </p>
                 <div class="pages-path">
-                    <div class="p-path">
-                        Bienvenida
-                    </div>
+<div class="p-path">
+    <a href="{{ route('frontend.sp.index') }}">Bienvenida</a>
+</div>
                     <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
                     <div class="p-path">
                         Extranjeria

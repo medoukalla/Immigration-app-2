@@ -2094,6 +2094,8 @@ textarea.w-select {
   z-index: 1;
   top: 0;
   right: auto;
+  overflow: scroll;
+  height: 100vh;
 }
 
 .w-nav[data-animation="over-right"] .w-nav-overlay {
@@ -2951,8 +2953,8 @@ blockquote {
   padding-right: 0;
   display: flex;
   position: relative;
-  overflow: hidden;
-  width: 374px;
+  overflow: scroll;
+  width: 100%;
 }
 
 .nav-dropdown-link {
@@ -6910,6 +6912,8 @@ select.white-style,
 @media screen and (max-width: 991px) {
   nav.nav-menu.w-nav-menu {
     width: 100%;
+    height: 100% !important;
+    position: fixed;
   }
 
   .lang-wrap {
@@ -9973,6 +9977,15 @@ select.white-style,
 
 .min-hero-wrapper .pages-path .p-path {
   color: var(--light-gray);
+  font-weight: lighter;
+}
+
+.min-hero-wrapper .pages-path .p-path a {
+  color: var(--light-gray) !important;
+}
+
+.min-hero-wrapper .pages-path .p-path a:hover {
+  text-decoration: underline !important;
 }
 
 .min-hero-wrapper .pages-path .p-path:last-child {
