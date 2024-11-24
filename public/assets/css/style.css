@@ -8686,10 +8686,6 @@ select.white-style,
     max-width: 300px;
   }
 
-  .swiper-slide {
-    width: 100% !important;
-  }
-
 }
 
 @media screen and (max-width: 479px) {
@@ -9303,6 +9299,10 @@ select.white-style,
     transform: translateX(-50%) !important;
     width: 90%;
   }
+
+  .swiper-slide {
+    min-width: 100% !important;
+  }
 }
 
 @media screen and (max-width:480px) {
@@ -9875,7 +9875,7 @@ select.white-style,
   gap: 20px;
   font-size: 18px;
   background: var(--primary-light);
-  width: calc(100% / 3);
+  width: 40% !important;
   padding: 20px;
   margin-right: 10px !important;
 }
