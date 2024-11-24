@@ -10,7 +10,7 @@
 
           </p>
           <div class="faq-img" style=" width: 100% !important; ">
-            <img src="assets/images/flags-img.png" alt="FAQ image" style=" padding-right: 70px; padding-top: 50px; ">
+            <img src="{{ asset('assets/images/flags-img.png') }}" alt="FAQ image" style=" padding-right: 70px; padding-top: 50px; ">
           </div>
         </div>
       </div>

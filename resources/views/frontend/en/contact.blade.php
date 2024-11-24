@@ -11,7 +11,7 @@
             <div data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237" class="contacts-2-wrapper">
                 <div class="contacts-2-content-wrapper">
                     <div class="image-box">
-                        <img src="assets/images/contact-image.png" alt="Contact image">
+                        <img src="{{ asset('assets/images/contact-image.png') }}" alt="Contact image">
                     </div>
                     <div class="contacts-title">
                         <h2 class="in-section-title">Contactanos Estamos aquí para atenderte!</h2>
@@ -33,7 +33,7 @@
                         </div>
                         <div class="contacts-info-wrapper">
                             <div class="c-info-icon">
-                                <img src="/assets/images/svg/c-phone.svg" alt="Contact Info">
+                                <img src="{{ asset('assets/images/svg/c-phone.svg') }}" alt="Contact Info">
                             </div>
                             <div class="c-info-content">
                                 <div class="c-info-title">
@@ -44,7 +44,7 @@
                         </div>
                         <div class="contacts-info-wrapper">
                             <div class="c-info-icon">
-                                <img src="/assets/images/svg/c-location.svg" alt="Contact Info">
+                                <img src="{{ asset('assets/images/svg/c-location.svg') }}" alt="Contact Info">
                             </div>
                             <div class="c-info-content">
                                 <div class="c-info-title">

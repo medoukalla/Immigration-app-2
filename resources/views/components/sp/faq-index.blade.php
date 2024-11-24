@@ -9,7 +9,7 @@
             Encuentra respuestas claras y detalladas a las dudas más comunes sobre nuestros servicios legales, Estamos aquí para ayudarte en cada paso de tu proceso.
           </p>
           <div class="faq-img" style=" width: 100% !important; ">
-            <img src="assets/images/flags-img.png" alt="Imagen de FAQ" style=" padding-right: 70px; padding-top: 50px; ">
+            <img src="{{ asset('assets/images/flags-img.png') }}" alt="Imagen de FAQ" style=" padding-right: 70px; padding-top: 50px; ">
           </div>
         </div>
       </div>
