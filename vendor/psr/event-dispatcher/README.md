@@ -1,5 +1,5 @@
 PSR Event Dispatcher
-====================
+======
 
 This repository holds the interfaces related to [PSR-14](http://www.php-fig.org/psr/psr-14/).
 

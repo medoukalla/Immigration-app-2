@@ -2,7 +2,7 @@
     single: Cookbook; Not Calling the Original Constructor
 
 Not Calling the Original Constructor
-====================================
+=
 
 When creating generated partial test doubles, Mockery mocks out only the method
 which we specifically told it to. This means that the original constructor of

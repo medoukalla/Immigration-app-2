@@ -1,5 +1,5 @@
 ErrorHandler Component
-======================
+=
 
 The ErrorHandler component provides tools to manage errors and ease debugging PHP code.
 

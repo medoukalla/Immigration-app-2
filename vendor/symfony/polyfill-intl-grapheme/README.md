@@ -1,5 +1,5 @@
 Symfony Polyfill / Intl: Grapheme
-=================================
+=====
 
 This component provides a partial, native PHP implementation of the
 [Grapheme functions](https://php.net/intl.grapheme) from the
@@ -26,6 +26,6 @@ More information can be found in the
 [main Polyfill README](https://github.com/symfony/polyfill/blob/main/README.md).
 
 License
-=======
+
 
 This library is released under the [MIT license](LICENSE).

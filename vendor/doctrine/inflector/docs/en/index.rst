@@ -1,12 +1,12 @@
 Introduction
-============
+=====
 
 The Doctrine Inflector has methods for inflecting text. The features include pluralization,
 singularization, converting between camelCase and under_score and capitalizing
 words.
 
 Installation
-============
+=====
 
 You can install the Inflector with composer:
 
@@ -72,7 +72,7 @@ one of the languages and update the rules for your language.
 Once you have done this, send a pull request to the ``doctrine/inflector`` repository with the additions.
 
 Custom Setup
-============
+=====
 
 If you want to setup custom singular and plural rules, you can configure these in the factory:
 
@@ -130,7 +130,7 @@ This is an implementation of the `Null Object design pattern <https://sourcemaki
     $inflector = new Inflector(new NoopWordInflector(), new NoopWordInflector());
 
 Tableize
-========
+=
 
 Converts ``ModelName`` to ``model_name``:
 
@@ -139,7 +139,7 @@ Converts ``ModelName`` to ``model_name``:
     echo $inflector->tableize('ModelName'); // model_name
 
 Classify
-========
+=
 
 Converts ``model_name`` to ``ModelName``:
 
@@ -148,7 +148,7 @@ Converts ``model_name`` to ``ModelName``:
     echo $inflector->classify('model_name'); // ModelName
 
 Camelize
-========
+=
 
 This method uses `Classify`_ and then converts the first character to lowercase:
 
@@ -157,7 +157,7 @@ This method uses `Classify`_ and then converts the first character to lowercase:
     echo $inflector->camelize('model_name'); // modelName
 
 Capitalize
-==========
+===
 
 Takes a string and capitalizes all of the words, like PHP's built-in
 ``ucwords`` function. This extends that behavior, however, by allowing the
@@ -175,7 +175,7 @@ Here is an example:
     echo $inflector->capitalize($string, '-_ '); // Top-O-The-Morning To All_Of_You!
 
 Pluralize
-=========
+==
 
 Returns a word in plural form.
 
@@ -184,7 +184,7 @@ Returns a word in plural form.
     echo $inflector->pluralize('browser'); // browsers
 
 Singularize
-===========
+====
 
 Returns a word in singular form.
 
@@ -202,7 +202,7 @@ Generate a URL friendly string from a string of text:
     echo $inflector->urlize('My first blog post'); // my-first-blog-post
 
 Unaccent
-========
+=
 
 You can unaccent a string of text using the ``unaccent()`` method:
 
@@ -211,13 +211,13 @@ You can unaccent a string of text using the ``unaccent()`` method:
     echo $inflector->unaccent('año'); // ano
 
 Legacy API
-==========
+===
 
 The API present in Inflector 1.x is still available, but will be deprecated in a future release and dropped for 3.0.
 Support for languages other than English is available in the 2.0 API only.
 
 Acknowledgements
-================
+==
 
 The language rules in this library have been adapted from several different sources, including but not limited to:
 

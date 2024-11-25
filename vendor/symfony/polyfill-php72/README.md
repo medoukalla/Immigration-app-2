@@ -1,5 +1,5 @@
 Symfony Polyfill / Php72
-========================
+===
 
 This component provides functions added to PHP 7.2 core:
 
@@ -30,6 +30,6 @@ More information can be found in the
 [main Polyfill README](https://github.com/symfony/polyfill/blob/main/README.md).
 
 License
-=======
+
 
 This library is released under the [MIT license](LICENSE).

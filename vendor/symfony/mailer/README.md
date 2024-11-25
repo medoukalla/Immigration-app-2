@@ -1,5 +1,5 @@
 Mailer Component
-================
+==
 
 The Mailer component helps sending emails.
 

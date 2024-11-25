@@ -1,5 +1,5 @@
 MIME Component
-==============
+
 
 The MIME component allows manipulating MIME messages.
 

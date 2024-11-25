@@ -1,5 +1,5 @@
 Nette Utility Classes
-=====================
+
 
 [![Downloads this Month](https://img.shields.io/packagist/dm/nette/utils.svg)](https://packagist.org/packages/nette/utils)
 [![Tests](https://github.com/nette/utils/workflows/Tests/badge.svg?branch=master)](https://github.com/nette/utils/actions)

@@ -1,5 +1,5 @@
 Mockery
-=======
+
 
 Mockery is a simple yet flexible PHP mock object framework for use in unit
 testing with PHPUnit, PHPSpec or any other testing framework. Its core goal is

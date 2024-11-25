@@ -1,5 +1,5 @@
 Translation Component
-=====================
+
 
 The Translation component provides tools to internationalize your application.
 

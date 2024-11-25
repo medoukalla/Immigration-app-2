@@ -57,11 +57,12 @@ class Assurance extends Component
                 'sex.in' => 'The :attribute must be either "Hombre" or "Mujer".'
             ],
             [
-                'full_name' => 'Full Name',
-                'day' => 'Day',
-                'month' => 'Month',
-                'year' => 'Year',
-                'sex' => 'Sex',
+                'full_name' => 'Nombre completo',
+                'day' => 'Día',
+                'month' => 'Mes',
+                'year' => 'Año',
+                'sex' => 'Sexo',
+
             ]
         );
 

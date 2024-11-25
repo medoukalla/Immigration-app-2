@@ -1,5 +1,5 @@
 Container interface
-==============
+
 
 This repository holds all interfaces related to [PSR-11 (Container Interface)][psr-url].
 

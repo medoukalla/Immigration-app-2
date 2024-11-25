@@ -10,25 +10,16 @@
                     We offer a wide range of services designed to facilitate your transition to a new country. Our team of professionals is committed to providing you with the support and guidance you need at every stage of the process, ensuring that you feel safe and well-informed during your journey.
                 </p>
                 <div class="pages-path">
-<<<<<<< HEAD
-<div class="p-path">
-    <a href="{{ route('frontend.sp.index') }}">Welcome</a>
-</div>
+
+                    <div class="p-path">
+                        <a href="{{ route('frontend.sp.index') }}">Welcome</a>
+                    </div>
                     <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
                     <div class="p-path">
                         Immigration
                     </div>
                     <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
-=======
-                    <div class="p-path">
-                        Welcome
-                    </div>
-                    <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
-                    <div class="p-path">
-                        Immigration
-                    </div>
-                    <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
->>>>>>> 5b55a326f60fac40936f6591187a955f6d0e69dd
+
                     <div class="p-path">
                         Family Rooting
                     </div>

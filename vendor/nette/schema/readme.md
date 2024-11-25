@@ -9,7 +9,7 @@ Nette Schema
 
 
 Introduction
-============
+=====
 
 A practical library for validation and normalization of data structures against a given schema with a smart & easy-to-understand API.
 

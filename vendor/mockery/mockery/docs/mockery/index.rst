@@ -1,5 +1,5 @@
 Mockery
-=======
+
 
 .. toctree::
     :hidden:

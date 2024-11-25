@@ -1,5 +1,5 @@
 getallheaders
-=============
+======
 
 PHP `getallheaders()` polyfill. Compatible with PHP >= 5.3.
 

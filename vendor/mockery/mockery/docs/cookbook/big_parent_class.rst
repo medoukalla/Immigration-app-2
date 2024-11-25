@@ -2,7 +2,7 @@
     single: Cookbook; Big Parent Class
 
 Big Parent Class
-================
+==
 
 In some application code, especially older legacy code, we can come across some
 classes that extend a "big parent class" - a parent class that knows and does

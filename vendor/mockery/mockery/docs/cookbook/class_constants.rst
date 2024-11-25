@@ -2,7 +2,7 @@
     single: Cookbook; Class Constants
 
 Class Constants
-===============
+=
 
 When creating a test double for a class, Mockery does not create stubs out of
 any class constants defined in the class we are mocking. Sometimes though, the

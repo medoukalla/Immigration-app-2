@@ -1,5 +1,5 @@
 This is the PHP port of Hamcrest Matchers
-=========================================
+======
 
 [![Build Status](https://travis-ci.org/hamcrest/hamcrest-php.png?branch=master)](https://travis-ci.org/hamcrest/hamcrest-php)
 

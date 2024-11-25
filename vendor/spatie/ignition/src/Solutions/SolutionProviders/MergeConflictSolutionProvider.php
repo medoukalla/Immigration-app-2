@@ -22,7 +22,7 @@ class MergeConflictSolutionProvider implements HasSolutionsForThrowable
 
         $file = (string)file_get_contents($throwable->getFile());
 
-        if (! str_contains($file, '=======')) {
+        if (! str_contains($file, '')) {
             return false;
         }
         if (! str_contains($file, '>>>>>>>')) {

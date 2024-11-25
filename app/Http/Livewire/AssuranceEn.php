@@ -81,15 +81,16 @@ class AssuranceEn extends Component
                 'email' => 'required|email',  // Email is required and must be a valid email address
             ],
             [
-                'phone.required' => 'El número de teléfono es obligatorio.',
-                'phone.numeric' => 'El número de teléfono debe ser un valor numérico.',
-                'phone.digits_between' => 'El número de teléfono debe tener entre 10 y 15 dígitos.',
-                'email.required' => 'La dirección de correo electrónico es obligatoria.',
-                'email.email' => 'La dirección de correo electrónico no es válida.',
+                'phone.required' => 'The phone number is required.',
+                'phone.numeric' => 'The phone number must be a numeric value.',
+                'phone.digits_between' => 'The phone number must be between 10 and 15 digits.',
+                'email.required' => 'The email address is required.',
+                'email.email' => 'The email address is not valid.'
+
             ],
             [
-                'phone' => 'Número de teléfono',
-                'email' => 'Correo electrónico',
+                'phone' => 'Phone number',
+                'email' => 'Email address',
             ]
         );
 

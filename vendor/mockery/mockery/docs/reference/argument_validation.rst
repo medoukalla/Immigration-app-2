@@ -2,7 +2,7 @@
     single: Argument Validation
 
 Argument Validation
-===================
+=====
 
 The arguments passed to the ``with()`` declaration when setting up an
 expectation determine the criteria for matching method calls to expectations.

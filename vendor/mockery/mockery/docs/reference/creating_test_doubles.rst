@@ -2,7 +2,7 @@
     single: Reference; Creating Test Doubles
 
 Creating Test Doubles
-=====================
+
 
 Mockery's main goal is to help us create test doubles. It can create stubs,
 mocks, and spies.

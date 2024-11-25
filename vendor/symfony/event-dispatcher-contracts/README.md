@@ -1,5 +1,5 @@
 Symfony EventDispatcher Contracts
-=================================
+=====
 
 A set of abstractions extracted out of the Symfony components.
 

@@ -2,7 +2,7 @@
     single: Mocking; Magic Methods
 
 PHP Magic Methods
-=================
+===
 
 PHP magic methods which are prefixed with a double underscore, e.g.
 ``__set()``, pose a particular problem in mocking and unit testing in general.

@@ -2,7 +2,7 @@
     single: Mocking; Public Static Methods
 
 Mocking Public Static Methods
-=============================
+=
 
 Static methods are not called on real objects, so normal mock objects can't
 mock them. Mockery supports class aliased mocks, mocks representing a class

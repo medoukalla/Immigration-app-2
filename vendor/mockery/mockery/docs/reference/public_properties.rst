@@ -2,7 +2,7 @@
     single: Mocking; Public Properties
 
 Mocking Public Properties
-=========================
+====
 
 Mockery allows us to mock properties in several ways. One way is that we can set
 a public property and its value on any mock object. The second is that we can

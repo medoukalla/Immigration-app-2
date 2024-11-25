@@ -1,5 +1,5 @@
 Uid Component
-=============
+======
 
 The UID component provides an object-oriented API to generate and represent UIDs.
 

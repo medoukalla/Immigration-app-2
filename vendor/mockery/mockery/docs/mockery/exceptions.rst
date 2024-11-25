@@ -2,7 +2,7 @@
     single: Mockery; Exceptions
 
 Mockery Exceptions
-==================
+====
 
 Mockery throws three types of exceptions when it cannot verify a mock object.
 

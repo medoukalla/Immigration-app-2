@@ -2,7 +2,7 @@
     single: PHPUnit Integration
 
 PHPUnit Integration
-===================
+=====
 
 Mockery was designed as a simple-to-use *standalone* mock object framework, so
 its need for integration with any testing framework is entirely optional.  To

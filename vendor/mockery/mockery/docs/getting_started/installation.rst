@@ -2,7 +2,7 @@
     single: Installation
 
 Installation
-============
+=====
 
 Mockery can be installed using Composer or by cloning it from its GitHub
 repository. These two options are outlined below.

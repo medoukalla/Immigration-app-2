@@ -2,7 +2,7 @@
     single: Cookbook; Complex Argument Matching With Mockery::on
 
 Complex Argument Matching With Mockery::on
-==========================================
+
 
 When we need to do a more complex argument matching for an expected method call,
 the ``\Mockery::on()`` matcher comes in really handy. It accepts a closure as an

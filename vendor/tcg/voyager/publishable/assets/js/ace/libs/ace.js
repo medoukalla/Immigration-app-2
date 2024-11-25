@@ -1259,7 +1259,7 @@ function deHyphenate(str) {
 });
 
 ace.define("ace/lib/keys",["require","exports","module","ace/lib/oop"], function(require, exports, module){/*! @license
-==========================================================================
+====
 SproutCore -- JavaScript Application Framework
 copyright 2006-2009, Sprout Systems Inc., Apple Inc. and contributors.
 
@@ -1286,7 +1286,7 @@ SproutCore and the SproutCore logo are trademarks of Sprout Systems, Inc.
 For more information about SproutCore, visit http://www.sproutcore.com
 
 
-==========================================================================
+====
 @license */
 "use strict";
 var oop = require("./oop");

@@ -2,7 +2,7 @@
     single: Cookbook; Mocking Hard Dependencies
 
 Mocking Hard Dependencies (new Keyword)
-=======================================
+====
 
 One prerequisite to mock hard dependencies is that the code we are trying to test uses autoloading.
 

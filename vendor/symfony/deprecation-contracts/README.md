@@ -1,5 +1,5 @@
 Symfony Deprecation Contracts
-=============================
+=
 
 A generic function and convention to trigger deprecation notices.
 

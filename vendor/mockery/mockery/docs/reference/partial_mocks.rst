@@ -2,7 +2,7 @@
     single: Mocking; Partial Mocks
 
 Creating Partial Mocks
-======================
+=
 
 Partial mocks are useful when we only need to mock several methods of an
 object leaving the remainder free to respond to calls normally (i.e.  as

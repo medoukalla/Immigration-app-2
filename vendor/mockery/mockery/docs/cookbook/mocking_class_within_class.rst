@@ -4,7 +4,7 @@
 .. _mocking-class-within-class:
 
 Mocking class within class
-==========================
+=====
 
 Imagine a case where you need to create an instance of a class and use it
 within the same method:

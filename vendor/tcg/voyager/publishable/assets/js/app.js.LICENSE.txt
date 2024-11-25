@@ -63,13 +63,13 @@
  * Licensed under MIT
  */
 
-/*! ========================================================================
+/*! ==
  * Bootstrap Toggle: bootstrap-toggle.js v2.2.0
  * http://www.bootstraptoggle.com
- * ========================================================================
+ * ==
  * Copyright 2014 Min Hur, The New York Times Company
  * Licensed under MIT
- * ======================================================================== */
+ * == */
 
 /*! DataTables 1.10.18
  * ©2008-2018 SpryMedia Ltd - datatables.net/license

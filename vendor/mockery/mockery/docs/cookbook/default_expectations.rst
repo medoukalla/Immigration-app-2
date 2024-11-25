@@ -2,7 +2,7 @@
     single: Cookbook; Default Mock Expectations
 
 Default Mock Expectations
-=========================
+====
 
 Often in unit testing, we end up with sets of tests which use the same object
 dependency over and over again. Rather than mocking this class/object within

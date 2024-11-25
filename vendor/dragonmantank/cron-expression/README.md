@@ -1,5 +1,5 @@
 PHP Cron Expression Parser
-==========================
+=====
 
 [![Latest Stable Version](https://poser.pugx.org/dragonmantank/cron-expression/v/stable.png)](https://packagist.org/packages/dragonmantank/cron-expression) [![Total Downloads](https://poser.pugx.org/dragonmantank/cron-expression/downloads.png)](https://packagist.org/packages/dragonmantank/cron-expression) [![Build Status](https://secure.travis-ci.org/dragonmantank/cron-expression.png)](http://travis-ci.org/dragonmantank/cron-expression) [![StyleCI](https://github.styleci.io/repos/103715337/shield?branch=master)](https://github.styleci.io/repos/103715337)
 
@@ -16,7 +16,7 @@ find the last day of the month, **L** to find the last given weekday of a month,
 More information about this fork can be found in the blog post [here](http://ctankersley.com/2017/10/12/cron-expression-update/). tl;dr - v2.0.0 is a major breaking change, and @dragonmantank can better take care of the project in a separate fork.
 
 Installing
-==========
+===
 
 Add the dependency to your project:
 
@@ -51,7 +51,7 @@ echo $cron->getNextRunDate('2010-01-12 00:00:00')->format('Y-m-d H:i:s');
 ```
 
 CRON Expressions
-================
+==
 
 A CRON expression is a string representing the schedule for a particular command to execute.  The parts of a CRON schedule are as follows:
 
@@ -74,14 +74,14 @@ This library also supports a few macros:
 * `@hourly` - Run once an hour, first minute - `0 * * * *`
 
 Requirements
-============
+=====
 
 - PHP 7.2+
 - PHPUnit is required to run the unit tests
 - Composer is required to run the unit tests
 
 Projects that Use cron-expression
-=================================
+=====
 * Part of the [Laravel Framework](https://github.com/laravel/framework/)
 * Available as a [Symfony Bundle - setono/cron-expression-bundle](https://github.com/Setono/CronExpressionBundle)
 * Framework agnostic, PHP-based job scheduler - [Crunz](https://github.com/crunzphp/crunz)

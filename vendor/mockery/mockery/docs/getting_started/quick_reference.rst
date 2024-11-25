@@ -2,7 +2,7 @@
     single: Quick Reference
 
 Quick Reference
-===============
+=
 
 The purpose of this page is to give a quick and short overview of some of the
 most common Mockery features.

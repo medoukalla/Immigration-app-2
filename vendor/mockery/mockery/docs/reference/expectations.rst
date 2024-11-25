@@ -2,7 +2,7 @@
     single: Expectations
 
 Expectation Declarations
-========================
+===
 
 .. note::
 
