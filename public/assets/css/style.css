@@ -2953,8 +2953,8 @@ blockquote {
   padding-right: 0;
   display: flex;
   position: relative;
-  overflow: scroll;
-  width: 100%;
+  overflow: hidden;
+  width: 374px;
 }
 
 .nav-dropdown-link {
@@ -7108,6 +7108,8 @@ select.white-style,
   .nav-dropdown-link-wrapper {
     flex-flow: wrap;
     padding-right: 0;
+    overflow: scroll;
+    width: 100%;
   }
 
   .nav-dropdown-link-wrapper:hover {
