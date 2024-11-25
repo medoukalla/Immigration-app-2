@@ -7108,8 +7108,9 @@ select.white-style,
   .nav-dropdown-link-wrapper {
     flex-flow: wrap;
     padding-right: 0;
-    overflow: scroll;
+    overflow-x: scroll;
     width: 100%;
+    scrollbar-color: var(--primary) transparent;
   }
 
   .nav-dropdown-link-wrapper:hover {
@@ -7519,6 +7520,7 @@ select.white-style,
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 20px;
     display: flex;
   }
 
