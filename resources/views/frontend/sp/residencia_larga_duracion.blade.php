@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 <!-- Contact Form -->
-                <x-sp.small-contact-us />
+                @livewire('contact-sp', ['service' => 'service_name'])
             </div>
         </div>
     </div>

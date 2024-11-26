@@ -80,7 +80,7 @@
                     </div>
                 </div>
                 <!-- Contact Form -->
-                <x-en.small-contact-us />
+                @livewire('contact-english', ['service' => 'Renewal of residence card (NIE)'])
             </div>
         </div>
     </div>

@@ -5026,7 +5026,7 @@ select.white-style,
 
 .success-message {
   background-color: var(--transperent-w-base);
-  color: var(--primary);
+  color: green;
   text-align: start;
 }
 

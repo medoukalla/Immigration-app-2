@@ -78,7 +78,7 @@
                     </div>
                 </div>
                 <!-- Contact Form -->
-                <x-en.small-contact-us />
+                @livewire('contact-english', ['service' => 'Residency of Family Members of EU Citizens'])
             </div>
         </div>
     </div>

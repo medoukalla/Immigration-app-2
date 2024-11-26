@@ -79,7 +79,7 @@
                     </div>
                 </div>
                 <!-- Contact Form -->
-                <x-en.small-contact-us />
+                @livewire('contact-english', ['service' => 'Nationality'])
             </div>
         </div>
     </div>

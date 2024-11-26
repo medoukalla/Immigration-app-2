@@ -73,7 +73,7 @@
                     </div>
                 </div>
                 <!-- Contact Form -->
-                <x-en.small-contact-us />
+                @livewire('contact-english', ['service' => 'Long-term residence'])
             </div>
         </div>
     </div>

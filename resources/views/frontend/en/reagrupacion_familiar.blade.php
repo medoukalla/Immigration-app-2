@@ -75,7 +75,7 @@
                     </div>
                 </div>
                 <!-- Contact Form -->
-                <x-en.small-contact-us />
+                @livewire('contact-english', ['service' => 'Family reunification'])
             </div>
         </div>
     </div>

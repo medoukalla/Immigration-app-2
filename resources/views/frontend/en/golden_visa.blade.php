@@ -76,7 +76,7 @@
                     </div>
                 </div>
                 <!-- Contact Form -->
-                <x-en.small-contact-us />
+                @livewire('contact-english', ['service' => 'Golden Visa'])
             </div>
         </div>
     </div>
