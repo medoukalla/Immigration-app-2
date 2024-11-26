@@ -1,27 +1,54 @@
 <div class="contacts-2-form-wrapper">
     <div class="form-block-contacts w-form">
-        <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form"
-            data-wf-page-id="651f2c08c5bd81eb296c17fd"
-            data-wf-element-id="502c5dca-196a-0aae-1f67-5b18c9a9023a">
-            <h3 class="form-heading">Contacta con nosotros</h3>
-            <input class="contacts-input white-style w-input" maxlength="256" name="name-2"
-                data-name="Name 2" placeholder="Your name" type="text" id="name-2" required="" />
-            <input class="contacts-input white-style w-input" maxlength="256" name="email-2"
-                data-name="Email 2" placeholder="Your email" type="email" id="email-2" required="" />
-            <input class="contacts-input white-style w-input" maxlength="256" name="email-2"
-                data-name="Email 2" placeholder="Your phone number" type="email" id="email-2"
-                required="" />
-            <textarea placeholder="Your text" maxlength="5000" id="field-2" name="field-2"
-                data-name="Field 2" required="" class="contacts-textarea white-style w-input">
-                </textarea>
-            <input type="submit" data-wait="Please wait..."
-                class="primary-button full-width-mobile w-button" value="Submit" />
+        <form name="email-form" wire:submit.prevent="submit" method="post" >
+
+            @csrf
+
+            <h3 class="form-heading">Ponerse en contacto</h3>
+
+            <!-- Name Input -->
+            <input class="contacts-input white-style w-input" maxlength="256" placeholder="Nombre y Apellido" type="text" required wire:model.defer="name" />
+            
+            <!-- Email Input -->
+            <input class="contacts-input white-style w-input" maxlength="256" placeholder="Dirección de Correo Electrónico" type="email" required wire:model.defer="email" />
+            
+            <!-- Phone Input -->
+            <input class="contacts-input white-style w-input" maxlength="256" placeholder="Número de Teléfono" type="number" required wire:model.defer="phone" />
+            
+            <!-- Message Input -->
+            <textarea class="contacts-textarea white-style w-input" placeholder="Deja tu mensaje" maxlength="5000" id="field-2" required wire:model.defer="message"></textarea>
+            
+            @error('name') 
+                <div class="error-message w-form-fail"><div>{{ $message }}</div></div>
+            @enderror
+            @error('email') 
+                <div class="error-message w-form-fail"><div>{{ $message }}</div></div>
+            @enderror
+            @error('phone') 
+                <div class="error-message w-form-fail"><div>{{ $message }}</div></div>
+            @enderror
+            @error('message') 
+                <div class="error-message w-form-fail"><div>{{ $message }}</div></div>
+            @enderror
+            
+
+            <!-- Success Message -->
+            <div class="success-message w-form-done" style="display: {{ $status === 'success' ? 'block' : 'none' }}">
+                <div>¡Gracias! Hemos recibido tu mensaje y te responderemos pronto.</div>
+            </div>
+    
+            <!-- Error Message -->
+            <div class="error-message w-form-fail" style="display: {{ $status === 'error' ? 'block' : 'none' }}">
+                <div>Lo sentimos, hubo un error al enviar el formulario. Por favor, inténtalo de nuevo más tarde.</div>
+            </div>
+
+            <br>
+
+            <input type="hidden" value="{{ $service }}" >
+
+            <!-- Submit Button -->
+            <input type="submit" class="primary-button full-width-mobile w-button" value="Enviar Mensaje" />
         </form>
-        <div class="success-message w-form-done" style="display: none;">
-            <div>Thank you! Your submission has been received!</div>
-        </div>
-        <div class="error-message w-form-fail" style="display: none;">
-            <div>Oops! Something went wrong while submitting the form.</div>
-        </div>
+
     </div>
 </div>

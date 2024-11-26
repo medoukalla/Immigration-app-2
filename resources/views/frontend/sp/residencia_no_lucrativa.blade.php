@@ -71,7 +71,7 @@
                     </div>
                 </div>
                 <!-- Contact Form -->
-                @livewire('contact-sp', ['service' => 'service_name'])
+                @livewire('contact-spanish', ['service' => 'Residencia no lucrativa'])
             </div>
         </div>
     </div>

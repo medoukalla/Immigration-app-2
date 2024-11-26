@@ -76,7 +76,7 @@
                     </div>
                 </div>
                 <!-- Contact Form -->
-                @livewire('contact-sp', ['service' => 'service_name'])
+                @livewire('contact-spanish', ['service' => 'Renovación de la tarjeta de residencia (NIE)'])
             </div>
         </div>
     </div>

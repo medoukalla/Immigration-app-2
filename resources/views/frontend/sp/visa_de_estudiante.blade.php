@@ -74,7 +74,7 @@
                     </div>
                 </div>
                 <!-- Contact Form -->
-                @livewire('contact-sp', ['service' => 'service_name'])
+                @livewire('contact-spanish', ['service' => 'Visado de estudiante'])
             </div>
         </div>
     </div>
