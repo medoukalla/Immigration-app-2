@@ -197,7 +197,7 @@
 
 
     <!-- Feedback -->
-    {{-- <x-sp.testimonials :testimonials="$testimonials" /> --}}
+    <x-sp.testimonials :testimonials="$testimonials" />
 
     <!-- FAQ -->
     <x-sp.faq-index :faqs="$faqs" />
