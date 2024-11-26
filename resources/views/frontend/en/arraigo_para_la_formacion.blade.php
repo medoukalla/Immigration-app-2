@@ -1,5 +1,8 @@
 <x-en.head title="{{ setting('site.title') }}" />
 
+<!-- Top menu navbar -->
+    <x-en.main-navbar route="{{route('frontend.sp.arraigo_para_la_formacion') }}" />
+
 
     <!-- Banner hero section -->
     <div class="pages-banner blog">
@@ -11,18 +14,10 @@
                 </p>
                 <div class="pages-path">
 
-<div class="p-path">
-    <a href="{{ route('frontend.sp.index') }}">Welcome</a>
-</div>
-                    <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
                     <div class="p-path">
-                        Immigration
+                        <a href="{{ route('frontend.sp.index') }}">Welcome</a>
                     </div>
-                    <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
 
-                    <div class="p-path">
-                        Welcome
-                    </div>
                     <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
                     <div class="p-path">
                         Immigration

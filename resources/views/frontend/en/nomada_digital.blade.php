@@ -1,5 +1,8 @@
 <x-en.head title="{{ setting('site.title') }}" />
 
+<!-- Top menu navbar -->
+    <x-en.main-navbar route="{{route('frontend.sp.nomada_digital') }}" />
+
 
     <!-- Banner hero section -->
     <div class="pages-banner blog">

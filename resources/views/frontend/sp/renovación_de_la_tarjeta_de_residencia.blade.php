@@ -1,5 +1,8 @@
 <x-sp.head title="{{ setting('site.title') }}" />
 
+<!-- Top menu navbar -->
+    <x-sp.main-navbar route="{{route('frontend.renovación_de_la_tarjeta_de_residencia') }}" />
+
 
     <!-- Banner hero section -->
     <div class="pages-banner blog">

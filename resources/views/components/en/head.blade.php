@@ -38,6 +38,3 @@
 
     <!-- Top bar -->
     <x-en.top-bar />
-
-    <!-- Top menu navbar -->
-    <x-en.main-navbar />

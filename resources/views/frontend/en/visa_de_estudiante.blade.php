@@ -1,5 +1,8 @@
 <x-en.head title="{{ setting('site.title') }}" />
 
+<!-- Top menu navbar -->
+    <x-en.main-navbar route="{{route('frontend.sp.visa_de_estudiante') }}" />
+
 
     <!-- Banner hero section -->
     <div class="pages-banner blog">

@@ -1,5 +1,8 @@
 <x-sp.head title="{{ setting('site.title') }}" />
 
+<!-- Top menu navbar -->
+    <x-sp.main-navbar route="{{route('frontend.residencia_familiar_ue') }}" />
+
 
     <!-- Banner hero section -->
     <div class="pages-banner blog">

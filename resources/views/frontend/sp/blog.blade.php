@@ -1,5 +1,8 @@
 <x-sp.head title="{{ setting('site.title') }}" />
 
+<!-- Top menu navbar -->
+    <x-sp.main-navbar route="{{route('frontend.blog') }}" />
+
 
 {{-- Hero section START  --}}
 <div class="pages-banner blog">

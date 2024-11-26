@@ -1,5 +1,7 @@
-<x-en.head title="{{ setting('site.title') }}" />
+<x-sp.head title="{{ setting('site.title') }}" />
 
+<!-- Top menu navbar -->
+    <x-sp.main-navbar route="{{ route('frontend.arraigo_laboral') }}" />
 
     <!-- Banner hero section -->
     <div class="pages-banner blog">
