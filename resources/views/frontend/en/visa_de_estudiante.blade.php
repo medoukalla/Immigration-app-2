@@ -8,9 +8,9 @@
     <div class="pages-banner blog">
         <div class="base-container w-container">
             <div class="min-hero-wrapper">
-                <h1>Family Rooting (Arraigo Familiar)</h1>
+                <h1>Student Visa</h1>
                 <p>
-                    We offer a wide range of services designed to facilitate your transition to a new country. Our team of professionals is committed to providing you with the support and guidance you need at every stage of the process, ensuring that you feel safe and well-informed during your journey.
+                    The Student Visa allows foreign nationals to study in Spain. It’s ideal for those enrolling in recognized educational institutions. We help guide you through the application process to meet Spain’s educational and immigration requirements.
                 </p>
                 <div class="pages-path">
 
@@ -25,7 +25,7 @@
                     <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
 
                     <div class="p-path">
-                        Family Rooting
+                        Student Visa
                     </div>
                 </div>
             </div>

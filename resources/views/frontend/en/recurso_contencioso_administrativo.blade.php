@@ -8,21 +8,22 @@
     <div class="pages-banner blog">
         <div class="base-container w-container">
             <div class="min-hero-wrapper">
-                <h1>Recurso Contencioso Administrativo</h1>
+                <h1>Administrative Litigation Appeal</h1>
                 <p>
-                    Si enfrentas solicitudes denegadas o problemas administrativos complejos, ofrecemos nuestra experiencia legal para impugnar decisiones y proteger tus derechos en España
+                    If your residence application is rejected, we can help you file an administrative litigation appeal to contest the decision in court. Our team guides you through the complex legal process to ensure the best outcome.
+
                 </p>
                 <div class="pages-path">
 <div class="p-path">
-    <a href="{{ route('frontend.sp.index') }}">Bienvenida</a>
+    <a href="{{ route('frontend.sp.index') }}">Welcome</a>
 </div>
                     <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
                     <div class="p-path">
-                        Extranjería
+                        Immigration
                     </div>
                     <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
                     <div class="p-path">
-                        Recurso Contencioso Administrativo
+                        Administrative Litigation Appeal
                     </div>
                     
                 </div>

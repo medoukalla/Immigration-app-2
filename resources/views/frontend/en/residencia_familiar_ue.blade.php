@@ -8,9 +8,10 @@
     <div class="pages-banner blog">
         <div class="base-container w-container">
             <div class="min-hero-wrapper">
-                <h1>Family Rooting (Arraigo Familiar)</h1>
+                <h1>Family Member of EU Citizen Residence</h1>
                 <p>
-                    We offer a wide range of services designed to facilitate your transition to a new country. Our team of professionals is committed to providing you with the support and guidance you need at every stage of the process, ensuring that you feel safe and well-informed during your journey.
+                    If you are a family member of an EU citizen and wish to reside in Spain, this permit allows you to do so under favorable conditions. We assist with the application for the EU Family Member Card and ensure that all necessary steps are followed.
+
                 </p>
                 <div class="pages-path">
 
@@ -25,7 +26,7 @@
                     <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
 
                     <div class="p-path">
-                        Family Rooting
+                        Family Member of EU Citizen Residence
                     </div>
                 </div>
             </div>

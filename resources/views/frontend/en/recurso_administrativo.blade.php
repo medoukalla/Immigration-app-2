@@ -8,9 +8,10 @@
     <div class="pages-banner blog">
         <div class="base-container w-container">
             <div class="min-hero-wrapper">
-                <h1>Family Rooting (Arraigo Familiar)</h1>
+                <h1>Administrative Appeal</h1>
                 <p>
-                    We offer a wide range of services designed to facilitate your transition to a new country. Our team of professionals is committed to providing you with the support and guidance you need at every stage of the process, ensuring that you feel safe and well-informed during your journey.
+                    If your residence application is denied or rejected due to administrative errors, we provide assistance in filing an administrative appeal to correct the issue and resubmit your case.
+
                 </p>
                 <div class="pages-path">
 
@@ -25,7 +26,7 @@
                     <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
 
                     <div class="p-path">
-                        Family Rooting
+                        Administrative Appeal
                     </div>
                 </div>
             </div>

@@ -8,9 +8,9 @@
     <div class="pages-banner blog">
         <div class="base-container w-container">
             <div class="min-hero-wrapper">
-                <h1>Family Rooting (Arraigo Familiar)</h1>
+                <h1>Nationality</h1>
                 <p>
-                    We offer a wide range of services designed to facilitate your transition to a new country. Our team of professionals is committed to providing you with the support and guidance you need at every stage of the process, ensuring that you feel safe and well-informed during your journey.
+                    Spanish nationality can be obtained through residency, marriage, or descent. We guide you through the naturalization process for those who meet Spain’s residency requirements, helping you fulfill all legal criteria for citizenship.
                 </p>
                 <div class="pages-path">
 
@@ -25,7 +25,7 @@
                     <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
 
                     <div class="p-path">
-                        Family Rooting
+                        Nationality
                     </div>
                 </div>
             </div>

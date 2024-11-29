@@ -10,7 +10,8 @@
             <div class="min-hero-wrapper">
                 <h1>Family Rooting (Arraigo Familiar)</h1>
                 <p>
-                    We offer a wide range of services designed to facilitate your transition to a new country. Our team of professionals is committed to providing you with the support and guidance you need at every stage of the process, ensuring that you feel safe and well-informed during your journey.
+                    If you are a direct relative of a Spanish citizen or legal resident, this permit allows you to reside in Spain legally. We provide guidance on the requirements and processes to obtain residence based on family ties.
+
                 </p>
                 <div class="pages-path">
 
