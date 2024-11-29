@@ -23,7 +23,7 @@
                     <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
 
                     <div class="p-path">
-                        Arraigo familiar
+                        Arraigo Familiar (Arraigo Familiar)
                     </div>
                 </div>
             </div>
