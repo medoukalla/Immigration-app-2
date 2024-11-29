@@ -56,7 +56,7 @@
     <div class="programmes-box base-container w-container">
             {{-- Programme Heading --}}
             <div class="programme-heading">
-                Programmes de <span>Séjour linguistique</span>
+                <span>Spanish</span> Language Programs
             </div>
             <div class="programmes-wrapper">
                 <div class="programme-wrapper">
@@ -167,7 +167,7 @@
     <div class="programmes-box base-container w-container">
         {{-- Programme Heading --}}
         <div class="programme-heading">
-            Programmes de <span>Selectividad</span>
+            <span>Selectividad</span> Programs
         </div>
         <div class="programmes-wrapper">
             <div class="programme-wrapper">
@@ -278,7 +278,7 @@
     <div class="programmes-box base-container w-container">
         {{-- Programme Heading --}}
         <div class="programme-heading">
-            Programmes de<span>Licence</span>
+            <span>Bachelor’s Degree</span> Programs
         </div>
         <div class="programmes-wrapper">
             <div class="programme-wrapper">
@@ -389,7 +389,7 @@
     <div class="programmes-box base-container w-container">
         {{-- Programme Heading --}}
         <div class="programme-heading">
-            Programmes de <span>Master</span>
+            <span>Master’s Degree</span> Programs
         </div>
         <div class="programmes-wrapper">
             <div class="programme-wrapper">
@@ -500,7 +500,7 @@
     <div class="programmes-box base-container w-container">
         {{-- Programme Heading --}}
         <div class="programme-heading">
-            Programmes de <span>Grado superior</span>
+            <span>Grado superior</span> Programs
         </div>
         <div class="programmes-wrapper">
             <div class="programme-wrapper">
