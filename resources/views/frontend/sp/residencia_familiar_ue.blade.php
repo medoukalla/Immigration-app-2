@@ -10,7 +10,8 @@
             <div class="min-hero-wrapper">
                 <h1>Residencia para Familiares de Ciudadanos de la UE</h1>
                 <p>
-                    Reúne a tus familiares y establece tu residencia en España. Nos encargamos de toda la documentación y te ofrecemos soporte total durante el proceso
+                    Si eres familiar de un ciudadano de la Unión Europea y deseas residir en España, este permiso te permite hacerlo bajo condiciones favorables. Te proporcionamos apoyo en la tramitación de la tarjeta de familiar de ciudadano de la UE.
+
                 </p>
                 <div class="pages-path">
 <div class="p-path">

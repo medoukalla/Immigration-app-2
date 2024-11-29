@@ -10,7 +10,8 @@
             <div class="min-hero-wrapper">
                 <h1>Arraigo para la Formación</h1>
                 <p>
-                    Obtén la residencia en España mientras realizas formación profesional. Te ofrecemos soporte para cumplir con todos los requisitos legales para una estancia exitosa.
+                    Este permiso está destinado a quienes llevan al menos dos años en España y desean realizar estudios o formación profesional. Permite regularizar tu estatus legal mientras continúas tu educación.
+
                 </p>
                 <div class="pages-path">
 <div class="p-path">

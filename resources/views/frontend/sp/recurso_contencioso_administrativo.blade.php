@@ -10,7 +10,8 @@
             <div class="min-hero-wrapper">
                 <h1>Recurso Contencioso Administrativo</h1>
                 <p>
-                    Si enfrentas solicitudes denegadas o problemas administrativos complejos, ofrecemos nuestra experiencia legal para impugnar decisiones y proteger tus derechos en España
+                    Si tu solicitud de residencia ha sido rechazada, podemos ayudarte a presentar un recurso contencioso administrativo para impugnar la decisión ante los tribunales. Te guiamos a través de este proceso legal complejo.
+
                 </p>
                 <div class="pages-path">
 <div class="p-path">

@@ -9,7 +9,8 @@
             <div class="min-hero-wrapper">
                 <h1>Arraigo Familiar (Arraigo Familiar)</h1>
                 <p>
-                    Ofrecemos una amplia gama de servicios diseñados para facilitar su transición a un nuevo país. Nuestro equipo de profesionales se compromete a brindarle el apoyo y la orientación que necesita en cada etapa del proceso, asegurándose de que se sienta seguro y bien informado durante su viaje.
+                    Disponible para quienes han vivido en España al menos dos años y han trabajado durante al menos seis meses. Este permiso facilita la regularización de tu situación laboral y te permite continuar trabajando legalmente en el país.
+
                 </p>
                 <div class="pages-path">
                     <div class="p-path">

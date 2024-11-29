@@ -10,7 +10,7 @@
             <div class="min-hero-wrapper">
                 <h1>Nacionalidad Española</h1>
                 <p>
-                    Accede a los beneficios de la ciudadanía española. Simplificamos el proceso de solicitud y garantizamos que cumplas con todos los requisitos para obtenerla con éxito
+                    La nacionalidad española se puede obtener por residencia, matrimonio o descendencia. Te asistimos en el proceso de naturalización, ayudándote a cumplir con los requisitos legales para obtener la ciudadanía
                 </p>
                 <div class="pages-path">
 <div class="p-path">

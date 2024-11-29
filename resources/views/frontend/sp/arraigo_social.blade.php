@@ -10,7 +10,8 @@
             <div class="min-hero-wrapper">
                 <h1>Arraigo Social</h1>
                 <p>
-                    Logra la residencia a través de tus vínculos sociales e integración. Te ayudamos a construir tu vida en España, garantizando que cumplas todos los requisitos.
+                    Para quienes han vivido en España por al menos tres años y desean regularizar su estatus, demostrando integración social mediante empleo o vínculos familiares. Ofrecemos asesoría en el proceso para asegurar tu aprobación.
+
                 </p>
                 <div class="pages-path">
 <div class="p-path">

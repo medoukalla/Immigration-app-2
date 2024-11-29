@@ -10,7 +10,8 @@
             <div class="min-hero-wrapper">
                 <h1>El arraigo familiar</h1>
                 <p>
-                    Ofrecemos una amplia gama de servicios diseñados para facilitar tu transición a un nuevo país. Nuestro equipo de profesionales está comprometido a brindarte el apoyo y la orientación que necesitas en cada etapa del proceso, asegurando que te sientas seguro y bien informado en tu viaje.
+                    Si eres familiar directo de un ciudadano español o residente legal, este permiso te permite residir en España de forma legal. Te orientamos en los requisitos y trámites para obtener tu residencia por vínculos familiares.
+
                 </p>
                 <div class="pages-path">
 <div class="p-path">

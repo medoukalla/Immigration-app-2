@@ -10,7 +10,8 @@
             <div class="min-hero-wrapper">
                 <h1>Visa para Nómadas Digitales</h1>
                 <p>
-                    Vive y trabaja remotamente desde España, disfrutando de su cultura y estilo de vida. Simplificamos el proceso de solicitud para que puedas centrarte en tu experiencia
+                    Si trabajas de forma remota y deseas vivir en España, el visado para nómadas digitales te permite residir legalmente sin necesidad de empleo local. Te ayudamos a presentar tu solicitud y cumplir con los requisitos.
+
                 </p>
                 <div class="pages-path">
 <div class="p-path">

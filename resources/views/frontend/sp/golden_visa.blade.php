@@ -10,7 +10,8 @@
             <div class="min-hero-wrapper">
                 <h1>Golden Visa</h1>
                 <p>
-                    Obtén la residencia española mediante una inversión calificada. Nuestro equipo experto te acompañará en cada paso para garantizar un proceso fluido y eficiente
+                    Golden visa está destinada a inversores que realicen una inversión significativa en España, como la compra de bienes inmuebles o proyectos empresariales. Ofrece residencia y la opción de obtener la ciudadanía tras cierto tiempo. Te orientamos en los requisitos legales y financieros.
+
                 </p>
                 <div class="pages-path">
 <div class="p-path">

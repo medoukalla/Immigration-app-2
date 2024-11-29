@@ -10,7 +10,8 @@
             <div class="min-hero-wrapper">
                 <h1>Renovación de la tarjeta de residencia (NIE)</h1>
                 <p>
-                    Mantén tu estatus de residencia sin interrupciones renovando tu tarjeta de residencia a tiempo. Nos encargamos de todo el proceso para asegurar tu residencia continua.
+                    Si ya resides en España y necesitas renovar tu tarjeta de residencia o NIE, te ayudamos a cumplir con los requisitos y completar el proceso de renovación sin complicaciones.
+
                 </p>
                 <div class="pages-path">
 <div class="p-path">
