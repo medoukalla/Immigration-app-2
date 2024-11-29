@@ -9,7 +9,9 @@
     <div class="base-container w-container">
         <div class="min-hero-wrapper">
             <h1>Sobre Nosotros</h1>
-            <p>En Immiworld, nos especializamos en guiarte en cada paso de tu proceso de inmigración. Con un equipo de expertos y años de experiencia, te ayudamos a alcanzar tus objetivos en España de manera efectiva y sin complicaciones.
+            <p>
+                En Immiworld, somos una firma de abogados especializada en asesoría legal en extranjería. Contamos con un equipo de profesionales altamente cualificados, comprometidos en ofrecer soluciones jurídicas personalizadas y eficaces para garantizar el éxito en tus trámites migratorios.
+
             </p>
             <div class="pages-path">
                 <div class="p-path">

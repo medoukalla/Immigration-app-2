@@ -9,7 +9,9 @@
     <div class="base-container w-container">
         <div class="min-hero-wrapper">
             <h1>About Us</h1>
-            <p>At Immiworld, we specialize in guiding you through every step of your immigration process. With a team of experts and years of experience, we help you achieve your goals in Spain effectively and without complications.</p>
+            <p>
+                At Immiworld, we are a law firm specializing in immigration law. Our team of highly qualified professionals is dedicated to providing tailored, effective legal solutions, ensuring the success of your immigration process.
+            </p>
             <div class="pages-path">
                 <div class="p-path">
                     <a href="{{ route('frontend.sp.index') }}">Welcome</a>
