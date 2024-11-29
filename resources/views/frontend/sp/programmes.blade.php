@@ -8,8 +8,10 @@
 <div class="pages-banner blog">
     <div class="base-container w-container">
         <div class="min-hero-wrapper">
-            <h1>Programas de estudio</h1>
-            <p>Descubre una amplia variedad de programas educativos en España, desde universidades hasta cursos profesionales. Te asesoramos para que elijas el programa adecuado y cumplas con todos los requisitos para estudiar en España.</p>
+            <h1>Programas de estudios</h1>
+            <p>
+                Descubre una amplia variedad de programas educativos en España, desde universidades hasta cursos profesionales. Te asesoramos para que elijas el programa adecuado y cumplas con todos los requisitos para estudiar en España.
+            </p>
             <div class="pages-path">
                 <div class="p-path">
                     <a href="{{ route('frontend.sp.index') }}">Bienvenida</a>
@@ -20,7 +22,7 @@
                 </div>
                 <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
                 <div class="p-path">
-                    Programas de estudio
+                    Programas de estudios
                 </div>
             </div>
         </div>

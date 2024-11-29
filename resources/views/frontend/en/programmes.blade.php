@@ -8,19 +8,21 @@
 <div class="pages-banner blog">
     <div class="base-container w-container">
         <div class="min-hero-wrapper">
-            <h1>Programas de estudio</h1>
-            <p>Descubre una amplia variedad de programas educativos en España, desde universidades hasta cursos profesionales. Te asesoramos para que elijas el programa adecuado y cumplas con todos los requisitos para estudiar en España.</p>
+            <h1>Study Programs</h1>
+            <p>
+                Discover a wide range of educational programs in Spain, from universities to professional courses. We provide expert guidance to help you choose the right program and ensure you meet all the requirements to study in Spain.
+            </p>
             <div class="pages-path">
                 <div class="p-path">
-                    <a href="{{ route('frontend.sp.index') }}">Bienvenida</a>
+                    <a href="{{ route('frontend.sp.index') }}">Welcome</a>
                 </div>
                 <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
                 <div class="p-path">
-                    Servicios
+                    Services
                 </div>
                 <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
                 <div class="p-path">
-                    Programas de estudio
+                    Study Programs
                 </div>
             </div>
         </div>
