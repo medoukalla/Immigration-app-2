@@ -76,7 +76,7 @@
                                         {{ $programe->title }}
                                     </div>
                                     <div class="p-price">
-                                        Depuis : <span>{{ $programe->price }}€</span>
+                                        From  : <span>{{ $programe->price }}€</span>
                                     </div>
                                 </div>
                             </div>
@@ -85,10 +85,10 @@
                         <div class="p-content">
                             <div class="p-infos">
                                 <div>
-                                    <span>Ville :</span> {{ $programe->city }}
+                                    <span>City :</span> {{ $programe->city }}
                                 </div> 
                                 <div>
-                                    <span>Durée du programme :</span> {{ $programe->duree_de_programme }}
+                                    <span>Duration of the program :</span> {{ $programe->duree_de_programme }}
                                 </div> 
                             </div>
                             <div class="primary-button p-btn">
@@ -121,7 +121,7 @@
                                     {{ $programe->title }}
                                 </div>
                                 <div class="p-price">
-                                    Depuis : <span>{{ $programe->price }}€</span>
+                                    From  : <span>{{ $programe->price }}€</span>
                                 </div>
                             </div>
                         </div>
@@ -130,10 +130,10 @@
                     <div class="p-content">
                         <div class="p-infos">
                             <div>
-                                <span>Ville :</span> {{ $programe->city }}
+                                <span>City :</span> {{ $programe->city }}
                             </div> 
                             <div>
-                                <span>Durée du programme :</span> {{ $programe->duree_de_programme }}
+                                <span>Duration of the program :</span> {{ $programe->duree_de_programme }}
                             </div> 
                         </div>
                         <div class="primary-button p-btn">
@@ -166,7 +166,7 @@
                                     {{ $programe->title }}
                                 </div>
                                 <div class="p-price">
-                                    Depuis : <span>{{ $programe->price }}€</span>
+                                    From  : <span>{{ $programe->price }}€</span>
                                 </div>
                             </div>
                         </div>
@@ -175,10 +175,10 @@
                     <div class="p-content">
                         <div class="p-infos">
                             <div>
-                                <span>Ville :</span> {{ $programe->city }}
+                                <span>City :</span> {{ $programe->city }}
                             </div> 
                             <div>
-                                <span>Durée du programme :</span> {{ $programe->duree_de_programme }}
+                                <span>Duration of the program :</span> {{ $programe->duree_de_programme }}
                             </div> 
                         </div>
                         <div class="primary-button p-btn">
@@ -211,7 +211,7 @@
                                     {{ $programe->title }}
                                 </div>
                                 <div class="p-price">
-                                    Depuis : <span>{{ $programe->price }}€</span>
+                                    From  : <span>{{ $programe->price }}€</span>
                                 </div>
                             </div>
                         </div>
@@ -220,10 +220,10 @@
                     <div class="p-content">
                         <div class="p-infos">
                             <div>
-                                <span>Ville :</span> {{ $programe->city }}
+                                <span>City :</span> {{ $programe->city }}
                             </div> 
                             <div>
-                                <span>Durée du programme :</span> {{ $programe->duree_de_programme }}
+                                <span>Duration of the program :</span> {{ $programe->duree_de_programme }}
                             </div> 
                         </div>
                         <div class="primary-button p-btn">
@@ -256,7 +256,7 @@
                                     {{ $programe->title }}
                                 </div>
                                 <div class="p-price">
-                                    Depuis : <span>{{ $programe->price }}€</span>
+                                    From  : <span>{{ $programe->price }}€</span>
                                 </div>
                             </div>
                         </div>
@@ -265,10 +265,10 @@
                     <div class="p-content">
                         <div class="p-infos">
                             <div>
-                                <span>Ville :</span> {{ $programe->city }}
+                                <span>City :</span> {{ $programe->city }}
                             </div> 
                             <div>
-                                <span>Durée du programme :</span> {{ $programe->duree_de_programme }}
+                                <span>Duration of the program :</span> {{ $programe->duree_de_programme }}
                             </div> 
                         </div>
                         <div class="primary-button p-btn">
