@@ -61,108 +61,42 @@
                 Programas de <span>Español</span>
             </div>
             <div class="programmes-wrapper">
-                <div class="programme-wrapper">
-                    <div class="p-img">
-                        <div class="p-img-content">
-                            <div class="p-img-top">
-                                <div class="year">
-                                    2024
+                @foreach ( $linguistique as $programe )    
+                    <div class="programme-wrapper">
+                        <div class="p-img">
+                            <div class="p-img-content">
+                                <div class="p-img-top">
+                                    <div class="year">
+                                        {{ $programe->year }}
+                                    </div>
+                                    <div class="branch">Español</div>
                                 </div>
-                                <div class="branch">Séjour linguistique</div>
-                            </div>
-                            <div class="p-img-bottom">
-                                <div class="p-title">
-                                    Etudier la langue a Malaga
-                                </div>
-                                <div class="p-price">
-                                    A partir de <span>2650€</span>
-                                </div>
-                            </div>
-                        </div>
-                        <img src="{{ asset('assets/images/city-1.webp') }}" alt="City image">
-                    </div>
-                    <div class="p-content">
-                        <div class="p-infos">
-                            <div>
-                                <span>Ville :</span> Todo España
-                            </div> 
-                            <div>
-                                <span>Durée du programme :</span> 6-12 meses
-                            </div> 
-                        </div>
-                        <div class="primary-button p-btn">
-                            Submit
-                        </div>
-                    </div>
-                </div>
-                <div class="programme-wrapper">
-                    <div class="p-img">
-                        <div class="p-img-content">
-                            <div class="p-img-top">
-                                <div class="year">
-                                    2024
-                                </div>
-                                <div class="branch">Séjour linguistique</div>
-                            </div>
-                            <div class="p-img-bottom">
-                                <div class="p-title">
-                                    Etudier la langue a Malaga
-                                </div>
-                                <div class="p-price">
-                                    A partir de <span>2650€</span>
+                                <div class="p-img-bottom">
+                                    <div class="p-title">
+                                        {{ $programe->title }}
+                                    </div>
+                                    <div class="p-price">
+                                        Desde <span>{{ $programe->price }}€</span>
+                                    </div>
                                 </div>
                             </div>
+                            <img src="{{ asset('storage/'.$programe->image) }}" alt="City image">
                         </div>
-                        <img src="{{ asset('assets/images/city-1.webp') }}" alt="City image">
-                    </div>
-                    <div class="p-content">
-                        <div class="p-infos">
-                            <div>
-                                <span>Ville :</span> Todo España
-                            </div> 
-                            <div>
-                                <span>Durée du programme :</span> 6-12 meses
-                            </div> 
-                        </div>
-                        <div class="primary-button p-btn">
-                            Submit
-                        </div>
-                    </div>
-                </div>
-                <div class="programme-wrapper">
-                    <div class="p-img">
-                        <div class="p-img-content">
-                            <div class="p-img-top">
-                                <div class="year">
-                                    2024
-                                </div>
-                                <div class="branch">Séjour linguistique</div>
+                        <div class="p-content">
+                            <div class="p-infos">
+                                <div>
+                                    <span>Ciudad :</span> {{ $programe->city }}
+                                </div> 
+                                <div>
+                                    <span>Duracion del programa :</span> {{ $programe->duree_de_programme }}
+                                </div> 
                             </div>
-                            <div class="p-img-bottom">
-                                <div class="p-title">
-                                    Etudier la langue a Malaga
-                                </div>
-                                <div class="p-price">
-                                    A partir de <span>2650€</span>
-                                </div>
+                            <div class="primary-button p-btn">
+                                <a href="https://wa.me/+34657933788" target="_blanck">Contáctanos por whatsapp para más información</a>
                             </div>
                         </div>
-                        <img src="{{ asset('assets/images/city-1.webp') }}" alt="City image">
                     </div>
-                    <div class="p-content">
-                        <div class="p-infos">
-                            <div>
-                                <span>Ville :</span> Todo España
-                            </div> 
-                            <div>
-                                <span>Durée du programme :</span> 6-12 meses
-                            </div> 
-                        </div>
-                        <div class="primary-button p-btn">
-                            Submit
-                        </div>
-                    </div>
-                </div>
+                @endforeach
             </div>
     </div>
     {{-- Programmes de Séjour linguistique --}}
@@ -172,108 +106,42 @@
             Programas de <span>Selectividad</span>
         </div>
         <div class="programmes-wrapper">
-            <div class="programme-wrapper">
-                <div class="p-img">
-                    <div class="p-img-content">
-                        <div class="p-img-top">
-                            <div class="year">
-                                2024
+            @foreach ( $selectividad as $programe )    
+                <div class="programme-wrapper">
+                    <div class="p-img">
+                        <div class="p-img-content">
+                            <div class="p-img-top">
+                                <div class="year">
+                                    {{ $programe->year }}
+                                </div>
+                                <div class="branch">Selectividad</div>
                             </div>
-                            <div class="branch">Séjour linguistique</div>
-                        </div>
-                        <div class="p-img-bottom">
-                            <div class="p-title">
-                                Etudier la langue a Malaga
-                            </div>
-                            <div class="p-price">
-                                A partir de <span>2650€</span>
-                            </div>
-                        </div>
-                    </div>
-                    <img src="{{ asset('assets/images/city-1.webp') }}" alt="City image">
-                </div>
-                <div class="p-content">
-                    <div class="p-infos">
-                        <div>
-                            <span>Ville :</span> Todo España
-                        </div> 
-                        <div>
-                            <span>Durée du programme :</span> 6-12 meses
-                        </div> 
-                    </div>
-                    <div class="primary-button p-btn">
-                        Submit
-                    </div>
-                </div>
-            </div>
-            <div class="programme-wrapper">
-                <div class="p-img">
-                    <div class="p-img-content">
-                        <div class="p-img-top">
-                            <div class="year">
-                                2024
-                            </div>
-                            <div class="branch">Séjour linguistique</div>
-                        </div>
-                        <div class="p-img-bottom">
-                            <div class="p-title">
-                                Etudier la langue a Malaga
-                            </div>
-                            <div class="p-price">
-                                A partir de <span>2650€</span>
+                            <div class="p-img-bottom">
+                                <div class="p-title">
+                                    {{ $programe->title }}
+                                </div>
+                                <div class="p-price">
+                                    Desde <span>{{ $programe->price }}€</span>
+                                </div>
                             </div>
                         </div>
+                        <img src="{{ asset('storage/'.$programe->image) }}" alt="City image">
                     </div>
-                    <img src="{{ asset('assets/images/city-1.webp') }}" alt="City image">
-                </div>
-                <div class="p-content">
-                    <div class="p-infos">
-                        <div>
-                            <span>Ville :</span> Todo España
-                        </div> 
-                        <div>
-                            <span>Durée du programme :</span> 6-12 meses
-                        </div> 
-                    </div>
-                    <div class="primary-button p-btn">
-                        Submit
-                    </div>
-                </div>
-            </div>
-            <div class="programme-wrapper">
-                <div class="p-img">
-                    <div class="p-img-content">
-                        <div class="p-img-top">
-                            <div class="year">
-                                2024
-                            </div>
-                            <div class="branch">Séjour linguistique</div>
+                    <div class="p-content">
+                        <div class="p-infos">
+                            <div>
+                                <span>Ciudad :</span> {{ $programe->city }}
+                            </div> 
+                            <div>
+                                <span>Duracion del programa :</span> {{ $programe->duree_de_programme }}
+                            </div> 
                         </div>
-                        <div class="p-img-bottom">
-                            <div class="p-title">
-                                Etudier la langue a Malaga
-                            </div>
-                            <div class="p-price">
-                                A partir de <span>2650€</span>
-                            </div>
+                        <div class="primary-button p-btn">
+                            <a href="https://wa.me/+34657933788" target="_blanck">Contáctanos por whatsapp para más información</a>
                         </div>
                     </div>
-                    <img src="{{ asset('assets/images/city-1.webp') }}" alt="City image">
                 </div>
-                <div class="p-content">
-                    <div class="p-infos">
-                        <div>
-                            <span>Ville :</span> Todo España
-                        </div> 
-                        <div>
-                            <span>Durée du programme :</span> 6-12 meses
-                        </div> 
-                    </div>
-                    <div class="primary-button p-btn">
-                        Submit
-                    </div>
-                </div>
-            </div>
+            @endforeach
         </div>
     </div>
     {{-- Programmes de Séjour linguistique --}}
@@ -283,108 +151,42 @@
             Programas de <span>licenciatura</span>
         </div>
         <div class="programmes-wrapper">
-            <div class="programme-wrapper">
-                <div class="p-img">
-                    <div class="p-img-content">
-                        <div class="p-img-top">
-                            <div class="year">
-                                2024
+            @foreach ( $licence as $programe )    
+                <div class="programme-wrapper">
+                    <div class="p-img">
+                        <div class="p-img-content">
+                            <div class="p-img-top">
+                                <div class="year">
+                                    {{ $programe->year }}
+                                </div>
+                                <div class="branch">licenciatura</div>
                             </div>
-                            <div class="branch">Séjour linguistique</div>
-                        </div>
-                        <div class="p-img-bottom">
-                            <div class="p-title">
-                                Etudier la langue a Malaga
-                            </div>
-                            <div class="p-price">
-                                A partir de <span>2650€</span>
-                            </div>
-                        </div>
-                    </div>
-                    <img src="{{ asset('assets/images/city-1.webp') }}" alt="City image">
-                </div>
-                <div class="p-content">
-                    <div class="p-infos">
-                        <div>
-                            <span>Ville :</span> Todo España
-                        </div> 
-                        <div>
-                            <span>Durée du programme :</span> 6-12 meses
-                        </div> 
-                    </div>
-                    <div class="primary-button p-btn">
-                        Submit
-                    </div>
-                </div>
-            </div>
-            <div class="programme-wrapper">
-                <div class="p-img">
-                    <div class="p-img-content">
-                        <div class="p-img-top">
-                            <div class="year">
-                                2024
-                            </div>
-                            <div class="branch">Séjour linguistique</div>
-                        </div>
-                        <div class="p-img-bottom">
-                            <div class="p-title">
-                                Etudier la langue a Malaga
-                            </div>
-                            <div class="p-price">
-                                A partir de <span>2650€</span>
+                            <div class="p-img-bottom">
+                                <div class="p-title">
+                                    {{ $programe->title }}
+                                </div>
+                                <div class="p-price">
+                                    Desde <span>{{ $programe->price }}€</span>
+                                </div>
                             </div>
                         </div>
+                        <img src="{{ asset('storage/'.$programe->image) }}" alt="City image">
                     </div>
-                    <img src="{{ asset('assets/images/city-1.webp') }}" alt="City image">
-                </div>
-                <div class="p-content">
-                    <div class="p-infos">
-                        <div>
-                            <span>Ville :</span> Todo España
-                        </div> 
-                        <div>
-                            <span>Durée du programme :</span> 6-12 meses
-                        </div> 
-                    </div>
-                    <div class="primary-button p-btn">
-                        Submit
-                    </div>
-                </div>
-            </div>
-            <div class="programme-wrapper">
-                <div class="p-img">
-                    <div class="p-img-content">
-                        <div class="p-img-top">
-                            <div class="year">
-                                2024
-                            </div>
-                            <div class="branch">Séjour linguistique</div>
+                    <div class="p-content">
+                        <div class="p-infos">
+                            <div>
+                                <span>Ciudad :</span> {{ $programe->city }}
+                            </div> 
+                            <div>
+                                <span>Duracion del programa :</span> {{ $programe->duree_de_programme }}
+                            </div> 
                         </div>
-                        <div class="p-img-bottom">
-                            <div class="p-title">
-                                Etudier la langue a Malaga
-                            </div>
-                            <div class="p-price">
-                                A partir de <span>2650€</span>
-                            </div>
+                        <div class="primary-button p-btn">
+                            <a href="https://wa.me/+34657933788" target="_blanck">Contáctanos por whatsapp para más información</a>
                         </div>
                     </div>
-                    <img src="{{ asset('assets/images/city-1.webp') }}" alt="City image">
                 </div>
-                <div class="p-content">
-                    <div class="p-infos">
-                        <div>
-                            <span>Ville :</span> Todo España
-                        </div> 
-                        <div>
-                            <span>Durée du programme :</span> 6-12 meses
-                        </div> 
-                    </div>
-                    <div class="primary-button p-btn">
-                        Submit
-                    </div>
-                </div>
-            </div>
+            @endforeach
         </div>
     </div>
     {{-- Programmes de Séjour linguistique --}}
@@ -394,108 +196,42 @@
             Programas de <span>Master</span>
         </div>
         <div class="programmes-wrapper">
-            <div class="programme-wrapper">
-                <div class="p-img">
-                    <div class="p-img-content">
-                        <div class="p-img-top">
-                            <div class="year">
-                                2024
+            @foreach ( $master as $programe )    
+                <div class="programme-wrapper">
+                    <div class="p-img">
+                        <div class="p-img-content">
+                            <div class="p-img-top">
+                                <div class="year">
+                                    {{ $programe->year }}
+                                </div>
+                                <div class="branch">Master</div>
                             </div>
-                            <div class="branch">Séjour linguistique</div>
-                        </div>
-                        <div class="p-img-bottom">
-                            <div class="p-title">
-                                Etudier la langue a Malaga
-                            </div>
-                            <div class="p-price">
-                                A partir de <span>2650€</span>
-                            </div>
-                        </div>
-                    </div>
-                    <img src="{{ asset('assets/images/city-1.webp') }}" alt="City image">
-                </div>
-                <div class="p-content">
-                    <div class="p-infos">
-                        <div>
-                            <span>Ville :</span> Todo España
-                        </div> 
-                        <div>
-                            <span>Durée du programme :</span> 6-12 meses
-                        </div> 
-                    </div>
-                    <div class="primary-button p-btn">
-                        Submit
-                    </div>
-                </div>
-            </div>
-            <div class="programme-wrapper">
-                <div class="p-img">
-                    <div class="p-img-content">
-                        <div class="p-img-top">
-                            <div class="year">
-                                2024
-                            </div>
-                            <div class="branch">Séjour linguistique</div>
-                        </div>
-                        <div class="p-img-bottom">
-                            <div class="p-title">
-                                Etudier la langue a Malaga
-                            </div>
-                            <div class="p-price">
-                                A partir de <span>2650€</span>
+                            <div class="p-img-bottom">
+                                <div class="p-title">
+                                    {{ $programe->title }}
+                                </div>
+                                <div class="p-price">
+                                    Desde <span>{{ $programe->price }}€</span>
+                                </div>
                             </div>
                         </div>
+                        <img src="{{ asset('storage/'.$programe->image) }}" alt="City image">
                     </div>
-                    <img src="{{ asset('assets/images/city-1.webp') }}" alt="City image">
-                </div>
-                <div class="p-content">
-                    <div class="p-infos">
-                        <div>
-                            <span>Ville :</span> Todo España
-                        </div> 
-                        <div>
-                            <span>Durée du programme :</span> 6-12 meses
-                        </div> 
-                    </div>
-                    <div class="primary-button p-btn">
-                        Submit
-                    </div>
-                </div>
-            </div>
-            <div class="programme-wrapper">
-                <div class="p-img">
-                    <div class="p-img-content">
-                        <div class="p-img-top">
-                            <div class="year">
-                                2024
-                            </div>
-                            <div class="branch">Séjour linguistique</div>
+                    <div class="p-content">
+                        <div class="p-infos">
+                            <div>
+                                <span>Ciudad :</span> {{ $programe->city }}
+                            </div> 
+                            <div>
+                                <span>Duracion del programa :</span> {{ $programe->duree_de_programme }}
+                            </div> 
                         </div>
-                        <div class="p-img-bottom">
-                            <div class="p-title">
-                                Etudier la langue a Malaga
-                            </div>
-                            <div class="p-price">
-                                A partir de <span>2650€</span>
-                            </div>
+                        <div class="primary-button p-btn">
+                            <a href="https://wa.me/+34657933788" target="_blanck">Contáctanos por whatsapp para más información</a>
                         </div>
                     </div>
-                    <img src="{{ asset('assets/images/city-1.webp') }}" alt="City image">
                 </div>
-                <div class="p-content">
-                    <div class="p-infos">
-                        <div>
-                            <span>Ville :</span> Todo España
-                        </div> 
-                        <div>
-                            <span>Durée du programme :</span> 6-12 meses
-                        </div> 
-                    </div>
-                    <div class="primary-button p-btn">
-                        Submit
-                    </div>
-                </div>
-            </div>
+            @endforeach
         </div>
     </div>
     {{-- Programmes de Séjour linguistique --}}
@@ -505,108 +241,42 @@
             Programmes de <span>Grado superior</span>
         </div>
         <div class="programmes-wrapper">
-            <div class="programme-wrapper">
-                <div class="p-img">
-                    <div class="p-img-content">
-                        <div class="p-img-top">
-                            <div class="year">
-                                2024
+            @foreach ( $grade_sup_a as $programe )    
+                <div class="programme-wrapper">
+                    <div class="p-img">
+                        <div class="p-img-content">
+                            <div class="p-img-top">
+                                <div class="year">
+                                    {{ $programe->year }}
+                                </div>
+                                <div class="branch">Grado superior</div>
                             </div>
-                            <div class="branch">Séjour linguistique</div>
-                        </div>
-                        <div class="p-img-bottom">
-                            <div class="p-title">
-                                Etudier la langue a Malaga
-                            </div>
-                            <div class="p-price">
-                                A partir de <span>2650€</span>
-                            </div>
-                        </div>
-                    </div>
-                    <img src="{{ asset('assets/images/city-1.webp') }}" alt="City image">
-                </div>
-                <div class="p-content">
-                    <div class="p-infos">
-                        <div>
-                            <span>Ville :</span> Todo España
-                        </div> 
-                        <div>
-                            <span>Durée du programme :</span> 6-12 meses
-                        </div> 
-                    </div>
-                    <div class="primary-button p-btn">
-                        Submit
-                    </div>
-                </div>
-            </div>
-            <div class="programme-wrapper">
-                <div class="p-img">
-                    <div class="p-img-content">
-                        <div class="p-img-top">
-                            <div class="year">
-                                2024
-                            </div>
-                            <div class="branch">Séjour linguistique</div>
-                        </div>
-                        <div class="p-img-bottom">
-                            <div class="p-title">
-                                Etudier la langue a Malaga
-                            </div>
-                            <div class="p-price">
-                                A partir de <span>2650€</span>
+                            <div class="p-img-bottom">
+                                <div class="p-title">
+                                    {{ $programe->title }}
+                                </div>
+                                <div class="p-price">
+                                    Desde <span>{{ $programe->price }}€</span>
+                                </div>
                             </div>
                         </div>
+                        <img src="{{ asset('storage/'.$programe->image) }}" alt="City image">
                     </div>
-                    <img src="{{ asset('assets/images/city-1.webp') }}" alt="City image">
-                </div>
-                <div class="p-content">
-                    <div class="p-infos">
-                        <div>
-                            <span>Ville :</span> Todo España
-                        </div> 
-                        <div>
-                            <span>Durée du programme :</span> 6-12 meses
-                        </div> 
-                    </div>
-                    <div class="primary-button p-btn">
-                        Submit
-                    </div>
-                </div>
-            </div>
-            <div class="programme-wrapper">
-                <div class="p-img">
-                    <div class="p-img-content">
-                        <div class="p-img-top">
-                            <div class="year">
-                                2024
-                            </div>
-                            <div class="branch">Séjour linguistique</div>
+                    <div class="p-content">
+                        <div class="p-infos">
+                            <div>
+                                <span>Ciudad :</span> {{ $programe->city }}
+                            </div> 
+                            <div>
+                                <span>Duracion del programa :</span> {{ $programe->duree_de_programme }}
+                            </div> 
                         </div>
-                        <div class="p-img-bottom">
-                            <div class="p-title">
-                                Etudier la langue a Malaga
-                            </div>
-                            <div class="p-price">
-                                A partir de <span>2650€</span>
-                            </div>
+                        <div class="primary-button p-btn">
+                            <a href="https://wa.me/+34657933788" target="_blanck">Contáctanos por whatsapp para más información</a>
                         </div>
                     </div>
-                    <img src="{{ asset('assets/images/city-1.webp') }}" alt="City image">
                 </div>
-                <div class="p-content">
-                    <div class="p-infos">
-                        <div>
-                            <span>Ville :</span> Todo España
-                        </div> 
-                        <div>
-                            <span>Durée du programme :</span> 6-12 meses
-                        </div> 
-                    </div>
-                    <div class="primary-button p-btn">
-                        Submit
-                    </div>
-                </div>
-            </div>
+            @endforeach
         </div>
     </div>
 </div>
@@ -617,4 +287,15 @@
     <x-sp.solutions />
 </div>
 
+<style>
+    /* Style to change button to green  */
+    .primary-button.p-btn {
+        background-color: #25c160 !important;
+        border-color: #25D366 !important;
+    }
+    .primary-button.p-btn a {
+        color: white;
+        font-weight: 500;
+    }
+</style>
 <x-sp.footer />
