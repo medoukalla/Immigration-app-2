@@ -61,7 +61,7 @@
                 <div data-w-id="65a662c7-04b5-15a4-72a0-b5b3fdf07eb2"
                   style="background-image:url(&quot;https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652ea6d6583f67a8de3fa46e_pexels-keira-burton-6146978.jpg&quot;);opacity:0"
                   class="work-wrapper"><img loading="lazy"
-                    src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652db2fc45a71830e136ff99_fi_3022243.svg"
+                    src="{{ asset('assets/images/svg/lucrative.svg') }}"
                     alt="" class="icon-work" /><a href="{{ route('frontend.sp.residencia_no_lucrativa') }}" class="w-inline-block">
                     <h5 class="services-titles">Residencia No Lucrativa</h5>
                   </a>
@@ -80,7 +80,7 @@
                 <div data-w-id="65a662c7-04b5-15a4-72a0-b5b3fdf07eb2"
                   style="background-image:url(&quot;https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652ea6d6583f67a8de3fa46e_pexels-keira-burton-6146978.jpg&quot;);opacity:0"
                   class="work-wrapper"><img loading="lazy"
-                    src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652db2fc45a71830e136ff99_fi_3022243.svg"
+                    src="{{ asset('assets/images/svg/lucrative.svg') }}"
                     alt="" class="icon-work" /><a href="{{ route('frontend.sp.nacionalidad') }}" class="w-inline-block">
                     <h5 class="services-titles">Nacionalidad Española</h5>
                   </a>
@@ -137,7 +137,7 @@
                 <div data-w-id="fb7b6a25-057e-7357-a393-8453d9c0ef35"
                   style="background-image:url(&quot;https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652891e0a6170d2717dd7e55_pexels-vlada-karpovich-7368310.jpg&quot;);opacity:0"
                   class="work-wrapper"><img loading="lazy"
-                    src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652891689ec9911fdd305464_immigration.svg"
+                    src="{{ asset('assets/images/svg/gold-visa.svg') }}"
                     alt="" class="icon-work" /><a href="{{ route('frontend.sp.golden_visa') }}"
                     class="w-inline-block">
                     <h5 class="services-titles">Golden Visa</h5>
@@ -157,7 +157,7 @@
                 <div data-w-id="bf82eb32-4ca6-1452-57f4-b6426d6d696b"
                   style="background-image:url(&quot;https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652892299ec9911fdd311500_pexels-cytonn-photography-955389.jpg&quot;);opacity:0"
                   class="work-wrapper"><img loading="lazy"
-                    src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/65289172057200ddd4f42749_documents.svg"
+                    src="{{ asset('assets/images/svg/company.svg') }}"
                     alt="" class="icon-work" /><a href="{{ route('frontend.sp.residencia_para_emprendedores') }}"
                     class="w-inline-block">
                     <h5 class="services-titles">Residencia para Emprendedores</h5>
