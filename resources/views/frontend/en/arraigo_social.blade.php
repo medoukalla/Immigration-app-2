@@ -66,12 +66,12 @@
             <div data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237" class="contacts-2-wrapper">
                 <div class="contacts-2-content-wrapper">
                     <div class="contacts-title">
-                        <h2 class="in-section-title">Presentación del Servicio</h2>
+                        <h2 class="in-section-title">Presentation of the Service</h2>
                     </div>
                     <div class="contacts-2-content">
-                        <p>El <b>arraigo social</b> es una autorización de residencia en España destinada a extranjeros en situación irregular que
-                            desean regularizar su estatus. Este permiso busca facilitar la integración de los extranjeros en la sociedad española,
-                            permitiéndoles vivir y trabajar legalmente en el país. </p>
+                        <p>
+                            Arraigo social residency is a residence permit in Spain designed for foreigners in an irregular situation who wish to regularize their status. This permit aims to facilitate the integration of foreigners into Spanish society, allowing them to live and work legally in the country.
+                        </p>
                     </div>
                 </div>
                 <!-- Contact Form -->

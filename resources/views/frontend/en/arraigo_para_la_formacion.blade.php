@@ -8,7 +8,7 @@
     <div class="pages-banner blog">
         <div class="base-container w-container">
             <div class="min-hero-wrapper">
-                <h1>Arraigo para la Formación</h1>
+                <h1>Arraigo para la formacion</h1>
                 <p>
                     This permit is for those who have lived in Spain for at least two years and wish to pursue formal education or vocational training. It allows you to regularize your status while continuing your studies.
 
@@ -26,7 +26,7 @@
                     <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
 
                     <div class="p-path">
-                        Arraigo para la Formación
+                        Arraigo para la formacion
                     </div>
                 </div>
             </div>
@@ -66,13 +66,12 @@
             <div data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237" class="contacts-2-wrapper">
                 <div class="contacts-2-content-wrapper">
                     <div class="contacts-title">
-                        <h2 class="in-section-title">Presentación del Servicio</h2>
+                        <h2 class="in-section-title">Presentation of the Service</h2>
                     </div>
                     <div class="contacts-2-content">
-                        <p>El <b>arraigo para la formación</b> es un permiso de residencia en España que permite a extranjeros, que han vivido en el
-                            país durante al menos dos años, regularizar su situación a través de un programa de formación profesional. Este
-                            permiso es ideal para quienes buscan mejorar sus habilidades y facilitar su integración en el mercado laboral
-                            español.</p>
+                        <p>
+                            The residency  (arraigo para la formación) is a residence permit in Spain that allows foreigners, who have lived in the country for at least two years, to regularize their status through a professional training program. This permit is ideal for those seeking to enhance their skills and facilitate their integration into the Spanish labor market.
+                        </p>
                     </div>
                 </div>
                 <!-- Contact Form -->

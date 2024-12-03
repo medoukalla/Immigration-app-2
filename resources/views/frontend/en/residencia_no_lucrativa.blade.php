@@ -66,13 +66,12 @@
             <div data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237" class="contacts-2-wrapper">
                 <div class="contacts-2-content-wrapper">
                     <div class="contacts-title">
-                        <h2 class="in-section-title">Presentación del Servicio</h2>
+                        <h2 class="in-section-title">Presentation of the Service</h2>
                     </div>
                     <div class="contacts-2-content">
-                        <p>La <b>residencia no lucrativa</b> en España es un permiso que permite a extranjeros vivir en el país sin realizar
-                            actividades laborales. Está destinada a personas que cuentan con recursos económicos suficientes para mantenerse
-                            sin trabajar. Es ideal para jubilados, pensionistas o personas con recursos que deseen vivir en España sin necesidad
-                            de trabajar. </p>
+                        <p>
+                            The non-lucrative residency in Spain is a permit that allows foreign nationals to live in the country without engaging in any work activities. It is intended for individuals who have sufficient financial resources to support themselves without the need to work. This residency option is ideal for retirees, pensioners, or individuals with financial means who wish to live in Spain without the necessity of employment.
+                        </p>
                     </div>
                 </div>
                 <!-- Contact Form -->

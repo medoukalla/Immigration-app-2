@@ -66,16 +66,14 @@
             <div data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237" class="contacts-2-wrapper">
                 <div class="contacts-2-content-wrapper">
                     <div class="contacts-title">
-                        <h2 class="in-section-title">Presentación del Servicio</h2>
+                        <h2 class="in-section-title">Presentation of the Service</h2>
                     </div>
                     <div class="contacts-2-content">
                         <p>
-                            El <b>arraigo laboral</b> es un permiso de residencia temporal en España que permite a extranjeros en situación irregular
-                            regularizar su estatus si pueden demostrar una relación laboral continua y previa. Facilita la obtención de un permiso
-                            de residencia y trabajo, permitiendo a los solicitantes vivir y trabajar legalmente en el país. 
+                            The arraigo laboral  is a temporary residence permit in Spain that allows foreigners in an irregular situation to regularize their status by demonstrating a continuous and prior employment relationship. This permit facilitates the acquisition of a residence and work permit, allowing applicants to live and work legally in the country.
                         </p>
                         <p>
-                            Este permiso busca integrar a extranjeros que han establecido vínculos laborales en España, permitiéndoles contribuir al mercado laboral de forma legal.
+                            The arraigo laboral aims to integrate foreigners who have established labor ties in Spain, enabling them to contribute to the workforce legally. Our expert team will guide you through the entire process, ensuring compliance with all legal requirements.
                         </p>
                     </div>
                 </div>

@@ -8,7 +8,7 @@
     <div class="pages-banner blog">
         <div class="base-container w-container">
             <div class="min-hero-wrapper">
-                <h1>Digital Nomad Visa</h1>
+                <h1>Digital nomad</h1>
                 <p>
                     If you work remotely and wish to live in Spain, the Digital Nomad Visa allows you to reside legally while continuing your work abroad. We help you with the application process and ensure compliance with the visa requirements.
 
@@ -26,7 +26,7 @@
                     <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
 
                     <div class="p-path">
-                        Digital Nomad Visa
+                        Digital nomad
                     </div>
                 </div>
             </div>
@@ -66,15 +66,11 @@
             <div data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237" class="contacts-2-wrapper">
                 <div class="contacts-2-content-wrapper">
                     <div class="contacts-title">
-                        <h2 class="in-section-title">Presentación del Servicio</h2>
+                        <h2 class="in-section-title">Presentation of the Service</h2>
                     </div>
                     <div class="contacts-2-content">
                         <p>
-                            La <b>visa para nómadas digitales</b> es un permiso de residencia que permite a profesionales y trabajadores remotos
-                            vivir y trabajar legalmente en un país mientras desarrollan sus actividades laborales a distancia. Este tipo de visa está
-                            diseñado específicamente para personas que pueden desempeñar su trabajo de manera remota,
-                            independientemente de su ubicación geográfica, y que desean aprovechar la oportunidad de vivir en un entorno
-                            diferente y enriquecedor, como puede ser España. 
+                            The digital nomad visa is a residence permit that allows remote professionals and workers to live and work legally in a country while carrying out their work remotely. This type of visa is specifically designed for individuals who can perform their job remotely, regardless of geographic location, and who wish to take advantage of the opportunity to live in a different and enriching environment, such as Spain.
                         </p>
                     </div>
                 </div>

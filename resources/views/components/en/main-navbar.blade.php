@@ -24,40 +24,40 @@
               <nav class="nav-dropdown-list w-dropdown-list">
                 <div class="nav-dropdown-link-wrapper">
                   <a href="{{ route('frontend.residencia_para_emprendedores') }}" class="nav-dropdown-link w-dropdown-link">
-                    <span class="nav-dropdown-link-line"></span>Entrepreneurs Residency
+                    <span class="nav-dropdown-link-line"></span>Entrepreneur Residence
                   </a>
                   <a href="{{ route('frontend.arraigo_para_la_formacion') }}" class="nav-dropdown-link w-dropdown-link">
-                    <span class="nav-dropdown-link-line"></span>Arraigo para la formación
+                    <span class="nav-dropdown-link-line"></span>Arraigo para la formacion
                   </a>
                   <a href="{{ route('frontend.arraigo_familiar') }}" class="nav-dropdown-link w-dropdown-link">
-                    <span class="nav-dropdown-link-line"></span>Arraigo Familiar
+                    <span class="nav-dropdown-link-line"></span>Arraigo familiar
                   </a>
                   <a href="{{ route('frontend.arraigo_laboral') }}" class="nav-dropdown-link w-dropdown-link">
-                    <span class="nav-dropdown-link-line"></span>Arraigo Laboral
+                    <span class="nav-dropdown-link-line"></span>Arraigo laboral
                   </a>
                   <a href="{{ route('frontend.arraigo_social') }}" class="nav-dropdown-link w-dropdown-link">
-                    <span class="nav-dropdown-link-line"></span>Arraigo Social
+                    <span class="nav-dropdown-link-line"></span>Arraigo social
                   </a>
                   <a href="{{ route('frontend.residencia_no_lucrativa') }}" class="nav-dropdown-link w-dropdown-link">
-                    <span class="nav-dropdown-link-line"></span>Non-lucrative Residency
+                    <span class="nav-dropdown-link-line"></span>Non-Lucrative Residence
                   </a>
                   <a href="{{ route('frontend.nomada_digital') }}" class="nav-dropdown-link w-dropdown-link">
                     <span class="nav-dropdown-link-line"></span>Digital nomad
                   </a>
                   <a href="{{ route('frontend.residencia_familiar_ue') }}" class="nav-dropdown-link w-dropdown-link">
-                    <span class="nav-dropdown-link-line"></span>Residency of Family Members of EU Citizens
+                    <span class="nav-dropdown-link-line"></span>EU Family Member
                   </a>
                   <a href="{{ route('frontend.reagrupacion_familiar') }}" class="nav-dropdown-link w-dropdown-link">
-                    <span class="nav-dropdown-link-line"></span>Family reunification
+                    <span class="nav-dropdown-link-line"></span>Family Reunification
                   </a>
                   <a href="{{ route('frontend.residencia_larga_duracion') }}" class="nav-dropdown-link w-dropdown-link">
-                    <span class="nav-dropdown-link-line"></span>Long-term residence
+                    <span class="nav-dropdown-link-line"></span>Long-Term Residence
                   </a>
                   <a href="{{ route('frontend.recurso_contencioso_administrativo') }}" class="nav-dropdown-link w-dropdown-link">
-                    <span class="nav-dropdown-link-line"></span>Administrative litigation appeal
+                    <span class="nav-dropdown-link-line"></span>Administrative Litigation Appeal
                   </a>
                   <a href="{{ route('frontend.recurso_administrativo') }}" class="nav-dropdown-link w-dropdown-link">
-                    <span class="nav-dropdown-link-line"></span>Administrative appeal
+                    <span class="nav-dropdown-link-line"></span>Administrative Appeal
                   </a>
                   <a href="{{ route('frontend.renovación_de_la_tarjeta_de_residencia') }}" class="nav-dropdown-link w-dropdown-link">
                     <span class="nav-dropdown-link-line"></span>Renewal of residence card (NIE)
@@ -82,7 +82,7 @@
                 </div>
               </nav>
             </div>
-            <a href="{{ route('frontend.nacionalidad') }}" class="nav-link w-nav-link m-left">Nationality</a>
+            <a href="{{ route('frontend.nacionalidad') }}" class="nav-link w-nav-link m-left">Citizenship</a>
             <div data-hover="true" data-delay="0" data-w-id="ba67b287-f196-4627-29a8-f080f7e8b20d"
               class="nav-dropdown w-dropdown">
               <div class="nav-dropdown-toggle w-dropdown-toggle">

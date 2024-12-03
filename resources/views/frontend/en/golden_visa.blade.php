@@ -66,14 +66,12 @@
             <div data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237" class="contacts-2-wrapper">
                 <div class="contacts-2-content-wrapper">
                     <div class="contacts-title">
-                        <h2 class="in-section-title">Presentación del Servicio</h2>
+                        <h2 class="in-section-title">Presentation of the Service</h2>
                     </div>
                     <div class="contacts-2-content">
-                        <p>Golden Visa es un programa de residencia dirigido a inversores extranjeros que deseen establecerse en España.
-                            Este visado permite a los titulares y a sus familias residir y trabajar en el país mediante una inversión significativa en
-                            propiedades, empresas o depósitos en el país. La Golden Visa es una opción ideal para quienes buscan diversificar
-                            sus inversiones y beneficiarse de vivir en un entorno europeo. Nuestro equipo de expertos le acompañará en cada
-                            paso para una gestión eficiente y profesional. </p>
+                        <p>
+                            The Golden Visa is a residency program aimed at foreign investors who wish to settle in Spain. This visa allows holders and their families to reside and work in the country through a significant investment in properties, businesses, or deposits. The Golden Visa is an ideal option for those seeking to diversify their investments and enjoy the benefits of living in a European environment. Our team of experts will guide you through every step of the process, ensuring efficient and professional management.
+                        </p>
                     </div>
                 </div>
                 <!-- Contact Form -->

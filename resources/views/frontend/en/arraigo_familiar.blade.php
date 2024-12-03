@@ -8,7 +8,7 @@
     <div class="pages-banner blog">
         <div class="base-container w-container">
             <div class="min-hero-wrapper">
-                <h1>Family Rooting (Arraigo Familiar)</h1>
+                <h1>Arraigo familiar</h1>
                 <p>
                     If you are a direct relative of a Spanish citizen or legal resident, this permit allows you to reside in Spain legally. We provide guidance on the requirements and processes to obtain residence based on family ties.
 
@@ -25,7 +25,7 @@
                     <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
 
                     <div class="p-path">
-                        Family Rooting
+                        Arraigo familiar
                     </div>
                 </div>
             </div>
@@ -70,13 +70,15 @@
                     </div>
                     <div class="contacts-2-content">
                         <p>
-                            The <b>family roots</b> is a residence permit in Spain that allows foreign citizens in an irregular situation to regularize their status for family reasons. It is primarily aimed at:
+                            Arraigo familiar residency is a residence permit in Spain that allows foreigners in an irregular situation to regularize their status for family reasons. It is primarily aimed at:
                             <ul>
-                                <li><b>Parents of Spanish minor citizens.</b></li>
+                                <li><b>Parents of Spanish national minors.</b></li>
                                 <li><b>Children of parents originally from Spain.</b></li>
                             </ul>
                         </p>
-                        <p>Family roots is a key option for those seeking to regularize their situation in Spain through family ties. It allows legal residence in Spain, access to social services and employment, and facilitates the possible application for Spanish nationality.</p>
+                        <p>
+                            Family-based residency is a key option for those seeking to regularize their status in Spain based on family ties. It allows legal residence in Spain, access to social services, the ability to work, and facilitates the potential application for Spanish nationality.
+                        </p>
                     </div>
                 </div>
                 <!-- Contact Form -->

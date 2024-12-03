@@ -65,10 +65,11 @@
             <div data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237" class="contacts-2-wrapper">
                 <div class="contacts-2-content-wrapper">
                     <div class="contacts-title">
-                        <h2 class="in-section-title">Presentación del Servicio</h2>
+                        <h2 class="in-section-title">Presentation of the Service</h2>
                     </div>
                     <div class="contacts-2-content">
-                        <p>La residencia de larga duración es un permiso que permite a los ciudadanos extranjeros residir y trabajar en el país de manera indefinida, otorgándoles derechos similares a los de los ciudadanos españoles en cuanto a empleo y movilidad. Nuestro equipo se asegura de que cumpla con todos los requisitos necesarios y de que el proceso se gestione de manera ágil y efectiva.
+                        <p>
+                            Long-term residency is a permit that allows foreign nationals to reside and work in the country indefinitely, granting them rights similar to those of Spanish citizens in terms of employment and mobility. Our team ensures that you meet all the necessary requirements and that the process is managed efficiently and effectively.
                         </p>
                     </div>
                 </div>

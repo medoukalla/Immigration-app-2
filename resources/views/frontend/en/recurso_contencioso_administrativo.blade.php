@@ -14,9 +14,9 @@
 
                 </p>
                 <div class="pages-path">
-<div class="p-path">
-    <a href="{{ route('frontend.sp.index') }}">Welcome</a>
-</div>
+                    <div class="p-path">
+                        <a href="{{ route('frontend.sp.index') }}">Welcome</a>
+                    </div>
                     <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
                     <div class="p-path">
                         Immigration
@@ -62,12 +62,12 @@
             <div data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237" class="contacts-2-wrapper">
                 <div class="contacts-2-content-wrapper">
                     <div class="contacts-title">
-                        <h2 class="in-section-title">Presentación del Servicio</h2>
+                        <h2 class="in-section-title">Presentation of the Service</h2>
                     </div>
                     <div class="contacts-2-content">
-                        <p>Este recurso judicial permite impugnar decisiones administrativas desfavorables relacionadas con inmigración, tales
-                            como la denegación de visados o permisos de residencia. Nuestro equipo de abogados y expertos en extranjería le
-                            acompañará en cada etapa, asegurando una defensa profesional y efectiva de sus derechos.</p>
+                        <p>
+                            This legal appeal allows you to challenge unfavorable administrative decisions related to immigration, such as the denial of visas or residency permits. Our team of immigration lawyers and experts will accompany you at every stage, ensuring professional and effective defense of your rights.
+                        </p>
                     </div>
                 </div>
                 <!-- Contact Form -->

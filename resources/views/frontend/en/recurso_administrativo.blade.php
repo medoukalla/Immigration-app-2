@@ -66,13 +66,12 @@
             <div data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237" class="contacts-2-wrapper">
                 <div class="contacts-2-content-wrapper">
                     <div class="contacts-title">
-                        <h2 class="in-section-title">Presentación del Servicio</h2>
+                        <h2 class="in-section-title">Presentation of the Service</h2>
                     </div>
                     <div class="contacts-2-content">
-                        <p>El recurso administrativo está diseñado para ayudar a los clientes a impugnar decisiones administrativas
-                            desfavorables emitidas por las autoridades de inmigración. Si ha recibido una resolución negativa sobre su solicitud
-                            de visa, residencia, o cualquier otro trámite relacionado con su estatus migratorio, nuestro equipo de expertos está
-                            aquí para asesorarle y guiarle durante el proceso, asegurando que sus derechos sean defendidos adecuadamente. </p>
+                        <p>
+                            The administrative appeal is designed to help clients challenge unfavorable administrative decisions issued by immigration authorities. If you have received a negative decision regarding your visa, residency, or any other process related to your immigration status, our team of experts is here to advise and guide you through the process, ensuring that your rights are properly defended.
+                        </p>
                     </div>
                 </div>
                 <!-- Contact Form -->

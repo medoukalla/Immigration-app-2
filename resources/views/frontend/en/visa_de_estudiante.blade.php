@@ -65,15 +65,12 @@
             <div data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237" class="contacts-2-wrapper">
                 <div class="contacts-2-content-wrapper">
                     <div class="contacts-title">
-                        <h2 class="in-section-title">Presentación del Servicio</h2>
+                        <h2 class="in-section-title">Presentation of the Service</h2>
                     </div>
                     <div class="contacts-2-content">
                         <p>
-                            En Immiworld, ofrecemos un servicio completo para la obtención de la visa de estudiante, que permite a ciudadanos
-                            extranjeros residir en España mientras realizan estudios en instituciones educativas reconocidas. Este visado es ideal
-                            para quienes desean aprovechar la oferta académica del país y sumergirse en su cultura. Nuestro equipo de expertos
-                            le guiará a lo largo de todo el proceso, garantizando que su solicitud sea eficiente y cumpla con todos los requisitos
-                            legales. 
+                            At Immiworld, we offer a comprehensive service for obtaining a student visa, which allows foreign nationals to reside in Spain while studying at recognized educational institutions. This visa is ideal for those who wish to take advantage of the country’s academic offerings and immerse themselves in its culture. Our team of experts will guide you through the entire process, ensuring that your application is efficient and fully compliant with all legal requirements.
+
                         </p>
                     </div>
                 </div>

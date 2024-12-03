@@ -8,7 +8,7 @@
     <div class="pages-banner blog">
         <div class="base-container w-container">
             <div class="min-hero-wrapper">
-                <h1>Nationality</h1>
+                <h1>Citizenship</h1>
                 <p>
                     Spanish nationality can be obtained through residency, marriage, or descent. We guide you through the naturalization process for those who meet Spain’s residency requirements, helping you fulfill all legal criteria for citizenship.
                 </p>
@@ -25,7 +25,7 @@
                     <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
 
                     <div class="p-path">
-                        Nationality
+                        Citizenship
                     </div>
                 </div>
             </div>
@@ -65,16 +65,11 @@
             <div data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237" class="contacts-2-wrapper">
                 <div class="contacts-2-content-wrapper">
                     <div class="contacts-title">
-                        <h2 class="in-section-title">Presentación del Servicio</h2>
+                        <h2 class="in-section-title">Presentation of the Service</h2>
                     </div>
                     <div class="contacts-2-content">
                         <p>
-                            La <b>Tramitación de la Nacionalidad Española</b> es el proceso que permite a personas extranjeras obtener la
-                            ciudadanía española, con todos sus derechos y obligaciones. Las vías principales incluyen residencia, matrimonio
-                            con un español, descendencia, o nacimiento en España en ciertos casos. Este trámite requiere cumplir requisitos de
-                            arraigo, presentar documentación específica y, en algunos casos, aprobar pruebas de conocimientos y lengua.
-                            Finaliza con el juramento de nacionalidad en el Registro Civil, momento en el cual el solicitante se convierte
-                            oficialmente en ciudadano español. 
+                            The process of obtaining Spanish nationality allows foreign individuals to acquire Spanish citizenship, with all the associated rights and obligations. The main routes to nationality include residency, marriage to a Spanish citizen, descent, or birth in Spain under certain circumstances. This procedure requires meeting residency requirements, submitting specific documentation, and, in some cases, passing language and knowledge tests. The process culminates with the oath of allegiance at the Civil Registry, at which point the applicant officially becomes a Spanish citizen.
                         </p>
                     </div>
                 </div>
