@@ -83,7 +83,7 @@
                 <div data-w-id="65a662c7-04b5-15a4-72a0-b5b3fdf07eb2"
                   style="background-image:url(&quot;https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652ea6d6583f67a8de3fa46e_pexels-keira-burton-6146978.jpg&quot;);opacity:0"
                   class="work-wrapper"><img loading="lazy"
-                    src="{{ asset('assets/images/svg/lucrative.svg') }}"
+                    src="{{ asset('assets/images/svg/nacionalidad.svg') }}"
                     alt="" class="icon-work" /><a href="{{ route('frontend.sp.nacionalidad') }}" class="w-inline-block">
                     <h5 class="services-titles">Nacionalidad Española</h5>
                   </a>
@@ -101,9 +101,11 @@
               <div role="listitem" class="collection-item-services w-dyn-item">
                 <div data-w-id="5d7f81dd-3082-2010-06ea-60427df78cf5"
                   style="background-image:url(&quot;https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/65286fb263f107046ea7900e_nicole-geri-gMJ3tFOLvnA-unsplash.jpg&quot;);opacity:0"
-                  class="work-wrapper"><img loading="lazy"
-                    src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/6528915357f15ad2b94de740_visa.svg"
-                    alt="" class="icon-work" /><a href="{{ route('frontend.sp.visa_de_estudiante') }}" class="w-inline-block">
+                  class="work-wrapper">
+                  <img loading="lazy"
+                    src="{{ asset('assets/images/svg/visa-student.svg') }}"
+                    alt="" class="icon-work" />
+                    <a href="{{ route('frontend.sp.visa_de_estudiante') }}" class="w-inline-block">
                     <h5 class="services-titles">Visado de Estudiante</h5>
                   </a>
                   <p class="service-item-description">Estudia en España con un visado que te permite acceder a una educación de calidad.</p>
@@ -121,7 +123,7 @@
                 <div data-w-id="7c5488ea-0d30-2f2e-a337-1d3df6b31c45"
                   style="background-image:url(&quot;https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/652891bd3236320ae1f0b84c_pexels-oleksandr-p-1008155.jpg&quot;);opacity:0"
                   class="work-wrapper"><img loading="lazy"
-                    src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c1823/6528916057f15ad2b94df35b_relocation.svg"
+                    src="{{ asset('assets/images/svg/digital-visa.svg') }}"
                     alt="" class="icon-work" /><a href="{{ route('frontend.sp.nomada_digital') }}" class="w-inline-block">
                     <h5 class="services-titles">Visado para Nómadas Digitales</h5>
                   </a>
