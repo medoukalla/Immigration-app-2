@@ -1,5 +1,8 @@
 <x-sp.head title="{{ setting('site.title') }}" />
 
+<!-- Top menu navbar -->
+    <x-sp.main-navbar route="{{route('frontend.assurance') }}" />
+
 {{-- Hero section START  --}}
 <div class="pages-banner blog">
     <div class="base-container w-container">

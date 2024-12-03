@@ -1,5 +1,8 @@
 <x-sp.head title="{{ setting('site.title') }}" />
 
+<!-- Top menu navbar -->
+    <x-sp.main-navbar route="{{ route('frontend.index') }}" />
+
 
     <!-- Banner hero section -->
     <x-sp.index-hero />
@@ -194,7 +197,7 @@
 
 
     <!-- Feedback -->
-    {{-- <x-sp.testimonials :testimonials="$testimonials" /> --}}
+    <x-sp.testimonials :testimonials="$testimonials" />
 
     <!-- FAQ -->
     <x-sp.faq-index :faqs="$faqs" />

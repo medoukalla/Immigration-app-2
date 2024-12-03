@@ -1,13 +1,17 @@
 <x-sp.head title="{{ setting('site.title') }}" />
 
+<!-- Top menu navbar -->
+    <x-sp.main-navbar route="{{route('frontend.recurso_administrativo') }}" />
+
 
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
             <div class="min-hero-wrapper">
-                <h1>Recurso Contencioso Administrativo</h1>
+                <h1>Recurso Administrativo</h1>
                 <p>
-                    Impugna decisiones que afectan tu residencia o estatus migratorio con seguridad, respaldado por nuestro equipo legal experimentado
+                    En caso de que tu solicitud de residencia sea denegada o rechazada por errores administrativos, te ofrecemos asistencia para presentar un recurso administrativo y corregir cualquier inconveniente.
+
                 </p>
                 <div class="pages-path">
                     <div class="p-path">
@@ -19,7 +23,7 @@
                     </div>
                     <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
                     <div class="p-path">
-                        Recurso Contencioso Administrativo
+                        Recurso Administrativo
                     </div>
                     
                 </div>
@@ -68,7 +72,7 @@
                     </div>
                 </div>
                 <!-- Contact Form -->
-                <x-sp.small-contact-us />
+                @livewire('contact-spanish', ['service' => 'Recurso administrativo'])
             </div>
         </div>
     </div>

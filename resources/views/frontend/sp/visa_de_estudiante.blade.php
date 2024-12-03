@@ -1,5 +1,8 @@
 <x-sp.head title="{{ setting('site.title') }}" />
 
+<!-- Top menu navbar -->
+    <x-sp.main-navbar route="{{route('frontend.visa_de_estudiante') }}" />
+
 
     <!-- Banner hero section -->
     <div class="pages-banner blog">
@@ -7,7 +10,8 @@
             <div class="min-hero-wrapper">
                 <h1>Visa de Estudiante</h1>
                 <p>
-                    Emprende tu camino educativo en España con un proceso de visa fácil y rápido. Nuestro equipo te asiste en toda la documentación y los requisitos
+                    Visado de estudiante permite residir en España para estudiar en instituciones educativas reconocidas. Es ideal para quienes buscan cursar estudios universitarios o formación profesional. Te ayudamos en todo el proceso para cumplir con los requisitos legales.
+
                 </p>
                 <div class="pages-path">
 <div class="p-path">
@@ -71,7 +75,7 @@
                     </div>
                 </div>
                 <!-- Contact Form -->
-                <x-sp.small-contact-us />
+                @livewire('contact-spanish', ['service' => 'Visado de estudiante'])
             </div>
         </div>
     </div>

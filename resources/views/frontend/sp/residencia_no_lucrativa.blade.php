@@ -1,5 +1,8 @@
 <x-sp.head title="{{ setting('site.title') }}" />
 
+<!-- Top menu navbar -->
+    <x-sp.main-navbar route="{{route('frontend.residencia_no_lucrativa') }}" />
+
 
     <!-- Banner hero section -->
     <div class="pages-banner blog">
@@ -7,7 +10,8 @@
             <div class="min-hero-wrapper">
                 <h1>Residencia No Lucrativa</h1>
                 <p>
-                    Obtén la residencia en España sin necesidad de trabajar, demostrando tu estabilidad económica. Disfruta del estilo de vida español sin las obligaciones laborales
+                    Si planeas vivir en España sin trabajar, este visado es ideal para quienes tienen los medios económicos para mantenerse sin necesidad de empleo. Te guiamos en la documentación y requisitos para una residencia no lucrativa.
+
                 </p>
                 <div class="pages-path">
 <div class="p-path">
@@ -68,7 +72,7 @@
                     </div>
                 </div>
                 <!-- Contact Form -->
-                <x-sp.small-contact-us />
+                @livewire('contact-spanish', ['service' => 'Residencia no lucrativa'])
             </div>
         </div>
     </div>

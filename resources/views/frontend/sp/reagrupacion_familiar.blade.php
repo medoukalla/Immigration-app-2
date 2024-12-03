@@ -1,5 +1,8 @@
 <x-sp.head title="{{ setting('site.title') }}" />
 
+<!-- Top menu navbar -->
+    <x-sp.main-navbar route="{{route('frontend.reagrupacion_familiar') }}" />
+
 
     <!-- Banner hero section -->
     <div class="pages-banner blog">
@@ -7,7 +10,8 @@
             <div class="min-hero-wrapper">
                 <h1>Reagrupación Familiar</h1>
                 <p>
-                    Reúnete con tus seres queridos y consigue la residencia para ellos. Te ayudamos a gestionar un proceso ágil para un reencuentro feliz y sin complicaciones
+                    Este permiso permite que los residentes legales en España reúnan a sus familiares directos en el país. Te asistimos en todo el proceso de solicitud, asegurando que cumplas con los requisitos de recursos y vivienda.
+
                 </p>
                 <div class="pages-path">
 <div class="p-path">
@@ -69,7 +73,8 @@
                     </div>
                 </div>
                 <!-- Contact Form -->
-                <x-sp.small-contact-us />
+                @livewire('contact-spanish', ['service' => 'Reagrupación familiar'])
+
             </div>
         </div>
     </div>

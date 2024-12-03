@@ -1,5 +1,8 @@
 <x-sp.head title="{{ setting('site.title') }}" />
 
+<!-- Top menu navbar -->
+    <x-sp.main-navbar route="{{route('frontend.arraigo_para_la_formacion') }}" />
+
 
     <!-- Banner hero section -->
     <div class="pages-banner blog">
@@ -7,7 +10,8 @@
             <div class="min-hero-wrapper">
                 <h1>Arraigo para la Formación</h1>
                 <p>
-                    Obtén la residencia en España mientras realizas formación profesional. Te ofrecemos soporte para cumplir con todos los requisitos legales para una estancia exitosa.
+                    Este permiso está destinado a quienes llevan al menos dos años en España y desean realizar estudios o formación profesional. Permite regularizar tu estatus legal mientras continúas tu educación.
+
                 </p>
                 <div class="pages-path">
 <div class="p-path">
@@ -68,7 +72,7 @@
                     </div>
                 </div>
                 <!-- Contact Form -->
-                <x-sp.small-contact-us />
+                @livewire('contact-spanish', ['service' => 'Arraigo para la formación'])
             </div>
         </div>
     </div>

@@ -1,13 +1,17 @@
 <x-en.head title="{{ setting('site.title') }}" />
 
+<!-- Top menu navbar -->
+    <x-en.main-navbar route="{{route('frontend.sp.residencia_familiar_ue') }}" />
+
 
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
             <div class="min-hero-wrapper">
-                <h1>Family Rooting (Arraigo Familiar)</h1>
+                <h1>EU Family Member</h1>
                 <p>
-                    We offer a wide range of services designed to facilitate your transition to a new country. Our team of professionals is committed to providing you with the support and guidance you need at every stage of the process, ensuring that you feel safe and well-informed during your journey.
+                    If you are a family member of an EU citizen and wish to reside in Spain, this permit allows you to do so under favorable conditions. We assist with the application for the EU Family Member Card and ensure that all necessary steps are followed.
+
                 </p>
                 <div class="pages-path">
 
@@ -22,7 +26,7 @@
                     <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
 
                     <div class="p-path">
-                        Family Rooting
+                        EU Family Member
                     </div>
                 </div>
             </div>
@@ -62,20 +66,16 @@
             <div data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237" class="contacts-2-wrapper">
                 <div class="contacts-2-content-wrapper">
                     <div class="contacts-title">
-                        <h2 class="in-section-title">Presentación del Servicio</h2>
+                        <h2 class="in-section-title">Presentation of the Service</h2>
                     </div>
                     <div class="contacts-2-content">
                         <p>
-                            La <b>Residencia de Familiar de Ciudadano de la UE</b> permite a familiares directos de ciudadanos de la Unión Europea
-                            vivir legalmente en otro país miembro. Este permiso, que incluye a cónyuges, hijos, padres y en algunos casos
-                            parejas y familiares dependientes, les brinda derechos de residencia, trabajo y estudio en igualdad de condiciones a
-                            los ciudadanos locales. Para obtenerlo, es necesario demostrar la relación familiar y la residencia del ciudadano de la
-                            UE en el país de destino.
+                            The EU Citizen Family Residence permit allows direct family members of European Union citizens to live legally in another EU member country. This permit, which includes spouses, children, parents, and in some cases partners and dependent relatives, grants rights to reside, work, and study on equal terms with local citizens. To obtain it, it is necessary to prove the family relationship and the EU citizen's residence in the destination country.
                         </p>
                     </div>
                 </div>
                 <!-- Contact Form -->
-                <x-en.small-contact-us />
+                @livewire('contact-english', ['service' => 'Residency of Family Members of EU Citizens'])
             </div>
         </div>
     </div>

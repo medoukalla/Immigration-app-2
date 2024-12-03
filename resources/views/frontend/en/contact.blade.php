@@ -1,5 +1,8 @@
 <x-en.head title="{{ setting('site.title') }}" />
 
+<!-- Top menu navbar -->
+    <x-en.main-navbar route="{{route('frontend.sp.contact') }}" />
+
 
     <!-- Banner hero section -->
     <x-en.contact-hero />
@@ -14,10 +17,14 @@
                         <img src="{{ asset('assets/images/contact-image.png') }}" alt="Contact image">
                     </div>
                     <div class="contacts-title">
-                        <h2 class="in-section-title">Contactanos Estamos aquí para atenderte!</h2>
+                        <h2 class="in-section-title">
+                            We’re here to assist you!
+                        </h2>
                     </div>
                     <div class="contacts-2-content">
-                        <p>Si tienes dudas sobre los trámites de extranjería, contáctanos. Estaremos encantados de atenderte.</p>
+                        <p>
+                            If you have any questions about immigration procedures, don’t hesitate to reach out. We’ll be delighted to help you.
+                        </p>
                     </div>
                     <div class="contacts-info">
                         <div class="contacts-info-wrapper">
@@ -26,9 +33,9 @@
                             </div>
                             <div class="c-info-content">
                                 <div class="c-info-title">
-                                    Escríbenos
+                                    Email Us:
                                 </div>
-                                <p>consulta@novaextranjeria.com</p>
+                                <p>hola@immiworld.es</p>
                             </div>
                         </div>
                         <div class="contacts-info-wrapper">
@@ -37,9 +44,10 @@
                             </div>
                             <div class="c-info-content">
                                 <div class="c-info-title">
-                                    Llámanos
+                                    Call Us:
+
                                 </div>
-                                <p>+34 951 256 762</p>
+                                <p>+34 657 933 788</p>
                             </div>
                         </div>
                         <div class="contacts-info-wrapper">
@@ -48,9 +56,9 @@
                             </div>
                             <div class="c-info-content">
                                 <div class="c-info-title">
-                                    Visítanos
+                                    Visit Us:
                                 </div>
-                                <p>Calle Mauricio Moro Pareto, 15. 29006. Málaga</p>
+                                <p>Calle. Maestro Lecuona, 1, Local 7, 29006 Málaga</p>
                             </div>
                         </div>
                     </div>

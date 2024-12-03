@@ -1,25 +1,29 @@
 <x-en.head title="{{ setting('site.title') }}" />
 
+<!-- Top menu navbar -->
+    <x-en.main-navbar route="{{route('frontend.sp.recurso_contencioso_administrativo') }}" />
+
 
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
             <div class="min-hero-wrapper">
-                <h1>Recurso Contencioso Administrativo</h1>
+                <h1>Administrative Litigation Appeal</h1>
                 <p>
-                    Si enfrentas solicitudes denegadas o problemas administrativos complejos, ofrecemos nuestra experiencia legal para impugnar decisiones y proteger tus derechos en España
+                    If your residence application is rejected, we can help you file an administrative litigation appeal to contest the decision in court. Our team guides you through the complex legal process to ensure the best outcome.
+
                 </p>
                 <div class="pages-path">
-<div class="p-path">
-    <a href="{{ route('frontend.sp.index') }}">Bienvenida</a>
-</div>
-                    <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
                     <div class="p-path">
-                        Extranjería
+                        <a href="{{ route('frontend.sp.index') }}">Welcome</a>
                     </div>
                     <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
                     <div class="p-path">
-                        Recurso Contencioso Administrativo
+                        Immigration
+                    </div>
+                    <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
+                    <div class="p-path">
+                        Administrative Litigation Appeal
                     </div>
                     
                 </div>
@@ -58,16 +62,16 @@
             <div data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237" class="contacts-2-wrapper">
                 <div class="contacts-2-content-wrapper">
                     <div class="contacts-title">
-                        <h2 class="in-section-title">Presentación del Servicio</h2>
+                        <h2 class="in-section-title">Presentation of the Service</h2>
                     </div>
                     <div class="contacts-2-content">
-                        <p>Este recurso judicial permite impugnar decisiones administrativas desfavorables relacionadas con inmigración, tales
-                            como la denegación de visados o permisos de residencia. Nuestro equipo de abogados y expertos en extranjería le
-                            acompañará en cada etapa, asegurando una defensa profesional y efectiva de sus derechos.</p>
+                        <p>
+                            This legal appeal allows you to challenge unfavorable administrative decisions related to immigration, such as the denial of visas or residency permits. Our team of immigration lawyers and experts will accompany you at every stage, ensuring professional and effective defense of your rights.
+                        </p>
                     </div>
                 </div>
                 <!-- Contact Form -->
-                <x-en.small-contact-us />
+                @livewire('contact-english', ['service' => 'Administrative litigation appeal'])
             </div>
         </div>
     </div>

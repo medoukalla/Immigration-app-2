@@ -1,5 +1,8 @@
 <x-sp.head title="{{ setting('site.title') }}" />
 
+<!-- Top menu navbar -->
+    <x-sp.main-navbar route="{{route('frontend.contact') }}" />
+
 
     <!-- Banner hero section -->
     <x-sp.contact-hero />
@@ -28,7 +31,7 @@
                                 <div class="c-info-title">
                                     Escríbenos
                                 </div>
-                                <p>consulta@novaextranjeria.com</p>
+                                <p>hola@immiworld.es</p>
                             </div>
                         </div>
                         <div class="contacts-info-wrapper">
@@ -39,7 +42,7 @@
                                 <div class="c-info-title">
                                     Llámanos
                                 </div>
-                                <p>+34 951 256 762</p>
+                                <p>+34 657 933 788</p>
                             </div>
                         </div>
                         <div class="contacts-info-wrapper">
@@ -50,7 +53,7 @@
                                 <div class="c-info-title">
                                     Visítanos
                                 </div>
-                                <p>Calle Mauricio Moro Pareto, 15. 29006. Málaga</p>
+                                <p>Calle. Maestro Lecuona, 1, Local 7, 29006 Málaga</p>
                             </div>
                         </div>
                     </div>

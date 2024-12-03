@@ -1,5 +1,8 @@
 <x-sp.head title="{{ setting('site.title') }}" />
 
+<!-- Top menu navbar -->
+    <x-sp.main-navbar route="{{route('frontend.residencia_para_emprendedores') }}" />
+
 
     <!-- Banner hero section -->
     <div class="pages-banner blog">
@@ -7,7 +10,8 @@
             <div class="min-hero-wrapper">
                 <h1>Residencia para Emprendedores</h1>
                 <p>
-                    Comienza tu negocio en España con el apoyo de una residencia diseñada para emprendedores. Te ayudamos a cumplir con todos los requisitos legales y hacer realidad tu proyecto.
+                    El permiso de residencia para emprendedores está diseñado para quienes desean iniciar un proyecto empresarial en España. Te ayudamos a desarrollar tu plan de negocio, demostrar su viabilidad económica y asegurar tu visado para emprendedores.
+
                 </p>
                 <div class="pages-path">
 <div class="p-path">
@@ -67,7 +71,7 @@
                     </div>
                 </div>
                 <!-- Contact Form -->
-                <x-sp.small-contact-us />
+                @livewire('contact-spanish', ['service' => 'Residencia para Emprendedores'])
             </div>
         </div>
     </div>

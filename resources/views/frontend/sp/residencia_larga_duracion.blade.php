@@ -1,5 +1,8 @@
 <x-sp.head title="{{ setting('site.title') }}" />
 
+<!-- Top menu navbar -->
+    <x-sp.main-navbar route="{{route('frontend.residencia_larga_duracion') }}" />
+
 
     <!-- Banner hero section -->
     <div class="pages-banner blog">
@@ -7,7 +10,8 @@
             <div class="min-hero-wrapper">
                 <h1>Residencia de Larga Duración</h1>
                 <p>
-                    Obtén la residencia de Larga Duración en España y disfruta de todos los beneficios como ciudadano. Te asistimos en el proceso para garantizar que cumplas todos los requisitos y puedas vivir tranquilamente a largo plazo.
+                    Después de cinco años de residencia legal en España, puedes optar por la residencia de larga duración, que te permite vivir de forma indefinida en el país. Te orientamos sobre los requisitos y el proceso de solicitud.
+
                 </p>
                 <div class="pages-path">
 <div class="p-path">
@@ -66,7 +70,7 @@
                     </div>
                 </div>
                 <!-- Contact Form -->
-                <x-sp.small-contact-us />
+                @livewire('contact-spanish', ['service' => 'Residencia Larga duración'])
             </div>
         </div>
     </div>

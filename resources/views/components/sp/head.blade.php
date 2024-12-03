@@ -38,5 +38,4 @@
     <!-- Top bar -->
     <x-sp.top-bar />
 
-    <!-- Top menu navbar -->
-    <x-sp.main-navbar />
+    

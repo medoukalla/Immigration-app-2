@@ -12971,7 +12971,7 @@
         var signFileUrl;
         var chimpRegex = /list-manage[1-9]?.com/i;
         var disconnected = _.debounce(function () {
-          alert("Oops! This page has improperly configured forms. Please contact your website administrator to fix this issue.");
+          
         }, 100);
         api.ready = api.design = api.preview = function () {
           init();
@@ -12980,17 +12980,7 @@
           }
         };
         function init() {
-          siteId = $("html").attr("data-wf-site");
-          formUrl = "https://webflow.com/api/v1/form/" + siteId;
-          if (retro && formUrl.indexOf("https://webflow.com") >= 0) {
-            formUrl = formUrl.replace("https://webflow.com", "https://formdata.webflow.com");
-          }
-          signFileUrl = `${formUrl}/signFile`;
-          $forms = $(namespace + " form");
-          if (!$forms.length) {
-            return;
-          }
-          $forms.each(build);
+          
         }
         function build(i, el) {
           var $el = $(el);

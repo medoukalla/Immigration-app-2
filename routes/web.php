@@ -154,22 +154,22 @@ Route::group(['prefix' => 'en'], function () {
 
 
 
-    Route::get('/residencia_para_emprendedores', [FrontendEnglishController::class, 'residencia_para_emprendedores'])->name('frontend.residencia_para_emprendedores');
+    Route::get('/entrepreneur_residence', [FrontendEnglishController::class, 'residencia_para_emprendedores'])->name('frontend.residencia_para_emprendedores');
     Route::get('/arraigo_para_la_formacion', [FrontendEnglishController::class, 'arraigo_para_la_formacion'])->name('frontend.arraigo_para_la_formacion');
     Route::get('/arraigo_familiar', [FrontendEnglishController::class, 'arraigo_familiar'])->name('frontend.arraigo_familiar');
     Route::get('/arraigo_laboral', [FrontendEnglishController::class, 'arraigo_laboral'])->name('frontend.arraigo_laboral');
     Route::get('/arraigo_social', [FrontendEnglishController::class, 'arraigo_social'])->name('frontend.arraigo_social');
-    Route::get('/residencia_no_lucrativa', [FrontendEnglishController::class, 'residencia_no_lucrativa'])->name('frontend.residencia_no_lucrativa');
-    Route::get('/nomada_digital', [FrontendEnglishController::class, 'nomada_digital'])->name('frontend.nomada_digital');
-    Route::get('/residencia_familiar_ue', [FrontendEnglishController::class, 'residencia_familiar_ue'])->name('frontend.residencia_familiar_ue');
-    Route::get('/reagrupacion_familiar', [FrontendEnglishController::class, 'reagrupacion_familiar'])->name('frontend.reagrupacion_familiar');
-    Route::get('/residencia_larga_duracion', [FrontendEnglishController::class, 'residencia_larga_duracion'])->name('frontend.residencia_larga_duracion');
-    Route::get('/recurso_contencioso_administrativo', [FrontendEnglishController::class, 'recurso_contencioso_administrativo'])->name('frontend.recurso_contencioso_administrativo');
-    Route::get('/recurso_administrativo', [FrontendEnglishController::class, 'recurso_administrativo'])->name('frontend.recurso_administrativo');
-    Route::get('/nacionalidad', [FrontendEnglishController::class, 'nacionalidad'])->name('frontend.nacionalidad');
+    Route::get('/non_lucrative_residence', [FrontendEnglishController::class, 'residencia_no_lucrativa'])->name('frontend.residencia_no_lucrativa');
+    Route::get('/digital_nomad', [FrontendEnglishController::class, 'nomada_digital'])->name('frontend.nomada_digital');
+    Route::get('/eu_family_member', [FrontendEnglishController::class, 'residencia_familiar_ue'])->name('frontend.residencia_familiar_ue');
+    Route::get('/family_reunification', [FrontendEnglishController::class, 'reagrupacion_familiar'])->name('frontend.reagrupacion_familiar');
+    Route::get('/long_term_residence', [FrontendEnglishController::class, 'residencia_larga_duracion'])->name('frontend.residencia_larga_duracion');
+    Route::get('/administrative_litigation_appeal', [FrontendEnglishController::class, 'recurso_contencioso_administrativo'])->name('frontend.recurso_contencioso_administrativo');
+    Route::get('/administrative_appeal', [FrontendEnglishController::class, 'recurso_administrativo'])->name('frontend.recurso_administrativo');
+    Route::get('/citizenship', [FrontendEnglishController::class, 'nacionalidad'])->name('frontend.nacionalidad');
     Route::get('/golden_visa', [FrontendEnglishController::class, 'golden_visa'])->name('frontend.golden_visa');
-    Route::get('/visa_de_estudiante', [FrontendEnglishController::class, 'visa_de_estudiante'])->name('frontend.visa_de_estudiante');
-    Route::get('/renovación_de_la_tarjeta_de_residencia', [FrontendEnglishController::class, 'renovación_de_la_tarjeta_de_residencia'])->name('frontend.renovación_de_la_tarjeta_de_residencia');
+    Route::get('/student_visa', [FrontendEnglishController::class, 'visa_de_estudiante'])->name('frontend.visa_de_estudiante');
+    Route::get('/renewal_of_residence_card_NIE', [FrontendEnglishController::class, 'renovación_de_la_tarjeta_de_residencia'])->name('frontend.renovación_de_la_tarjeta_de_residencia');
 
 
 

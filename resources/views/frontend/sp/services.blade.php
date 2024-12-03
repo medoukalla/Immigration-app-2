@@ -1,5 +1,8 @@
 <x-sp.head title="{{ setting('site.title') }}" />
 
+<!-- Top menu navbar -->
+    <x-sp.main-navbar route="{{route('frontend.services') }}" />
+
 
     <!-- Banner hero section -->
     <div class="pages-banner blog">
@@ -63,7 +66,7 @@
                     </div>
                 </div>
                 <!-- Contact Form -->
-                <x-sp.small-contact-us />
+                @livewire('contact-spanish', ['service' => 'Family'])
             </div>
         </div>
     </div>

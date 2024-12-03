@@ -1,13 +1,16 @@
 <x-en.head title="{{ setting('site.title') }}" />
 
+<!-- Top menu navbar -->
+    <x-en.main-navbar route="{{route('frontend.sp.residencia_larga_duracion') }}" />
+
 
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
             <div class="min-hero-wrapper">
-                <h1>Family Rooting (Arraigo Familiar)</h1>
+                <h1>Long-Term Residence</h1>
                 <p>
-                    We offer a wide range of services designed to facilitate your transition to a new country. Our team of professionals is committed to providing you with the support and guidance you need at every stage of the process, ensuring that you feel safe and well-informed during your journey.
+                    After five years of legal residence in Spain, you can apply for long-term residency, allowing indefinite stay in the country. We offer guidance on the requirements and application procedure to secure your long-term residence.
                 </p>
                 <div class="pages-path">
 
@@ -22,7 +25,7 @@
                     <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
 
                     <div class="p-path">
-                        Family Rooting
+                        Long-Term Residence
                     </div>
                 </div>
             </div>
@@ -62,15 +65,16 @@
             <div data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237" class="contacts-2-wrapper">
                 <div class="contacts-2-content-wrapper">
                     <div class="contacts-title">
-                        <h2 class="in-section-title">Presentación del Servicio</h2>
+                        <h2 class="in-section-title">Presentation of the Service</h2>
                     </div>
                     <div class="contacts-2-content">
-                        <p>La residencia de larga duración es un permiso que permite a los ciudadanos extranjeros residir y trabajar en el país de manera indefinida, otorgándoles derechos similares a los de los ciudadanos españoles en cuanto a empleo y movilidad. Nuestro equipo se asegura de que cumpla con todos los requisitos necesarios y de que el proceso se gestione de manera ágil y efectiva.
+                        <p>
+                            Long-term residency is a permit that allows foreign nationals to reside and work in the country indefinitely, granting them rights similar to those of Spanish citizens in terms of employment and mobility. Our team ensures that you meet all the necessary requirements and that the process is managed efficiently and effectively.
                         </p>
                     </div>
                 </div>
                 <!-- Contact Form -->
-                <x-en.small-contact-us />
+                @livewire('contact-english', ['service' => 'Long-term residence'])
             </div>
         </div>
     </div>

@@ -1,5 +1,8 @@
 <x-sp.head title="{{ setting('site.title') }}" />
 
+<!-- Top menu navbar -->
+    <x-sp.main-navbar route="{{route('frontend.renovación_de_la_tarjeta_de_residencia') }}" />
+
 
     <!-- Banner hero section -->
     <div class="pages-banner blog">
@@ -7,7 +10,8 @@
             <div class="min-hero-wrapper">
                 <h1>Renovación de la tarjeta de residencia (NIE)</h1>
                 <p>
-                    Mantén tu estatus de residencia sin interrupciones renovando tu tarjeta de residencia a tiempo. Nos encargamos de todo el proceso para asegurar tu residencia continua.
+                    Si ya resides en España y necesitas renovar tu tarjeta de residencia o NIE, te ayudamos a cumplir con los requisitos y completar el proceso de renovación sin complicaciones.
+
                 </p>
                 <div class="pages-path">
 <div class="p-path">
@@ -73,7 +77,7 @@
                     </div>
                 </div>
                 <!-- Contact Form -->
-                <x-sp.small-contact-us />
+                @livewire('contact-spanish', ['service' => 'Renovación de la tarjeta de residencia (NIE)'])
             </div>
         </div>
     </div>

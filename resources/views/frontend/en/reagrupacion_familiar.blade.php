@@ -1,13 +1,17 @@
 <x-en.head title="{{ setting('site.title') }}" />
 
+<!-- Top menu navbar -->
+    <x-en.main-navbar route="{{route('frontend.sp.reagrupacion_familiar') }}" />
+
 
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
             <div class="min-hero-wrapper">
-                <h1>Family Rooting (Arraigo Familiar)</h1>
+                <h1>Family Reunification</h1>
                 <p>
-                    We offer a wide range of services designed to facilitate your transition to a new country. Our team of professionals is committed to providing you with the support and guidance you need at every stage of the process, ensuring that you feel safe and well-informed during your journey.
+                    This permit allows legal residents of Spain to bring their immediate family members to live with them. We provide comprehensive support in navigating the application process, ensuring you meet the financial and housing requirements.
+
                 </p>
                 <div class="pages-path">
 
@@ -22,7 +26,7 @@
                     <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
 
                     <div class="p-path">
-                        Family Rooting
+                        Family Reunification
                     </div>
                 </div>
             </div>
@@ -61,18 +65,16 @@
             <div data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237" class="contacts-2-wrapper">
                 <div class="contacts-2-content-wrapper">
                     <div class="contacts-title">
-                        <h2 class="in-section-title">Presentación del Servicio</h2>
+                        <h2 class="in-section-title">Presentation of the Service</h2>
                     </div>
                     <div class="contacts-2-content">
                         <p>
-                            La <b>residencia por reagrupación familiar</b> es un tipo de autorización de residencia en España que permite a los
-                            ciudadanos extranjeros en situación legal reunir a sus familiares directos en el país. Este tipo de autorización es
-                            fundamental para quienes desean asegurar la unidad familiar y proporcionar un entorno estable a sus seres queridos
+                            Family reunification residency is a type of residence permit in Spain that allows legally residing foreign nationals to bring their immediate family members to the country. This type of authorization is essential for those wishing to ensure family unity and provide a stable environment for their loved ones.
                         </p>
                     </div>
                 </div>
                 <!-- Contact Form -->
-                <x-en.small-contact-us />
+                @livewire('contact-english', ['service' => 'Family reunification'])
             </div>
         </div>
     </div>

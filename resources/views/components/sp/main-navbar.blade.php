@@ -105,7 +105,7 @@
             <div class="lang-wrapper mobile-lang">
               <div class="lang-wrap">
                   <div class="lang-selected">
-                    <a href="{{ route('frontend.index') }}">
+                    <a href="{{ $route }}">
                       <img src="{{ asset('assets/images/svg/eng.svg') }}" alt="">
                       <span>English</span>
                     </a>
@@ -123,7 +123,7 @@
       <div class="lang-wrapper desktop-lang">
         <div class="lang-wrap">
             <div class="lang-choose">
-              <a href="{{ route('frontend.index') }}">
+              <a href="{{ $route }}">
                 <img src="{{ asset('assets/images/svg/eng.svg') }}" alt="">
                 <span>English</span>
               </a>

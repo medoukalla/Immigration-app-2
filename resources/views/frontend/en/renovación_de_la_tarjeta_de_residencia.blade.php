@@ -1,13 +1,17 @@
 <x-en.head title="{{ setting('site.title') }}" />
 
+<!-- Top menu navbar -->
+    <x-en.main-navbar route="{{route('frontend.sp.renovación_de_la_tarjeta_de_residencia') }}" />
+
 
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
             <div class="min-hero-wrapper">
-                <h1>Family Rooting (Arraigo Familiar)</h1>
+                <h1>Renewal of residence card (NIE)</h1>
                 <p>
-                    We offer a wide range of services designed to facilitate your transition to a new country. Our team of professionals is committed to providing you with the support and guidance you need at every stage of the process, ensuring that you feel safe and well-informed during your journey.
+                    If you are already residing in Spain and need to renew your residence card or NIE, we guide you through the renewal process and help you meet all necessary requirements for a smooth application.
+
                 </p>
                 <div class="pages-path">
 
@@ -22,7 +26,7 @@
                     <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
 
                     <div class="p-path">
-                        Family Rooting
+                        Renewal of residence card (NIE)
                     </div>
                 </div>
             </div>
@@ -62,22 +66,18 @@
             <div data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237" class="contacts-2-wrapper">
                 <div class="contacts-2-content-wrapper">
                     <div class="contacts-title">
-                        <h2 class="in-section-title">Presentación del Servicio</h2>
+                        <h2 class="in-section-title">Presentation of the Service</h2>
                     </div>
                     <div class="contacts-2-content">
                         <p>
-                            La renovación de la tarjeta de residencia (NIE) es un trámite esencial para los extranjeros que desean continuar su
-                            estancia legal en España. Este proceso garantiza que los solicitantes mantengan su estatus migratorio y puedan
-                            acceder a los servicios y derechos correspondientes.
+                            The renewal of the residence card (NIE) is an essential procedure for foreign nationals who wish to extend their legal stay in Spain. This process ensures that applicants maintain their immigration status and continue to access the corresponding services and rights.
                             <br>
-                            Realizar la renovación a tiempo es crucial para evitar problemas legales y asegurar la continuidad de su estatus
-                            migratorio. Nuestro equipo de expertos le guiará en cada paso, garantizando que el proceso sea eficiente y cumpla
-                            con todos los requisitos. 
+                            Timely renewal is crucial to avoid legal issues and ensure the continuity of your immigration status. Our team of experts will guide you every step of the way, ensuring that the process is efficient and fully complies with all requirements
                         </p>
                     </div>
                 </div>
                 <!-- Contact Form -->
-                <x-en.small-contact-us />
+                @livewire('contact-english', ['service' => 'Renewal of residence card (NIE)'])
             </div>
         </div>
     </div>

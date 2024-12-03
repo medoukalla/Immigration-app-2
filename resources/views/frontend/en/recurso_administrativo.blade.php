@@ -1,13 +1,17 @@
 <x-en.head title="{{ setting('site.title') }}" />
 
+<!-- Top menu navbar -->
+    <x-en.main-navbar route="{{route('frontend.sp.recurso_administrativo') }}" />
+
 
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
             <div class="min-hero-wrapper">
-                <h1>Family Rooting (Arraigo Familiar)</h1>
+                <h1>Administrative Appeal</h1>
                 <p>
-                    We offer a wide range of services designed to facilitate your transition to a new country. Our team of professionals is committed to providing you with the support and guidance you need at every stage of the process, ensuring that you feel safe and well-informed during your journey.
+                    If your residence application is denied or rejected due to administrative errors, we provide assistance in filing an administrative appeal to correct the issue and resubmit your case.
+
                 </p>
                 <div class="pages-path">
 
@@ -22,7 +26,7 @@
                     <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
 
                     <div class="p-path">
-                        Family Rooting
+                        Administrative Appeal
                     </div>
                 </div>
             </div>
@@ -62,17 +66,16 @@
             <div data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237" class="contacts-2-wrapper">
                 <div class="contacts-2-content-wrapper">
                     <div class="contacts-title">
-                        <h2 class="in-section-title">Presentación del Servicio</h2>
+                        <h2 class="in-section-title">Presentation of the Service</h2>
                     </div>
                     <div class="contacts-2-content">
-                        <p>El recurso administrativo está diseñado para ayudar a los clientes a impugnar decisiones administrativas
-                            desfavorables emitidas por las autoridades de inmigración. Si ha recibido una resolución negativa sobre su solicitud
-                            de visa, residencia, o cualquier otro trámite relacionado con su estatus migratorio, nuestro equipo de expertos está
-                            aquí para asesorarle y guiarle durante el proceso, asegurando que sus derechos sean defendidos adecuadamente. </p>
+                        <p>
+                            The administrative appeal is designed to help clients challenge unfavorable administrative decisions issued by immigration authorities. If you have received a negative decision regarding your visa, residency, or any other process related to your immigration status, our team of experts is here to advise and guide you through the process, ensuring that your rights are properly defended.
+                        </p>
                     </div>
                 </div>
                 <!-- Contact Form -->
-                <x-en.small-contact-us />
+                @livewire('contact-english', ['service' => 'Administrative appeal'])
             </div>
         </div>
     </div>

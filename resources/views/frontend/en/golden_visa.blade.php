@@ -1,13 +1,17 @@
 <x-en.head title="{{ setting('site.title') }}" />
 
+<!-- Top menu navbar -->
+    <x-en.main-navbar route="{{route('frontend.sp.golden_visa') }}" />
+
 
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
             <div class="min-hero-wrapper">
-                <h1>Family Rooting (Arraigo Familiar)</h1>
+                <h1>Golden Visa</h1>
                 <p>
-                    We offer a wide range of services designed to facilitate your transition to a new country. Our team of professionals is committed to providing you with the support and guidance you need at every stage of the process, ensuring that you feel safe and well-informed during your journey.
+                    The Golden Visa is available to investors and their families who make significant contributions to Spain, such as through property purchases or business investments. It grants residency with the potential for citizenship. We assist in ensuring you meet the necessary legal and financial criteria.
+
                 </p>
                 <div class="pages-path">
 
@@ -22,7 +26,7 @@
                     <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
 
                     <div class="p-path">
-                        Family Rooting
+                        Golden Visa
                     </div>
                 </div>
             </div>
@@ -62,18 +66,16 @@
             <div data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237" class="contacts-2-wrapper">
                 <div class="contacts-2-content-wrapper">
                     <div class="contacts-title">
-                        <h2 class="in-section-title">Presentación del Servicio</h2>
+                        <h2 class="in-section-title">Presentation of the Service</h2>
                     </div>
                     <div class="contacts-2-content">
-                        <p>Golden Visa es un programa de residencia dirigido a inversores extranjeros que deseen establecerse en España.
-                            Este visado permite a los titulares y a sus familias residir y trabajar en el país mediante una inversión significativa en
-                            propiedades, empresas o depósitos en el país. La Golden Visa es una opción ideal para quienes buscan diversificar
-                            sus inversiones y beneficiarse de vivir en un entorno europeo. Nuestro equipo de expertos le acompañará en cada
-                            paso para una gestión eficiente y profesional. </p>
+                        <p>
+                            The Golden Visa is a residency program aimed at foreign investors who wish to settle in Spain. This visa allows holders and their families to reside and work in the country through a significant investment in properties, businesses, or deposits. The Golden Visa is an ideal option for those seeking to diversify their investments and enjoy the benefits of living in a European environment. Our team of experts will guide you through every step of the process, ensuring efficient and professional management.
+                        </p>
                     </div>
                 </div>
                 <!-- Contact Form -->
-                <x-en.small-contact-us />
+                @livewire('contact-english', ['service' => 'Golden Visa'])
             </div>
         </div>
     </div>

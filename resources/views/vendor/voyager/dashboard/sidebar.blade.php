@@ -9,7 +9,7 @@
           @if($admin_logo_img == '')
               <img src="{{ voyager_asset('images/logo-icon-light.png') }}" alt="Logo Icon" style="max-width: 35px !important;">
           @else
-              <img src="{{ Voyager::image($admin_logo_img) }}" alt="Logo Icon" style="max-width: 35px !important;">
+              <img src="{{ asset('storage/'.$admin_logo_img) }}" alt="Logo Icon" style="max-width: 35px !important;">
           @endif
         </span>
         <span class="app-brand-text demo menu-text fw-bold">{{Voyager::setting('admin.title', 'Dashboard')}}</span>

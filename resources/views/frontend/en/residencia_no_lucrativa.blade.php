@@ -1,13 +1,17 @@
 <x-en.head title="{{ setting('site.title') }}" />
 
+<!-- Top menu navbar -->
+    <x-en.main-navbar route="{{route('frontend.sp.residencia_no_lucrativa') }}" />
+
 
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
             <div class="min-hero-wrapper">
-                <h1>Family Rooting (Arraigo Familiar)</h1>
+                <h1>Non-Lucrative Residence</h1>
                 <p>
-                    We offer a wide range of services designed to facilitate your transition to a new country. Our team of professionals is committed to providing you with the support and guidance you need at every stage of the process, ensuring that you feel safe and well-informed during your journey.
+                    If you plan to live in Spain without working, the non-lucrative visa is ideal for those who have the financial means to support themselves without employment. We guide you through the documentation and requirements for this residency.
+
                 </p>
                 <div class="pages-path">
 
@@ -22,7 +26,7 @@
                     <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
 
                     <div class="p-path">
-                        Family Rooting
+                        Non-Lucrative Residence
                     </div>
                 </div>
             </div>
@@ -62,17 +66,16 @@
             <div data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237" class="contacts-2-wrapper">
                 <div class="contacts-2-content-wrapper">
                     <div class="contacts-title">
-                        <h2 class="in-section-title">Presentación del Servicio</h2>
+                        <h2 class="in-section-title">Presentation of the Service</h2>
                     </div>
                     <div class="contacts-2-content">
-                        <p>La <b>residencia no lucrativa</b> en España es un permiso que permite a extranjeros vivir en el país sin realizar
-                            actividades laborales. Está destinada a personas que cuentan con recursos económicos suficientes para mantenerse
-                            sin trabajar. Es ideal para jubilados, pensionistas o personas con recursos que deseen vivir en España sin necesidad
-                            de trabajar. </p>
+                        <p>
+                            The non-lucrative residency in Spain is a permit that allows foreign nationals to live in the country without engaging in any work activities. It is intended for individuals who have sufficient financial resources to support themselves without the need to work. This residency option is ideal for retirees, pensioners, or individuals with financial means who wish to live in Spain without the necessity of employment.
+                        </p>
                     </div>
                 </div>
                 <!-- Contact Form -->
-                <x-en.small-contact-us />
+                @livewire('contact-english', ['service' => 'Non-lucrative Residency'])
             </div>
         </div>
     </div>

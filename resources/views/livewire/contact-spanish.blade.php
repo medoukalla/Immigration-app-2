@@ -4,7 +4,7 @@
 
             @csrf
 
-            <h3 class="form-heading">Ponerse en contacto</h3>
+            <h3 class="form-heading">Contacta con nosotros</h3>
 
             <!-- Name Input -->
             <input class="contacts-input white-style w-input" maxlength="256" placeholder="Nombre y Apellido" type="text" required wire:model.defer="name" />

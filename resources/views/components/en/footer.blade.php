@@ -5,17 +5,24 @@
           <div class="home-1-map-block">
               <div class="home-1-contact-block">
                   <div>
-                      <h6 class="text-white">Find Us</h6><a
-                          href="https://www.google.com/maps/place/14+Tottenham+Ct+Rd,+London+W1T+7RQ,+%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0+%D0%91%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D1%96%D1%8F/@51.5170065,-0.1305656,17z/data=!3m1!4b1!4m6!3m5!1s0x48761b2d06098567:0x657781e4c62dccae!8m2!3d51.5170065!4d-0.1305656!16s%2Fg%2F11c1ysp_5k?entry=ttu"
-                          target="_blank" class="link-white">14 Tottenham Road, London, England</a>
+                      <h6 class="text-white">Our Location</h6>
+                      <a href="#" target="_blank" class="link-white">
+                        Calle. Maestro Lecuona, 1, Local 7, 29006 Málaga
+                      </a>
                   </div>
                   <div>
-                      <h6 class="text-white">Message Us</h6>
-                      <div class="gap-8-px-row"><a href="mailto:information@office.com"
-                              class="link-white">information@office.com</a><a href="tel:(704)358-1528"
-                              class="link-white">(704)
-                              358-1528</a></div>
-                  </div>
+                    <h6 class="text-white">Contact Information</h6>
+                    <div class="gap-8-px-row text-white">
+                      
+                      <a href="mailto:hola@immiworld.es" class="link-white">
+                        Email : Hola@immiworld.es
+                      </a>
+                      
+                      <a href="tel:0034657933788" class="link-white">
+                        Phone : +34 657 933 788
+                      </a>
+                    </div>
+                </div>
               </div>
               <div class="_1-home-map-block">
                   <div class="map-2 w-widget w-widget-map" data-widget-style="roadmap" data-widget-latlng=""

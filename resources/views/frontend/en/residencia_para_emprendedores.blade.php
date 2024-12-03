@@ -1,25 +1,29 @@
 <x-en.head title="{{ setting('site.title') }}" />
 
+<!-- Top menu navbar -->
+    <x-en.main-navbar route="{{route('frontend.sp.residencia_para_emprendedores') }}" />
+
 
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
             <div class="min-hero-wrapper">
-                <h1>Family Rooting (Arraigo Familiar)</h1>
+                <h1>Entrepreneur Residence</h1>
                 <p>
-                    We offer a wide range of services designed to facilitate your transition to a new country. Our team of professionals is committed to providing you with the support and guidance you need at every stage of the process, ensuring that you feel safe and well-informed during your journey.
+                    The Entrepreneur Residence permit is designed for individuals looking to start a business in Spain. We assist in developing your business plan, demonstrating its economic viability, and securing your entrepreneur visa.
+
                 </p>
                 <div class="pages-path">
-<div class="p-path">
-    <a href="{{ route('frontend.sp.index') }}">Welcome</a>
-</div>
+                    <div class="p-path">
+                        <a href="{{ route('frontend.sp.index') }}">Welcome</a>
+                    </div>
                     <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
                     <div class="p-path">
                         Immigration
                     </div>
                     <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
                     <div class="p-path">
-                        Family Rooting
+                        Entrepreneur Residence
                     </div>
                 </div>
             </div>
@@ -58,16 +62,16 @@
             <div data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237" class="contacts-2-wrapper">
                 <div class="contacts-2-content-wrapper">
                     <div class="contacts-title">
-                        <h2 class="in-section-title">Presentación del Servicio</h2>
+                        <h2 class="in-section-title">Presentation of the Service</h2>
                     </div>
                     <div class="contacts-2-content">
-                        <p>Esta residencia permite desarrollar un proyecto empresarial innovador en el país, ideal para quienes buscan crear un
-                            negocio que aporte valor y contribuya al desarrollo económico y social de España. Nuestro equipo de expertos le
-                            guiará durante todo el proceso, asegurando el cumplimiento de todos los requisitos legales.</p>
+                        <p>
+                            This residency allows you to develop an innovative business project in Spain, making it ideal for those looking to create a business that adds value and contributes to the country’s economic and social development. Our team of experts will guide you throughout the entire process, ensuring compliance with all legal requirements.
+                        </p>
                     </div>
                 </div>
                 <!-- Contact Form -->
-                <x-en.small-contact-us />
+                @livewire('contact-english', ['service' => 'Entrepreneurs Residency'])
             </div>
         </div>
     </div>
@@ -121,7 +125,7 @@
 
 
     <!-- Feedback -->
-    {{-- <x-en.testimonials :testimonials="$testimonials" /> --}}
+    <x-en.testimonials :testimonials="$testimonials" />
 
     <!-- Solutions -->
     <x-en.solutions />
