@@ -119,7 +119,7 @@
 
 
     <!-- Feedback -->
-    {{-- <x-en.testimonials :testimonials="$testimonials" /> --}}
+    <x-en.testimonials :testimonials="$testimonials" />
 
     <!-- Solutions -->
     <x-en.solutions />
