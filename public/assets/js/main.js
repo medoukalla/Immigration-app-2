@@ -9,7 +9,7 @@ var swiper = new Swiper(".mySwiper", {
         clickable: true,
     },
     autoplay: {
-        delay: 50000,
+        delay: 5000,
     },
     breakpoints: {
         "@0.00": {
