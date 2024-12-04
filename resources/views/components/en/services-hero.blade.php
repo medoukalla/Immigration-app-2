@@ -25,22 +25,22 @@
 <div class="numbers-wrapper">
     <div data-w-id="221627f6-3a31-260f-8a97-6ec174e99870" class="w-layout-grid working-numbers">
         <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e99871-296c1813" class="working-wrap">
-            <div class="numbers">15+</div>
+            <div class="numbers">10+</div>
             <div class="numbers-text white-style">Years of Experience</div>
         </div>
         <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e99876-296c1813" class="working-wrap">
-            <div class="numbers">84k</div>
-            <div class="numbers-text white-style">Clients Worldwide</div>
+            <div class="numbers">+5.000</div>
+            <div class="numbers-text white-style">Personalized Consultations</div>
             <div class="line home-white-left"></div>
         </div>
         <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e9987c-296c1813" class="working-wrap">
-            <div class="numbers">98%</div>
-            <div class="numbers-text white-style">Success Rate</div>
+            <div class="numbers">100%</div>
+            <div class="numbers-text white-style">Satisfaction</div>
             <div class="line home-white-left"></div>
         </div>
         <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e99882-296c1813" class="working-wrap">
-            <div class="numbers">28k</div>
-            <div class="numbers-text white-style">Visas Issued</div>
+            <div class="numbers">+1.200</div>
+            <div class="numbers-text white-style">Happy Clients</div>
             <div class="line home-white-left"></div>
         </div>
     </div>
