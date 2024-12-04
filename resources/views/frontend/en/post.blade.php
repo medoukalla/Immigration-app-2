@@ -1,8 +1,11 @@
-<x-en.head title="{{ setting('site.title') . ' - ' . $post->title }}" />
+<x-en.head title="{{ setting('site.title') }}" />
 
-<div class="wrapper bg-dark">
+<!-- Top menu navbar -->
+    <x-en.main-navbar route="{{route('frontend.sp.blog') }}" />
 
-    <x-en.header_menu :langLink="$langLink" />
+
+    <!-- Banner hero section -->
+    <x-en.contact-hero />
 
 
     <!-- Qui sommes start  -->
