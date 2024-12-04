@@ -1,39 +1,26 @@
-<x-sp.head title="{{ setting('site.title') . ' - Politique de confidentialité' }}" />
+<x-sp.head title="{{ setting('site.title') }}" />
+
+<!-- Top menu navbar -->
+    <x-sp.main-navbar route="{{route('frontend.index') }}" />
 
 
-<div class="wrapper bg-dark">
+    <!-- Banner hero section -->
+    <x-sp.contact-hero />
 
-    <x-sp.header_menu :langLink="$langLink" />
 
-    <!-- Qui sommes start  -->
-    <div class="QuiSommes">
-        <div class="container">
-            <p class="text-center">
-                <a href="{{ route('frontend.index') }}">Acceuil</a>
-                <img src="{{ asset('img/arrowRgiht.svg') }}" alt="img" class="img-fluid">
+    <!-- main start  -->
+    <main>
+        <!-- Des packs start  -->
+        <div class="desPacks">
+            <div class="container">
 
-                <a href="">Mention legal</a>
+                {!! setting('pages.mention_legal_espagnol') !!}
 
-            </p>
-            <h2 class="text-center">Mention legal</h2>
-        </div>
-    </div>
-    <!-- Qui sommes end -->
-</div>
-<!-- wrapper end  -->
+            </div>
+            <!-- Des packs end -->
+    </main>
+    <!-- main end -->
 
-<!-- main start  -->
-<main>
-    <!-- Des packs start  -->
-    <div class="desPacks">
-        <div class="container">
-
-            {!! setting('pages.mention_legal_espagnol') !!}
-
-        </div>
-        <!-- Des packs end -->
-</main>
-<!-- main end -->
 
 
 <x-sp.footer />
