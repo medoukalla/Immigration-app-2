@@ -1,4 +1,4 @@
-<x-sp.head title="{{ setting('site.title') . ' - ' . $post->title }}" />
+<x-sp.head title="{{ setting('site.title') }}" />
 
 <!-- Top menu navbar -->
 <x-sp.main-navbar route="{{route('frontend.blog') }}" />
@@ -22,6 +22,7 @@
                 </div>
             </div>
         </div>
+        <!-- Qui sommes end -->
     </div>
 </div>
 
