@@ -45,22 +45,23 @@
             </div>
             <div data-w-id="e4193592-df02-34ae-d569-c968dfa8362c" style="opacity:1"
                 class="countries-details-sidebar-wrapper">
-                <h5 class="no-margin">Plan Your Trip Now</h5>
+                <h5 class="no-margin">Contact Us</h5>
+                <h6>We’re here to assist you!</h6>
                 <div class="service-details-sidebar-contacts">
                     <div class="contacts-detail">
-                        <p class="contacts-icon"></p><a
-                            href="https://www.google.com/maps?q=3rd+Avenue,+83+Manhattan,+London,+UK&amp;gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzQyM2owajSoAgCwAgA&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=2ahUKEwjjh6ekuf2BAxWi3gIHHZMzAKgQ_AUoAXoECAEQAw"
-                            target="_blank" class="link-contact">3rd Avenue, 83 Manhattan, London, UK</a>
+                        <p class="contacts-icon"></p>
+                        <a href="#"  class="link-contact">
+                            Calle. Maestro Lecuona, 1, Local 7, 29006 Málaga
+                        </a>
                     </div>
                     <div class="contacts-detail">
-                        <p class="contacts-icon"></p><a href="tel:+12124258617" class="link-contact">+1 212 425
-                            8617</a>
+                        <p class="contacts-icon"></p><a href="tel:0034657933788" class="link-contact">+34 657 933 788</a>
                     </div>
                     <div class="contacts-detail">
-                        <p class="contacts-icon"></p><a href="mailto:information@office.com"
-                            class="link-contact">information@office.com</a>
+                        <p class="contacts-icon"></p><a href="mailto:hola@immiworld.es"
+                            class="link-contact">Hola@immiworld.es</a>
                     </div>
-                </div><a href="/contact-us-1" class="link-with-arrow-underline">Contact us</a>
+                </div><a href="{{ route('frontend.contact') }}" class="link-with-arrow-underline">Contact Us</a>
             </div>
         </div>
     </div>
