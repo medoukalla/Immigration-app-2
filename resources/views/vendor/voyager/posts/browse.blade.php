@@ -78,43 +78,36 @@
                       <th class="control sorting_disabled dtr-hidden" rowspan="1" colspan="1" style="width: 0px; display: none;" aria-label=""></th>
                       
                       <th rowspan="1" colspan="1" >Titre de la page</th>
-                      <th rowspan="1" colspan="1" >Limace de page</th>
-                      <th rowspan="1" colspan="1" >Statut</th>
+                      <th rowspan="1" colspan="1" >Langue</th>
                       <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 94px;" aria-label="Actions">Actes</th>
                     </tr>
 
                   </thead>
                   <tbody>
-                     @foreach ( $dataTypeContent as $post )    
+                     @foreach ( $dataTypeContent as $data )    
                         <tr class="odd">
                             <td class="  control" tabindex="0" style="display: none;"></td>
                             
                             <td>
                                 <div class="d-flex justify-content-start align-items-center user-name">
                                     <div class="d-flex flex-column">
-                                    <span class="emp_name text-truncate">{{ $post->title }}</span>
+                                    <span class="emp_name text-truncate">{{ $data->title }}</span>
                                     </div>
                                 </div>
                             </td>
                             <td>
-                                {{ $post->slug }}
+                                 @if ( $data->lang == 'es')
+                                 Spanish
+                                 @else
+                                 English
+                                 @endif
                             </td>
                             <td>
-                            @switch( $post->active )
-                                @case(true)
-                                    <span class="badge  bg-label-success">Actif</span>
-                                    @break
-                                @case(false)
-                                    <span class="badge  bg-label-danger">Inactif</span>
-                                    @break
-                                @default
-                                    
-                            @endswitch
-                            </td>
-                            <td>
-                            <a href="{{ route('voyager.posts.edit', $post) }}" class="btn btn-sm btn-icon item-edit">
-                                <i class="text-primary ti ti-pencil"></i>
-                            </a>
+                              @foreach($actions as $action)
+                                    @if (!method_exists($action, 'massAction'))
+                                       @include('voyager::bread.partials.actions', ['action' => $action])
+                                    @endif
+                              @endforeach
                             </td>
                         </tr>
                      @endforeach
