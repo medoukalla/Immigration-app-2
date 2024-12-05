@@ -1,39 +1,21 @@
-<x-en.head title="{{ setting('site.title') . ' - Politique de confidentialité' }}" />
+<x-en.head title="{{ setting('site.title') }}" />
 
+<!-- Top menu navbar -->
+    <x-en.main-navbar route="{{route('frontend.sp.mention') }}" />
 
-<div class="wrapper bg-dark">
-
-    <x-en.header_menu :langLink="$langLink" />
-
-    <!-- Qui sommes start  -->
-    <div class="QuiSommes">
-        <div class="container">
-            <p class="text-center">
-                <a href="{{ route('frontend.index') }}">Acceuil</a>
-                <img src="{{ asset('img/arrowRgiht.svg') }}" alt="img" class="img-fluid">
-
-                <a href="">Mention legal</a>
-
-            </p>
-            <h2 class="text-center">Mention legal</h2>
+    <div class="section without-bottom-spacing">
+        <div class="base-container w-container">
+            <div class="blog-template-wrapper">
+                <div data-w-id="69302b84-0579-49d4-9c19-563421724178" style="opacity:1" class="rich-text-style-details w-richtext">
+                    
+                    {!!  setting('pages.mention_legal') !!}
+                    
+                </div>
+            </div>
         </div>
     </div>
-    <!-- Qui sommes end -->
-</div>
-<!-- wrapper end  -->
 
-<!-- main start  -->
-<main>
-    <!-- Des packs start  -->
-    <div class="desPacks">
-        <div class="container">
 
-            {!! setting('pages.mention_legal_espagnol') !!}
-
-        </div>
-        <!-- Des packs end -->
-</main>
-<!-- main end -->
 
 
 <x-en.footer />

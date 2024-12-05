@@ -148,7 +148,7 @@ Route::group(['prefix' => 'en'], function () {
     Route::get('/termes_et_conditions', [FrontendEnglishController::class, 'terms'])->name('frontend.terms');
 
     // mention legal
-    Route::get('/mention_legale', [FrontendEnglishController::class, 'mention_legale'])->name('frontend.mention');
+    Route::get('/mention_legale', [FrontendEnglishController::class, 'mencionar_legal'])->name('frontend.mention');
 
     Route::get('page/{slug}', [FrontendEnglishController::class, 'page'])->name('frontend.page');
 

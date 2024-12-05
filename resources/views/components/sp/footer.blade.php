@@ -95,9 +95,9 @@
       <div class="footer-bottom-wrapper">
         <div class="footer-copyright">© 2024 Immiworld - todos los derechos reservados  <br>
           <span style="margin-top: 10px;">
-            <a href="#">política de confidencialidad</a> |
-            <a href="#">Aviso legal</a> |
-            <a href="#">Términos y Condiciones</a>
+            <a href="{{ route('frontend.sp.politique') }}">política de confidencialidad</a> |
+            <a href="{{ route('frontend.sp.mention') }}">Aviso legal</a> |
+            <a href="{{ route('frontend.sp.terms') }}">Términos y Condiciones</a>
           </span>
         </div>
         <div class="footer-rights-wrapper">

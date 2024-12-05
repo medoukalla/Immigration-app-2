@@ -489,4 +489,5 @@ class FrontendEnglishController extends Controller
             'langLink' => route('frontend.mention')
         ]);
     }
+
 }
