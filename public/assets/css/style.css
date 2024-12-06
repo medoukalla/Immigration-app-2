@@ -3048,7 +3048,7 @@ blockquote {
 }
 
 .pages-banner.blog {
-  background-image: linear-gradient(#00000080, #00000080), url("https://cdn.prod.website-files.com/651f2c08c5bd81eb296c17aa/65285de130d7cf7ae7de9be8_pexels-andre-furtado-2916826.webp");
+  background-image: linear-gradient(#00000080, #00000080), url("../images/cover-hero.jpg");
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -8699,7 +8699,7 @@ select.white-style,
 @media screen and (max-width: 479px) {
 
   .min-hero-wrapper p {
-    font-size: 14px;
+    font-size: 16px;
     width: 100% !important;
   }
 
@@ -9310,6 +9310,10 @@ select.white-style,
 
   .swiper-slide {
     min-width: 100% !important;
+  }
+
+  .min-hero-wrapper p {
+    width: 80%;
   }
 }
 
@@ -9967,6 +9971,7 @@ select.white-style,
 .min-hero-wrapper p {
   color: var(--light-gray);
   width: 66%;
+  font-size: 20px;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 10px;
