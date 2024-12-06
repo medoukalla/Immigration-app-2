@@ -10224,7 +10224,7 @@ select.white-style,
 .contacts-2-content-wrapper .image-box {
   position: relative;
   padding: 20px;
-  width: fit-content;
+  height: 450px;
   margin-bottom: 40px;
   width: 100%;
 }
@@ -10232,6 +10232,7 @@ select.white-style,
 .contacts-2-content-wrapper .image-box img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .contacts-2-content-wrapper .image-box::before {
