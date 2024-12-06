@@ -14,7 +14,7 @@
             <div data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237" class="contacts-2-wrapper">
                 <div class="contacts-2-content-wrapper">
                     <div class="image-box">
-                        <img src="{{ asset('assets/images/contact-image.png') }}" alt="Contact image">
+                        <img src="{{ asset('assets/images/pages/contact.jpg') }}" alt="Contáctanos">
                     </div>
                     <div class="contacts-title">
                         <h2 class="in-section-title">
