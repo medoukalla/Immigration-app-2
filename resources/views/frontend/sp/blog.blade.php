@@ -1,7 +1,7 @@
 <x-sp.head title="{{ setting('site.title') }}" />
 
 <!-- Top menu navbar -->
-    <x-sp.main-navbar route="{{route('frontend.blog') }}" />
+<x-sp.main-navbar route="{{route('frontend.blog') }}" />
 
 
 {{-- Hero section START  --}}
@@ -20,7 +20,7 @@
                 </div>
                 <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
                 <div class="p-path">
-                    Arraigo familiar
+                    Blog
                 </div>
             </div>
         </div>

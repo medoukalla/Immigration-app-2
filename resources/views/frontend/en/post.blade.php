@@ -1,87 +1,70 @@
 <x-en.head title="{{ setting('site.title') }}" />
 
 <!-- Top menu navbar -->
-    <x-en.main-navbar route="{{route('frontend.sp.blog') }}" />
+<x-en.main-navbar route="{{route('frontend.blog') }}" />
 
-
-    <!-- Banner hero section -->
-    <x-en.contact-hero />
-
-
-    <!-- Qui sommes start  -->
-    <div class="QuiSommes">
-        <div class="container">
-            <p class="text-center">
-
-                <a href="{{ route('frontend.sp.index') }}">Bienvenida</a>
-                <img src="{{ asset('img/arrowRgiht.svg') }}" alt="img" class="img-fluid">
-
-                <a href="">Blog</a>
-                <img src="{{ asset('img/arrowRgiht.svg') }}" alt="img" class="img-fluid">
-
-                <a href="javascript:void(0)">{{ $post->title }}
-                </a>
-
-            </p>
-            <h2 class="text-center">{{ $post->title }}</h2>
-        </div>
-    </div>
-    <!-- Qui sommes end -->
-</div>
-<!-- wrapper end  -->
-
-<!-- main start  -->
-<main>
-    <div class="Besoin">
-        <div class="container">
-            <!-- .row start  -->
-            <div class="row">
-                <!-- single item start  -->
-                <div class="col-lg-7">
-                    <div class="itemLeft">
-                        <!-- en espagne start  -->
-                        <div class="enEspagne">
-                            <img src="{{ asset('storage' . '/' . $post->image) }}" alt="img"
-                                class="img-fluid mainImg">
-                            <div class="box">
-                                <img src="{{ asset('img/FolderIconOrange.png') }}" alt="img" class="img-fluid">
-                                <p>{{ $post->title }}</p>
-                            </div>
-                        </div>
-                        <!-- en espagne end  -->
-                        <div class="wrppText">
-                            {!! $post->body !!}
-                        </div>
-
-
-
-                    </div>
+<div class="pages-banner blog">
+    <div class="base-container w-container">
+        <div class="min-hero-wrapper">
+            <h1>Our Blog</h1>
+            <p>Explore articles and updates on immigration, visas, and legal advice. Stay informed with our guides and practical tips.</p>
+            <div class="pages-path">
+                <div class="p-path">
+                    Home
                 </div>
-                <!-- single item end -->
-
-                <!-- single item start  -->
-                <div class="col-lg-5">
-                    <div class="itemRight sticky-top">
-                        <h2>¿Necesidad de ayuda?</h2>
-                        <h4>Contacto</h4>
-                        <p><strong>Chat en Línea:</strong> El tiempo de espera promedio es de 3 minutos.</p>
-                        <p><strong>Solicitud de llamada:</strong> Disponible solo con cita previa.</p>
-                        <p><strong>Redes sociales:</strong> El tiempo de espera promedio es de 15 minutos.</p>
-
-                        <x-links_sp_area />
-
-                    </div>
-
-
+                <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
+                <div class="p-path">
+                    Immigration
                 </div>
-                <!-- single item end -->
-
+                <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
+                <div class="p-path">
+                    {{ $post->title }}
+                </div>
             </div>
-            <!-- .row end -->
         </div>
     </div>
-</main>
-<!-- main end -->
+</div>
 
+
+
+<div class="section without-bottom-spacing">
+    <div class="base-container w-container">
+        <div data-w-id="e4193592-df02-34ae-d569-c968dfa83609" style="opacity:1" class="service-details-content">
+            <div class="service-details-content-wrapper">
+                <div data-w-id="499d30a1-58a7-eebe-47b5-1b919229da65" style="opacity:1"
+                    class="rich-text-style-details w-richtext">
+                    <h2>{{ $post->title }}</h2>
+
+
+                    <p>{{ $post->excerpt }}</p>
+
+                    <br>
+                        
+                    {!! $post->body !!}
+                </div>
+            </div>
+            <div data-w-id="e4193592-df02-34ae-d569-c968dfa8362c" style="opacity:1"
+                class="countries-details-sidebar-wrapper">
+                <h5 class="no-margin">Contact Us</h5>
+                <h6>We’re here to assist you!</h6>
+                <div class="service-details-sidebar-contacts">
+                    <div class="contacts-detail">
+                        <p class="contacts-icon"></p>
+                        <a href="#"  class="link-contact">
+                            Calle. Maestro Lecuona, 1, Local 7, 29006 Málaga
+                        </a>
+                    </div>
+                    <div class="contacts-detail">
+                        <p class="contacts-icon"></p><a href="tel:0034657933788" class="link-contact">+34 657 933 788</a>
+                    </div>
+                    <div class="contacts-detail">
+                        <p class="contacts-icon"></p><a href="mailto:hola@immiworld.es"
+                            class="link-contact">Hola@immiworld.es</a>
+                    </div>
+                </div><a href="{{ route('frontend.contact') }}" class="link-with-arrow-underline">Contact Us</a>
+            </div>
+        </div>
+    </div>
+</div>
 
 <x-en.footer />

@@ -84,19 +84,19 @@
         </div>
         <div class="footer-links-wrapper">
           <h5 class="white-text mb-15">Our Services</h5>
-          <a href="{{ route('frontend.sp.nacionalidad') }}" class="footer-link">Citizenship</a>
-          <a href="{{ route('frontend.sp.nomada_digital') }}" class="footer-link">Digital Nomad</a>
-          <a href="{{ route('frontend.sp.golden_visa') }}" class="footer-link">Golden Visa</a>
-          <a href="{{ route('frontend.sp.residencia_no_lucrativa') }}" class="footer-link">Non-Lucrative Residency</a>
-          <a href="{{ route('frontend.sp.reagrupacion_familiar') }}" class="footer-link">Family Reunification</a>
+          <a href="{{ route('frontend.nacionalidad') }}" class="footer-link">Citizenship</a>
+          <a href="{{ route('frontend.nomada_digital') }}" class="footer-link">Digital Nomad</a>
+          <a href="{{ route('frontend.golden_visa') }}" class="footer-link">Golden Visa</a>
+          <a href="{{ route('frontend.residencia_no_lucrativa') }}" class="footer-link">Non-Lucrative Residency</a>
+          <a href="{{ route('frontend.reagrupacion_familiar') }}" class="footer-link">Family Reunification</a>
         </div>
       </div>
       <div class="footer-bottom-wrapper">
         <div class="footer-copyright">© 2024 Immiworld - all rights reserved  <br>
           <span style="margin-top: 10px;">
-            <a href="#">Privacy Policy</a> |
-            <a href="#">Legal Notice</a> |
-            <a href="#">Terms and Conditions</a>
+            <a href="{{ route('frontend.politique') }}">Privacy Policy</a> |
+            <a href="{{ route('frontend.mention') }}">Legal Notice</a> |
+            <a href="{{ route('frontend.terms') }}">Terms and Conditions</a>
           </span>
         </div>
         <div class="footer-rights-wrapper">

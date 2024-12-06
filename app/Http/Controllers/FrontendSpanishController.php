@@ -455,7 +455,7 @@ class FrontendSpanishController extends Controller
     }
     
     public function blog() {
-        $posts = Post::orderBy('id', 'desc')->simplePaginate(15);
+        $posts = Post::where('lang', 'es')->orderBy('id', 'desc')->simplePaginate(15);
         return view('frontend.sp.blog',[
             'posts' => $posts,
             'langLink' => route('frontend.blog'),

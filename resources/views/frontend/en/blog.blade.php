@@ -1,36 +1,37 @@
 <x-en.head title="{{ setting('site.title') }}" />
 
 <!-- Top menu navbar -->
-    <x-en.main-navbar route="{{route('frontend.sp.blog') }}" />
+<x-en.main-navbar route="{{route('frontend.sp.blog') }}" />
 
 
 {{-- Hero section START  --}}
 <div class="pages-banner blog">
     <div class="base-container w-container">
         <div class="min-hero-wrapper">
-            <h1>Nuestro Blog</h1>
-            <p>Explora artículos y novedades sobre extranjería, visas, y asesoría legal. Mantente informado con nuestras guías y consejos prácticos.</p>
+            <h1>Our Blog</h1>
+            <p>Explore articles and updates on immigration, visas, and legal advice. Stay informed with our guides and practical tips.</p>
             <div class="pages-path">
                 <div class="p-path">
-                    Inicio
+                    Home
                 </div>
-                <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
+                <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
                 <div class="p-path">
-                    Extrajería
+                    Immigration
                 </div>
-                <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
+                <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
                 <div class="p-path">
-                    Arraigo familiar
+                    Blog
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 <div class="numbers-wrapper">
     <div data-w-id="221627f6-3a31-260f-8a97-6ec174e99870" class="w-layout-grid working-numbers">
         <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e99871-296c1813" class="working-wrap">
             <div class="numbers">10+</div>
-            <div class="numbers-text white-style">Años de experiencia</div>
+            <div class="numbers-text white-style">Years of Experience</div>
         </div>
         <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e99876-296c1813" class="working-wrap">
             <div class="numbers">+5.000</div>
