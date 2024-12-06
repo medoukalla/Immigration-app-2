@@ -7,7 +7,7 @@
     <div class="pages-banner blog">
         <div class="base-container w-container">
             <div class="min-hero-wrapper">
-                <h1>Arraigo Familiar (Arraigo Familiar)</h1>
+                <h1>Arraigo Laboral</h1>
                 <p>
                     Disponible para quienes han vivido en España al menos dos años y han trabajado durante al menos seis meses. Este permiso facilita la regularización de tu situación laboral y te permite continuar trabajando legalmente en el país.
 
@@ -62,6 +62,9 @@
         <div class="base-container w-container">
             <div data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237" class="contacts-2-wrapper">
                 <div class="contacts-2-content-wrapper">
+                    <div class="image-box">
+                        <img src="assets/images/pages/arraigo_laboral.png" alt="Contact image">
+                    </div>
                     <div class="contacts-title">
                         <h2 class="in-section-title">Presentación del Servicio</h2>
                     </div>

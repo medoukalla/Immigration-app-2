@@ -14,9 +14,9 @@
 
                 </p>
                 <div class="pages-path">
-<div class="p-path">
-    <a href="{{ route('frontend.sp.index') }}">Bienvenida</a>
-</div>
+                    <div class="p-path">
+                        <a href="{{ route('frontend.sp.index') }}">Bienvenida</a>
+                    </div>
                     <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
                     <div class="p-path">
                         Extranjeria
@@ -61,6 +61,9 @@
         <div class="base-container w-container">
             <div data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237" class="contacts-2-wrapper">
                 <div class="contacts-2-content-wrapper">
+                    <div class="image-box">
+                        <img src="assets/images/pages/nomada_digital.jpg" alt="Visa para Nómadas Digitales">
+                    </div>
                     <div class="contacts-title">
                         <h2 class="in-section-title">Presentación del Servicio</h2>
                     </div>
@@ -152,7 +155,7 @@
 
 
     <!-- Feedback -->
-    <x-sp.testimonials :testimonials="$testimonials" />
+    {{-- <x-sp.testimonials :testimonials="$testimonials" /> --}}
 
     <!-- Solutions -->
     <x-sp.solutions />

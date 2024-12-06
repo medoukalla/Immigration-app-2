@@ -61,6 +61,9 @@
         <div class="base-container w-container">
             <div data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237" class="contacts-2-wrapper">
                 <div class="contacts-2-content-wrapper">
+                    <div class="image-box">
+                        <img src="assets/images/pages/arraigo_social.jpg" alt="Contact image">
+                    </div>
                     <div class="contacts-title">
                         <h2 class="in-section-title">Presentación del Servicio</h2>
                     </div>
@@ -154,7 +157,7 @@
 
 
     <!-- Feedback -->
-    <x-sp.testimonials :testimonials="$testimonials" />
+    {{-- <x-sp.testimonials :testimonials="$testimonials" /> --}}
 
     <!-- Solutions -->
     <x-sp.solutions />

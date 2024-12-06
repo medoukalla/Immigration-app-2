@@ -9993,7 +9993,6 @@ select.white-style,
 }
 
 .min-hero-wrapper .pages-path .p-path:last-child {
-  color: var(--primary) !important;
   text-decoration: underline;
 }
 
