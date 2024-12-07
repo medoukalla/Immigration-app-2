@@ -6,7 +6,7 @@
         <div class="solution-wrapper">
             <div class="sol-block">
                 <a href="{{ route('frontend.sp.golden_visa') }}">
-                    <img src="/assets/images/solution-0.png" alt="Solutions Image">
+                    <img src="{{ asset('assets/images/spain-nationality.jpg') }}" alt="Solutions Image">
                     <div class="sol-content">
                         <div class="sol-heading">Golden Visa</div>
                         <p>Obten tu residencia a través de una inversión significativa en España.</p>
