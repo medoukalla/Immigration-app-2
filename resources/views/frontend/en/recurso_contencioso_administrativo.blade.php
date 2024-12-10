@@ -87,21 +87,21 @@
             </div>
             <div class="doc-wrapper w-layout-grid">
                 <div class="doc-block-wrapper doc-block-left">
-                    <div class="doc-block">
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
                         Resolución administrativa negativa que se busca impugnar 
                     </div>
-                    <div class="doc-block">
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
                         Documentación que respalde su situación personal, laboral o familiar
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
-                    <div class="doc-block">
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
                         Pruebas adicionales para demostrar la falta de justificación en la decisión
                     </div>
-                    <div class="doc-block">
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
                         Información sobre plazos y fechas del proceso administrativo previo
                     </div>

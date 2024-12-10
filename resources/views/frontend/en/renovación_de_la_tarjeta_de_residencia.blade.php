@@ -93,26 +93,26 @@
             </div>
             <div class="doc-wrapper w-layout-grid">
                 <div class="doc-block-wrapper doc-block-left">
-                    <div class="doc-block">
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
                         NIE actual.
                     </div>
-                    <div class="doc-block">
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
                         Pasaporte válido o documento de identidad. 
                     </div>
-                    <div class="doc-block">
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
                         Justificación de medios económicos para su estancia. 
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     
-                    <div class="doc-block">
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
                         Certificado de empadronamiento. 
                     </div>
-                    <div class="doc-block">
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-5.svg') }}" alt="Badge">
                         Documentación que acredite su situación laboral, académica, o familiar, según aplique. 
                     </div>

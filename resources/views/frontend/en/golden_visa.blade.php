@@ -91,7 +91,7 @@
             </div>
             <div class="doc-wrapper w-layout-grid">
                 <div class="doc-block-wrapper doc-block-left">
-                    <div class="doc-block">
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
                         <p>
                             Realizar una inversión mínima en uno de los siguientes ámbitos: <br>
@@ -100,17 +100,17 @@
                             Depósitos bancarios en una entidad española por al menos 1 millón de euros.
                         </p>
                     </div>
-                    <div class="doc-block">
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
                         Pasaporte vigente del solicitante y familiares (si aplica). 
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
-                    <div class="doc-block">
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
                         Certificados de antecedentes penales y médicos. 
                     </div>
-                    <div class="doc-block">
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
                         Comprobación de capacidad financiera para mantener la inversión. 
                     </div>

@@ -91,25 +91,25 @@
             </div>
             <div class="doc-wrapper w-layout-grid">
                 <div class="doc-block-wrapper doc-block-left">
-                    <div class="doc-block">
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
                         Haber residido en España de forma continuada durante al menos cinco años.
                     </div>
-                    <div class="doc-block">
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
                         No tener antecedentes penales en España ni en otros países de residencia previa.
                     </div>
-                    <div class="doc-block">
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
                         Disponer de medios económicos para sostenerse en el país.
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
-                    <div class="doc-block">
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
                         Documentación que acredite seguro médico, en su caso.
                     </div>
-                    <div class="doc-block">
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-5.svg') }}" alt="Badge">
                         No encontrarse de forma irregular en el país en el momento de la solicitud.
                     </div>

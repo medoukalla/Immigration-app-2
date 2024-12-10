@@ -100,29 +100,29 @@
             </div>
             <div class="doc-wrapper w-layout-grid">
                 <div class="doc-block-wrapper doc-block-left">
-                    <div class="doc-block">
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
                         Be a father or mother of a minor with Spanish nationality or a child of a parent originally from Spain.
                     </div>
-                    <div class="doc-block">
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
                         Valid passport.
                     </div>
-                    <div class="doc-block">
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
                         Birth certificate of the minor or the applicant.
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
-                    <div class="doc-block">
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
                         Certificate of registration (empadronamiento).
                     </div>
-                    <div class="doc-block">
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-5.svg') }}" alt="Badge">
                         Criminal record certificate.
                     </div>
-                    <div class="doc-block">
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-6.svg') }}" alt="Badge">
                         Documentation proving the family relationship.
                     </div>
@@ -134,40 +134,7 @@
 
     <x-en.call_to_action />
     <!-- Necessary documents -->
-    <div class="section documents-section without-bottom-spacing">
-        <div class="base-container w-container">
-            <div class="heading">
-                <h2>Procedure for Non-Lucrative Residency</h2>
-            </div>
-            <div class="doc-wrapper w-layout-grid">
-                <div class="doc-block-wrapper doc-block-left">
-                    <div class="doc-block">
-                        <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Initial Evaluation</b><br>
-                        <p>We conduct a personalized consultation to thoroughly assess your situation and confirm that you meet the general requirements. Additionally, we provide a clear summary of the process and the necessary documentation.</p>
-                    </div>
-                    <div class="doc-block">
-                        <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Document Review and Preparation</b><br>
-                        <p>We collect and review all the required documentation, ensuring its compliance with current regulations. Our team organizes and prepares the documents thoroughly to avoid delays in the application process.</p>
-                    </div>
-                    
-                </div>
-                <div class="doc-block-wrapper doc-block-right">
-                    <div class="doc-block">
-                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Comprehensive Process Management</b><br>
-                        <p>We handle the entire process from preparation to submission of your application. We also assist with any additional requirements necessary to ensure the success of the procedure.</p>
-                    </div>
-                    <div class="doc-block">
-                        <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Advisory and Follow-Up</b><br>
-                        <p>We provide continuous follow-up on your application and keep you informed of every important development. In case of a favorable resolution, we guide you through the final steps; if unfavorable, we advise you on the appeal options available.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <x-en.necessary-documents />
 
 
 

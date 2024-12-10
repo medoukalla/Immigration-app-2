@@ -10076,6 +10076,12 @@ select.white-style,
   line-height: 1.5em;
 }
 
+/* BY MED */
+.documents-section .doc-block.top {
+  min-height: 150px !important;
+  height: 150px !important;
+}
+
 .documents-section .doc-block img {
   position: absolute;
   top: -7px;

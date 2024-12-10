@@ -87,28 +87,37 @@
     <div class="section documents-section">
         <div class="base-container w-container">
             <div class="heading">
-                <h2>Requisitos Requeridos</h2>
+                <h2>Mandatory Requirements
+                </h2>
             </div>
             <div class="doc-wrapper w-layout-grid">
                 <div class="doc-block-wrapper doc-block-left">
-                    <div class="doc-block">
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Contrato Laboral</b>: Tener un contrato con una empresa no española o ser autónomo
+                        Provide evidence of remote work for a foreign company or as a self-employed professional with international clients.
                     </div>
-                    <div class="doc-block">
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Ingresos Suficientes</b>: Demostrar que cuenta con ingresos suficientes para mantenerse durante su estancia en España. 
+                        Demonstrate monthly income above the established threshold (approximately €2,000–€2,500) through bank statements or contracts.
                     </div>
-                    
+                    <div class="doc-block top">
+                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
+                        Submit a criminal record certificate from your country of residence or origin, translated if required.
+                    </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
-                    <div class="doc-block">
-                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Documentación</b>: Pasaporte válido y seguro de salud que cubra su estancia en España. 
-                    </div>
-                    <div class="doc-block">
+                    
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Actividad Profesional</b>: Acreditar su actividad profesional a través de documentos relevantes. 
+                        Show proof of accommodation in Spain, such as a rental agreement.
+                    </div>
+                    <div class="doc-block top">
+                        <img src="{{ asset('assets/images/svg/badge-5.svg') }}" alt="Badge">
+                        Provide additional documents, including professional references, evidence of professional activity, or tax declarations.
+                    </div>
+                    <div class="doc-block top">
+                        <img src="{{ asset('assets/images/svg/badge-6.svg') }}" alt="Badge">
+                        Secure comprehensive health insurance with full coverage in Spain for the entire period of stay.
                     </div>
                 </div>
             </div>
