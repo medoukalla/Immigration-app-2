@@ -7,7 +7,7 @@
       <nav role="navigation" class="nav-menu w-nav-menu">
         <div class="tablet-menu">
           <a href="{{ route('frontend.sp.index') }}" aria-current="page" class="brand-tablet w-nav-brand w--current"><img
-              src="https://cdn.prod.website-files.com/651f2c08c5bd81eb296c17aa/65269ae2dc5ceebc36a57753_logo-immigration.svg"
+              src="{{ asset('storage/'.setting('site.logo')) }}"
               loading="lazy" alt="logo" height="38" /></a>
           <div class="close-menu-button w-nav-button"><img
           src="{{ asset('assets/images/svg/close.svg') }}"
