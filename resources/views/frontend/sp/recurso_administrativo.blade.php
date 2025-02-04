@@ -1,4 +1,4 @@
-<x-sp.head title="{{ setting('site.title') }}" />
+<x-sp.head title="Immiworld - Recurso Administrativo" />
 
 <!-- Top menu navbar -->
     <x-sp.main-navbar route="{{route('frontend.recurso_administrativo') }}" />

@@ -1,4 +1,4 @@
-<x-sp.head title="{{ setting('site.title') }}" />
+<x-sp.head title="Blog – Actualidad y Análisis en Derecho de Extranjería" />
 
 <!-- Top menu navbar -->
 <x-sp.main-navbar route="{{route('frontend.blog') }}" />

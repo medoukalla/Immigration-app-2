@@ -1,4 +1,4 @@
-<x-sp.head title="{{ setting('site.title') }}" />
+<x-sp.head title="Immiworld - Residencia para Emprendedores en España" />
 
 <!-- Top menu navbar -->
     <x-sp.main-navbar route="{{route('frontend.residencia_para_emprendedores') }}" />

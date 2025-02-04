@@ -1,4 +1,4 @@
-<x-en.head title="{{ setting('site.title') }}" />
+<x-en.head title="Immiworld - Residency Card Renewal" />
 
 <!-- Top menu navbar -->
     <x-en.main-navbar route="{{route('frontend.sp.renovación_de_la_tarjeta_de_residencia') }}" />

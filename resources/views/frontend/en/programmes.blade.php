@@ -1,4 +1,4 @@
-<x-en.head title="{{ setting('site.title') }}" />
+<x-en.head title="Immiworld - Study Programs" />
 
 <!-- Top menu navbar -->
     <x-en.main-navbar route="{{route('frontend.sp.programmes') }}" />

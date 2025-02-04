@@ -1,4 +1,4 @@
-<x-en.head title="{{ setting('site.title') }}" />
+<x-en.head title="Immiworld - Residency for Family Members of EU Citizens" />
 
 <!-- Top menu navbar -->
     <x-en.main-navbar route="{{route('frontend.sp.residencia_familiar_ue') }}" />

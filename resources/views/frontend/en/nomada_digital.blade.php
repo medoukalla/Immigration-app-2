@@ -1,4 +1,4 @@
-<x-en.head title="{{ setting('site.title') }}" />
+<x-en.head title="Immiworld - Digital Nomad Visa" />
 
 <!-- Top menu navbar -->
     <x-en.main-navbar route="{{route('frontend.sp.nomada_digital') }}" />

@@ -1,4 +1,4 @@
-<x-sp.head title="{{ setting('site.title') }}" />
+<x-sp.head title="Immiworld - Residencia para Familiares de Ciudadanos de la UE" />
 
 <!-- Top menu navbar -->
     <x-sp.main-navbar route="{{route('frontend.residencia_familiar_ue') }}" />

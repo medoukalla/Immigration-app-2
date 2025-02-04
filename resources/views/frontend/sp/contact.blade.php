@@ -1,4 +1,4 @@
-<x-sp.head title="{{ setting('site.title') }}" />
+<x-sp.head title="Contacto - Abogados Expertos en Extranjería en Málaga" />
 
 <!-- Top menu navbar -->
     <x-sp.main-navbar route="{{route('frontend.contact') }}" />

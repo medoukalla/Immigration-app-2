@@ -1,4 +1,4 @@
-<x-en.head title="{{ setting('site.title') }}" />
+<x-en.head title="Immiworld - Residence for Entrepreneurs in Spain" />
 
 <!-- Top menu navbar -->
     <x-en.main-navbar route="{{route('frontend.sp.residencia_para_emprendedores') }}" />

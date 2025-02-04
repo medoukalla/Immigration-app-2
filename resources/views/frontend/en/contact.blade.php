@@ -1,4 +1,4 @@
-<x-en.head title="{{ setting('site.title') }}" />
+<x-en.head title="Contacto – Expert Immigration Lawyers in Málaga" />
 
 <!-- Top menu navbar -->
     <x-en.main-navbar route="{{route('frontend.sp.contact') }}" />

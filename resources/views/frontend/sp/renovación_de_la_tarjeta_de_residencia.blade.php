@@ -1,4 +1,4 @@
-<x-sp.head title="{{ setting('site.title') }}" />
+<x-sp.head title="Immiworld - Renovación de la tarjeta de residencia" />
 
 <!-- Top menu navbar -->
     <x-sp.main-navbar route="{{route('frontend.renovación_de_la_tarjeta_de_residencia') }}" />

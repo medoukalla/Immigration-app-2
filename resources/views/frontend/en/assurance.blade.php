@@ -1,4 +1,4 @@
-<x-en.head title="{{ setting('site.title') }}" />
+<x-en.head title="Immiworld - Health Insurance for Immigration and Visa Procedures" />
 
 <!-- Top menu navbar -->
     <x-en.main-navbar route="{{route('frontend.sp.assurance') }}" />

@@ -1,4 +1,4 @@
-<x-sp.head title="{{ setting('site.title') }}" />
+<x-sp.head title="Immiworld - Arraigo Social" />
 
 <!-- Top menu navbar -->
     <x-sp.main-navbar route="{{route('frontend.arraigo_social') }}" />

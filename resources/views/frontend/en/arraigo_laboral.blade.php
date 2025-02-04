@@ -1,4 +1,4 @@
-<x-en.head title="{{ setting('site.title') }}" />
+<x-en.head title="Immiworld - Arraigo laboral" />
 
 <!-- Top menu navbar -->
     <x-en.main-navbar route="{{ route('frontend.sp.arraigo_laboral') }}" />

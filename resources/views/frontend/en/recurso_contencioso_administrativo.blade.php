@@ -1,4 +1,4 @@
-<x-en.head title="{{ setting('site.title') }}" />
+<x-en.head title="Immiworld - Administrative Litigation Appeal" />
 
 <!-- Top menu navbar -->
     <x-en.main-navbar route="{{route('frontend.sp.recurso_contencioso_administrativo') }}" />

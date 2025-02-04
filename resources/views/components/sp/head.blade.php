@@ -5,9 +5,9 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Immiworld v2</title>
-  <meta content="Immiworld v2" property="og:title" />
-  <meta content="Immiworld v2" property="twitter:title" />
+  <title>{{ !empty($title) ? $title : setting('site.title') }}</title>
+  <meta content="{{ !empty($title) ? $title : setting('site.title') }}" property="og:title" />
+  <meta content="{{ !empty($title) ? $title : setting('site.title') }}" property="twitter:title" />
   <meta content="width=device-width, initial-scale=1" name="viewport" />
   <meta content="Webflow" name="generator" />
   <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet" type="text/css" />

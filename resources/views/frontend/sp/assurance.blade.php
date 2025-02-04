@@ -1,4 +1,4 @@
-<x-sp.head title="{{ setting('site.title') }}" />
+<x-sp.head title="Immiworld - Seguro Médico para Trámites de Extranjería y Visados" />
 
 <!-- Top menu navbar -->
     <x-sp.main-navbar route="{{route('frontend.assurance') }}" />

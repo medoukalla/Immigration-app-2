@@ -1,4 +1,4 @@
-<x-en.head title="{{ setting('site.title') }}" />
+<x-en.head title="Immiworld - Student Visa" />
 
 <!-- Top menu navbar -->
     <x-en.main-navbar route="{{route('frontend.sp.visa_de_estudiante') }}" />

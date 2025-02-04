@@ -1,4 +1,4 @@
-<x-sp.head title="{{ setting('site.title') }}" />
+<x-sp.head title="Immiworld - Nómada Digital" />
 
 <!-- Top menu navbar -->
     <x-sp.main-navbar route="{{route('frontend.nomada_digital') }}" />

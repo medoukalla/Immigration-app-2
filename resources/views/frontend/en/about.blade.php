@@ -1,4 +1,4 @@
-<x-en.head title="{{ setting('site.title') }}" />
+<x-en.head title="About Us – Expert Immigration Lawyers in Málaga" />
 
 <!-- Top menu navbar -->
     <x-en.main-navbar route="{{ route('frontend.sp.about') }}" />
