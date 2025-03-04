@@ -46,7 +46,7 @@
 </div>
 <style>
     .min-hero-wrapper p {
-        width: 55% !important;
+        width: 48% !important;
     }
 </style>
 {{-- Hero section ENDS  --}}
