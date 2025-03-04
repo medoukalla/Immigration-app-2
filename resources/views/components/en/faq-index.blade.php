@@ -9,8 +9,8 @@
             Find clear and detailed answers to the most common questions about our legal services. We are here to help you every step of the way
 
           </p>
-          <div class="faq-img" style=" width: 100% !important; ">
-            <img src="{{ asset('assets/images/faq.svg') }}" alt="FAQ image" style=" padding-right: 70px; padding-top: 50px; ">
+          <div class="faq-img" >
+            <img src="{{ asset('assets/images/faq-2.png.png') }}" alt="FAQ image" style="padding-right: 40px;padding-top: 0px;">
           </div>
         </div>
       </div>
