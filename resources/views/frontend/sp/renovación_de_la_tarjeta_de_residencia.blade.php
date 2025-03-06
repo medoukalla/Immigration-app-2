@@ -7,7 +7,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>Renovación de la tarjeta de residencia (NIE)</h1>
                 <p>
                     Si ya resides en España y necesitas renovar tu tarjeta de residencia o NIE, te ayudamos a cumplir con los requisitos y completar el proceso de renovación sin complicaciones.

@@ -7,7 +7,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>Recurso Administrativo</h1>
                 <p>
                     En caso de que tu solicitud de residencia sea denegada o rechazada por errores administrativos, te ofrecemos asistencia para presentar un recurso administrativo y corregir cualquier inconveniente.

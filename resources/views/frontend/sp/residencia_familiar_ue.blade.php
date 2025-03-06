@@ -7,7 +7,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>Residencia para Familiares de Ciudadanos de la UE</h1>
                 <p>
                     Si eres familiar de un ciudadano de la Unión Europea y deseas residir en España, este permiso te permite hacerlo bajo condiciones favorables. Te proporcionamos apoyo en la tramitación de la tarjeta de familiar de ciudadano de la UE.

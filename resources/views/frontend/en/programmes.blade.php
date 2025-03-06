@@ -7,7 +7,7 @@
 {{-- Hero section START  --}}
 <div class="pages-banner blog">
     <div class="base-container w-container">
-        <div class="min-hero-wrapper">
+        <div class="min-hero-wrapper" style=" min-height: 225px; ">
             <h1>Study Programs</h1>
             <p>
                 Discover a wide range of educational programs in Spain, from universities to professional courses. We provide expert guidance to help you choose the right program and ensure you meet all the requirements to study in Spain.

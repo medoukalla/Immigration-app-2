@@ -5,7 +5,7 @@
 
 <div class="pages-banner blog">
     <div class="base-container w-container">
-        <div class="min-hero-wrapper">
+        <div class="min-hero-wrapper" style=" min-height: 225px; ">
             <h1>Our Blog</h1>
             <p>Explore articles and updates on immigration, visas, and legal advice. Stay informed with our guides and practical tips.</p>
             <div class="pages-path">

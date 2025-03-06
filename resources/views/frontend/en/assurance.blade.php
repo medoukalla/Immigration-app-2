@@ -6,7 +6,7 @@
 {{-- Hero section START  --}}
 <div class="pages-banner blog">
     <div class="base-container w-container">
-        <div class="min-hero-wrapper">
+        <div class="min-hero-wrapper" style=" min-height: 225px; ">
             <h1>Insurance</h1>
             <p>At Immiworld, we guide you in obtaining the mandatory insurance required by Extranjería and the consulate, ensuring a smooth immigration process in Spain.</p>
             <div class="pages-path">

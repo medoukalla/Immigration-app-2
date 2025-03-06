@@ -7,7 +7,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>Administrative Litigation Appeal</h1>
                 <p>
                     If your residence application is rejected, we can help you file an administrative litigation appeal to contest the decision in court. Our team guides you through the complex legal process to ensure the best outcome.

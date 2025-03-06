@@ -7,7 +7,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>Golden Visa</h1>
                 <p>
                     Golden visa está destinada a inversores que realicen una inversión significativa en España, como la compra de bienes inmuebles o proyectos empresariales. Ofrece residencia y la opción de obtener la ciudadanía tras cierto tiempo. Te orientamos en los requisitos legales y financieros.

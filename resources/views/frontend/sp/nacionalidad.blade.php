@@ -7,7 +7,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>Nacionalidad Española</h1>
                 <p>
                     La nacionalidad española se puede obtener por residencia, matrimonio o descendencia. Te asistimos en el proceso de naturalización, ayudándote a cumplir con los requisitos legales para obtener la ciudadanía

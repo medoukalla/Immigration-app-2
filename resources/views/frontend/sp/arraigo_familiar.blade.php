@@ -7,7 +7,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>El arraigo familiar</h1>
                 <p>
                     Si eres familiar directo de un ciudadano español o residente legal, este permiso te permite residir en España de forma legal. Te orientamos en los requisitos y trámites para obtener tu residencia por vínculos familiares.

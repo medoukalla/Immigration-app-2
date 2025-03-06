@@ -7,7 +7,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>Visa de Estudiante</h1>
                 <p>
                     Visado de estudiante permite residir en España para estudiar en instituciones educativas reconocidas. Es ideal para quienes buscan cursar estudios universitarios o formación profesional. Te ayudamos en todo el proceso para cumplir con los requisitos legales.

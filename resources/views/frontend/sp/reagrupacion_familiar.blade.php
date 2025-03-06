@@ -7,7 +7,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>Reagrupación Familiar</h1>
                 <p>
                     Este permiso permite que los residentes legales en España reúnan a sus familiares directos en el país. Te asistimos en todo el proceso de solicitud, asegurando que cumplas con los requisitos de recursos y vivienda.

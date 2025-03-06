@@ -7,7 +7,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>Arraigo familiar</h1>
                 <p>
                     If you are a direct relative of a Spanish citizen or legal resident, this permit allows you to reside in Spain legally. We provide guidance on the requirements and processes to obtain residence based on family ties.

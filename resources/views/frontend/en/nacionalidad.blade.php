@@ -7,7 +7,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>Citizenship</h1>
                 <p>
                     Spanish nationality can be obtained through residency, marriage, or descent. We guide you through the naturalization process for those who meet Spain’s residency requirements, helping you fulfill all legal criteria for citizenship.

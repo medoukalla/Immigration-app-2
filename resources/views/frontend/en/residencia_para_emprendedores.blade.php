@@ -7,7 +7,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>Entrepreneur Residence</h1>
                 <p>
                     The Entrepreneur Residence permit is designed for individuals looking to start a business in Spain. We assist in developing your business plan, demonstrating its economic viability, and securing your entrepreneur visa.

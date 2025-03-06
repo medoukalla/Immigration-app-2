@@ -7,7 +7,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>Student Visa</h1>
                 <p>
                     The Student Visa allows foreign nationals to study in Spain. It’s ideal for those enrolling in recognized educational institutions. We help guide you through the application process to meet Spain’s educational and immigration requirements.

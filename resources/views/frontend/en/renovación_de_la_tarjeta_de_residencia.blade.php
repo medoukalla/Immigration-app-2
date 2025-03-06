@@ -7,7 +7,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>Renewal of residence card (NIE)</h1>
                 <p>
                     If you are already residing in Spain and need to renew your residence card or NIE, we guide you through the renewal process and help you meet all necessary requirements for a smooth application.

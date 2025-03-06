@@ -6,7 +6,7 @@
 {{-- Hero section START  --}}
 <div class="pages-banner blog">
     <div class="base-container w-container">
-        <div class="min-hero-wrapper">
+        <div class="min-hero-wrapper" style=" min-height: 225px; ">
             <h1>Seguro</h1>
             <p>En Immiworld, te asesoramos para obtener el seguro obligatorio exigido por extranjería y el consulado, asegurando que tus trámites de inmigración en España se realicen sin contratiempos.
             </p>

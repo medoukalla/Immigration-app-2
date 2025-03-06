@@ -7,7 +7,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>Family Reunification</h1>
                 <p>
                     This permit allows legal residents of Spain to bring their immediate family members to live with them. We provide comprehensive support in navigating the application process, ensuring you meet the financial and housing requirements.

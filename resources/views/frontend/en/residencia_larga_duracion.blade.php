@@ -7,7 +7,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>Long-Term Residence</h1>
                 <p>
                     After five years of legal residence in Spain, you can apply for long-term residency, allowing indefinite stay in the country. We offer guidance on the requirements and application procedure to secure your long-term residence.

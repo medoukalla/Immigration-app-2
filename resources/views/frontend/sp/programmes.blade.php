@@ -7,7 +7,7 @@
 {{-- Hero section START  --}}
 <div class="pages-banner blog">
     <div class="base-container w-container">
-        <div class="min-hero-wrapper">
+        <div class="min-hero-wrapper" style=" min-height: 225px; ">
             <h1>Programas de estudios</h1>
             <p>
                 Descubre una amplia variedad de programas educativos en España, desde universidades hasta cursos profesionales. Te asesoramos para que elijas el programa adecuado y cumplas con todos los requisitos para estudiar en España.

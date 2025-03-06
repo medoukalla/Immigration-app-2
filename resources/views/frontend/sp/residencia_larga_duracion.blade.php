@@ -7,7 +7,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>Residencia de Larga Duración</h1>
                 <p>
                     Después de cinco años de residencia legal en España, puedes optar por la residencia de larga duración, que te permite vivir de forma indefinida en el país. Te orientamos sobre los requisitos y el proceso de solicitud.

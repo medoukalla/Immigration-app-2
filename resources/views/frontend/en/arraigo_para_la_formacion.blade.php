@@ -7,7 +7,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>Arraigo para la formacion</h1>
                 <p>
                     This permit is for those who have lived in Spain for at least two years and wish to pursue formal education or vocational training. It allows you to regularize your status while continuing your studies.

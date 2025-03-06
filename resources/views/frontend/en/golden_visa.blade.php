@@ -7,7 +7,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>Golden Visa</h1>
                 <p>
                     The Golden Visa is available to investors and their families who make significant contributions to Spain, such as through property purchases or business investments. It grants residency with the potential for citizenship. We assist in ensuring you meet the necessary legal and financial criteria.

@@ -6,7 +6,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>Arraigo Laboral</h1>
                 <p>
                     Disponible para quienes han vivido en España al menos dos años y han trabajado durante al menos seis meses. Este permiso facilita la regularización de tu situación laboral y te permite continuar trabajando legalmente en el país.

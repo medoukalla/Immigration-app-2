@@ -7,7 +7,7 @@
 {{-- Hero section START  --}}
 <div class="pages-banner blog">
     <div class="base-container w-container">
-        <div class="min-hero-wrapper">
+        <div class="min-hero-wrapper" style=" min-height: 255px; ">
             <h1>Sobre Nosotros</h1>
             <p>
                 En Immiworld, somos una firma de abogados especializada en asesoría legal en extranjería. Contamos con un equipo de profesionales altamente cualificados, comprometidos en ofrecer soluciones jurídicas personalizadas y eficaces para garantizar el éxito en tus trámites migratorios.

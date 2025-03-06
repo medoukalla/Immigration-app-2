@@ -7,7 +7,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>Arraigo para la Formación</h1>
                 <p>
                     Este permiso está destinado a quienes llevan al menos dos años en España y desean realizar estudios o formación profesional. Permite regularizar tu estatus legal mientras continúas tu educación.

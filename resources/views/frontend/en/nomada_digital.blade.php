@@ -7,7 +7,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>Digital nomad</h1>
                 <p>
                     If you work remotely and wish to live in Spain, the Digital Nomad Visa allows you to reside legally while continuing your work abroad. We help you with the application process and ensure compliance with the visa requirements.

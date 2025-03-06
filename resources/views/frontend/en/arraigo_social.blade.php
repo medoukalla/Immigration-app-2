@@ -7,7 +7,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>Arraigo Social</h1>
                 <p>
                     For individuals who have lived in Spain for at least three years and wish to regularize their status by demonstrating social integration through employment or family ties. We provide support throughout the process to ensure successful application.

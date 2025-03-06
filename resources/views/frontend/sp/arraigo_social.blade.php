@@ -7,7 +7,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>Arraigo Social</h1>
                 <p>
                     Para quienes han vivido en España por al menos tres años y desean regularizar su estatus, demostrando integración social mediante empleo o vínculos familiares. Ofrecemos asesoría en el proceso para asegurar tu aprobación.

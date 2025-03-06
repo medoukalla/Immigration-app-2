@@ -7,7 +7,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>Recurso Contencioso Administrativo</h1>
                 <p>
                     Si tu solicitud de residencia ha sido rechazada, podemos ayudarte a presentar un recurso contencioso administrativo para impugnar la decisión ante los tribunales. Te guiamos a través de este proceso legal complejo.

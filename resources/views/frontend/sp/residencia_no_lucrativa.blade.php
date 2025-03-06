@@ -7,7 +7,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>Residencia No Lucrativa</h1>
                 <p>
                     Si planeas vivir en España sin trabajar, este visado es ideal para quienes tienen los medios económicos para mantenerse sin necesidad de empleo. Te guiamos en la documentación y requisitos para una residencia no lucrativa.

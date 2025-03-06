@@ -7,7 +7,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>Administrative Appeal</h1>
                 <p>
                     If your residence application is denied or rejected due to administrative errors, we provide assistance in filing an administrative appeal to correct the issue and resubmit your case.

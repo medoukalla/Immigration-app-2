@@ -7,7 +7,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>Non-Lucrative Residence</h1>
                 <p>
                     If you plan to live in Spain without working, the non-lucrative visa is ideal for those who have the financial means to support themselves without employment. We guide you through the documentation and requirements for this residency.

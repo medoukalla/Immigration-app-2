@@ -7,7 +7,7 @@
 {{-- Hero section START  --}}
 <div class="pages-banner blog">
     <div class="base-container w-container">
-        <div class="min-hero-wrapper">
+        <div class="min-hero-wrapper" style=" min-height: 255px; ">
             <h1>About Us</h1>
             <p>
                 At Immiworld, we are a law firm specializing in immigration law. Our team of highly qualified professionals is dedicated to providing tailored, effective legal solutions, ensuring the success of your immigration process.

@@ -7,7 +7,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>EU Family Member</h1>
                 <p>
                     If you are a family member of an EU citizen and wish to reside in Spain, this permit allows you to do so under favorable conditions. We assist with the application for the EU Family Member Card and ensure that all necessary steps are followed.

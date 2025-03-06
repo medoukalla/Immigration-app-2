@@ -1,6 +1,6 @@
 <div class="pages-banner blog">
     <div class="base-container w-container">
-        <div class="min-hero-wrapper">
+        <div class="min-hero-wrapper" style=" min-height: 225px; ">
             <h1>Contact Us</h1>
             <p>If you have questions or need assistance, feel free to reach out to us. Our team is available to resolve any doubts regarding your immigration processes.</p>
             <div class="pages-path">

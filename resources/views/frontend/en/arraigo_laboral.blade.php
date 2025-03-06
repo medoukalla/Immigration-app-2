@@ -7,7 +7,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>Arraigo Laboral</h1>
                 <p>
                     Available to those who have lived in Spain for at least two years and have worked for a minimum of six months. This permit allows you to regularize your labor status and continue working legally in the country.

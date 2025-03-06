@@ -7,7 +7,7 @@
     <!-- Banner hero section -->
     <div class="pages-banner blog">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper">
+            <div class="min-hero-wrapper" style=" min-height: 225px; ">
                 <h1>Residencia para Emprendedores</h1>
                 <p>
                     El permiso de residencia para emprendedores está diseñado para quienes desean iniciar un proyecto empresarial en España. Te ayudamos a desarrollar tu plan de negocio, demostrar su viabilidad económica y asegurar tu visado para emprendedores.
