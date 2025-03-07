@@ -151,7 +151,7 @@
             Programas de <span>licenciatura</span>
         </div>
         <div class="programmes-wrapper">
-            @foreach ( $licence as $programe )    
+            @foreach ( $master as $programe )    
                 <div class="programme-wrapper">
                     <div class="p-img">
                         <div class="p-img-content">
@@ -196,7 +196,7 @@
             Programas de <span>Master</span>
         </div>
         <div class="programmes-wrapper">
-            @foreach ( $master as $programe )    
+            @foreach ( $licence as $programe )    
                 <div class="programme-wrapper">
                     <div class="p-img">
                         <div class="p-img-content">
