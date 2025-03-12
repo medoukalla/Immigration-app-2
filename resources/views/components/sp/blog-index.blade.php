@@ -22,10 +22,10 @@
                             <h6 class="blog-post-title">{{ $article->title }}</h6>
                         </a>
                         <p class="no-margin">
-                            {{ $article->excerpt }}
+                            {{ Str::limit($article->excerpt, 115) }}
                         </p>
                         </div>
-                        <div class="button-wrapper smaller-spacing"><a href="{{ route('frontend.sp.post', $article) }}"
+                        <div class="button-wrapper smaller-spacing" style=" margin-top: 10px !important;"><a href="{{ route('frontend.sp.post', $article) }}"
                             class="link-with-arrow-underline">Leer la publicación completa</a></div>
                     </div><a href="{{ route('frontend.sp.post', $article) }}" class="home-blog-category">Inmigración</a>
                     </article>
