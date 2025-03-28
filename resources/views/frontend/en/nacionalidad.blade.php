@@ -92,7 +92,7 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        Continuous Residence in Spain You must have continuously resided in Spain for at least 10 years, or 2 years if you are an Ibero-American citizen, and 1 year if you are married to a Spanish citizen.
+                        <b>Continuous Residence in Spain:</b> <br> You must have continuously resided in Spain for at least 10 years, or 2 years if you are an Ibero-American citizen, and 1 year if you are married to a Spanish citizen.
 
                     </div>
                     <div class="doc-block top">
