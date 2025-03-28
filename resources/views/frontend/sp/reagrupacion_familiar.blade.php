@@ -92,18 +92,22 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        Ser residente legal en España
+                        <b>Pasaporte Vigente:</b> <br> Presentar un pasaporte completo y válido, con todas las páginas visibles.
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        Contar con medios económicos suficientes para mantener a los familiares reagrupados. 
+                        <b>Prueba de Vínculo Familiar:</b> <br> Aportar documentación que acredite el vínculo con el reagrupante, como acta de matrimonio, certificado de nacimiento o libro de familia.
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        Identificar a los familiares que se desea reagrupar (cónyuges, parejas de hecho, hijos menores, ascendientes).
+                        <b>Medios Económicos:</b> <br> Demostrar que el reagrupante cuenta con recursos económicos suficientes para mantener a los familiares reagrupados en España.
                     </div>
+                    <div class="doc-block top">
+                        <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
+                        <b>Vivienda Adecuada:</b> <br> Aportar un informe que acredite la disponibilidad de una vivienda adecuada para la familia.
+                        </div>
                 </div>
             </div>
         </div>

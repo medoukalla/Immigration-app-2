@@ -93,30 +93,19 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        Carta de aceptación de una institución educativa española que indique la duración y nivel del programa. 
-                    </div>
+                        <b>Carta de Aceptación del Centro Educativo:</b> <br> Debe presentar una carta oficial del centro educativo en España donde ha sido aceptado, con información detallada sobre el curso o programa académico y la duración.                    </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        Pasaporte vigente
-                    </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        Comprobación de medios económicos suficientes para su estancia (extractos bancarios o nóminas).
+                        <b>Documentos de Identificación Personal:</b> <br> Debe presentar su pasaporte en vigor, con una validez mínima de 6 meses a partir de la fecha de solicitud.
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
+                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
+                        <b>Prueba de Solvencia Económica:</b> <br> Debe demostrar que dispone de los medios económicos suficientes para cubrir sus gastos durante su estancia en España, mediante estados de cuenta bancarios, becas o pruebas de apoyo económico.                    </div>
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        Seguro médico válido para España
-                    </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-5.svg') }}" alt="Badge">
-                        Certificado de antecedentes penales (si corresponde).
-                    </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-6.svg') }}" alt="Badge">
-                        Prueba de residencia en el país de origen. 
-                    </div>
+                        <b>Certificado de No Tener Antecedentes Penales:</b> <br> Debe presentar un certificado de antecedentes penales de su país de origen,    si es mayor de 18 años.                    </div>
                 </div>
             </div>
         </div>

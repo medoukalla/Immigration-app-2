@@ -96,29 +96,21 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        Ser padre o madre de un menor de nacionalidad española o hijo de un padre o madre originario de España. 
+                        <b>Pasaporte Vigente:</b> <br> Presentar un pasaporte completo y válido, con todas las páginas visibles.
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        Pasaporte vigente. 
-                    </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        Certificado de nacimiento del menor o del solicitante. 
+                        <b>Certificado de Antecedentes Penales:</b> <br> Presentar un certificado de antecedentes penales del país de origen y de cualquier país donde haya residido en los últimos cinco años.
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        Certificado de empadronamiento. 
+                        <b>Prueba de Vínculo Familiar:</b> <br> Aportar documentación que acredite el vínculo familiar con un ciudadano español (acta de nacimiento, matrimonio o registro de pareja de hecho).
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-5.svg') }}" alt="Badge">
-                        Certificado de antecedentes penales. 
-                    </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-6.svg') }}" alt="Badge">
-                        Documentación que acredite la relación familiar. 
+                        <b>Pago de la Tasa Correspondiente:</b> <br> Acreditar el pago de la tasa para la solicitud del arraigo familiar.
                     </div>
                 </div>
             </div>

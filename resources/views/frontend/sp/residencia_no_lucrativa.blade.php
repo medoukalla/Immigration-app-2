@@ -91,25 +91,21 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        Pasaporte vigente.
+                        <b>Pasaporte Vigente:</b> <br> Presentar un pasaporte completo y válido, con todas las páginas visibles.
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        Comprobantes financieros que demuestren ingresos suficientes.   
-                    </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        Certificado de antecedentes penales
+                        <b>Seguro Médico:</b> <br> Aportar prueba de cobertura de seguro médico privado con una compañía autorizada en España.
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        Seguro médico privado válido en España.
+                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
+                        <b>Certificado de Antecedentes Penales:</b> <br> Presentar un certificado de antecedentes penales del país de origen y de cualquier país donde haya residido en los últimos cinco años.
                     </div>
                     <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-5.svg') }}" alt="Badge">
-                        Informe médico que acredite la buena salud del solicitante
+                        <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
+                        <b>Prueba de Medios Económicos:</b> <br> Demostrar la posesión de fondos suficientes para mantenerse durante el período de residencia, con un mínimo de 2.500 € men suales en cuenta propia.
                     </div>
                 </div>
             </div>

@@ -94,30 +94,22 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        Acreditar que trabajas de manera remota para una empresa extranjera o como autónomo con clientes internacionales.
-                    </div>
+                        <b>Prueba de Empleo o Actividad Empresarial:</b> <br> Aportar un contrato de trabajo o prueba de actividad freelance/empresarial con empresas fuera de España, asegurando que al menos el 80 % de sus ingresos provengan de fuentes no españolas.
+                        </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        Demostrar ingresos mensuales superiores al umbral establecido (aproximadamente 2.000-2.500€), con extractos bancarios o contratos.
-                    </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        Presentar un certificado de antecedentes penales de tu país de residencia o de origen, traducido si es necesario.
+                        <b>Pasaporte Vigente:</b> <br> Presentar un pasaporte completo y válido, asegurándose de que todas las páginas sean visibles.
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     
                     <div class="doc-block top">
+                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
+                        <b>Certificado de Antecedentes Penales:</b> <br> Presentar un certificado de antecedentes penales del país de origen y de cualquier país donde haya residido en los últimos cinco años.
+                        </div>
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        Demostrar que tienes un lugar donde residir en España, a través de un contrato de alquiler.
-                    </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-5.svg') }}" alt="Badge">
-                        Presentar documentos adicionales, como referencias laborales, pruebas de actividad profesional o declaraciones fiscales
-                    </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-6.svg') }}" alt="Badge">
-                        Acreditar un seguro médico con cobertura total en España, que cubra atención sanitaria durante todo tu periodo de estancia.
+                        <b>Medios Económicos:</b> <br> Presentar evidencia de recursos financieros suficientes, garantizando un ingreso mensual de al menos 2.800 €.
                     </div>
                 </div>
             </div>

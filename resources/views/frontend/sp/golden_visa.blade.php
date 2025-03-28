@@ -92,26 +92,23 @@
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
                         <p>
-                            Realizar una inversión mínima en uno de los siguientes ámbitos: <br>
-                            Propiedades en España con un valor mínimo de 500,000 euros.  <br>
-                            Inversiones en empresas o acciones por un mínimo de 1 millón de euros <br>
-                            Depósitos bancarios en una entidad española por al menos 1 millón de euros.
+                        <b>Prueba de Inversión:</b> <br> Aportar documentación oficial que acredite la inversión requerida, como escrituras de compra de propiedades (mínimo 500.000 €), certificados bancarios o documentos de constitución de empresas.
                         </p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        Pasaporte vigente del solicitante y familiares (si aplica). 
-                    </div>
+                        <b>Pasaporte Vigente:</b> <br> Presentar un pasaporte completo y válido, asegurándose de que todas las páginas sean visibles.
+                        </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        Certificados de antecedentes penales y médicos. 
-                    </div>
+                        <b>Certificado de Antecedentes Penales:</b> <br> Presentar un certificado de antecedentes penales del país de origen y de cualquier país donde haya residido en los últimos cinco años.
+                        </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        Comprobación de capacidad financiera para mantener la inversión. 
-                    </div>
+                        <b>Medios Económicos:</b> <br> Presentar evidencia de recursos financieros suficientes para mantenerse a sí mismo y a sus dependientes durante su estancia en España.
+                        </div>
                 </div>
             </div>
         </div>

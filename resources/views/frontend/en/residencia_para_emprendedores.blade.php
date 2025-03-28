@@ -84,35 +84,28 @@
     <div class="section documents-section">
         <div class="base-container w-container">
             <div class="heading">
-                <h2>Requisitos Requeridos</h2>
+                <h2>Required Documents</h2>
             </div>
             <div class="doc-wrapper w-layout-grid">
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        Un proyecto empresarial innovador que incluya inversión inicial y potencial de creación de empleo
+                        <b>Valid Passport:</b> <br> Submit a complete and valid passport with all pages visible.
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        Plan de negocio detallado. 
+                        <b>Business Plan:</b></br> Provide a detailed business plan demonstrating the project’s viability and its impact on the Spanish economy.
                     </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        Justificación de medios económicos suficientes.
-                    </div>
+                    
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
+                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
+                        <b>Proof of Financial Means:</b><br> Show evidence of sufficient funds to start and sustain the business activity, as well as to cover personal expenses.
+                    </div>
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        Seguro médico. 
-                    </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-5.svg') }}" alt="Badge">
-                        Certificado de antecedentes penales.
-                    </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-6.svg') }}" alt="Badge">
-                        Pasaporte vigente
+                        <b>Other Documents:</b><br> Depending on the type of activity, additional documents may be required, such as specific licenses or professional accreditations.
                     </div>
                 </div>
             </div>

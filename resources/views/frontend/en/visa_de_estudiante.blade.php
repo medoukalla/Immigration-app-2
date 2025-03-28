@@ -87,35 +87,27 @@
     <div class="section documents-section">
         <div class="base-container w-container">
             <div class="heading">
-                <h2>Requisitos Requeridos</h2>
+                <h2>Required Requirements</h2>
             </div>
             <div class="doc-wrapper w-layout-grid">
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        Carta de aceptación de una institución educativa española que indique la duración y nivel del programa. 
+                        <b>Acceptance Letter from the Educational Institution:</b> <br> You must provide an official letter from the educational institution in Spain where you have been accepted, with detailed information about the course or academic program and its duration.                    
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        Pasaporte vigente
-                    </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        Comprobación de medios económicos suficientes para su estancia (extractos bancarios o nóminas).
+                        <b>Personal Identification Documents:</b> <br> You must present a valid passport with a minimum validity of 6 months from the date of application.
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
+                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
+                        <b>Proof of Financial Means:</b> <br> You must prove that you have sufficient financial resources to cover your expenses during your stay in Spain, through bank statements, scholarships, or proof of financial support.   
+                    </div>
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        Seguro médico válido para España
-                    </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-5.svg') }}" alt="Badge">
-                        Certificado de antecedentes penales (si corresponde).
-                    </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-6.svg') }}" alt="Badge">
-                        Prueba de residencia en el país de origen. 
+                        <b>Criminal Record Certificate:</b> <br> You must submit a criminal record certificate from your country of origin, if you are over 18 years old.                    
                     </div>
                 </div>
             </div>

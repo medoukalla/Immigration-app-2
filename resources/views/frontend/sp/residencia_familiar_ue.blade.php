@@ -93,25 +93,21 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        Pasaporte vigente del solicitante.
+                        <b>Pasaporte Vigente:</b> <br> Presentar un pasaporte completo y válido, con todas las páginas visibles.
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        Documento de identidad del ciudadano de la UE.
-                    </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        Documentación que acredite la relación familiar (certificados de matrimonio, nacimiento, etc.). 
+                        <b>Prueba de Vínculo Familiar:</b> <br> Aportar documentación que acredite el vínculo con el ciudadano de la UE, como registro de pareja de hecho o certificado de nacimiento.
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        Prueba de residencia y situación del ciudadano de la UE en el país.
+                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
+                        <b>Documento de Identidad del Ciudadano de la UE:</b> <br> Presentar copia del DNI o NIE del ciudadano de la Unión Europea.
                     </div>
                     <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-5.svg') }}" alt="Badge">
-                        Traducción oficial o apostilla de documentos extranjeros, en caso necesario. 
+                        <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
+                        <b>Medios Económicos:</b> <br> Demostrar que el ciudadano de la UE cuenta con recursos económicos suficientes para la manutención familiar en España.
                     </div>
                 </div>
             </div>

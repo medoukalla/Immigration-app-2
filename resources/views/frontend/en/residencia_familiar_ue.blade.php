@@ -87,31 +87,27 @@
     <div class="section documents-section">
         <div class="base-container w-container">
             <div class="heading">
-                <h2>Requisitos Requeridos</h2>
+                <h2>Required Requirements</h2>
             </div>
             <div class="doc-wrapper w-layout-grid">
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        Pasaporte vigente del solicitante.
+                        <b>Valid Passport:</b> <br> Submit a complete and valid passport with all pages visible.
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        Documento de identidad del ciudadano de la UE.
-                    </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        Documentación que acredite la relación familiar (certificados de matrimonio, nacimiento, etc.). 
+                        <b>Proof of Family Relationship:</b> <br> Provide documentation proving the relationship with the EU citizen, such as a Pareja de hecho, or birth certificate.
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        Prueba de residencia y situación del ciudadano de la UE en el país.
+                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
+                        <b>EU Citizen’s Identification Document:</b> <br> Present a copy of the EU citizen’s ID or NIE.
                     </div>
                     <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-5.svg') }}" alt="Badge">
-                        Traducción oficial o apostilla de documentos extranjeros, en caso necesario. 
+                        <img src="{{ asset('assets/images   /svg/badge-4.svg') }}" alt="Badge">
+                        <b>Financial Means:</b> <br> Demonstrate that the EU citizen has sufficient financial resources to support the family in Spain.
                     </div>
                 </div>
             </div>

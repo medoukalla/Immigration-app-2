@@ -89,32 +89,28 @@
     <div class="section documents-section">
         <div class="base-container w-container">
             <div class="heading">
-                <h2>Requisitos Requeridos</h2>
+                <h2>Required Requirements</h2>
             </div>
             <div class="doc-wrapper w-layout-grid">
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        NIE actual.
+                        <b>Valid Passport:</b> <br> Submit a complete and valid passport with all pages visible.
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        Pasaporte válido o documento de identidad. 
-                    </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        Justificación de medios económicos para su estancia. 
-                    </div>
+                        <b>Current Residence Card:</b> <br> Provide a copy of the current residence card (NIE) you wish to renew.
+                        </div>
+                    
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
-                    
                     <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        Certificado de empadronamiento. 
+                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
+                        <b>Fee Payment:</b> <br> Provide proof of payment for the corresponding application fee.
                     </div>
                     <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-5.svg') }}" alt="Badge">
-                        Documentación que acredite su situación laboral, académica, o familiar, según aplique. 
+                        <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
+                        <b>Other Documents:</b> <br> Additional documents may be required depending on the type of residence, such as for the renewal of  (arraigo familiar) or student residence card\
                     </div>
                 </div>
             </div>

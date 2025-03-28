@@ -84,35 +84,28 @@
     <div class="section documents-section">
         <div class="base-container w-container">
             <div class="heading">
-                <h2>Requisitos Requeridos</h2>
+                <h2> Documentos Requeridos</h2>
             </div>
             <div class="doc-wrapper w-layout-grid">
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        Un proyecto empresarial innovador que incluya inversión inicial y potencial de creación de empleo
+                        <b>Pasaporte Vigente:</b> <br> Presentar un pasaporte completo y válido, con todas las páginas visibles.
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        Plan de negocio detallado. 
+                        <b>Plan de Negocio:</b> <br> Aportar un plan de negocio detallado que demuestre la viabilidad y el impacto del proyecto emprendedor en la economía española.
                     </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        Justificación de medios económicos suficientes.
-                    </div>
+                    
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
+                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
+                        <b>Prueba de Medios Económicos:</b> <br> Demostrar la posesión de fondos suficientes para iniciar y mantener la actividad empresarial, así como para cubrir sus gastos personales.
+                    </div>
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        Seguro médico. 
-                    </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-5.svg') }}" alt="Badge">
-                        Certificado de antecedentes penales.
-                    </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-6.svg') }}" alt="Badge">
-                        Pasaporte vigente
+                        <b>Otros Documentos:</b> <br> Dependiendo del tipo de actividad, pueden ser necesarios otros documentos, como licencias específicas o acreditaciones profesionales.
                     </div>
                 </div>
             </div>

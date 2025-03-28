@@ -90,22 +90,22 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        Pasaporte vigente. 
+                        <b>Pasaporte Vigente:</b> <br> Presentar un pasaporte completo y válido, con todas las páginas visibles.
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        Certificado de empadronamiento que acredite dos años de residencia en España.
+                        <b>Prueba de Permanencia en España:</b> <br> Acreditar una estancia continuada en España de al menos dos años.
                     </div>
                     
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        Certificado de antecedentes penales.
+                        <b>Certificado de Antecedentes Penales:</b> <br> Presentar un certificado de antecedentes penales del país de origen y de cualquier país donde haya residido en los últimos cinco años.
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        Matrícula en un programa de formación profesional aprobado.
+                        <b>Compromiso de Formación:</b> <br> Presentar un compromiso de matriculación en un curso de formación reconocido.
                     </div>
                 </div>
             </div>

@@ -96,35 +96,27 @@
     <div class="section documents-section">
         <div class="base-container w-container">
             <div class="heading">
-                <h2>Required Documents</h2>
+                <h2>Required Requirements</h2>
             </div>
             <div class="doc-wrapper w-layout-grid">
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        Be a father or mother of a minor with Spanish nationality or a child of a parent originally from Spain.
+                        <b>Valid Passport:</b> <br> Submit a complete and valid passport with all pages visible.
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        Valid passport.
-                    </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        Birth certificate of the minor or the applicant.
+                        <b>Criminal Record Certificate:</b> <br> Provide a criminal record certificate from your country of origin and from any country where you have resided in the last five years.
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
+                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
+                        <b>Proof of Family Ties:</b> <br> Submit documentation that proves the family relationship with a Spanish citizen (birth certificate, marriage certificate, or registered domestic partnership).
+                    </div>
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        Certificate of registration (empadronamiento).
-                    </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-5.svg') }}" alt="Badge">
-                        Criminal record certificate.
-                    </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-6.svg') }}" alt="Badge">
-                        Documentation proving the family relationship.
+                        <b>Payment of the Corresponding Fee:</b> <br> Provide proof of payment for the application fee for the family root residence.
                     </div>
                 </div>
             </div>

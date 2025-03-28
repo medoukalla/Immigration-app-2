@@ -86,23 +86,27 @@
     <div class="section documents-section">
         <div class="base-container w-container">
             <div class="heading">
-                <h2>Requisitos Requeridos</h2>
+                <h2>Required Requirements</h2>
             </div>
             <div class="doc-wrapper w-layout-grid">
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        Ser residente legal en España
+                        <b>Valid Passport:</b> <br> Submit a complete and valid passport with all pages visible.
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        Contar con medios económicos suficientes para mantener a los familiares reagrupados. 
+                        <b>Proof of Family Relationship:</b> <br> Provide documentation proving the relationship with the sponsor, such as a marriage certificate, birth certificate, or family record book.
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        Identificar a los familiares que se desea reagrupar (cónyuges, parejas de hecho, hijos menores, ascendientes).
+                        <b>Financial Means:</b> <br> Demonstrate that the sponsor has sufficient financial resources to support the reunited family members in Spain.
+                    </div>
+                    <div class="doc-block top">
+                        <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
+                        <b>Adequate Housing:</b> <br> Provide a report confirming the availability of suitable housing for the family.
                     </div>
                 </div>
             </div>

@@ -87,37 +87,29 @@
     <div class="section documents-section">
         <div class="base-container w-container">
             <div class="heading">
-                <h2>Mandatory Requirements
+                <h2>Required Requirements
                 </h2>
             </div>
             <div class="doc-wrapper w-layout-grid">
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        Provide evidence of remote work for a foreign company or as a self-employed professional with international clients.
-                    </div>
+                        <b>Proof of Employment or Business Activity:</b> <br> Provide a work contract or proof of freelance/business activity with companies outside Spain, ensuring that at least 80% of your income comes from non-Spanish sources.
+                        </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        Demonstrate monthly income above the established threshold (approximately €2,000–€2,500) through bank statements or contracts.
-                    </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        Submit a criminal record certificate from your country of residence or origin, translated if required.
+                        <b>Valid Passport:</b> <br> Submit a complete, valid passport, ensuring all pages are visible.
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     
                     <div class="doc-block top">
+                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
+                        <b>Criminal Record Certificate:</b> <br> Present a criminal record certificate from your country of origin and from any countries where you have resided in the last five years.
+                    </div>
+                    <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        Show proof of accommodation in Spain, such as a rental agreement.
-                    </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-5.svg') }}" alt="Badge">
-                        Provide additional documents, including professional references, evidence of professional activity, or tax declarations.
-                    </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-6.svg') }}" alt="Badge">
-                        Secure comprehensive health insurance with full coverage in Spain for the entire period of stay.
+                        <b>Financial Means:</b> <br> Submit evidence of sufficient financial resources, ensuring a monthly income of at least €2,800.
                     </div>
                 </div>
             </div>

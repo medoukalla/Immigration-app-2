@@ -89,25 +89,21 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        Haber residido en España de forma continuada durante al menos cinco años.
-                    </div>
+                        <b>Pasaporte Vigente:</b> <br> Presentar un pasaporte completo y válido, con todas las páginas visibles.
+                        </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        No tener antecedentes penales en España ni en otros países de residencia previa.
-                    </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        Disponer de medios económicos para sostenerse en el país.
-                    </div>
+                        <b>Prueba de Estancia Continuada:</b> <br> Acreditar la residencia legal y continuada en España durante al menos cinco años mediante documentos como el informe de vida laboral o sellos de entrada y salida del país, Empadronamiento.
+                        </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        Documentación que acredite seguro médico, en su caso.
-                    </div>
+                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
+                        <b>Pago de la Tasa Correspondiente:</b> <br> Acreditar el pago de la tasa para la solicitud de la residencia de larga duración.
+                        </div>
                     <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-5.svg') }}" alt="Badge">
-                        No encontrarse de forma irregular en el país en el momento de la solicitud.
+                        <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
+                        <b>Certificado de Empadronamiento:</b> <br> Presentar un certificado de empadronamiento actualizado, demostrando su residencia  continua en España.
                     </div>
                 </div>
             </div>

@@ -90,27 +90,28 @@
     <div class="section documents-section">
         <div class="base-container w-container">
             <div class="heading">
-                <h2>Requisitos Requeridos</h2>
+                <h2>Required Requirements </h2>
             </div>
             <div class="doc-wrapper w-layout-grid">
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Permanencia mínima de dos años</b> en España.
+                        <b>Valid Passport:</b> <br> Submit a complete and valid passport with all pages visible.
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Demostración de una relación laboral</b> de al menos seis meses
+                        <b>Proof of Stay in Spain:</b> <br> Demonstrate continuous stay in Spain for at least two years.
                     </div>
                     
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        Documentación que acredite la permanencia y la relación laboral, incluyendo: <br>
-                        <b>Pasaporte</b><br>
-                        <b>Certificados de empadronamiento.</b><br>
-                        <b>Contratos de trabajo, nóminas o resolución judicial favorable (si es necesario).</b>
+                        <b>Criminal Record Certificate:</b> <br> Provide a criminal record certificate from your country of origin and from any country where you have resided in the last five years.
+                    </div>
+                    <div class="doc-block top">
+                        <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
+                        <b>Payment of the Corresponding Fee:</b> <br> Provide proof of payment for the application fee for the labor root residence.
                     </div>
                 </div>
             </div>

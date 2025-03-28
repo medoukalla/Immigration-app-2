@@ -95,26 +95,22 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        NIE actual.
+                        <b>Pasaporte Vigente:</b> <br> Presentar un pasaporte completo y válido, con todas las páginas visibles.
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        Pasaporte válido o documento de identidad. 
+                        <b>Tarjeta de Residencia Actual:</b> <br> Aportar una copia de la tarjeta de residencia actual (NIE) que desea renovar.
                     </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        Justificación de medios económicos para su estancia. 
-                    </div>
+                    
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
-                    
                     <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        Certificado de empadronamiento. 
+                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
+                        <b>Pago de la Tasa:</b> <br> Aportar el comprobante de pago de la tasa correspondiente al trámite.
                     </div>
                     <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-5.svg') }}" alt="Badge">
-                        Documentación que acredite su situación laboral, académica, o familiar, según aplique. 
+                        <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
+                        <b>Otros Documentos:</b> <br> Se requerirán documentos adicionales dependiendo del tipo de residencia, como en los casos de renovación de arraigo familiar o estancia por estudios.
                     </div>
                 </div>
             </div>

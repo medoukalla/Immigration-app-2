@@ -88,32 +88,27 @@
     <div class="section documents-section">
         <div class="base-container w-container">
             <div class="heading">
-                <h2>Requisitos Requeridos</h2>
+                <h2>Required Requirements</h2>
             </div>
             <div class="doc-wrapper w-layout-grid">
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        Pasaporte vigente.
+                        <b>Valid Passport:</b> <br> Submit a complete and valid passport with all pages visible.
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        Comprobantes financieros que demuestren ingresos suficientes.   
-                    </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        Certificado de antecedentes penales
+                        <b>Health Insurance:</b> <br> Provide proof of private health insurance coverage with a company authorized to operate in Spain.
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        Seguro médico privado válido en España.
+                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
+                        <b>Criminal Record Certificate:</b> <br> Submit a criminal record certificate from your country of origin and any country where you have resided in the last five years.
                     </div>
                     <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-5.svg') }}" alt="Badge">
-                        Informe médico que acredite la buena salud del solicitante
-                    </div>
+                        <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
+                        <b>Proof of Financial Means:</b> <br> Demonstrate possession of sufficient funds to support yourself during the residence period, with a minimum of €2,500 per month in your own account                    </div   >
                 </div>
             </div>
         </div>

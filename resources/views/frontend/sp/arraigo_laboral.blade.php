@@ -97,21 +97,21 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Permanencia mínima de dos años</b> en España.
+                        <b>Pasaporte Vigente:</b> <br> Presentar un pasaporte completo y válido, con todas las páginas visibles.
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Demostración de una relación laboral</b> de al menos seis meses
+                        <b>Prueba de Permanencia en España:</b> <br> Acreditar una estancia continuada en España de al menos dos años.
                     </div>
-                    
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        Documentación que acredite la permanencia y la relación laboral, incluyendo: <br>
-                        <b>Pasaporte</b><br>
-                        <b>Certificados de empadronamiento.</b><br>
-                        <b>Contratos de trabajo, nóminas o resolución judicial favorable (si es necesario).</b>
+                        <b>Certificado de Antecedentes Penales:</b> <br> Presentar un certificado de antecedentes penales del país de origen y de cualquier país donde haya residido en los últimos cinco años.
+                    </div>
+                    <div class="doc-block top">
+                        <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
+                        <b>Pago de la Tasa Correspondiente:</b> <br> Acreditar el pago de la tasa para la solicitud del arraigo laboral.
                     </div>
                 </div>
             </div>

@@ -87,36 +87,28 @@
     <div class="section documents-section">
         <div class="base-container w-container">
             <div class="heading">
-                <h2>Requisitos Requeridos</h2>
+                <h2>Required Requirements</h2>
             </div>
             <div class="doc-wrapper w-layout-grid">
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Permanencia mínima</b> 
-                        <br>
-                        <p>
-                            Al menos tres años de residencia en España. 
-                        </p>
+                        <b>Valid Passport:</b> <br> Submit a complete and valid passport with all pages visible.
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Vínculos</b>
-                        <br>
-                        <p>
-                            Tener vínculos familiares, laborales o sociales en el país
-                        </p>
+                        <b>Criminal Record Certificate:</b> <br> Provide a criminal record certificate from your country of origin and from any country where you have resided in the last five years.
                     </div>
                     
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Contrato de trabajo</b>
-                        <br>
-                        <p>
-                            Presentar un contrato de trabajo válido (si aplica). 
-                        </p>
+                        <b>Proof of Stay in Spain:</b> <br> Demonstrate continuous residence in Spain for at least three years.
+                    </div>
+                    <div class="doc-block top">
+                        <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
+                        <b>Payment of the Corresponding Fee:</b> <br> Provide proof of payment for the application fee for the social root residence.
                     </div>
                 </div>
             </div>

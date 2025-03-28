@@ -87,32 +87,27 @@
     <div class="section documents-section">
         <div class="base-container w-container">
             <div class="heading">
-                <h2>Requisitos Requeridos</h2>
+                <h2>Required Requirements</h2>
             </div>
             <div class="doc-wrapper w-layout-grid">
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        Haber residido en España de forma continuada durante al menos cinco años.
+                        <b>Valid Passport:</b> <br> Submit a complete and valid passport with all pages visible.
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        No tener antecedentes penales en España ni en otros países de residencia previa.
-                    </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        Disponer de medios económicos para sostenerse en el país.
+                        <b>Certificate of Registration (Empadronamiento):</b> <br> Present an updated certificate of registration proving continuous residence in Spain.
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        Documentación que acredite seguro médico, en su caso.
+                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
+                        <b>Proof of Continuous Stay:</b> <br> Provide evidence of legal and continuous residence in Spain for at least five years through documents such as the employment history report (vida laboral) or entry and exit stamps,Empadronamiento .
                     </div>
                     <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-5.svg') }}" alt="Badge">
-                        No encontrarse de forma irregular en el país en el momento de la solicitud.
-                    </div>
+                        <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
+                        <b>Payment of the Corresponding Fee:</b> <br> Provide proof of payment for the long-term residence application fee.                    </div>
                 </div>
             </div>
         </div>

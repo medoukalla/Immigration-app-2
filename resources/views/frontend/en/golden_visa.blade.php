@@ -87,33 +87,27 @@
     <div class="section documents-section">
         <div class="base-container w-container">
             <div class="heading">
-                <h2>Requisitos Requeridos</h2>
+                <h2>Required Requirements</h2>
             </div>
             <div class="doc-wrapper w-layout-grid">
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <p>
-                            Realizar una inversión mínima en uno de los siguientes ámbitos: <br>
-                            Propiedades en España con un valor mínimo de 500,000 euros.  <br>
-                            Inversiones en empresas o acciones por un mínimo de 1 millón de euros <br>
-                            Depósitos bancarios en una entidad española por al menos 1 millón de euros.
-                        </p>
+                        <b>Proof of Investment:</b> <br> Provide official documentation proving the required investment, such as property purchase deeds (minimum €500,000), bank certificates, or company registration papers.
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        Pasaporte vigente del solicitante y familiares (si aplica). 
-                    </div>
+                        <b>Valid Passport:</b> <br> Submit a complete, valid passport, ensuring all pages are visible.
+                        </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        Certificados de antecedentes penales y médicos. 
-                    </div>
+                        <b>Criminal Record Certificate:</b> <br> Present a criminal record certificate from your country of origin and from any countries where you have resided in the last five years.
+                        </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        Comprobación de capacidad financiera para mantener la inversión. 
-                    </div>
+                        <b>Financial Means:</b> <br> Submit evidence of sufficient financial resources to support yourself and any dependents during your stay in Spain.                    </div>
                 </div>
             </div>
         </div>
