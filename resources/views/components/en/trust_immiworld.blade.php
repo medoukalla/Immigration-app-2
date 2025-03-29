@@ -16,7 +16,7 @@
                 <p>Your next success story starts with us.</p>
             </div>
             <div class="arraigo-img-box">
-                <img src="{{ asset('assets/images/arraigro-famil-new.jpg') }}" alt="Arraigo family picture">
+                <img src="{{ asset('assets/images/arraigro-famil-new-en.jpg') }}" alt="Arraigo family picture">
             </div>
         </div>
     </div>
