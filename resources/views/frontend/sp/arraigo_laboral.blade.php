@@ -122,7 +122,7 @@
         </div>
     </div>
 
-    <x-en.call_to_action />
+    <x-sp.call_to_action />
     <!-- Necessary documents -->
     <!-- Necessary documents -->
     <div class="section documents-section without-bottom-spacing">
@@ -162,10 +162,10 @@
 
 
     <!-- Feedback -->
-    <x-en.testimonials :testimonials="$testimonials" />
+    <x-sp.testimonials :testimonials="$testimonials" />
 
     <!-- Solutions -->
-    <x-en.solutions />
+    <x-sp.solutions />
 
-<x-en.footer />
+<x-sp.footer />
 
