@@ -120,7 +120,7 @@
     <x-sp.call_to_action />
 
     <!-- Necessary documents -->
-    <x-sp.necessary-documents />
+    <x-sp.necessary-documents service="Renovación de la tarjeta de residencia (NIE)" />
 
 
     <!-- Feedback -->
