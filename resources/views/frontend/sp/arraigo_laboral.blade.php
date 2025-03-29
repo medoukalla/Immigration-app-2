@@ -124,11 +124,10 @@
 
     <x-sp.call_to_action />
     <!-- Necessary documents -->
-    <!-- Necessary documents -->
     <div class="section documents-section without-bottom-spacing">
         <div class="base-container w-container">
             <div class="heading">
-                <h2>Procedimiento para la residencia no lucrativa</h2>
+                <h2>Procedimiento para Arraigo Laboral</h2>
             </div>
             <div class="doc-wrapper w-layout-grid">
                 <div class="doc-block-wrapper doc-block-left">
