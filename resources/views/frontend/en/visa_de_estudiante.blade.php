@@ -93,21 +93,24 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Acceptance Letter from the Educational Institution:</b> <br> You must provide an official letter from the educational institution in Spain where you have been accepted, with detailed information about the course or academic program and its duration.                    
+                        <b>Acceptance Letter from the Educational Institution:</b> <br> You must provide an official letter from the educational institution in Spain where you have been accepted, with detailed information about the course or academic program and its duration.
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Personal Identification Documents:</b> <br> You must present a valid passport with a minimum validity of 6 months from the date of application.
+                        <b>Personal Identification Documents:</b> <br> <p> You must present a valid passport with a minimum validity of 6 months from the date of application.
+                            </p>
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Proof of Financial Means:</b> <br> You must prove that you have sufficient financial resources to cover your expenses during your stay in Spain, through bank statements, scholarships, or proof of financial support.   
+                        <b>Proof of Financial Means:</b> <br> <p> You must prove that you have sufficient financial resources to cover your expenses during your stay in Spain, through bank statements, scholarships, or proof of financial support.
+                            </p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Criminal Record Certificate:</b> <br> You must submit a criminal record certificate from your country of origin, if you are over 18 years old.                    
+                        <b>Criminal Record Certificate:</b> <br> <p> You must submit a criminal record certificate from your country of origin, if you are over 18 years old.
+                            </p>
                     </div>
                 </div>
             </div>

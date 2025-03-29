@@ -90,22 +90,26 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Valid Passport:</b> <br> Submit a complete and valid passport with all pages visible.
+                        <b>Valid Passport:</b> <br> <p> Submit a complete and valid passport with all pages visible.
+                            </p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Business Plan:</b></br> Provide a detailed business plan demonstrating the project’s viability and its impact on the Spanish economy.
+                        <b>Business Plan:</b></br> <p> Provide a detailed business plan demonstrating the project’s viability and its impact on the Spanish economy.
+                            </p>
                     </div>
                     
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Proof of Financial Means:</b><br> Show evidence of sufficient funds to start and sustain the business activity, as well as to cover personal expenses.
+                        <b>Proof of Financial Means:</b><br> <p> Show evidence of sufficient funds to start and sustain the business activity, as well as to cover personal expenses.
+                            </p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Other Documents:</b><br> Depending on the type of activity, additional documents may be required, such as specific licenses or professional accreditations.
+                        <b>Other Documents:</b><br> <p> Depending on the type of activity, additional documents may be required, such as specific licenses or professional accreditations.
+                            </p>
                     </div>
                 </div>
             </div>

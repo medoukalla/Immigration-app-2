@@ -91,21 +91,21 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Pasaporte Vigente:</b> <br> Presentar un pasaporte completo y válido, con todas las páginas visibles.
+                        <b>Pasaporte Vigente:</b> <br> <p> Presentar un pasaporte completo y válido, con todas las páginas visibles.</p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Seguro Médico:</b> <br> Aportar prueba de cobertura de seguro médico privado con una compañía autorizada en España.
+                        <b>Seguro Médico:</b> <br> <p> Aportar prueba de cobertura de seguro médico privado con una compañía autorizada en España.</p>
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Certificado de Antecedentes Penales:</b> <br> Presentar un certificado de antecedentes penales del país de origen y de cualquier país donde haya residido en los últimos cinco años.
+                        <b>Certificado de Antecedentes Penales:</b> <br> <p> Presentar un certificado de antecedentes penales del país de origen y de cualquier país donde haya residido en los últimos cinco años.</p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Prueba de Medios Económicos:</b> <br> Demostrar la posesión de fondos suficientes para mantenerse durante el período de residencia, con un mínimo de 2.500 € men suales en cuenta propia.
+                        <b>Prueba de Medios Económicos:</b> <br> <p> Demostrar la posesión de fondos suficientes para mantenerse durante el período de residencia, con un mínimo de 2.500 € men suales en cuenta propia.</p>
                     </div>
                 </div>
             </div>

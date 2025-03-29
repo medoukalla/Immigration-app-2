@@ -93,22 +93,26 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Valid Passport:</b> <br> Submit a complete and valid passport with all pages visible.
+                        <b>Valid Passport:</b> <br> <p> Submit a complete and valid passport with all pages visible.
+                            </p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Proof of Stay in Spain:</b> <br> Demonstrate continuous stay in Spain for at least two years.
+                        <b>Proof of Stay in Spain:</b> <br> <p> Demonstrate continuous stay in Spain for at least two years.
+                            </p>
                     </div>
                     
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Criminal Record Certificate:</b> <br> Provide a criminal record certificate from your country of origin and from any country where you have resided in the last five years.
+                        <b>Criminal Record Certificate:</b> <br> <p>     Provide a criminal record certificate from your country of origin and from any country where you have resided in the last five years.
+                            </p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Commitment to Training:</b> <br> Submit proof of enrollment or a commitment letter for a recognized training course.
+                        <b>Commitment to Training:</b> <br> <p> Submit proof of enrollment or a commitment letter for a recognized training course.
+                            </p>
                     </div>
                 </div>
             </div>

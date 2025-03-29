@@ -93,21 +93,25 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Valid Passport:</b> <br> Submit a complete and valid passport with all pages visible.
+                        <b>Valid Passport:</b> <br> <p> Submit a complete and valid passport with all pages visible.
+                            </p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Proof of Family Relationship:</b> <br> Provide documentation proving the relationship with the EU citizen, such as a Pareja de hecho, or birth certificate.
+                        <b>Proof of Family Relationship:</b> <br> <p> Provide documentation proving the relationship with the EU citizen, such as a Pareja de hecho, or birth certificate.
+                            </p>
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>EU Citizen’s Identification Document:</b> <br> Present a copy of the EU citizen’s ID or NIE.
+                        <b>EU Citizen’s Identification Document:</b> <br> <p> Present a copy of the EU citizen’s ID or NIE.
+                            </p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images   /svg/badge-4.svg') }}" alt="Badge">
-                        <b>Financial Means:</b> <br> Demonstrate that the EU citizen has sufficient financial resources to support the family in Spain.
+                        <b>Financial Means:</b> <br> <p> Demonstrate that the EU citizen has sufficient financial resources to support the family in Spain.
+                            </p>
                     </div>
                 </div>
             </div>

@@ -94,21 +94,25 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Valid Passport:</b> <br> Submit a complete and valid passport with all pages visible.
+                        <b>Valid Passport:</b> <br> <p> Submit a complete and valid passport with all pages visible.
+                            </p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Health Insurance:</b> <br> Provide proof of private health insurance coverage with a company authorized to operate in Spain.
+                        <b>Health Insurance:</b> <br> <p> Provide proof of private health insurance coverage with a company authorized to operate in Spain.
+                            </p>
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Criminal Record Certificate:</b> <br> Submit a criminal record certificate from your country of origin and any country where you have resided in the last five years.
+                        <b>Criminal Record Certificate:</b> <br> <p> Submit a criminal record certificate from your country of origin and any country where you have resided in the last five years.
+                            </p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Proof of Financial Means:</b> <br> Demonstrate possession of sufficient funds to support yourself during the residence period, with a minimum of €2,500 per month in your own account                    </div   >
+                        <b>Proof of Financial Means:</b> <br> <p> Demonstrate possession of sufficient funds to support yourself during the residence period, with a minimum of €2,500 per month in your own account                    </p>
+                    </div   >
                 </div>
             </div>
         </div>

@@ -92,21 +92,25 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Valid Passport:</b> <br> Submit a complete and valid passport with all pages visible.
+                        <b>Valid Passport:</b> <br> <p> Submit a complete and valid passport with all pages visible.
+                            </p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Proof of Family Relationship:</b> <br> Provide documentation proving the relationship with the sponsor, such as a marriage certificate, birth certificate, or family record book.
+                        <b>Proof of Family Relationship:</b> <br> <p> Provide documentation proving the relationship with the sponsor, such as a marriage certificate, birth certificate, or family record book.
+                            </p>
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Financial Means:</b> <br> Demonstrate that the sponsor has sufficient financial resources to support the reunited family members in Spain.
+                        <b>Financial Means:</b> <br> <p> Demonstrate that the sponsor has sufficient financial resources to support the reunited family members in Spain.
+                            </p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Adequate Housing:</b> <br> Provide a report confirming the availability of suitable housing for the family.
+                        <b>Adequate Housing:</b> <br> <p> Provide a report confirming the availability of suitable housing for the family.
+                            </p>
                     </div>
                 </div>
             </div>

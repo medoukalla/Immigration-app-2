@@ -92,30 +92,35 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Continuous Residence in Spain:</b> <br> You must have continuously resided in Spain for at least 10 years, or 2 years if you are an Ibero-American citizen, and 1 year if you are married to a Spanish citizen.
-
+                        <b>Continuous Residence in Spain:</b> <br> <p> You must have continuously resided in Spain for at least 10 years, or 2 years if you are an Ibero-American citizen, and 1 year if you are married to a Spanish citizen.
+                            </p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Personal Identification Documents:</b> <br> You must present a valid, complete passport with all pages visible. You must also provide a valid NIE (Foreigner’s Identification Number).
+                        <b>Personal Identification Documents:</b> <br> <p> You must present a valid, complete passport with all pages visible. You must also provide a valid NIE (Foreigner’s Identification Number).
+                            </p>
                         </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Birth Certificate:</b> <br> You must provide an original birth certificate, duly apostilled or legalized, as applicable.
+                        <b>Birth Certificate:</b> <br> <p> You must provide an original birth certificate, duly apostilled or legalized, as applicable.
+                            </p>
                         </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Criminal Record Certificate:</b> <br> You must submit a criminal record certificate from your country of origin and from Spain if you reside here.
-                        </div>
+                        <b>Criminal Record Certificate:</b> <br> <p> You must submit a criminal record certificate from your country of origin and from Spain if you reside here.
+                            </p>
+                    </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-5.svg') }}" alt="Badge">
-                        <b>Proof of Knowledge of the Spanish Language:</b> <br> You must demonstrate sufficient knowledge of the Spanish language through an official DELE exam or an equivalent document.
+                        <b>Proof of Knowledge of the Spanish Language:</b> <br> <p> You must demonstrate sufficient knowledge of the Spanish language through an official DELE exam or an equivalent document.
+                            </p>
                         </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-6.svg') }}" alt="Badge">
-                        <b>Other Specific Documents:</b> <br> Depending on your personal situation, other documents may be required, such as a certificate of registration (empadronamiento) or a marriage certificate if you are married to a Spanish citizen.
+                        <b>Other Specific Documents:</b> <br>  <p> Depending on your personal situation, other documents may be required, such as a certificate of registration (empadronamiento) or a marriage certificate if you are married to a Spanish citizen.
+                            </p>
                     </div>
                 </div>
             </div>

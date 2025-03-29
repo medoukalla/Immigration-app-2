@@ -89,22 +89,26 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Pasaporte Vigente:</b> <br> Presentar un pasaporte completo y válido, con todas las páginas visibles.
+                        <b>Pasaporte Vigente:</b> <br> <p> Presentar un pasaporte completo y válido, con todas las páginas visibles.
+                            </p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Certificado de Antecedentes Penales:</b> <br> Presentar un certificado de antecedentes penales del país de origen y de cualquier país donde haya residido en los últimos cinco años.
+                        <b>Certificado de Antecedentes Penales:</b> <br> <p> Presentar un certificado de antecedentes penales del país de origen y de cualquier país donde haya residido en los últimos cinco años.
+                            </p>
                     </div>
                     
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Prueba de Permanencia en España:</b> <br> Acreditar una residencia continuada en España de al menos tres años.
+                        <b>Prueba de Permanencia en España:</b> <br> <p> Acreditar una residencia continuada en España de al menos tres años.
+                            </p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Pago de la Tasa Correspondiente:</b> <br> Acreditar el pago de la tasa para la solicitud del arraigo social.
+                        <b>Pago de la Tasa Correspondiente:</b> <br> <p> Acreditar el pago de la tasa para la solicitud del arraigo social.
+                            </p>
                     </div>
                 </div>
             </div>

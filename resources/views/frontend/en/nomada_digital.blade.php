@@ -94,22 +94,26 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Proof of Employment or Business Activity:</b> <br> Provide a work contract or proof of freelance/business activity with companies outside Spain, ensuring that at least 80% of your income comes from non-Spanish sources.
-                        </div>
+                        <b>Proof of Employment or Business Activity:</b> <br> <p> Provide a work contract or proof of freelance/business activity with companies outside Spain, ensuring that at least 80% of your income comes from non-Spanish sources.
+                            </p>
+                    </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Valid Passport:</b> <br> Submit a complete, valid passport, ensuring all pages are visible.
+                        <b>Valid Passport:</b> <br> <p> Submit a complete, valid passport, ensuring all pages are visible.
+                            </p>
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Criminal Record Certificate:</b> <br> Present a criminal record certificate from your country of origin and from any countries where you have resided in the last five years.
+                        <b>Criminal Record Certificate:</b> <br>    <p> Present a criminal record certificate from your country of origin and from any countries where you have resided in the last five years.
+                            </p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Financial Means:</b> <br> Submit evidence of sufficient financial resources, ensuring a monthly income of at least €2,800.
+                        <b>Financial Means:</b> <br> <p> Submit evidence of sufficient financial resources, ensuring a monthly income of at least €2,800.
+                            </p>
                     </div>
                 </div>
             </div>

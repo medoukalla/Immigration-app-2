@@ -89,30 +89,30 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Residir en España de Forma Continua:</b> <br> Debe haber residido en España de forma continua durante al menos 10 años, o 2 años si es ciudadano iberoamericano, y 1 año si está casado con un ciudadano español
+                        <b>Residir en España de Forma Continua:</b> <br> <p> Debe haber residido en España de forma continua durante al menos 10 años, o 2 años si es ciudadano iberoamericano, y 1 año si está casado con un ciudadano español.</p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Documentos de Identificación Personal:</b> <br> Debe presentar su pasaporte en vigor completo, con todas las hojas visibles. También debe entregar el NIE en vigor.
+                        <b>Documentos de Identificación Personal:</b> <br> <p> Debe presentar su pasaporte en vigor completo, con todas las hojas visibles. También debe entregar el NIE en vigor.</p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Certificado de Nacimiento:</b> <br> Es necesario presentar un certificado de nacimiento original, debidamente apostillado o legalizado, según corresponda.
+                        <b>Certificado de Nacimiento:</b> <br> <p> Es necesario presentar un certificado de nacimiento original, debidamente apostillado o legalizado, según corresponda.</p>
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Certificado de Antecedentes Penales:</b> <br> Debe presentar un certificado de antecedentes penales de su país de origen y de España, si reside aquí.
+                        <b>Certificado de Antecedentes Penales:</b> <br> <p> Debe presentar un certificado de antecedentes penales de su país de origen y de España, si reside aquí.</p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-5.svg') }}" alt="Badge">
-                        <b>Prueba de Conocimiento de la Lengua Española:</b> <br> Se requiere demostrar un nivel suficiente de conocimiento del idioma español mediante un examen oficial DELE o un documento equivalente.
-                        </div>
+                        <b>Prueba de Conocimiento de la Lengua Española:</b> <br> <p> Se requiere demostrar un nivel suficiente de conocimiento del idioma español mediante un examen oficial DELE o un documento equivalente.</p>
+                    </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-6.svg') }}" alt="Badge">
-                        <b>Otros Documentos Específicos:</b> <br> Dependiendo de su situación personal, pueden ser necesarios otros documentos, como el certificado de empadronamiento o el acta de matrimonio en caso de estar casado con un ciudadano español.
-                        </div>
+                        <b>Otros Documentos Específicos:</b> <br> <p> Dependiendo de su situación personal, pueden ser necesarios otros documentos, como el certificado de empadronamiento o el acta de matrimonio en caso de estar casado con un ciudadano español.</p>
+                    </div>
                 </div>
             </div>
         </div>

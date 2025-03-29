@@ -93,19 +93,22 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Carta de Aceptación del Centro Educativo:</b> <br> Debe presentar una carta oficial del centro educativo en España donde ha sido aceptado, con información detallada sobre el curso o programa académico y la duración.                    </div>
+                        <b>Carta de Aceptación del Centro Educativo:</b> <br> <p> Debe presentar una carta oficial del centro educativo en España donde ha sido aceptado, con información detallada sobre el curso o programa académico y la duración.</p>
+                    </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Documentos de Identificación Personal:</b> <br> Debe presentar su pasaporte en vigor, con una validez mínima de 6 meses a partir de la fecha de solicitud.
+                        <b>Documentos de Identificación Personal:</b> <br> <p> Debe presentar su pasaporte en vigor, con una validez mínima de 6 meses a partir de la fecha de solicitud.</p>
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Prueba de Solvencia Económica:</b> <br> Debe demostrar que dispone de los medios económicos suficientes para cubrir sus gastos durante su estancia en España, mediante estados de cuenta bancarios, becas o pruebas de apoyo económico.                    </div>
+                        <b>Prueba de Solvencia Económica:</b> <br> <p> Debe demostrar que dispone de los medios económicos suficientes para cubrir sus gastos durante su estancia en España, mediante estados de cuenta bancarios, becas o pruebas de apoyo económico.</p>
+                    </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Certificado de No Tener Antecedentes Penales:</b> <br> Debe presentar un certificado de antecedentes penales de su país de origen,    si es mayor de 18 años.                    </div>
+                        <b>Certificado de No Tener Antecedentes Penales:</b> <br> <p> Debe presentar un certificado de antecedentes penales de su país de origen,    si es mayor de 18 años.</p>
+                    </div>
                 </div>
             </div>
         </div>

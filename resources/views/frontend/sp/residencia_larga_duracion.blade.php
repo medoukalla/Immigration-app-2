@@ -89,21 +89,21 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Pasaporte Vigente:</b> <br> Presentar un pasaporte completo y válido, con todas las páginas visibles.
-                        </div>
+                        <b>Pasaporte Vigente:</b> <br> <p> Presentar un pasaporte completo y válido, con todas las páginas visibles.</p>
+                    </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Prueba de Estancia Continuada:</b> <br> Acreditar la residencia legal y continuada en España durante al menos cinco años mediante documentos como el informe de vida laboral o sellos de entrada y salida del país, Empadronamiento.
-                        </div>
+                        <b>Prueba de Estancia Continuada:</b> <br> <p> Acreditar la residencia legal y continuada en España durante al menos cinco años mediante documentos como el informe de vida laboral o sellos de entrada y salida del país, Empadronamiento.</p>
+                    </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Pago de la Tasa Correspondiente:</b> <br> Acreditar el pago de la tasa para la solicitud de la residencia de larga duración.
-                        </div>
+                        <b>Pago de la Tasa Correspondiente:</b> <br> <p> Acreditar el pago de la tasa para la solicitud de la residencia de larga duración.</p>
+                    </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Certificado de Empadronamiento:</b> <br> Presentar un certificado de empadronamiento actualizado, demostrando su residencia  continua en España.
+                        <b>Certificado de Empadronamiento:</b> <br> <p> Presentar un certificado de empadronamiento actualizado, demostrando su residencia  continua en España.</p>
                     </div>
                 </div>
             </div>

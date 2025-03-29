@@ -92,22 +92,22 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Pasaporte Vigente:</b> <br> Presentar un pasaporte completo y válido, con todas las páginas visibles.
+                        <b>Pasaporte Vigente:</b> <br> <p> Presentar un pasaporte completo y válido, con todas las páginas visibles.</p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Prueba de Vínculo Familiar:</b> <br> Aportar documentación que acredite el vínculo con el reagrupante, como acta de matrimonio, certificado de nacimiento o libro de familia.
+                        <b>Prueba de Vínculo Familiar:</b> <br> <p> Aportar documentación que acredite el vínculo con el reagrupante, como acta de matrimonio, certificado de nacimiento o libro de familia.</p>
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Medios Económicos:</b> <br> Demostrar que el reagrupante cuenta con recursos económicos suficientes para mantener a los familiares reagrupados en España.
+                        <b>Medios Económicos:</b> <br> <p> Demostrar que el reagrupante cuenta con recursos económicos suficientes para mantener a los familiares reagrupados en España.</p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Vivienda Adecuada:</b> <br> Aportar un informe que acredite la disponibilidad de una vivienda adecuada para la familia.
-                        </div>
+                        <b>Vivienda Adecuada:</b> <br> <p> Aportar un informe que acredite la disponibilidad de una vivienda adecuada para la familia.</p>
+                    </div>
                 </div>
             </div>
         </div>

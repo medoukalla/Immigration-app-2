@@ -93,21 +93,21 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Pasaporte Vigente:</b> <br> Presentar un pasaporte completo y válido, con todas las páginas visibles.
+                        <b>Pasaporte Vigente:</b> <br> <p> Presentar un pasaporte completo y válido, con todas las páginas visibles.</p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Prueba de Vínculo Familiar:</b> <br> Aportar documentación que acredite el vínculo con el ciudadano de la UE, como registro de pareja de hecho o certificado de nacimiento.
+                        <b>Prueba de Vínculo Familiar:</b> <br> <p> Aportar documentación que acredite el vínculo con el ciudadano de la UE, como registro de pareja de hecho o certificado de nacimiento.</p>
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Documento de Identidad del Ciudadano de la UE:</b> <br> Presentar copia del DNI o NIE del ciudadano de la Unión Europea.
+                        <b>Documento de Identidad del Ciudadano de la UE:</b> <br> <p> Presentar copia del DNI o NIE del ciudadano de la Unión Europea.</p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Medios Económicos:</b> <br> Demostrar que el ciudadano de la UE cuenta con recursos económicos suficientes para la manutención familiar en España.
+                        <b>Medios Económicos:</b> <br> <p> Demostrar que el ciudadano de la UE cuenta con recursos económicos suficientes para la manutención familiar en España.</p>
                     </div>
                 </div>
             </div>

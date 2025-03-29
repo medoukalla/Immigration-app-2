@@ -91,24 +91,22 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <p>
-                        <b>Prueba de Inversión:</b> <br> Aportar documentación oficial que acredite la inversión requerida, como escrituras de compra de propiedades (mínimo 500.000 €), certificados bancarios o documentos de constitución de empresas.
-                        </p>
+                        <b>Prueba de Inversión:</b> <br> <p> Aportar documentación oficial que acredite la inversión requerida, como escrituras de compra de propiedades (mínimo 500.000 €), certificados bancarios o documentos de constitución de empresas.</p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Pasaporte Vigente:</b> <br> Presentar un pasaporte completo y válido, asegurándose de que todas las páginas sean visibles.
-                        </div>
+                        <b>Pasaporte Vigente:</b> <br> <p> Presentar un pasaporte completo y válido, asegurándose de que todas las páginas sean visibles.</p>
+                    </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Certificado de Antecedentes Penales:</b> <br> Presentar un certificado de antecedentes penales del país de origen y de cualquier país donde haya residido en los últimos cinco años.
-                        </div>
+                        <b>Certificado de Antecedentes Penales:</b> <br> <p> Presentar un certificado de antecedentes penales del país de origen y de cualquier país donde haya residido en los últimos cinco años.</p>
+                    </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Medios Económicos:</b> <br> Presentar evidencia de recursos financieros suficientes para mantenerse a sí mismo y a sus dependientes durante su estancia en España.
-                        </div>
+                        <b>Medios Económicos:</b> <br> <p> Presentar evidencia de recursos financieros suficientes para mantenerse a sí mismo y a sus dependientes durante su estancia en España.</p>
+                    </div>
                 </div>
             </div>
         </div>

@@ -90,22 +90,22 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Pasaporte Vigente:</b> <br> Presentar un pasaporte completo y válido, con todas las páginas visibles.
+                        <b>Pasaporte Vigente:</b> <br> <p> Presentar un pasaporte completo y válido, con todas las páginas visibles.</p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Plan de Negocio:</b> <br> Aportar un plan de negocio detallado que demuestre la viabilidad y el impacto del proyecto emprendedor en la economía española.
+                        <b>Plan de Negocio:</b> <br> <p> Aportar un plan de negocio detallado que demuestre la viabilidad y el impacto del proyecto emprendedor en la economía española.</p>
                     </div>
                     
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Prueba de Medios Económicos:</b> <br> Demostrar la posesión de fondos suficientes para iniciar y mantener la actividad empresarial, así como para cubrir sus gastos personales.
+                        <b>Prueba de Medios Económicos:</b> <br> <p> Demostrar la posesión de fondos suficientes para iniciar y mantener la actividad empresarial, así como para cubrir sus gastos personales.</p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Otros Documentos:</b> <br> Dependiendo del tipo de actividad, pueden ser necesarios otros documentos, como licencias específicas o acreditaciones profesionales.
+                        <b>Otros Documentos:</b> <br> <p> Dependiendo del tipo de actividad, pueden ser necesarios otros documentos, como licencias específicas o acreditaciones profesionales.</p>
                     </div>
                 </div>
             </div>

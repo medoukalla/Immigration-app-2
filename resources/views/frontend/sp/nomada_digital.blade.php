@@ -94,22 +94,22 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Prueba de Empleo o Actividad Empresarial:</b> <br> Aportar un contrato de trabajo o prueba de actividad freelance/empresarial con empresas fuera de España, asegurando que al menos el 80 % de sus ingresos provengan de fuentes no españolas.
-                        </div>
+                        <b>Prueba de Empleo o Actividad Empresarial:</b> <br> <p> Aportar un contrato de trabajo o prueba de actividad freelance/empresarial con empresas fuera de España, asegurando que al menos el 80 % de sus ingresos provengan de fuentes no españolas.</p>
+                    </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Pasaporte Vigente:</b> <br> Presentar un pasaporte completo y válido, asegurándose de que todas las páginas sean visibles.
+                        <b>Pasaporte Vigente:</b> <br> <p> Presentar un pasaporte completo y válido, asegurándose de que todas las páginas sean visibles.</p>
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Certificado de Antecedentes Penales:</b> <br> Presentar un certificado de antecedentes penales del país de origen y de cualquier país donde haya residido en los últimos cinco años.
-                        </div>
+                        <b>Certificado de Antecedentes Penales:</b> <br> <p> Presentar un certificado de antecedentes penales del país de origen y de cualquier país donde haya residido en los últimos cinco años.</p>
+                    </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Medios Económicos:</b> <br> Presentar evidencia de recursos financieros suficientes, garantizando un ingreso mensual de al menos 2.800 €.
+                        <b>Medios Económicos:</b> <br> <p> Presentar evidencia de recursos financieros suficientes, garantizando un ingreso mensual de al menos 2.800 €.</p>
                     </div>
                 </div>
             </div>

@@ -95,22 +95,22 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Pasaporte Vigente:</b> <br> Presentar un pasaporte completo y válido, con todas las páginas visibles.
+                        <b>Pasaporte Vigente:</b> <br> <p> Presentar un pasaporte completo y válido, con todas las páginas visibles.</p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Tarjeta de Residencia Actual:</b> <br> Aportar una copia de la tarjeta de residencia actual (NIE) que desea renovar.
+                        <b>Tarjeta de Residencia Actual:</b> <br> <p> Aportar una copia de la tarjeta de residencia actual (NIE) que desea renovar.</p>
                     </div>
                     
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Pago de la Tasa:</b> <br> Aportar el comprobante de pago de la tasa correspondiente al trámite.
+                        <b>Pago de la Tasa:</b> <br> <p> Aportar el comprobante de pago de la tasa correspondiente al trámite.</p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Otros Documentos:</b> <br> Se requerirán documentos adicionales dependiendo del tipo de residencia, como en los casos de renovación de arraigo familiar o estancia por estudios.
+                        <b>Otros Documentos:</b> <br> <p> Se requerirán documentos adicionales dependiendo del tipo de residencia, como en los casos de renovación de arraigo familiar o estancia por estudios.</p>
                     </div>
                 </div>
             </div>

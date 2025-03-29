@@ -93,21 +93,26 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Valid Passport:</b> <br> Submit a complete and valid passport with all pages visible.
+                        <b>Valid Passport:</b> <br> <p> Submit a complete and valid passport with all pages visible.
+                            </p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Certificate of Registration (Empadronamiento):</b> <br> Present an updated certificate of registration proving continuous residence in Spain.
+                        <b>Certificate of Registration (Empadronamiento):</b> <br> <p> Present an updated certificate of registration proving continuous residence in Spain.
+                            </p>
                     </div>
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Proof of Continuous Stay:</b> <br> Provide evidence of legal and continuous residence in Spain for at least five years through documents such as the employment history report (vida laboral) or entry and exit stamps,Empadronamiento .
+                        <b>Proof of Continuous Stay:</b> <br> <p> Provide evidence of legal and continuous residence in Spain for at least five years through documents such as the employment history report (vida laboral) or entry and exit stamps,Empadronamiento .
+                            </p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Payment of the Corresponding Fee:</b> <br> Provide proof of payment for the long-term residence application fee.                    </div>
+                        <b>Payment of the Corresponding Fee:</b> <br> <p> Provide proof of payment for the long-term residence application fee.
+                            </p>
+                    </div>
                 </div>
             </div>
         </div>

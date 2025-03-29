@@ -95,22 +95,26 @@
                 <div class="doc-block-wrapper doc-block-left">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Valid Passport:</b> <br> Submit a complete and valid passport with all pages visible.
+                        <b>Valid Passport:</b> <br> <p> Submit a complete and valid passport with all pages visible.
+                            </p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Current Residence Card:</b> <br> Provide a copy of the current residence card (NIE) you wish to renew.
+                        <b>Current Residence Card:</b> <br> <p> Provide a copy of the current residence card (NIE) you wish to renew.
+                            </p>
                         </div>
                     
                 </div>
                 <div class="doc-block-wrapper doc-block-right">
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Fee Payment:</b> <br> Provide proof of payment for the corresponding application fee.
+                        <b>Fee Payment:</b> <br>  <p> Provide proof of payment for the corresponding application fee.
+                            </p>
                     </div>
                     <div class="doc-block top">
                         <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Other Documents:</b> <br> Additional documents may be required depending on the type of residence, such as for the renewal of  (arraigo familiar) or student residence card\
+                        <b>Other Documents:</b> <br> <p> Additional documents may be required depending on the type of residence, such as for the renewal of  (arraigo familiar) or student residence card\
+                            </p>
                     </div>
                 </div>
             </div>
