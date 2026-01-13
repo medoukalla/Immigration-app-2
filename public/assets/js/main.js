@@ -1,4 +1,4 @@
-// Initialize Swiper 
+// Initialize Swiper
 
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
@@ -29,4 +29,29 @@ var swiper = new Swiper(".mySwiper", {
             spaceBetween: 50,
         },
     },
+});
+
+const winAccordionHeader = document.querySelectorAll(".win-accordion-header");
+
+winAccordionHeader.forEach((header) => {
+    header.addEventListener("click", () => {
+        // 1. Remove active from ALL others
+        winAccordionHeader.forEach((otherHeader) => {
+            if (otherHeader !== header) {
+                otherHeader.classList.remove("active");
+                const otherBody = otherHeader.nextElementSibling;
+                otherBody.style.maxHeight = 0;
+            }
+        });
+
+        // 2. Toggle current one
+        header.classList.toggle("active");
+        const body = header.nextElementSibling;
+
+        if (header.classList.contains("active")) {
+            body.style.maxHeight = body.scrollHeight + "px";
+        } else {
+            body.style.maxHeight = 0;
+        }
+    });
 });
