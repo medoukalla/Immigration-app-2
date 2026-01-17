@@ -3818,6 +3818,7 @@ blockquote {
 .accordion-wrapper {
     width: 100%;
     display: flex;
+    flex-direction: column;
 }
 
 .accordion-wrapper.service-details {
@@ -5519,7 +5520,7 @@ select.white-style,
 .working-numbers {
     grid-column-gap: 0px;
     grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     width: 100%;
     max-width: 1200px;
@@ -9939,6 +9940,8 @@ select.white-style,
 
 .faq .faq-left-content {
     width: 48%;
+    margin: auto !important;
+    text-align: center;
 }
 
 .faq .faq-left-content .faq-title {
@@ -9946,6 +9949,7 @@ select.white-style,
     font-weight: 700;
     color: var(--primary-dark);
     line-height: 1em;
+    margin-bottom: 60px;
 }
 
 .faq .faq-left-content .faq-title span {
@@ -9962,14 +9966,14 @@ select.white-style,
 
 .faq .faq-left-content .faq-img {
     width: 400px;
-    display: flex;
+    display: none !important;
     align-items: flex-end;
     justify-content: center;
     background-image: linear-gradient(white, blur(50));
 }
 
 .faq .accordion-wrap {
-    width: 70%;
+    width: 100%;
 }
 
 /* Feedback section */
@@ -10794,6 +10798,8 @@ input[type="radio"] {
 .s-services h2 {
     font-size: 42px;
     font-weight: 400;
+    width: 60%;
+    margin: auto;
 }
 
 .section-rootedness h2 span,
