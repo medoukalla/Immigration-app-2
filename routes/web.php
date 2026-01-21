@@ -28,7 +28,7 @@ use TCG\Voyager\Http\Controllers\VoyagerBaseController;
 // })->name('frontend.index');
 
 Route::group(['prefix' => 'dashboard'], function () {
-    
+
     Voyager::routes();
 
     Route::get('{user}/profile', [backendController::class, 'profile'])->name('seller.profile');
@@ -114,6 +114,9 @@ Route::get('/golden_visa', [FrontendSpanishController::class, 'golden_visa'])->n
 Route::get('/visa_de_estudiante', [FrontendSpanishController::class, 'visa_de_estudiante'])->name('frontend.sp.visa_de_estudiante');
 Route::get('/renovación_de_la_tarjeta_de_residencia', [FrontendSpanishController::class, 'renovación_de_la_tarjeta_de_residencia'])->name('frontend.sp.renovación_de_la_tarjeta_de_residencia');
 
+Route::get('/arraigo_socioformativo', [FrontendSpanishController::class, 'arraigo_socioformativo'])->name('frontend.sp.arraigo_socioformativo');
+Route::get('/arraigo_segunda_oportunidad', [FrontendSpanishController::class, 'arraigo_segunda_oportunidad'])->name('frontend.sp.arraigo_segunda_oportunidad');
+
 // Route::get('checkout', [FrontendSpanishController::class, 'checkout'])->name('frontend.sp.checkout');
 
 
@@ -171,20 +174,23 @@ Route::group(['prefix' => 'en'], function () {
     Route::get('/student_visa', [FrontendEnglishController::class, 'visa_de_estudiante'])->name('frontend.visa_de_estudiante');
     Route::get('/renewal_of_residence_card_NIE', [FrontendEnglishController::class, 'renovación_de_la_tarjeta_de_residencia'])->name('frontend.renovación_de_la_tarjeta_de_residencia');
 
+    Route::get('/arraigo_socioformativo', [FrontendEnglishController::class, 'arraigo_socioformativo'])->name('frontend.arraigo_socioformativo');
+    Route::get('/arraigo_segunda_oportunidad', [FrontendEnglishController::class, 'arraigo_segunda_oportunidad'])->name('frontend.arraigo_segunda_oportunidad');
+
 
 
 });
 
 
-Route::get('lang', function() {
+Route::get('lang', function () {
 
     // first get current language 
     $current = Session::get('lang');
 
-    if ( $current == 'en' ) {
+    if ($current == 'en') {
         Session::forget('lang');
         Session::put('lang', 'es');
-    }else {
+    } else {
         Session::forget('lang');
         Session::put('lang', 'en');
     }

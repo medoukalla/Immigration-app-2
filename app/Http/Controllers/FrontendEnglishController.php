@@ -21,7 +21,8 @@ use TCG\Voyager\Models\Post;
 class FrontendEnglishController extends Controller
 {
     // index page 
-    public function index() {
+    public function index()
+    {
         $services = Service::where('active', true)->where('lang', 'en')->get();
         // id 1 => language = Espagnole
         $last_posts = Post::where('lang', 'en')->orderBy('id', 'asc')->limit(3)->get();
@@ -33,8 +34,8 @@ class FrontendEnglishController extends Controller
 
         // background images
         $slider = Slider::orderBy('id', 'asc')->get();
-        
-        return view('frontend.en.index',[
+
+        return view('frontend.en.index', [
             'services' => $services,
             'last_posts' => $last_posts,
             'testimonials' => $testimonials,
@@ -45,10 +46,11 @@ class FrontendEnglishController extends Controller
     }
 
 
-    public function contact() {
+    public function contact()
+    {
         $testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
 
-        return view('frontend.en.contact',[
+        return view('frontend.en.contact', [
             'testimonials' => $testimonials,
         ]);
     }
@@ -96,16 +98,18 @@ class FrontendEnglishController extends Controller
         ]);
     }
 
-    public function services() {
+    public function services()
+    {
         $testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
 
-        return view('frontend.en.services',[
+        return view('frontend.en.services', [
             'testimonials' => $testimonials,
         ]);
     }
 
 
-    public function residencia_para_emprendedores() {
+    public function residencia_para_emprendedores()
+    {
         $testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
 
         return view('frontend.en.residencia_para_emprendedores', [
@@ -113,7 +117,8 @@ class FrontendEnglishController extends Controller
         ]);
     }
 
-    public function arraigo_para_la_formacion() {
+    public function arraigo_para_la_formacion()
+    {
         $testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
 
         return view('frontend.en.arraigo_para_la_formacion', [
@@ -121,7 +126,8 @@ class FrontendEnglishController extends Controller
         ]);
     }
 
-    public function arraigo_familiar() {
+    public function arraigo_familiar()
+    {
         $testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
 
         return view('frontend.en.arraigo_familiar', [
@@ -129,7 +135,8 @@ class FrontendEnglishController extends Controller
         ]);
     }
 
-    public function arraigo_laboral() {
+    public function arraigo_laboral()
+    {
         $testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
 
         return view('frontend.en.arraigo_laboral', [
@@ -137,7 +144,8 @@ class FrontendEnglishController extends Controller
         ]);
     }
 
-    public function arraigo_social() {
+    public function arraigo_social()
+    {
         $testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
 
         return view('frontend.en.arraigo_social', [
@@ -145,7 +153,8 @@ class FrontendEnglishController extends Controller
         ]);
     }
 
-    public function residencia_no_lucrativa() {
+    public function residencia_no_lucrativa()
+    {
         $testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
 
         return view('frontend.en.residencia_no_lucrativa', [
@@ -153,7 +162,8 @@ class FrontendEnglishController extends Controller
         ]);
     }
 
-    public function nomada_digital() {
+    public function nomada_digital()
+    {
         $testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
 
         return view('frontend.en.nomada_digital', [
@@ -161,7 +171,8 @@ class FrontendEnglishController extends Controller
         ]);
     }
 
-    public function residencia_familiar_ue() {
+    public function residencia_familiar_ue()
+    {
         $testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
 
         return view('frontend.en.residencia_familiar_ue', [
@@ -169,7 +180,8 @@ class FrontendEnglishController extends Controller
         ]);
     }
 
-    public function reagrupacion_familiar() {
+    public function reagrupacion_familiar()
+    {
         $testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
 
         return view('frontend.en.reagrupacion_familiar', [
@@ -177,7 +189,8 @@ class FrontendEnglishController extends Controller
         ]);
     }
 
-    public function residencia_larga_duracion() {
+    public function residencia_larga_duracion()
+    {
         $testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
 
         return view('frontend.en.residencia_larga_duracion', [
@@ -185,7 +198,8 @@ class FrontendEnglishController extends Controller
         ]);
     }
 
-    public function recurso_contencioso_administrativo() {
+    public function recurso_contencioso_administrativo()
+    {
         $testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
 
         return view('frontend.en.recurso_contencioso_administrativo', [
@@ -193,7 +207,8 @@ class FrontendEnglishController extends Controller
         ]);
     }
 
-    public function recurso_administrativo() {
+    public function recurso_administrativo()
+    {
         $testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
 
         return view('frontend.en.recurso_administrativo', [
@@ -201,7 +216,8 @@ class FrontendEnglishController extends Controller
         ]);
     }
 
-    public function nacionalidad() {
+    public function nacionalidad()
+    {
         $testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
 
         return view('frontend.en.nacionalidad', [
@@ -209,7 +225,8 @@ class FrontendEnglishController extends Controller
         ]);
     }
 
-    public function golden_visa() {
+    public function golden_visa()
+    {
         $testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
 
         return view('frontend.en.golden_visa', [
@@ -217,7 +234,8 @@ class FrontendEnglishController extends Controller
         ]);
     }
 
-    public function visa_de_estudiante() {
+    public function visa_de_estudiante()
+    {
         $testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
 
         return view('frontend.en.visa_de_estudiante', [
@@ -225,7 +243,8 @@ class FrontendEnglishController extends Controller
         ]);
     }
 
-    public function renovación_de_la_tarjeta_de_residencia() {
+    public function renovación_de_la_tarjeta_de_residencia()
+    {
         $testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
 
         return view('frontend.en.renovación_de_la_tarjeta_de_residencia', [
@@ -235,38 +254,58 @@ class FrontendEnglishController extends Controller
 
 
 
+
+    public function arraigo_socioformativo()
+    {
+        $testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
+
+        return view('frontend.en.arraigo_socioformativo', [
+            'testimonials' => $testimonials,
+        ]);
+    }
+
+    public function arraigo_segunda_oportunidad()
+    {
+        $testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
+
+        return view('frontend.en.arraigo_segunda_oportunidad', [
+            'testimonials' => $testimonials,
+        ]);
+    }
+
     // checkout page 
-    public function checkout($id) {
+    public function checkout($id)
+    {
 
         // set item id for stripe to hundle
-        if ( Session::has('product_id') ) {
+        if (Session::has('product_id')) {
             Session::forget('product_id');
             Session::put('product_id', $id);
-        }else {
+        } else {
             Session::put('product_id', $id);
         }
 
         $appartement = Housing::where('id', $id)->first();
-        return view('frontend.en.checkout',[
+        return view('frontend.en.checkout', [
             'appartement' => $appartement,
             'langLink' => route('frontend.checkout', $appartement->translate),
         ]);
     }
 
     // get page by slug 
-    public function page($slug) {
+    public function page($slug)
+    {
         $page = Page::where('slug', $slug);
-        if (! $page->exists() || $page->first()->lang != 'en' ) {
-            abort(404); 
+        if (!$page->exists() || $page->first()->lang != 'en') {
+            abort(404);
         }
 
-        if (view()->exists('frontend.en.pages.'.$slug))
-        {
-            return view('frontend.en.pages.'.$slug, [
+        if (view()->exists('frontend.en.pages.' . $slug)) {
+            return view('frontend.en.pages.' . $slug, [
                 'page' => Page::where('slug', $slug)->first(),
                 'langLink' => Page::get_lang_link($page->first())
             ]);
-        }else {
+        } else {
             return view('frontend.en.page', [
                 'page' => Page::where('slug', $slug)->first(),
                 'langLink' => Page::get_lang_link($page->first())
@@ -275,29 +314,32 @@ class FrontendEnglishController extends Controller
 
     }
 
-    public function appartement($id) {
+    public function appartement($id)
+    {
         $appartement = Housing::where('id', $id)->first();
 
-        if ( is_null( $appartement->translate ) ) {
+        if (is_null($appartement->translate)) {
             $route = route('frontend.logements');
-        }else {
+        } else {
             $route = route('frontend.appartement', $appartement->translate);
         }
 
-        return view('frontend.en.appartement',[
+        return view('frontend.en.appartement', [
             'appartement' => $appartement,
             'langLink' => $route,
         ]);
     }
 
-    public function assurance() {
-        return view('frontend.en.assurance',[
+    public function assurance()
+    {
+        return view('frontend.en.assurance', [
             'langLink' => route('frontend.assurance')
         ]);
     }
 
-    public function assurance_store(Request $request) {
-        
+    public function assurance_store(Request $request)
+    {
+
         // Validate the incoming request
         $validator = Validator::make($request->all(), [
             'name' => 'required|string|max:255',
@@ -325,7 +367,7 @@ class FrontendEnglishController extends Controller
         $assuranceRequest = AssuranceRequest::create([
             'name' => $request->input('name'),
             'assurance' => $request->input('assurance'),
-            'date' => $request->input('day').'/'.$request->input('month').'/'.$request->input('year'),
+            'date' => $request->input('day') . '/' . $request->input('month') . '/' . $request->input('year'),
             'sex' => $request->input('sex'),
             'phone' => $request->input('phone'),
             'email' => $request->input('email'),
@@ -339,92 +381,99 @@ class FrontendEnglishController extends Controller
         ], 201); // 201 Created
     }
 
-    public function etudier() {
+    public function etudier()
+    {
         return view('frontend.en.etudier');
     }
 
-    public function etudier_en() {
+    public function etudier_en()
+    {
         return view('frontend.en.etudier_en');
     }
 
-    public function logements(Request $request) {
+    public function logements(Request $request)
+    {
 
         // Filter by city
-        if ( $request->input('city') != '' ) {
+        if ($request->input('city') != '') {
             $logements = Housing::where('active', true)->where('lang', 'en')->where('city', $request->input('city'))->orderBy('id', 'desc')->simplePaginate(15);
         }
 
         // Filter by type 
-        if ( $request->input('type') != '' ) {
+        if ($request->input('type') != '') {
             $logements = Housing::where('active', true)->where('lang', 'en')->where('type', $request->input('type'))->orderBy('id', 'desc')->simplePaginate(15);
         }
-        
+
         // Filter by price 
-        if ( $request->input('prix') != '' ) {
-            if ( $request->input('prix') == 'increase' ) {
+        if ($request->input('prix') != '') {
+            if ($request->input('prix') == 'increase') {
                 $logements = Housing::where('active', true)->where('lang', 'en')->orderBy('prix', 'asc')->simplePaginate(15);
             }
-            if ( $request->input('prix') == 'decrease' ) {
+            if ($request->input('prix') == 'decrease') {
                 $logements = Housing::where('active', true)->where('lang', 'en')->orderBy('prix', 'desc')->simplePaginate(15);
             }
         }
 
 
         // Filter by chambre 
-        if ( $request->input('bedrooms') != '' ) {
-            if ( $request->input('bedrooms') == 'increase' ) {
+        if ($request->input('bedrooms') != '') {
+            if ($request->input('bedrooms') == 'increase') {
                 $logements = Housing::where('active', true)->where('lang', 'en')->orderBy('chambres', 'asc')->simplePaginate(15);
             }
-            if ( $request->input('bedrooms') == 'decrease' ) {
+            if ($request->input('bedrooms') == 'decrease') {
                 $logements = Housing::where('active', true)->where('lang', 'en')->orderBy('chambres', 'desc')->simplePaginate(15);
             }
         }
 
-        
+
         // if no filter detected
-        if ( $request->input('city') == '' && $request->input('type') == '' && $request->input('prix') == '' &&  $request->input('bedrooms') == '' ) {
+        if ($request->input('city') == '' && $request->input('type') == '' && $request->input('prix') == '' && $request->input('bedrooms') == '') {
             $logements = Housing::where('active', true)->where('lang', 'en')->orderBy('id', 'desc')->simplePaginate(15);
         }
 
-        
-        return view('frontend.en.logements',[
+
+        return view('frontend.en.logements', [
             'apartments' => $logements,
             'langLink' => route('frontend.logements')
         ]);
 
     }
 
-    public function nos_packs() {
+    public function nos_packs()
+    {
         $packs = Pack::where('language', 'en')->where('active', true)->orderBy('id', 'desc')->simplePaginate(15);
-        return view('frontend.en.nos_packs',[
+        return view('frontend.en.nos_packs', [
             'packs' => $packs,
             'langLink' => route('frontend.nos_packs'),
         ]);
     }
 
-    public function quisommes_nous() {
+    public function quisommes_nous()
+    {
         $services = Service::where('active', true)->where('lang', 'en')->get();
 
-        return view('frontend.en.quisommes_nous',[
+        return view('frontend.en.quisommes_nous', [
             'services' => $services,
             'langLink' => route('frontend.quisommes_nous'),
         ]);
     }
-    
-    public function preparation() {
-        return view('frontend.en.preparation',[
+
+    public function preparation()
+    {
+        return view('frontend.en.preparation', [
             'langLink' => route('frontend.preparation'),
         ]);
     }
 
-    public function programmes() {
+    public function programmes()
+    {
         $linguistique = Programme::where('active', true)->where('language', 'en')->where('group', 'linguistique')->get();
         $selectividad = Programme::where('active', true)->where('language', 'en')->where('group', 'selectividad')->get();
         $master = Programme::where('active', true)->where('language', 'en')->where('group', 'master')->get();
         $licence = Programme::where('active', true)->where('language', 'en')->where('group', 'licence')->get();
         $grade_sup_a = Programme::where('active', true)->where('language', 'en')->where('group', 'grade_sup_a')->get();
 
-         return view('frontend.en.programmes',[
+        return view('frontend.en.programmes', [
             'linguistique' => $linguistique,
             'selectividad' => $selectividad,
             'master' => $master,
@@ -436,47 +485,53 @@ class FrontendEnglishController extends Controller
 
     }
 
-    public function service(Service $service) {
-        return view('frontend.en.service',[
+    public function service(Service $service)
+    {
+        return view('frontend.en.service', [
             'service' => $service,
         ]);
     }
 
-    public function post(Post $post) {
-        if ( !is_null( $post->translate_post ) ) {
+    public function post(Post $post)
+    {
+        if (!is_null($post->translate_post)) {
             $route = route('frontend.post', $post->translate_post);
-        }else {
+        } else {
             $route = route('frontend.blog');
         }
-        return view('frontend.en.post',[
+        return view('frontend.en.post', [
             'post' => $post,
             'langLink' => $route,
         ]);
     }
-    
-    public function blog() {
+
+    public function blog()
+    {
         $posts = Post::where('lang', 'en')->orderBy('id', 'desc')->simplePaginate(15);
-        return view('frontend.en.blog',[
+        return view('frontend.en.blog', [
             'posts' => $posts,
             'langLink' => route('frontend.blog'),
         ]);
     }
 
-    public function about() {
-        return view('frontend.en.about',[
+    public function about()
+    {
+        return view('frontend.en.about', [
             'langLink' => route('frontend.about'),
         ]);
     }
 
 
-    public function politique() {
-        return view('frontend.en.politique',[
+    public function politique()
+    {
+        return view('frontend.en.politique', [
             'langLink' => route('frontend.politique')
         ]);
     }
 
 
-    public function terms() {
+    public function terms()
+    {
         return view('frontend.en.terms', [
             'langLink' => route('frontend.terms')
         ]);
@@ -484,8 +539,9 @@ class FrontendEnglishController extends Controller
 
 
     // mention legal function 
-    public function mencionar_legal() {
-        return view('frontend.en.mention',[
+    public function mencionar_legal()
+    {
+        return view('frontend.en.mention', [
             'langLink' => route('frontend.mention')
         ]);
     }
