@@ -38,6 +38,12 @@
                   <a href="{{ route('frontend.sp.arraigo_social') }}" class="nav-dropdown-link w-dropdown-link">
                     <span class="nav-dropdown-link-line"></span>Arraigo Social
                   </a>
+                                    <a href="{{ route('frontend.sp.arraigo_socioformativo') }}" class="nav-dropdown-link w-dropdown-link">
+                    <span class="nav-dropdown-link-line"></span>Arraigo Socioformativo
+                  </a>
+                                    <a href="{{ route('frontend.sp.arraigo_segunda_oportunidad') }}" class="nav-dropdown-link w-dropdown-link">
+                    <span class="nav-dropdown-link-line"></span>Arraigo de Segunda Oportunidad
+                  </a>
                   <a href="{{ route('frontend.sp.residencia_no_lucrativa') }}" class="nav-dropdown-link w-dropdown-link">
                     <span class="nav-dropdown-link-line"></span>Residencia no lucrativa
                   </a>
