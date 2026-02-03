@@ -74,6 +74,7 @@ imputables a su conducta, ofreciéndoles así una nueva
 posibilidad de regularización administrativa.
                 </p>
         
+
                 <div
                     style="
                         display: flex;
@@ -93,7 +94,7 @@ posibilidad de regularización administrativa.
     </div>
 </section>
 <!-- Necessary documents -->
-<section style="background: #efefef; padding: 50px 0">
+<section style="background: #efefef; padding: 100px 0">
     <div class="base-container w-container">
         <div class="section-rootedness">
             <h2 class="text-center">
