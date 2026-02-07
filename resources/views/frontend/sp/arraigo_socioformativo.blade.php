@@ -10,23 +10,17 @@
             <h1>Arraigo Socioformativo</h1>
             <p>
                 Esta autorización se regula bajo la premisa de
-estar matriculado, estar cursando algún tipo de
-formación en concreto o comprometerse a
-realizar una formación promovida por los
-Servicios Públicos de Empleo y orientadas al
-desempeño de determinadas ocupaciones.
+                estar matriculado, estar cursando algún tipo de
+                formación en concreto o comprometerse a
+                realizar una formación promovida por los
+                Servicios Públicos de Empleo y orientadas al
+                desempeño de determinadas ocupaciones.
             </p>
             <div class="pages-path">
                 <div class="p-path">Bienvenido</div>
-                <img
-                    src=" {{ asset('assets/images/svg/arrow.svg') }}"
-                    alt="Path Arrow"
-                />
+                <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow" />
                 <div class="p-path">Extranjería</div>
-                <img
-                    src=" {{ asset('assets/images/svg/arrow.svg') }}"
-                    alt="Path Arrow"
-                />
+                <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow" />
 
                 <div class="p-path">Arraigo Socioformativo</div>
             </div>
@@ -35,31 +29,19 @@ desempeño de determinadas ocupaciones.
 </div>
 
 <div class="numbers-wrapper">
-    <div
-        data-w-id="221627f6-3a31-260f-8a97-6ec174e99870"
-        class="w-layout-grid working-numbers"
-    >
-        <div
-            id="w-node-_221627f6-3a31-260f-8a97-6ec174e99871-296c1813"
-            class="working-wrap"
-        >
+    <div data-w-id="221627f6-3a31-260f-8a97-6ec174e99870" class="w-layout-grid working-numbers">
+        <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e99871-296c1813" class="working-wrap">
             <div class="numbers">10+</div>
             <div class="numbers-text white-style">Años de experiencia</div>
         </div>
-        <div
-            id="w-node-_221627f6-3a31-260f-8a97-6ec174e99876-296c1813"
-            class="working-wrap"
-        >
+        <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e99876-296c1813" class="working-wrap">
             <div class="numbers">+500</div>
             <div class="numbers-text white-style">
                 Clientes Alrededor del Mundo
             </div>
             <div class="line home-white-left"></div>
         </div>
-        <div
-            id="w-node-_221627f6-3a31-260f-8a97-6ec174e9987c-296c1813"
-            class="working-wrap"
-        >
+        <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e9987c-296c1813" class="working-wrap">
             <div class="numbers">100%</div>
             <div class="numbers-text white-style">Satisfacción</div>
             <div class="line home-white-left"></div>
@@ -77,30 +59,23 @@ desempeño de determinadas ocupaciones.
                 </h2>
                 <p class="text-center">
                     El Arraigo Socioformativo es una autorización de
-residencia temporal prevista para personas extranjeras
-que se encuentran en España desde hace un mínimo de
-dos años de manera continuada en España y que
-participan, o se comprometen a participar, en itinerarios
-formativos reglados o vinculados al empleo.
+                    residencia temporal prevista para personas extranjeras
+                    que se encuentran en España desde hace un mínimo de
+                    dos años de manera continuada en España y que
+                    participan, o se comprometen a participar, en itinerarios
+                    formativos reglados o vinculados al empleo.
                 </p>
                 <p class="text-center">
                     La formación debe desarrollarse en España y estar
-orientada a la mejora de la empleabilidad, especialmente
-en sectores con necesidades acreditadas de mano de obra.
+                    orientada a la mejora de la empleabilidad, especialmente
+                    en sectores con necesidades acreditadas de mano de obra.
                 </p>
-                <div
-                    style="
+                <div style="
                         display: flex;
                         justify-content: center;
                         margin-top: 20px;
-                    "
-                >
-                    <a
-                        href=""
-                        class="primary-button w-button"
-                        style="margin: 0 auto; width: 250px"
-                        >Sobre Nosotros</a
-                    >
+                    ">
+                    <a href="" class="primary-button w-button" style="margin: 0 auto; width: 250px">Sobre Nosotros</a>
                 </div>
             </div>
         </div>
@@ -141,17 +116,14 @@ en sectores con necesidades acreditadas de mano de obra.
                         </div>
                         <p>
                             Cada caso es único. Por eso analizamos tu situación de
-manera individual y diseñamos una estrategia legal
-adaptada a tus necesidades y objetivos porque sabemos
-que detrás de cada trámite hay una historia personal
+                            manera individual y diseñamos una estrategia legal
+                            adaptada a tus necesidades y objetivos porque sabemos
+                            que detrás de cada trámite hay una historia personal
                         </p>
                     </div>
                 </div>
                 <div class="midle-rootedness-img">
-                    <img
-                        src="{{ asset('assets/images/why-choose-us.png') }}"
-                        alt=""
-                    />
+                    <img src="{{ asset('assets/images/why-choose-us.png') }}" alt="" />
                 </div>
                 <div class="right-rootedness">
                     <div class="rootedness third-rootedness">
@@ -161,9 +133,9 @@ que detrás de cada trámite hay una historia personal
                         </div>
                         <p>
                             Con centenares de clientes satisfechos, Immiworld
-cuenta con una sólida trayectoria en la obtención de
-resultados favorables en materia de extranjería,
-nacionalidad y migración.
+                            cuenta con una sólida trayectoria en la obtención de
+                            resultados favorables en materia de extranjería,
+                            nacionalidad y migración.
                         </p>
                     </div>
                     <div class="rootedness forth-rootedness">
@@ -180,10 +152,7 @@ nacionalidad y migración.
                     </div>
                 </div>
                 <div class="midle-rootedness-img-mobile">
-                    <img
-                        src="{{ asset('assets/images/why-choose-us.png') }}"
-                        alt=""
-                    />
+                    <img src="{{ asset('assets/images/why-choose-us.png') }}" alt="" />
                 </div>
             </div>
         </div>
@@ -196,15 +165,16 @@ nacionalidad y migración.
                 <div class="win-content">
                     <div class="win-heading">Requisitos Legales</div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet modi, voluptate ipsam reiciendis, ad commodi ut vitae laudantium ipsum facilis, quis recusandae nihil pariatur architecto fuga repellendus quod incidunt expedita.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet modi, voluptate ipsam
+                        reiciendis, ad commodi ut vitae laudantium ipsum facilis, quis recusandae nihil pariatur
+                        architecto fuga repellendus quod incidunt expedita.
                     </p>
                     <div class="win-accordion">
                         <div class="win-accordion-wrapper">
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">1</div>
-                                    <span
-                                        >Residir en España de Forma Continuada
+                                    <span>Residir en España de Forma Continuada
                                     </span>
                                 </div>
                                 <div class="win-accordion-body">
@@ -223,8 +193,7 @@ nacionalidad y migración.
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">2</div>
-                                    <span
-                                        >No representar una Amenaza para el
+                                    <span>No representar una Amenaza para el
                                         Orden Público, seguridad o Salud Pública
                                     </span>
                                 </div>
@@ -239,10 +208,8 @@ nacionalidad y migración.
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">3</div>
-                                    <span
-                                        >Carecer de Antecedentes Penales y No
-                                        Figurar como Rechazable</span
-                                    >
+                                    <span>Carecer de Antecedentes Penales y No
+                                        Figurar como Rechazable</span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
@@ -314,29 +281,17 @@ nacionalidad y migración.
                             </div>
                         </div>
                     </div>
-                    <a
-                        href="#"
-                        class="primary-button w-button"
-                        style="width: 50%"
-                        >Submit</a
-                    >
+                    <a href="#" class="primary-button w-button" style="width: 50%">Submit</a>
                 </div>
                 <div class="empty-div">
-                    <img
-                        style="width: 100%; height: 100%"
-                        src="../../../../../public/assets/images/docs-img-right.png"
-                        alt=""
-                    />
+                    <img style="width: 100%; height: 100%" src="../../../../../public/assets/images/docs-img-right.png"
+                        alt="" />
                 </div>
             </div>
         </div>
     </div>
     <div class="win-img">
-        <img
-            style="width: 100%; height: 100%"
-            src="{{ asset('assets/images/docs-img-right.png') }}"
-            alt=""
-        />
+        <img style="width: 100%; height: 100%" src="{{ asset('assets/images/docs-img-right.png') }}" alt="" />
     </div>
 </section>
 <section class="what-is-need-section left">
@@ -373,10 +328,8 @@ nacionalidad y migración.
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">2</div>
-                                    <span
-                                        >Revisión y Preparación de
-                                        Documentación</span
-                                    >
+                                    <span>Revisión y Preparación de
+                                        Documentación</span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
@@ -408,9 +361,7 @@ nacionalidad y migración.
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">4</div>
-                                    <span
-                                        >Asesoría y Seguimiento Posterior</span
-                                    >
+                                    <span>Asesoría y Seguimiento Posterior</span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
@@ -427,10 +378,8 @@ nacionalidad y migración.
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">5</div>
-                                    <span
-                                        >Acreditación de la Relación
-                                        Laboral</span
-                                    >
+                                    <span>Acreditación de la Relación
+                                        Laboral</span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
@@ -445,10 +394,8 @@ nacionalidad y migración.
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">6</div>
-                                    <span
-                                        >Documentación de Identidad
-                                        Completa</span
-                                    >
+                                    <span>Documentación de Identidad
+                                        Completa</span>
                                 </div>
                                 <div class="win-accordion-body no-border">
                                     <div class="win-accordion-content">
@@ -461,29 +408,17 @@ nacionalidad y migración.
                             </div>
                         </div>
                     </div>
-                    <a
-                        href="#"
-                        class="primary-button w-button"
-                        style="width: 50%"
-                        >Submit</a
-                    >
+                    <a href="#" class="primary-button w-button" style="width: 50%">Submit</a>
                 </div>
                 <div class="empty-div left">
-                    <img
-                        style="width: 100%; height: 100%"
-                        src="../../../../../public/assets/images/docs-img-right.png"
-                        alt=""
-                    />
+                    <img style="width: 100%; height: 100%" src="../../../../../public/assets/images/docs-img-right.png"
+                        alt="" />
                 </div>
             </div>
         </div>
     </div>
     <div class="win-img">
-        <img
-            style="width: 100%; height: 100%"
-            src="{{ asset('assets/images/docs-img-right.png') }}"
-            alt=""
-        />
+        <img style="width: 100%; height: 100%" src="{{ asset('assets/images/docs-img-right.png') }}" alt="" />
     </div>
 </section>
 
