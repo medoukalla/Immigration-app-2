@@ -22,60 +22,53 @@
             </div>
             <nav class="nav-dropdown-list w-dropdown-list">
               <div class="nav-dropdown-link-wrapper">
-                <a href="{{ route('frontend.sp.residencia_para_emprendedores') }}"
-                  class="nav-dropdown-link w-dropdown-link">
-                  <span class="nav-dropdown-link-line"></span>Residencia para Emprendedores
-                </a>
-                <a href="{{ route('frontend.sp.arraigo_para_la_formacion') }}"
-                  class="nav-dropdown-link w-dropdown-link">
-                  <span class="nav-dropdown-link-line"></span>Arraigo para la formación
-                </a>
-                <a href="{{ route('frontend.sp.arraigo_familiar') }}" class="nav-dropdown-link w-dropdown-link">
-                  <span class="nav-dropdown-link-line"></span>Arraigo Familiar
+                <a href="{{ route('frontend.sp.arraigo_social') }}" class="nav-dropdown-link w-dropdown-link">
+                  <span class="nav-dropdown-link-line"></span>Arraigo social
                 </a>
                 <a href="{{ route('frontend.sp.arraigo_laboral') }}" class="nav-dropdown-link w-dropdown-link">
-                  <span class="nav-dropdown-link-line"></span>Arraigo Laboral
-                </a>
-                <a href="{{ route('frontend.sp.arraigo_social') }}" class="nav-dropdown-link w-dropdown-link">
-                  <span class="nav-dropdown-link-line"></span>Arraigo Social
+                  <span class="nav-dropdown-link-line"></span>Arraigo socio laboral
                 </a>
                 <a href="{{ route('frontend.sp.arraigo_socioformativo') }}" class="nav-dropdown-link w-dropdown-link">
-                  <span class="nav-dropdown-link-line"></span>Arraigo Socioformativo
+                  <span class="nav-dropdown-link-line"></span>Arraigo socio formativo
+                </a>
+                <a href="{{ route('frontend.sp.arraigo_familiar') }}" class="nav-dropdown-link w-dropdown-link">
+                  <span class="nav-dropdown-link-line"></span>Arraigo familiar
                 </a>
                 <a href="{{ route('frontend.sp.arraigo_segunda_oportunidad') }}"
                   class="nav-dropdown-link w-dropdown-link">
-                  <span class="nav-dropdown-link-line"></span>Arraigo de Segunda Oportunidad
+                  <span class="nav-dropdown-link-line"></span>Arraigo de segunda oppurtunidad
+                </a>
+                <a href="#" class="nav-dropdown-link w-dropdown-link">
+                  <span class="nav-dropdown-link-line"></span>Residencia cuenta Propia
+                </a>
+                <a href="#" class="nav-dropdown-link w-dropdown-link">
+                  <span class="nav-dropdown-link-line"></span>Residencia cuenta ajena
                 </a>
                 <a href="{{ route('frontend.sp.residencia_no_lucrativa') }}" class="nav-dropdown-link w-dropdown-link">
                   <span class="nav-dropdown-link-line"></span>Residencia no lucrativa
                 </a>
-                <a href="{{ route('frontend.sp.nomada_digital') }}" class="nav-dropdown-link w-dropdown-link">
-                  <span class="nav-dropdown-link-line"></span>Nómada digital
+                <a href="{{ route('frontend.sp.residencia_para_emprendedores') }}"
+                  class="nav-dropdown-link w-dropdown-link">
+                  <span class="nav-dropdown-link-line"></span>Residencia de emprendedores
                 </a>
-                <a href="{{ route('frontend.sp.residencia_familiar_ue') }}" class="nav-dropdown-link w-dropdown-link">
-                  <span class="nav-dropdown-link-line"></span>Residencia de Familiar de Ciudadano de la UE
+                <a href="{{ route('frontend.sp.nomada_digital') }}" class="nav-dropdown-link w-dropdown-link">
+                  <span class="nav-dropdown-link-line"></span>Nómadas digitales
                 </a>
                 <a href="{{ route('frontend.sp.reagrupacion_familiar') }}" class="nav-dropdown-link w-dropdown-link">
                   <span class="nav-dropdown-link-line"></span>Reagrupación familiar
                 </a>
-                <a href="{{ route('frontend.sp.residencia_larga_duracion') }}"
-                  class="nav-dropdown-link w-dropdown-link">
-                  <span class="nav-dropdown-link-line"></span>Residencia Larga duración
+                <a href="{{ route('frontend.sp.residencia_familiar_ue') }}" class="nav-dropdown-link w-dropdown-link">
+                  <span class="nav-dropdown-link-line"></span>Residencia para Familiares de Ciudadanos de la UE
+                </a>
+                <a href="{{ route('frontend.sp.etudier') }}" class="nav-dropdown-link w-dropdown-link">
+                  <span class="nav-dropdown-link-line"></span>Estancia por estudios
                 </a>
                 <a href="{{ route('frontend.sp.recurso_contencioso_administrativo') }}"
                   class="nav-dropdown-link w-dropdown-link">
-                  <span class="nav-dropdown-link-line"></span>Recurso contencioso administrativo
+                  <span class="nav-dropdown-link-line"></span>Recurso Contencioso Administrativo
                 </a>
                 <a href="{{ route('frontend.sp.recurso_administrativo') }}" class="nav-dropdown-link w-dropdown-link">
-                  <span class="nav-dropdown-link-line"></span>Recurso administrativo
-                </a>
-                <a href="{{ route('frontend.sp.renovación_de_la_tarjeta_de_residencia') }}"
-                  class="nav-dropdown-link w-dropdown-link">
-                  <span class="nav-dropdown-link-line"></span>Renovación de la tarjeta de residencia (NIE)
-                </a>
-                <a href="{{ route('frontend.sp.residencia_familiar_ciudadano_espanol') }}"
-                  class="nav-dropdown-link w-dropdown-link">
-                  <span class="nav-dropdown-link-line"></span>Residencia de Familiar de Ciudadano Español
+                  <span class="nav-dropdown-link-line"></span>Recurso Administrativo
                 </a>
               </div>
             </nav>
@@ -90,31 +83,7 @@
               <div class="nav-dropdown-link-wrapper">
                 <a href="{{ route('frontend.sp.visa_de_estudiante') }}" aria-current="page"
                   class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line">
-                  </span>Visado de estudiante</a>
-                <a href="{{ route('frontend.sp.golden_visa') }}" class="nav-dropdown-link w-dropdown-link">
-                  <span class="nav-dropdown-link-line"> </span>Golden visa
-                </a>
-              </div>
-            </nav>
-          </div>
-          <div data-hover="true" data-delay="0" data-w-id="ba67b287-f196-4627-29a8-f080f7e8b20d"
-            class="nav-dropdown w-dropdown m-left">
-            <div class="nav-dropdown-toggle w-dropdown-toggle">
-              <div class="nav-dropdown-icon w-icon-dropdown-toggle"></div>
-              <p class="nav-item-title">Trámites Civiles</p>
-            </div>
-            <nav class="nav-dropdown-list w-dropdown-list">
-              <div class="nav-dropdown-link-wrapper">
-                <a href="{{ route('frontend.sp.pareja_de_hecho') }}" class="nav-dropdown-link w-dropdown-link">
-                  <span class="nav-dropdown-link-line"></span>Pareja de hecho
-                </a>
-                <a href="{{ route('frontend.sp.matrimonio') }}" class="nav-dropdown-link w-dropdown-link">
-                  <span class="nav-dropdown-link-line"></span>Matrimonio
-                </a>
-                <a href="{{ route('frontend.sp.cancelacion_de_antecedentes_penales') }}"
-                  class="nav-dropdown-link w-dropdown-link">
-                  <span class="nav-dropdown-link-line"></span>Cancelación de antecedentes penales
-                </a>
+                  </span>Visado de Estudiante</a>
               </div>
             </nav>
           </div>
@@ -158,6 +127,27 @@
                   </span>Seguro</a>
                 <a href="{{ route('frontend.sp.programmes') }}" class="nav-dropdown-link w-dropdown-link"><span
                     class="nav-dropdown-link-line"> </span>Programas de estudio</a>
+                <div data-hover="true" data-delay="0" data-w-id="ba67b287-f196-4627-29a8-f080f7e8b20d"
+                  class="nav-dropdown w-dropdown">
+                  <div class="nav-dropdown-toggle w-dropdown-toggle">
+                    <div class="nav-dropdown-icon w-icon-dropdown-toggle"></div>
+                    <p class="nav-item-title">Trámites Civiles</p>
+                  </div>
+                  <nav class="nav-dropdown-list w-dropdown-list">
+                    <div class="nav-dropdown-link-wrapper">
+                      <a href="{{ route('frontend.sp.pareja_de_hecho') }}" class="nav-dropdown-link w-dropdown-link">
+                        <span class="nav-dropdown-link-line"></span>Pareja de hecho
+                      </a>
+                      <a href="{{ route('frontend.sp.matrimonio') }}" class="nav-dropdown-link w-dropdown-link">
+                        <span class="nav-dropdown-link-line"></span>Matrimonio
+                      </a>
+                      <a href="{{ route('frontend.sp.cancelacion_de_antecedentes_penales') }}"
+                        class="nav-dropdown-link w-dropdown-link">
+                        <span class="nav-dropdown-link-line"></span>Cancelación de antecedentes penales
+                      </a>
+                    </div>
+                  </nav>
+                </div>
               </div>
             </nav>
           </div>
