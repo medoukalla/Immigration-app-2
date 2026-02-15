@@ -117,6 +117,15 @@ Route::get('/renovación_de_la_tarjeta_de_residencia', [FrontendSpanishControlle
 Route::get('/arraigo_socioformativo', [FrontendSpanishController::class, 'arraigo_socioformativo'])->name('frontend.sp.arraigo_socioformativo');
 Route::get('/arraigo_segunda_oportunidad', [FrontendSpanishController::class, 'arraigo_segunda_oportunidad'])->name('frontend.sp.arraigo_segunda_oportunidad');
 
+Route::get('/pareja_de_hecho', [FrontendSpanishController::class, 'pareja_de_hecho'])->name('frontend.sp.pareja_de_hecho');
+Route::get('/matrimonio', [FrontendSpanishController::class, 'matrimonio'])->name('frontend.sp.matrimonio');
+Route::get('/cancelacion_de_antecedentes_penales', [FrontendSpanishController::class, 'cancelacion_de_antecedentes_penales'])->name('frontend.sp.cancelacion_de_antecedentes_penales');
+Route::get('/creacion_de_empresas', [FrontendSpanishController::class, 'creacion_de_empresas'])->name('frontend.sp.creacion_de_empresas');
+Route::get('/asesoria_fiscal_y_laboral', [FrontendSpanishController::class, 'asesoria_fiscal_y_laboral'])->name('frontend.sp.asesoria_fiscal_y_laboral');
+Route::get('/certificado_digital_persona_fisica', [FrontendSpanishController::class, 'certificado_digital_persona_fisica'])->name('frontend.sp.certificado_digital_persona_fisica');
+Route::get('/certificado_digital_persona_juridica', [FrontendSpanishController::class, 'certificado_digital_persona_juridica'])->name('frontend.sp.certificado_digital_persona_juridica');
+Route::get('/residencia_familiar_ciudadano_espanol', [FrontendSpanishController::class, 'residencia_familiar_ciudadano_espanol'])->name('frontend.sp.residencia_familiar_ciudadano_espanol');
+
 // Route::get('checkout', [FrontendSpanishController::class, 'checkout'])->name('frontend.sp.checkout');
 
 
@@ -174,8 +183,17 @@ Route::group(['prefix' => 'en'], function () {
     Route::get('/student_visa', [FrontendEnglishController::class, 'visa_de_estudiante'])->name('frontend.visa_de_estudiante');
     Route::get('/renewal_of_residence_card_NIE', [FrontendEnglishController::class, 'renovación_de_la_tarjeta_de_residencia'])->name('frontend.renovación_de_la_tarjeta_de_residencia');
 
-    Route::get('/arraigo_socioformativo', [FrontendEnglishController::class, 'arraigo_socioformativo'])->name('frontend.arraigo_socioformativo');
-    Route::get('/arraigo_segunda_oportunidad', [FrontendEnglishController::class, 'arraigo_segunda_oportunidad'])->name('frontend.arraigo_segunda_oportunidad');
+    Route::get('/socioformative_arraigo', [FrontendEnglishController::class, 'arraigo_socioformativo'])->name('frontend.arraigo_socioformativo');
+    Route::get('/second_chance_arraigo', [FrontendEnglishController::class, 'arraigo_segunda_oportunidad'])->name('frontend.arraigo_segunda_oportunidad');
+
+    Route::get('/civil_partnership', [FrontendEnglishController::class, 'pareja_de_hecho'])->name('frontend.pareja_de_hecho');
+    Route::get('/marriage', [FrontendEnglishController::class, 'matrimonio'])->name('frontend.matrimonio');
+    Route::get('/criminal_records_cancellation', [FrontendEnglishController::class, 'cancelacion_de_antecedentes_penales'])->name('frontend.cancelacion_de_antecedentes_penales');
+    Route::get('/company_creation', [FrontendEnglishController::class, 'creacion_de_empresas'])->name('frontend.creacion_de_empresas');
+    Route::get('/tax_labor_consultancy', [FrontendEnglishController::class, 'asesoria_fiscal_y_laboral'])->name('frontend.asesoria_fiscal_y_laboral');
+    Route::get('/digital_certificate_individual', [FrontendEnglishController::class, 'certificado_digital_persona_fisica'])->name('frontend.certificado_digital_persona_fisica');
+    Route::get('/digital_certificate_legal_entity', [FrontendEnglishController::class, 'certificado_digital_persona_juridica'])->name('frontend.certificado_digital_persona_juridica');
+    Route::get('/residency_family_member_spanish_citizen', [FrontendEnglishController::class, 'residencia_familiar_ciudadano_espanol'])->name('frontend.residencia_familiar_ciudadano_espanol');
 
 
 

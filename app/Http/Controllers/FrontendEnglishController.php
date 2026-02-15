@@ -273,6 +273,55 @@ class FrontendEnglishController extends Controller
         ]);
     }
 
+
+    public function pareja_de_hecho()
+    {
+        $testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
+        return view('frontend.en.pareja_de_hecho', ['testimonials' => $testimonials]);
+    }
+
+    public function matrimonio()
+    {
+        $testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
+        return view('frontend.en.matrimonio', ['testimonials' => $testimonials]);
+    }
+
+    public function cancelacion_de_antecedentes_penales()
+    {
+        $testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
+        return view('frontend.en.cancelacion_de_antecedentes_penales', ['testimonials' => $testimonials]);
+    }
+
+    public function creacion_de_empresas()
+    {
+        $testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
+        return view('frontend.en.creacion_de_empresas', ['testimonials' => $testimonials]);
+    }
+
+    public function asesoria_fiscal_y_laboral()
+    {
+        $testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
+        return view('frontend.en.asesoria_fiscal_y_laboral', ['testimonials' => $testimonials]);
+    }
+
+    public function certificado_digital_persona_fisica()
+    {
+        $testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
+        return view('frontend.en.certificado_digital_persona_fisica', ['testimonials' => $testimonials]);
+    }
+
+    public function certificado_digital_persona_juridica()
+    {
+        $testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
+        return view('frontend.en.certificado_digital_persona_juridica', ['testimonials' => $testimonials]);
+    }
+
+    public function residencia_familiar_ciudadano_espanol()
+    {
+        $testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
+        return view('frontend.en.residencia_familiar_ciudadano_espanol', ['testimonials' => $testimonials]);
+    }
+
     // checkout page 
     public function checkout($id)
     {
