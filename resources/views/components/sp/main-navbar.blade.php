@@ -120,7 +120,7 @@
               <div class="nav-dropdown-icon w-icon-dropdown-toggle"></div>
               <p class="nav-item-title">Servicios</p>
             </div>
-            <nav class="nav-dropdown-list w-dropdown-list">
+            <nav class="nav-dropdown-list w-dropdown-list w--open">
               <div class="nav-dropdown-link-wrapper">
                 <a href="{{ route('frontend.sp.assurance') }}" aria-current="page"
                   class="nav-dropdown-link w-dropdown-link "><span class="nav-dropdown-link-line">
@@ -318,12 +318,11 @@
 
     /* English Comment: Arrow styling */
     .inner-dropdown-fix .nav-dropdown-icon {
-        font-size: 10px;
-        transition: transform 0.3s ease;
+        transform: none !important;
+        transition: none;
     }
 
-        .inner-dropdown-fix .nav-dropdown-icon::before {
-          margin-left: 5.5px !important;
+    .inner-dropdown-fix .nav-dropdown-icon::before {
           font-size: 16px !important;
     }
     
@@ -343,16 +342,21 @@
     @media screen and (max-width: 991px) {
     /* English Comment: Default state for arrow on mobile (pointing down) */
     .inner-dropdown-fix .nav-dropdown-icon {
-        transform: rotate(180deg); 
-        transition: transform 0.3s ease;
+        display: inline-block; /* English Comment: Essential for proper rotation */
+        transform-origin: center center; /* English Comment: Ensures rotation stays in the same spot */
+        transform: rotate(360deg); /* English Comment: Your default downward state */
+        transition: transform 0.3s ease-in-out;
         margin-left: 1rem;
-        width:fit-content;
-        height: fit-content;
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    /* English Comment: Rotate arrow when the list is toggled open via JS */
+    /* English Comment: Rotate in place when menu is open */
     .inner-dropdown-fix.w--open .nav-dropdown-icon {
-        transform: rotate(360deg) !important;
+        transform: rotate(180deg) !important;
     }
 
     /* English Comment: Ensure sub-menu doesn't show on hover in mobile */
