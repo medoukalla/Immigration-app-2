@@ -116,18 +116,18 @@
           <a href="{{ route('frontend.sp.nacionalidad') }}" class="nav-link w-nav-link m-left">Nacionalidad</a>
           <div data-hover="true" data-delay="0" data-w-id="ba67b287-f196-4627-29a8-f080f7e8b20d"
             class="nav-dropdown w-dropdown">
-            <div class="nav-dropdown-toggle w-dropdown-toggle">
+            <div class="nav-dropdown-toggle w-dropdown-toggle w--open">
               <div class="nav-dropdown-icon w-icon-dropdown-toggle"></div>
               <p class="nav-item-title">Servicios</p>
             </div>
-            <nav class="nav-dropdown-list w-dropdown-list">
+            <nav class="nav-dropdown-list w-dropdown-list w--open">
               <div class="nav-dropdown-link-wrapper">
                 <a href="{{ route('frontend.sp.assurance') }}" aria-current="page"
                   class="nav-dropdown-link w-dropdown-link "><span class="nav-dropdown-link-line">
                   </span>Seguro</a>
                 <a href="{{ route('frontend.sp.programmes') }}" class="nav-dropdown-link w-dropdown-link"><span
                     class="nav-dropdown-link-line"> </span>Programas de estudio</a>
-                <div data-hover="true" data-delay="0" data-w-id="ba67b287-f196-4627-29a8-f080f7e8b20d"
+                {{-- <div data-hover="true" data-delay="0" data-w-id="ba67b287-f196-4627-29a8-f080f7e8b20d"
                   class="nav-dropdown w-dropdown">
                   <div class="nav-dropdown-toggle w-dropdown-toggle">
                     <div class="nav-dropdown-icon w-icon-dropdown-toggle"></div>
@@ -147,7 +147,36 @@
                       </a>
                     </div>
                   </nav>
-                </div>
+                </div> --}}
+               {{-- English Comment: Sub-dropdown wrapper with identical initial state to other links --}}
+<div class="nav-sub-container inner-dropdown-fix">
+    {{-- English Comment: Trigger link that matches 'Seguro' exactly when not hovered --}}
+    <div class="nav-dropdown-link w-dropdown-link d-flex justify-content-between align-items-center cursor-pointer" 
+         id="sub-toggle-civiles">
+        
+        <div class="nav-link-content d-flex align-items-center">
+            <span class="nav-dropdown-link-line"></span>
+            <span class="nav-item-text">Trámites Civiles</span>
+        </div>
+        
+        <div class="nav-dropdown-icon w-icon-dropdown-toggle child-dropdown"></div>
+    </div>
+    
+    {{-- English Comment: Nested links hidden by default --}}
+    <nav class="sub-nested-menu" id="sub-list-civiles">
+        <div class="nav-dropdown-link-wrapper">
+            <a href="{{ route('frontend.sp.pareja_de_hecho') }}" class="nav-dropdown-link w-dropdown-link">
+                <span class="nav-dropdown-link-line"></span>Pareja de hecho
+            </a>
+            <a href="{{ route('frontend.sp.matrimonio') }}" class="nav-dropdown-link w-dropdown-link">
+                <span class="nav-dropdown-link-line"></span>Matrimonio
+            </a>
+            <a href="{{ route('frontend.sp.cancelacion_de_antecedentes_penales') }}" class="nav-dropdown-link w-dropdown-link">
+                <span class="nav-dropdown-link-line"></span>Cancelación de antecedentes penales
+            </a>
+        </div>
+    </nav>
+</div>
               </div>
             </nav>
           </div>
@@ -246,6 +275,67 @@
   }
 </style>
 
+<style>
+    /* English Comment: Ensure the sub-container doesn't add extra margins */
+    .inner-dropdown-fix {
+        width: 100%;
+        position: relative;
+        cursor: pointer;
+    }
+
+    /* English Comment: Default state: hide line and set initial margin like 'Seguro' */
+    .inner-dropdown-fix #sub-toggle-civiles .nav-dropdown-link-line {
+        width: 0;
+        opacity: 0;
+        margin-right: 0;
+        transition: all 0.3s ease;
+    }
+
+    .inner-dropdown-fix #sub-toggle-civiles {
+        margin-left: 7px; /* English Comment: Match your default link style */
+        padding-left: 0px;
+    }
+
+    /* English Comment: Hover state: show line and slide text exactly like other links */
+    .inner-dropdown-fix:hover #sub-toggle-civiles {
+        color: var(--primary);
+        margin-left: 0 !important;
+    }
+
+    .inner-dropdown-fix:hover #sub-toggle-civiles .nav-dropdown-link-line {
+        width: 16px;
+        opacity: 1;
+        margin-right: 9px;
+        background-color: var(--primary);
+    }
+
+    /* English Comment: Styling for the nested list to appear correctly below */
+    .sub-nested-menu {
+        display: none;
+        padding-left: 30px; /* English Comment: Indent nested items for hierarchy */
+        background: transparent;
+    }
+
+    /* English Comment: Arrow styling */
+    .inner-dropdown-fix .nav-dropdown-icon {
+        font-size: 10px;
+        transition: transform 0.3s ease;
+    }
+    
+    .inner-dropdown-fix:hover .nav-dropdown-icon {
+        transform: rotate(180deg);
+    }
+
+    .nav-link-content {
+    width: 100%;
+    padding-left: 0;
+    }
+
+    .child-dropdown {
+      right: 0px !important;
+    }
+</style>
+
 <!-- jQuery to Control Modal Display -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
@@ -265,4 +355,19 @@
       event.stopPropagation();
     });
   });
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const container = document.querySelector('.inner-dropdown-fix');
+    const subList = document.getElementById('sub-list-civiles');
+
+    container.addEventListener('mouseenter', () => {
+        subList.style.display = 'block';
+    });
+
+    container.addEventListener('mouseleave', () => {
+        subList.style.display = 'none';
+    });
+});
 </script>
