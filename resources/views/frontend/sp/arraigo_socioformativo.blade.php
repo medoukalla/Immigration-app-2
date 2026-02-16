@@ -9,12 +9,8 @@
         <div class="min-hero-wrapper" style="min-height: 225px">
             <h1>Arraigo Socioformativo</h1>
             <p>
-                Esta autorización se regula bajo la premisa de
-                estar matriculado, estar cursando algún tipo de
-                formación en concreto o comprometerse a
-                realizar una formación promovida por los
-                Servicios Públicos de Empleo y orientadas al
-                desempeño de determinadas ocupaciones.
+                Voy a usar como “referencia” el documento de “Arraigo Familiar” para que el
+desarrollador le de contenido al “Arraigo Socioformativo”
             </p>
             <div class="pages-path">
                 <div class="p-path">Bienvenido</div>

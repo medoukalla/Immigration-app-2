@@ -9,9 +9,11 @@
         <div class="min-hero-wrapper" style="min-height: 225px">
             <h1>Arraigo Sociolaboral</h1>
             <p>
-                Como veréis, y al tratarse de una breve “introducción” lo he
-                hecho lo más simple posible de cara a dar más detalle en un
-                futuro “Blog” que podamos tener.
+                Es un permiso de residencia de carácter
+excepcional que se centra, no sólo en acreditar
+una permanencia en España de dos años como
+mínimo, sino de la existencia de una oferta o
+relación laboral válida.
             </p>
             <div class="pages-path">
                 <div class="p-path">Bienvenido</div>

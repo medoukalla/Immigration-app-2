@@ -5571,7 +5571,7 @@ select.white-style,
 .working-numbers {
     grid-column-gap: 0px;
     grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     width: 100%;
     max-width: 1200px;

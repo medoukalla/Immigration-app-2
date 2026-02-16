@@ -9,10 +9,8 @@
         <div class="min-hero-wrapper" style="min-height: 225px">
             <h1>Arraigo Social</h1>
             <p>
-                Para quienes han vivido en España por al menos tres años y
-                desean regularizar su estatus, demostrando integración social
-                mediante empleo o vínculos familiares. Ofrecemos asesoría en el
-                proceso para asegurar tu aprobación.
+                Voy a usar como “referencia” el documento de “Arraigo Familiar” para que el
+                desarrollador le de contenido al “Arraigo Social”
             </p>
             <div class="pages-path">
                 <div class="p-path">
@@ -33,39 +31,19 @@
     </div>
 </div>
 <div class="numbers-wrapper">
-    <div
-        data-w-id="221627f6-3a31-260f-8a97-6ec174e99870"
-        class="w-layout-grid working-numbers"
-    >
-        <div
-            id="w-node-_221627f6-3a31-260f-8a97-6ec174e99871-296c1813"
-            class="working-wrap"
-        >
+    <div data-w-id="221627f6-3a31-260f-8a97-6ec174e99870" class="w-layout-grid working-numbers">
+        <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e99871-296c1813" class="working-wrap">
             <div class="numbers">10+</div>
             <div class="numbers-text white-style">Años de experiencia</div>
         </div>
-        <div
-            id="w-node-_221627f6-3a31-260f-8a97-6ec174e99876-296c1813"
-            class="working-wrap"
-        >
-            <div class="numbers">+5.000</div>
+        <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e99876-296c1813" class="working-wrap">
+            <div class="numbers">+500</div>
             <div class="numbers-text white-style">Consultas personalizadas</div>
             <div class="line home-white-left"></div>
         </div>
-        <div
-            id="w-node-_221627f6-3a31-260f-8a97-6ec174e9987c-296c1813"
-            class="working-wrap"
-        >
+        <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e9987c-296c1813" class="working-wrap">
             <div class="numbers">100%</div>
             <div class="numbers-text white-style">Satisfacción</div>
-            <div class="line home-white-left"></div>
-        </div>
-        <div
-            id="w-node-_221627f6-3a31-260f-8a97-6ec174e99882-296c1813"
-            class="working-wrap"
-        >
-            <div class="numbers">+1.200</div>
-            <div class="numbers-text white-style">Clientes felices</div>
             <div class="line home-white-left"></div>
         </div>
     </div>
@@ -80,10 +58,15 @@
                     Presentación del <span>Servicio</span>
                 </h2>
                 <p class="text-center">
-                    La Tramitación de la Nacionalidad Española es el proceso que
-                    permite a personas extranjeras obtener la ciudadanía
-                    española, con todos sus derechos y obligaciones. Las vías
-                    principales incluyen residencia.
+                    El arraigo social es un permiso de residencia que
+autoriza a ciudadanos extranjeros a residir legalmente en
+España que hayan permanecido en nuestro país durante,
+al menos, los dos años anteriores a la presentación de la
+solicitud, existan vínculos familiares con otras personas
+extranjeras titulares de autorización de residencia o, en
+caso de no poder acreditar dicho vínculo, poder probar
+que ha habido un esfuerzo de integración de la persona
+extranjera.
                 </p>
                 <div
                     style="
@@ -96,7 +79,7 @@
                         href=""
                         class="primary-button w-button"
                         style="margin: 0 auto; width: 250px"
-                        >More about us</a
+                        >Sobre Nosotros</a
                     >
                 </div>
             </div>
@@ -104,72 +87,77 @@
     </div>
 </section>
 <!-- Necessary documents -->
-<section style="background: #efefef; padding: 50px 0">
+<section style="background: #efefef; padding: 100px 0">
     <div class="base-container w-container">
         <div class="section-rootedness">
             <h2 class="text-center">
-                Why Choose <span>Immiworld</span> for Your
-                <span>Immigration</span> Journey
+                ¿Por qué elegir a <span>Immiworld</span> para tu Trámite de
+                <span>Extranjería?</span>
             </h2>
             <p class="text-center" style="width: 60%; margin: 0 auto">
-                Discover the advantages of working with a dedicated legal team
-                that turns complex immigration processes into clear, successful
-                outcomes.
+                Immiworld ofrece experiencia, acompañamiento personalizado y
+                soluciones confiables para trámites de extranjería rápidos,
+                seguros y exitosos.
             </p>
             <div class="section-rootedness-grid">
                 <div class="left-rootedness">
                     <div class="rootedness first-rootedness">
                         <div class="number">1</div>
-                        <div class="number-title">Expert Legal Guidance</div>
+                        <div class="number-title">
+                             Asesoramiento Legal Experto
+                        </div>
                         <p>
-                            Our team of immigration lawyers in Málaga provides
-                            step-by-step assistance through every stage of your
-                            immigration process. We turn complex legal
-                            procedures into clear, understandable actions so you
-                            always know what to expect.
+                            Nuestro equipo te acompañará paso a paso en cada
+                            fase de tu proceso migratorio. Todo ello con la idea
+                            de transformar procedimientos legales complejos en
+                            acciones claras y comprensibles, para que siempre
+                            sepas qué hacer y qué esperar de cada paso.
                         </p>
                     </div>
                     <div class="rootedness second-rootedness">
                         <div class="number">2</div>
-                        <div class="number-title">Personalized Solutions</div>
+                        <div class="number-title">
+                            Soluciones Personalizadas
+                        </div>
                         <p>
-                            Every client’s story is unique. That’s why we take
-                            the time to understand your individual situation and
-                            tailor our approach to your specific goals.
+                            Cada caso es único. Por eso analizamos tu situación de
+                            manera individual y diseñamos una estrategia legal
+                            adaptada a tus necesidades y objetivos porque sabemos
+                            que detrás de cada trámite hay una historia personal
                         </p>
                     </div>
                 </div>
                 <div class="midle-rootedness-img">
-                    <img
-                        src="{{ asset('assets/images/why-choose-us.png') }}"
-                        alt=""
-                    />
+                    <img src="{{ asset('assets/images/why-choose-us.png') }}" alt="" />
                 </div>
                 <div class="right-rootedness">
                     <div class="rootedness third-rootedness">
                         <div class="number">3</div>
-                        <div class="number-title">Proven Success</div>
+                        <div class="number-title">
+                            Éxito Demostrado
+                        </div>
                         <p>
-                            With hundreds of satisfied clients, Immiworld has
-                            built a strong track record of achieving positive
-                            results.
+                            Con centenares de clientes satisfechos, Immiworld
+                            cuenta con una sólida trayectoria en la obtención de
+                            resultados favorables en materia de extranjería,
+                            nacionalidad y migración.
                         </p>
                     </div>
                     <div class="rootedness forth-rootedness">
                         <div class="number">4</div>
-                        <div class="number-title">Personalized Solutions</div>
+                        <div class="number-title">
+                            Un Equipo En El Que Puedes Confiar
+                        </div>
                         <p>
-                            Our team of immigration lawyers in Málaga provides
-                            step-by-step assistance through every stage of your
-                            immigration process.
+                            Nuestro despacho de extranjería ofrece un
+                            acompañamiento cercano y continuo durante todo el
+                            proceso, garantizando profesionalidad, transparencia
+                            y confianza en todo momento.
                         </p>
                     </div>
                 </div>
                 <div class="midle-rootedness-img-mobile">
-                    <img
-                        src="{{ asset('assets/images/why-choose-us.png') }}"
-                        alt=""
-                    />
+                    <img src="{{ asset('assets/images/why-choose-us.png') }}" alt="" />
                 </div>
             </div>
         </div>
@@ -180,147 +168,135 @@
         <div class="base-container w-container">
             <div class="what-is-need">
                 <div class="win-content">
-                    <div class="win-heading">Requisitos Requeridos</div>
+                    <div class="win-heading">Requisitos Legales</div>
                     <p>
-                        Immigration requirements differ from country to country,
-                        but most applications follow a similar foundation.
-                        Applicants typically need a valid passport, proof of
-                        financial stability, educational records, and a clean
-                        criminal background. Some programs may also require a
-                        medical examination or proof of language proficiency. In
-                        many cases, demonstrating relevant work experience or
-                        securing a job offer can significantly increase
-                        eligibility. Each immigration pathway—whether for
-                        skilled workers, students, or family sponsorship—comes
-                        with its own criteria, so it’s important to review the
-                        specific guidelines of the program you’re applying for.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet modi, voluptate ipsam
+                        reiciendis, ad commodi ut vitae laudantium ipsum facilis, quis recusandae nihil pariatur
+                        architecto fuga repellendus quod incidunt expedita.
                     </p>
                     <div class="win-accordion">
                         <div class="win-accordion-wrapper">
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">1</div>
-                                    <span
-                                        >Residir en España de Forma Continua
+                                    <span>Residir en España de Forma Continuada
                                     </span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Debe haber residido en España de forma
-                                        continua durante al menos 10 años, o 2
-                                        años si es ciudadano iberoamericano, y 1
-                                        año si está casado con un ciudadano
-                                        español.
+                                        Haber permanecido en territorio nacional
+                                        de forma continuada durante, al menos,
+                                        los dos años anteriores a la
+                                        presentación de dicha solicitud. <br />
+                                        Es importante no tener la condición de
+                                        solicitante de protección internacional,
+                                        ni en el momento de la presentación, ni
+                                        durante su tramitación.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">2</div>
-                                    <span
-                                        >Documentos de Identificación Personal
+                                    <span>No representar una Amenaza para el
+                                        Orden Público, seguridad o Salud Pública
                                     </span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Debe haber residido en España de forma
-                                        continua durante al menos 10 años, o 2
-                                        años si es ciudadano iberoamericano, y 1
-                                        año si está casado con un ciudadano
-                                        español.
+                                        Este requisito tiene como finalidad
+                                        garantizar una convivencia segura y
+                                        conforme a la normativa vigente.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">3</div>
-                                    <span>Certificado de Nacimiento </span>
+                                    <span>Carecer de Antecedentes Penales y No
+                                        Figurar como Rechazable</span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Debe haber residido en España de forma
-                                        continua durante al menos 10 años, o 2
-                                        años si es ciudadano iberoamericano, y 1
-                                        año si está casado con un ciudadano
-                                        español.
+                                        No sólo tendrías que carecer de ellos en
+                                        España, sino también en los países donde
+                                        hayas residido durante los cinco últimos
+                                        años anteriores a la fecha de entrada en
+                                        España, por delitos previstos en el
+                                        ordenamiento jurídico español. <br />
+                                        Y el no figurar como rechazable se
+                                        entiende en relación con países con los
+                                        que España tenga firmado algún tipo de
+                                        convenio en el que no acepten a personas
+                                        que dicho país ha prohibido la entrada
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">4</div>
-                                    <span
-                                        >Certificado de Antecedentes Penales
-                                    </span>
+                                    <span>Pago de la Tasa </span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Debe haber residido en España de forma
-                                        continua durante al menos 10 años, o 2
-                                        años si es ciudadano iberoamericano, y 1
-                                        año si está casado con un ciudadano
-                                        español.
+                                        Como en la mayoría de procedimientos
+                                        administrativos, la solicitud del
+                                        arraigo familiar conlleva el pago de la
+                                        tasa correspondiente, que deberá
+                                        abonarse dentro del plazo establecido
+                                        para que el trámite pueda continuar
+                                        correctamente.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">5</div>
-                                    <span
-                                        >Prueba de Conocimiento de la Lengua
-                                        Española
-                                    </span>
+                                    <span>Disponer de Contrato de Trabajo</span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Debe haber residido en España de forma
-                                        continua durante al menos 10 años, o 2
-                                        años si es ciudadano iberoamericano, y 1
-                                        año si está casado con un ciudadano
-                                        español.
+                                        Tanto si aplicas uno o varios, es muy
+                                        importante que se garantice, al menos,
+                                        el salario mínimo interprofesional o el
+                                        establecido según el convenio colectivo
+                                        aplicable en función de la jornada
+                                        trabajada y cuya suma represente una
+                                        jornada semanal no inferior a 20 horas
+                                        semanales.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">6</div>
-                                    <span>Otros Documentos Específicos </span>
+                                    <span>Medios Económicos del Empleador</span>
                                 </div>
                                 <div class="win-accordion-body no-border">
                                     <div class="win-accordion-content">
-                                        Debe haber residido en España de forma
-                                        continua durante al menos 10 años, o 2
-                                        años si es ciudadano iberoamericano, y 1
-                                        año si está casado con un ciudadano
-                                        español.
+                                        Este deberá, como mínimo, encontrarse al
+                                        corriente del cumplimiento de sus
+                                        obligaciones tributarias y con la
+                                        Seguridad Social así como contar con
+                                        medios económicos suficientes para hacer
+                                        frente a las obligaciones asumidas en el
+                                        contrato.
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <a
-                        href="#"
-                        class="primary-button w-button"
-                        style="width: 50%"
-                        >Submit</a
-                    >
+                    <a href="#" class="primary-button w-button" style="width: 50%">Contáctanos</a>
                 </div>
                 <div class="empty-div">
-                    <img
-                        style="width: 100%; height: 100%"
-                        src="../../../../../public/assets/images/docs-img-right.png"
-                        alt=""
-                    />
+                    <img style="width: 100%; height: 100%" src="../../../../../public/assets/images/docs-img-right.png"
+                        alt="" />
                 </div>
             </div>
         </div>
     </div>
     <div class="win-img">
-        <img
-            style="width: 100%; height: 100%"
-            src="{{ asset('assets/images/docs-img-right.png') }}"
-            alt=""
-        />
+        <img style="width: 100%; height: 100%" src="{{ asset('assets/images/docs-img-right.png') }}" alt="" />
     </div>
 </section>
 <section class="what-is-need-section left">
@@ -330,145 +306,124 @@
                 <div class="win-content right">
                     <div class="win-heading">Requisitos Requeridos</div>
                     <p>
-                        Immigration requirements differ from country to country,
-                        but most applications follow a similar foundation.
-                        Applicants typically need a valid passport, proof of
-                        financial stability, educational records, and a clean
-                        criminal background. Some programs may also require a
-                        medical examination or proof of language proficiency. In
-                        many cases, demonstrating relevant work experience or
-                        securing a job offer can significantly increase
-                        eligibility. Each immigration pathway—whether for
-                        skilled workers, students, or family sponsorship—comes
-                        with its own criteria, so it’s important to review the
-                        specific guidelines of the program you’re applying for.
+                        Para garantizar el éxito de su solicitud de arraigo
+                        laboral, seguimos un proceso estructurado de asesoría y
+                        gestión documental. A continuación, detallamos las fases
+                        clave y los requisitos necesarios para completar su
+                        trámite con total seguridad jurídica.
                     </p>
                     <div class="win-accordion">
                         <div class="win-accordion-wrapper">
                             <div class="win-accordion-item">
-                                <div class="win-accordion-header active">
+                                <div class="win-accordion-header">
                                     <div class="win-number">1</div>
-                                    <span
-                                        >Residir en España de Forma Continua
-                                    </span>
+                                    <span>Evaluación Inicial</span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Debe haber residido en España de forma
-                                        continua durante al menos 10 años, o 2
-                                        años si es ciudadano iberoamericano, y 1
-                                        año si está casado con un ciudadano
-                                        español.
+                                        Realizamos una consulta personalizada
+                                        para evaluar a fondo su situación y
+                                        confirmar que cumple con los requisitos
+                                        generales. Además, le proporcionamos un
+                                        resumen claro del proceso y de la
+                                        documentación necesaria.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">2</div>
-                                    <span
-                                        >Documentos de Identificación Personal
-                                    </span>
+                                    <span>Revisión y Preparación de
+                                        Documentación</span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Debe haber residido en España de forma
-                                        continua durante al menos 10 años, o 2
-                                        años si es ciudadano iberoamericano, y 1
-                                        año si está casado con un ciudadano
-                                        español.
+                                        Reunimos y revisamos toda la
+                                        documentación requerida, verificando su
+                                        conformidad con las normativas vigentes.
+                                        Nuestro equipo organiza y prepara los
+                                        documentos de manera exhaustiva para
+                                        evitar retrasos en la solicitud.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">3</div>
-                                    <span>Certificado de Nacimiento </span>
+                                    <span>Gestión Integral del Proceso</span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Debe haber residido en España de forma
-                                        continua durante al menos 10 años, o 2
-                                        años si es ciudadano iberoamericano, y 1
-                                        año si está casado con un ciudadano
-                                        español.
+                                        Nos ocupamos de gestionar todo el
+                                        proceso desde la preparación hasta la
+                                        presentación de su solicitud. También
+                                        asistimos en cualquier requisito
+                                        adicional necesario para asegurar el
+                                        éxito del trámite.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">4</div>
-                                    <span
-                                        >Certificado de Antecedentes Penales
-                                    </span>
+                                    <span>Asesoría y Seguimiento Posterior</span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Debe haber residido en España de forma
-                                        continua durante al menos 10 años, o 2
-                                        años si es ciudadano iberoamericano, y 1
-                                        año si está casado con un ciudadano
-                                        español.
+                                        Realizamos un seguimiento continuo de la
+                                        solicitud y le mantenemos informado de
+                                        cada avance importante. En caso de
+                                        resolución favorable, le orientamos en
+                                        los pasos finales; si es desfavorable,
+                                        le asesoramos sobre las opciones de
+                                        recurso.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">5</div>
-                                    <span
-                                        >Prueba de Conocimiento de la Lengua
-                                        Española
-                                    </span>
+                                    <span>Acreditación de la Relación
+                                        Laboral</span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Debe haber residido en España de forma
-                                        continua durante al menos 10 años, o 2
-                                        años si es ciudadano iberoamericano, y 1
-                                        año si está casado con un ciudadano
-                                        español.
+                                        Deberás demostrar la existencia de
+                                        relaciones laborales cuya duración no
+                                        sea inferior a seis meses, mediante
+                                        resolución judicial o acta de Inspección
+                                        de Trabajo.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">6</div>
-                                    <span>Otros Documentos Específicos </span>
+                                    <span>Documentación de Identidad
+                                        Completa</span>
                                 </div>
                                 <div class="win-accordion-body no-border">
                                     <div class="win-accordion-content">
-                                        Debe haber residido en España de forma
-                                        continua durante al menos 10 años, o 2
-                                        años si es ciudadano iberoamericano, y 1
-                                        año si está casado con un ciudadano
-                                        español.
+                                        Es obligatorio aportar la copia íntegra
+                                        del pasaporte. Se deben incluir todas
+                                        las páginas para verificar los periodos
+                                        de permanencia y entradas o salidas.
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <a
-                        href="#"
-                        class="primary-button w-button"
-                        style="width: 50%"
-                        >Submit</a
-                    >
+                    <a href="#" class="primary-button w-button" style="width: 50%">Contáctanos</a>
                 </div>
                 <div class="empty-div left">
-                    <img
-                        style="width: 100%; height: 100%"
-                        src="../../../../../public/assets/images/docs-img-right.png"
-                        alt=""
-                    />
+                    <img style="width: 100%; height: 100%" src="../../../../../public/assets/images/docs-img-right.png"
+                        alt="" />
                 </div>
             </div>
         </div>
     </div>
     <div class="win-img">
-        <img
-            style="width: 100%; height: 100%"
-            src="{{ asset('assets/images/docs-img-right.png') }}"
-            alt=""
-        />
+        <img style="width: 100%; height: 100%" src="{{ asset('assets/images/docs-img-right.png') }}" alt="" />
     </div>
 </section>
 
