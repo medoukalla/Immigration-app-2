@@ -149,34 +149,34 @@
                   </nav>
                 </div> --}}
                {{-- English Comment: Sub-dropdown wrapper with identical initial state to other links --}}
-<div class="nav-sub-container inner-dropdown-fix">
-    {{-- English Comment: Trigger link that matches 'Seguro' exactly when not hovered --}}
-    <div class="nav-dropdown-link w-dropdown-link d-flex justify-content-between align-items-center cursor-pointer" 
-         id="sub-toggle-civiles">
-        
-        <div class="nav-link-content d-flex align-items-center">
-            <span class="nav-dropdown-link-line"></span>
-            <span class="nav-item-text">Trámites Civiles</span>
-        </div>
-        
-        <div class="nav-dropdown-icon w-icon-dropdown-toggle child-dropdown"></div>
-    </div>
-    
-    {{-- English Comment: Nested links hidden by default --}}
-    <nav class="sub-nested-menu" id="sub-list-civiles">
-        <div class="nav-dropdown-link-wrapper">
-            <a href="{{ route('frontend.sp.pareja_de_hecho') }}" class="nav-dropdown-link w-dropdown-link">
-                <span class="nav-dropdown-link-line"></span>Pareja de hecho
-            </a>
-            <a href="{{ route('frontend.sp.matrimonio') }}" class="nav-dropdown-link w-dropdown-link">
-                <span class="nav-dropdown-link-line"></span>Matrimonio
-            </a>
-            <a href="{{ route('frontend.sp.cancelacion_de_antecedentes_penales') }}" class="nav-dropdown-link w-dropdown-link">
-                <span class="nav-dropdown-link-line"></span>Cancelación de antecedentes penales
-            </a>
-        </div>
-    </nav>
-</div>
+              <div class="nav-sub-container inner-dropdown-fix">
+                  {{-- English Comment: Trigger link that matches 'Seguro' exactly when not hovered --}}
+                  <div class="nav-dropdown-link w-dropdown-link d-flex justify-content-between align-items-center cursor-pointer" 
+                      id="sub-toggle-civiles">
+                      
+                      <div class="nav-link-content d-flex align-items-center">
+                          <span class="nav-dropdown-link-line"></span>
+                          <span class="nav-item-text">Trámites Civiles</span>
+                      </div>
+                      
+                      <div class="nav-dropdown-icon w-icon-dropdown-toggle child-dropdown"></div>
+                  </div>
+                  
+                  {{-- English Comment: Nested links hidden by default --}}
+                  <nav class="sub-nested-menu" id="sub-list-civiles">
+                      <div class="nav-dropdown-link-wrapper">
+                          <a href="{{ route('frontend.sp.pareja_de_hecho') }}" class="nav-dropdown-link w-dropdown-link">
+                              <span class="nav-dropdown-link-line"></span>Pareja de hecho
+                          </a>
+                          <a href="{{ route('frontend.sp.matrimonio') }}" class="nav-dropdown-link w-dropdown-link">
+                              <span class="nav-dropdown-link-line"></span>Matrimonio
+                          </a>
+                          <a href="{{ route('frontend.sp.cancelacion_de_antecedentes_penales') }}" class="nav-dropdown-link w-dropdown-link">
+                              <span class="nav-dropdown-link-line"></span>Cancelación de antecedentes penales
+                          </a>
+                      </div>
+                  </nav>
+              </div>
               </div>
             </nav>
           </div>
@@ -362,6 +362,20 @@
     .inner-dropdown-fix #sub-toggle-civiles {
       margin-left: 0 !important;
     }
+  
+.sub-nested-menu {
+    display: block !important;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out; /* English Comment: Reduced time for snappier feel */
+    padding-left: 30px;
+    background: transparent;
+}
+
+    /* English Comment: When the parent has the open class, expand the height */
+    .inner-dropdown-fix.w--open #sub-list-civiles {
+        max-height: 500px; /* English Comment: Large enough value to fit all links */
+    }
 }
 </style>
 
@@ -406,17 +420,23 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // English Comment: Mobile Click Logic
-    trigger.addEventListener('click', function(e) {
-        if (window.innerWidth <= 991) {
-            e.preventDefault();
-            e.stopPropagation(); // English Comment: Prevent closing parent menu
-            
-            const isOpen = subList.style.display === 'block';
-            subList.style.display = isOpen ? 'none' : 'block';
-            
-            // English Comment: Toggle class for arrow rotation
-            container.classList.toggle('w--open');
+   trigger.addEventListener('click', function(e) {
+    if (window.innerWidth <= 991) {
+        e.preventDefault();
+        e.stopPropagation();
+        
+        const isOpen = container.classList.contains('w--open');
+        
+        if (!isOpen) {
+            // English Comment: Set max-height to the exact content height
+            subList.style.maxHeight = subList.scrollHeight + "px";
+            container.classList.add('w--open');
+        } else {
+            // English Comment: Close immediately back to 0
+            subList.style.maxHeight = "0";
+            container.classList.remove('w--open');
         }
-    });
+    }
+});
 });
 </script>
