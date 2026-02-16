@@ -251,6 +251,9 @@
     color: #333;
     cursor: pointer;
   }
+  #w-dropdown-list-0 .nav-dropdown-link-wrapper {
+    width: 378px !important;
+  }
 </style>
 
 <style>
