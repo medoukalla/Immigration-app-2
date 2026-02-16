@@ -321,6 +321,11 @@
         font-size: 10px;
         transition: transform 0.3s ease;
     }
+
+        .inner-dropdown-fix .nav-dropdown-icon::before {
+          margin-left: 5.5px !important;
+          font-size: 16px !important;
+    }
     
     .inner-dropdown-fix:hover .nav-dropdown-icon {
         transform: rotate(180deg);
@@ -336,20 +341,28 @@
     }
     
     @media screen and (max-width: 991px) {
-      .nav-dropdown-link {
-          margin-left: 0 !important;
-      }
-      /* English Comment: Force arrow to point down by default on mobile */
-      .inner-dropdown-fix .nav-dropdown-icon {
-          transform: rotate(0deg); /* English Comment: 90deg usually points the Webflow arrow down */
-          transition: transform 0.3s ease;
-      }
-
-      /* English Comment: Rotate arrow when active/hovered on mobile */
-      .inner-dropdown-fix:hover .nav-dropdown-icon{
-          transform: rotate(360deg) !important; /* English Comment: Rotates to point up when open */
-      }
+    /* English Comment: Default state for arrow on mobile (pointing down) */
+    .inner-dropdown-fix .nav-dropdown-icon {
+        transform: rotate(180deg); 
+        transition: transform 0.3s ease;
+        margin-left: 1rem;
+        width:fit-content;
+        height: fit-content;
     }
+
+    /* English Comment: Rotate arrow when the list is toggled open via JS */
+    .inner-dropdown-fix.w--open .nav-dropdown-icon {
+        transform: rotate(360deg) !important;
+    }
+
+    /* English Comment: Ensure sub-menu doesn't show on hover in mobile */
+    .inner-dropdown-fix:hover #sub-list-civiles {
+        display: none; 
+    }
+    .inner-dropdown-fix #sub-toggle-civiles {
+      margin-left: 0 !important;
+    }
+}
 </style>
 
 <!-- jQuery to Control Modal Display -->
@@ -376,14 +389,34 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const container = document.querySelector('.inner-dropdown-fix');
+    const trigger = document.getElementById('sub-toggle-civiles');
     const subList = document.getElementById('sub-list-civiles');
 
+    // English Comment: Desktop Hover Logic
     container.addEventListener('mouseenter', () => {
-        subList.style.display = 'block';
+        if (window.innerWidth > 991) {
+            subList.style.display = 'block';
+        }
     });
 
     container.addEventListener('mouseleave', () => {
-        subList.style.display = 'none';
+        if (window.innerWidth > 991) {
+            subList.style.display = 'none';
+        }
+    });
+
+    // English Comment: Mobile Click Logic
+    trigger.addEventListener('click', function(e) {
+        if (window.innerWidth <= 991) {
+            e.preventDefault();
+            e.stopPropagation(); // English Comment: Prevent closing parent menu
+            
+            const isOpen = subList.style.display === 'block';
+            subList.style.display = isOpen ? 'none' : 'block';
+            
+            // English Comment: Toggle class for arrow rotation
+            container.classList.toggle('w--open');
+        }
     });
 });
 </script>
