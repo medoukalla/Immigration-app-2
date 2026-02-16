@@ -2970,7 +2970,7 @@ blockquote {
     padding: 8px 8px 8px 0;
     font-size: 16px;
     transition: all 0.3s;
-    display: flex;
+    /* display: flex; */
 }
 
 .nav-dropdown-link:hover {

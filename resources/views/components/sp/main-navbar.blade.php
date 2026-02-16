@@ -120,7 +120,7 @@
               <div class="nav-dropdown-icon w-icon-dropdown-toggle"></div>
               <p class="nav-item-title">Servicios</p>
             </div>
-            <nav class="nav-dropdown-list w-dropdown-list w--open">
+            <nav class="nav-dropdown-list w-dropdown-list">
               <div class="nav-dropdown-link-wrapper">
                 <a href="{{ route('frontend.sp.assurance') }}" aria-current="page"
                   class="nav-dropdown-link w-dropdown-link "><span class="nav-dropdown-link-line">
@@ -333,6 +333,22 @@
 
     .child-dropdown {
       right: 0px !important;
+    }
+    
+    @media screen and (max-width: 991px) {
+      .nav-dropdown-link {
+          margin-left: 0 !important;
+      }
+      /* English Comment: Force arrow to point down by default on mobile */
+      .inner-dropdown-fix .nav-dropdown-icon {
+          transform: rotate(0deg); /* English Comment: 90deg usually points the Webflow arrow down */
+          transition: transform 0.3s ease;
+      }
+
+      /* English Comment: Rotate arrow when active/hovered on mobile */
+      .inner-dropdown-fix:hover .nav-dropdown-icon{
+          transform: rotate(360deg) !important; /* English Comment: Rotates to point up when open */
+      }
     }
 </style>
 
