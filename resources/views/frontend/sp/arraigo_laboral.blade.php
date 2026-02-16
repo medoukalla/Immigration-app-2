@@ -194,11 +194,10 @@
                 <div class="win-content">
                     <div class="win-heading">Requisitos Legales</div>
                     <p>
-                        Sinceramente, este texto lo quitaba porque no aporta
-                        nada y me centraba en enumerar los requisitos que vienen
-                        a continuación de tal forma que “obligamos” al lector a
-                        tener que presionar en el “+” y, ahí, darle un mayor
-                        contenido que mejore el SEO.
+                        Puesto que en la oficina sólo tenemos 1 abogado, voy a
+                        evitar plurales o decir cosas que no somos porque ya
+                        sabéis como es la gente en Internet y no quiero que se
+                        nos acuse de “publicidad engañosa” o algo por el estilo
                     </p>
                     <div class="win-accordion">
                         <div class="win-accordion-wrapper">
