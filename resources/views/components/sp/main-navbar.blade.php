@@ -116,11 +116,11 @@
           <a href="{{ route('frontend.sp.nacionalidad') }}" class="nav-link w-nav-link m-left">Nacionalidad</a>
           <div data-hover="true" data-delay="0" data-w-id="ba67b287-f196-4627-29a8-f080f7e8b20d"
             class="nav-dropdown w-dropdown">
-            <div class="nav-dropdown-toggle w-dropdown-toggle w--open">
+            <div class="nav-dropdown-toggle w-dropdown-toggle">
               <div class="nav-dropdown-icon w-icon-dropdown-toggle"></div>
               <p class="nav-item-title">Servicios</p>
             </div>
-            <nav class="nav-dropdown-list w-dropdown-list w--open">
+            <nav class="nav-dropdown-list w-dropdown-list">
               <div class="nav-dropdown-link-wrapper">
                 <a href="{{ route('frontend.sp.assurance') }}" aria-current="page"
                   class="nav-dropdown-link w-dropdown-link "><span class="nav-dropdown-link-line">
