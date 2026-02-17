@@ -38,10 +38,10 @@
                   class="nav-dropdown-link w-dropdown-link">
                   <span class="nav-dropdown-link-line"></span>Arraigo de segunda oppurtunidad
                 </a>
-                <a href="#" class="nav-dropdown-link w-dropdown-link">
+                <a href="{{ route('frontend.sp.residencia_cuenta_propia') }}" class="nav-dropdown-link w-dropdown-link">
                   <span class="nav-dropdown-link-line"></span>Residencia cuenta Propia
                 </a>
-                <a href="#" class="nav-dropdown-link w-dropdown-link">
+                <a href="{{ route('frontend.sp.residencia_cuenta_ajena') }}" class="nav-dropdown-link w-dropdown-link">
                   <span class="nav-dropdown-link-line"></span>Residencia cuenta ajena
                 </a>
                 <a href="{{ route('frontend.sp.residencia_no_lucrativa') }}" class="nav-dropdown-link w-dropdown-link">

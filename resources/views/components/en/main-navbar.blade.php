@@ -36,10 +36,10 @@
                 <a href="{{ route('frontend.arraigo_segunda_oportunidad') }}" class="nav-dropdown-link w-dropdown-link">
                   <span class="nav-dropdown-link-line"></span>Second chance arraigo
                 </a>
-                <a href="#" class="nav-dropdown-link w-dropdown-link">
+                <a href="{{ route('frontend.residencia_cuenta_propia') }}" class="nav-dropdown-link w-dropdown-link">
                   <span class="nav-dropdown-link-line"></span>Self-employed residence
                 </a>
-                <a href="#" class="nav-dropdown-link w-dropdown-link">
+                <a href="{{ route('frontend.residencia_cuenta_ajena') }}" class="nav-dropdown-link w-dropdown-link">
                   <span class="nav-dropdown-link-line"></span>Employed residence
                 </a>
                 <a href="{{ route('frontend.residencia_no_lucrativa') }}" class="nav-dropdown-link w-dropdown-link">

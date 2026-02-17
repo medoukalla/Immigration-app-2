@@ -322,6 +322,18 @@ class FrontendEnglishController extends Controller
         return view('frontend.en.residencia_familiar_ciudadano_espanol', ['testimonials' => $testimonials]);
     }
 
+    public function residencia_cuenta_propia()
+    {
+        $testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
+        return view('frontend.en.self_employed_residence', ['testimonials' => $testimonials]);
+    }
+
+    public function residencia_cuenta_ajena()
+    {
+        $testimonials = Testimonial::where('active', true)->where('lang', 'en')->get();
+        return view('frontend.en.employed_residence', ['testimonials' => $testimonials]);
+    }
+
     // checkout page 
     public function checkout($id)
     {

@@ -1,175 +1,126 @@
-<x-en.head title="{{ setting('site.title') . ' - ' . 'Estudiar en España' }}" />
+<x-en.head title="{{ setting('site.title') . ' - ' . 'Study in Spain' }}" />
 
+<x-en.main-navbar route="{{ route('frontend.sp.index') }}" />
 
-<div class="wrapper bg-dark">
-
-    <x-en.header_menu />
-
-    <!-- Qui sommes start  -->
-    <div class="QuiSommes">
-        <div class="container">
-            <p class="text-center">
-                <a href="{{ route('frontend.sp.index') }}">Bienvenida</a>
-                <img src="{{ asset('img/arrowRgiht.svg') }}" alt="img" class="img-fluid">
-
-                <a href="{{ route('frontend.sp.index') }}">Servicios</a>
-                <img src="{{ asset('img/arrowRgiht.svg') }}" alt="img" class="img-fluid">
-
-                <a href="javascript:void(0)">Estudiar en España
-                </a>
-
-
+<!-- Hero Section -->
+<div class="pages-banner blog">
+    <div class="base-container w-container">
+        <div class="min-hero-wrapper" style="min-height: 225px;">
+            <h1>Study in Spain</h1>
+            <p>
+                Discover the academic opportunities available in Spain. We guide you through the process of choosing the
+                right program and obtaining your student visa.
             </p>
-            <h2 class="text-center">¿Qué puedo estudiar en España?</h2>
-        </div>
-    </div>
-    <!-- Qui sommes end -->
-</div>
-<!-- wrapper end  -->
-
-<!-- main start  -->
-<main>
-    <div class="Besoin">
-        <div class="container">
-            <!-- .row start  -->
-            <div class="row">
-                <!-- single item start  -->
-                <div class="col-lg-7">
-                    <div class="itemLeft">
-                        <!-- en espagne start  -->
-                        <div class="enEspagne">
-                            <img src="{{ asset('img/img05.png') }}" alt="img" class="img-fluid mainImg">
-                            <div class="box">
-                                <img src="{{ asset('img/StudyIconOrange.png') }}" alt="img" class="img-fluid">
-                                <p>¿Qué puedo <br> estudiar en España?</p>
-                            </div>
-                        </div>
-                        <!-- en espagne end  -->
-                        <div class="wrppText">
-
-                            <p>En España, los estudiantes marroquíes tienen acceso a una oferta académica variada, que
-                                incluye no solo programas universitarios de licenciatura y maestría, sino también
-                                programas de formación profesional (grado superior) y programas preparatorios para la
-                                universidad (selectividad). Además, estudiar en España también ofrece la oportunidad de
-                                aprender el idioma español, una habilidad muy buscada en el mercado laboral
-                                internacional.</p>
-                            <p>Los estudiantes marroquíes pueden optar por estudiar español en una escuela de idiomas
-                                especializada, para adquirir las habilidades lingüísticas necesarias para comunicarse
-                                efectivamente con los locales, así como para mejorar sus perspectivas profesionales en
-                                España y otros países de habla hispana.</p>
-                            <p>Para aquellos que deseen seguir estudios universitarios, España ofrece una variedad de
-                                programas universitarios de licenciatura y maestría, en áreas como derecho, economía,
-                                ingeniería, ciencias humanas, tecnología de la información, salud, ciencias sociales y
-                                mucho más. Los estudiantes marroquíes también pueden realizar una formación profesional
-                                (grado superior) para adquirir habilidades especializadas en un campo profesional
-                                específico, lo que puede abrirles muchas puertas para su futura carrera.</p>
-                            <p>Por último, los estudiantes marroquíes pueden seguir un año preparatorio (selectividad)
-                                para acceder a la universidad española. Este año preparatorio les permite prepararse
-                                para los exámenes de ingreso a la universidad española, así como perfeccionar su dominio
-                                del idioma español.</p>
-                            <p>En resumen, estudiar en España ofrece a los estudiantes marroquíes una variedad de
-                                opciones académicas, así como la oportunidad de aprender español y sumergirse en la
-                                cultura española.</p>
-
-
-                        </div>
-                        <!-- espagne start  -->
-                        <div class="espagneWrapp">
-                            <!-- row start  -->
-                            <div class="row">
-                                <!-- single item start  -->
-                                <div class="col-lg-6">
-                                    <div class="item bg1">
-                                        <a href="{{ url('page/Estudiar-en-Espana-sin-Selectividad') }}">
-                                            <h4>Estudiar en España sin Selectividad</h4>
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- single item end -->
-
-                                <!-- single item start  -->
-                                <div class="col-lg-6">
-                                    <div class="item bg2">
-                                        <a href="{{ url('page/estudiar-selectividad-en-espana') }}">
-                                            <h4>Estudiar la Selectividad en España</h4>
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- single item end -->
-                                <!-- single item start  -->
-                                <div class="col-lg-6">
-                                    <div class="item bg3">
-                                        <a href="{{ url('page/estudiar-el-idioma-en-espana') }}">
-                                            <h4>Estudiar el idioma en España</h4>
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- single item end -->
-                                <!-- single item start  -->
-                                <div class="col-lg-6">
-                                    <div class="item bg4">
-                                        <a href="{{ url('page/estudiar-la-licenciatura-en-espana') }}">
-                                            <h4>Estudiar la licenciatura en España</h4>
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- single item end -->
-                                <!-- single item start  -->
-                                <div class="col-lg-6">
-                                    <div class="item bg5">
-                                        <a href="{{ url('page/estudiar-el-grado-superior-en-espana') }}">
-                                            <h4>Formación profesional (Grado superior)</h4>
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- single item end -->
-
-                            </div>
-                            <!-- row end -->
-                        </div>
-                        <!-- espagne end -->
-                        <!-- Intéressé par start  -->
-                        <div class="interessePar">
-                            <div class="d-flex flex-wrap justify-content-between">
-                                <div class="itemleftD align-self-center">
-                                    <img src="{{ asset('img/img3.png') }}" alt="img" class="img-fluid">
-                                </div>
-                                <div class="itemRightD align-self-center">
-                                    <h2>¿Interesado en
-                                        una <span>visa de estudiante?</span></h2>
-                                    <p>Reserve su consulta en línea de forma gratuita
-                                    </p>
-                                    <a href="{{ route('frontend.sp.index') . '#consulting' }}">Reserve su consulta</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Intéressé par end  -->
-                    </div>
+            <div class="pages-path">
+                <div class="p-path">
+                    <a href="{{ route('frontend.sp.index') }}">Welcome</a>
                 </div>
-                <!-- single item end -->
-
-                <!-- single item start  -->
-                <div class="col-lg-5">
-                    <div class="itemRight sticky-top">
-                        <h2>¿Necesidad de ayuda?</h2>
-                        <h4>Contacto</h4>
-                        <p><strong>Chat en Línea:</strong> El tiempo de espera promedio es de 3 minutos.</p>
-                        <p><strong>Solicitud de llamada:</strong> Disponible solo con cita previa.</p>
-                        <p><strong>Redes sociales:</strong> El tiempo de espera promedio es de 15 minutos.</p>
-
-                        <x-links_sp_area />
-
-                    </div>
-
-
+                <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
+                <div class="p-path">
+                    Services
                 </div>
-                <!-- single item end -->
-
+                <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
+                <div class="p-path">
+                    Study in Spain
+                </div>
             </div>
-            <!-- .row end -->
         </div>
     </div>
-</main>
-<!-- main end -->
+</div>
+
+<!-- Main Content Section -->
+<div class="section">
+    <div class="base-container w-container">
+        <div class="w-layout-grid doc-wrapper" style="grid-template-columns: 2fr 1fr; gap: 40px;">
+            <!-- Left Column: Main Content -->
+            <div class="content-left">
+                <div class="image-box" style="margin-bottom: 30px;">
+                    <img src="{{ asset('img/img05.png') }}" alt="Study in Spain"
+                        style="width: 100%; border-radius: 12px;">
+                </div>
+
+                <h2 style="margin-bottom: 20px;">What can I study in Spain?</h2>
+
+                <div class="text-content" style="margin-bottom: 30px;">
+                    <p>In Spain, international students have access to a varied academic offer, which includes not only
+                        university bachelor's and master's degree programs, but also vocational training programs
+                        (higher degree) and university preparatory programs (selectividad). Additionally, studying in
+                        Spain also offers the opportunity to learn the Spanish language, a highly sought-after skill in
+                        the international labor market.</p>
+
+                    <p>Students can choose to study Spanish at a specialized language school to acquire the necessary
+                        language skills to communicate effectively with locals, as well as to improve their professional
+                        prospects in Spain and other Spanish-speaking countries.</p>
+
+                    <p>For those wishing to pursue university studies, Spain offers a variety of university bachelor's
+                        and master's programs in areas such as law, economics, engineering, human sciences, information
+                        technology, health, social sciences, and much more. Students can also pursue vocational training
+                        (higher degree) to acquire specialized skills in a specific professional field, which can open
+                        many doors for their future career.</p>
+
+                    <p>Finally, students can follow a preparatory year (selectividad) to access the Spanish university.
+                        This preparatory year allows them to prepare for the entrance exams to the Spanish university,
+                        as well as perfect their command of the Spanish language.</p>
+
+                    <p>In summary, studying in Spain offers students a variety of academic options, as well as the
+                        opportunity to learn Spanish and immerse themselves in the Spanish culture.</p>
+                </div>
+
+                <!-- Links Grid -->
+                <div class="w-layout-grid" style="grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 40px;">
+                    <a href="{{ url('page/Estudiar-en-Espana-sin-Selectividad') }}" class="doc-block"
+                        style="text-decoration: none; color: inherit; display: block; padding: 20px; background: #fff; border: 1px solid #e2e2e2; border-radius: 12px; transition: all 0.3s ease;">
+                        <h4 style="margin: 0; font-size: 18px;">Study in Spain without Selectividad</h4>
+                    </a>
+                    <a href="{{ url('page/estudiar-selectividad-en-espana') }}" class="doc-block"
+                        style="text-decoration: none; color: inherit; display: block; padding: 20px; background: #fff; border: 1px solid #e2e2e2; border-radius: 12px; transition: all 0.3s ease;">
+                        <h4 style="margin: 0; font-size: 18px;">Study Selectividad in Spain</h4>
+                    </a>
+                    <a href="{{ url('page/estudiar-el-idioma-en-espana') }}" class="doc-block"
+                        style="text-decoration: none; color: inherit; display: block; padding: 20px; background: #fff; border: 1px solid #e2e2e2; border-radius: 12px; transition: all 0.3s ease;">
+                        <h4 style="margin: 0; font-size: 18px;">Study Language in Spain</h4>
+                    </a>
+                    <a href="{{ url('page/estudiar-la-licenciatura-en-espana') }}" class="doc-block"
+                        style="text-decoration: none; color: inherit; display: block; padding: 20px; background: #fff; border: 1px solid #e2e2e2; border-radius: 12px; transition: all 0.3s ease;">
+                        <h4 style="margin: 0; font-size: 18px;">Study Bachelor's in Spain</h4>
+                    </a>
+                    <a href="{{ url('page/estudiar-el-grado-superior-en-espana') }}" class="doc-block"
+                        style="text-decoration: none; color: inherit; display: block; padding: 20px; background: #fff; border: 1px solid #e2e2e2; border-radius: 12px; transition: all 0.3s ease;">
+                        <h4 style="margin: 0; font-size: 18px;">Vocational Training (Higher Degree)</h4>
+                    </a>
+                </div>
+
+                <!-- CTA -->
+                <div class="call-to-action-box"
+                    style="padding: 30px; background: #f4f6f9; border-radius: 12px; text-align: center;">
+                    <img src="{{ asset('img/img3.png') }}" alt="Student Visa"
+                        style="max-width: 150px; margin-bottom: 20px;">
+                    <h3 style="margin-bottom: 15px;">Interested in a student visa?</h3>
+                    <p style="margin-bottom: 20px;">Book your free online consultation now.</p>
+                    <a href="{{ route('frontend.sp.index') . '#consulting' }}" class="primary-button w-button">Book
+                        Consultation</a>
+                </div>
+            </div>
+
+            <!-- Right Column: Sidebar -->
+            <div class="content-right">
+                <div class="sticky-top"
+                    style="top: 100px; padding: 30px; background: #fff; border: 1px solid #e2e2e2; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+                    <h3 style="margin-bottom: 20px; font-size: 24px;">Need Help?</h3>
+                    <p style="margin-bottom: 15px;"><strong>Contact Us:</strong></p>
+                    <p style="margin-bottom: 10px;"><strong>Online Chat:</strong> Average wait time 3 mins.</p>
+                    <p style="margin-bottom: 10px;"><strong>Call Request:</strong> By appointment only.</p>
+                    <p style="margin-bottom: 20px;"><strong>Social Media:</strong> Average wait time 15 mins.</p>
+
+                    <div class="sidebar-links">
+                        <!-- Add contact links here or generic button -->
+                        <a href="{{ route('frontend.contact') }}" class="link-with-arrow-underline"
+                            style="display: inline-block;">Contact Page</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <x-en.footer />

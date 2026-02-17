@@ -126,6 +126,9 @@ Route::get('/certificado_digital_persona_fisica', [FrontendSpanishController::cl
 Route::get('/certificado_digital_persona_juridica', [FrontendSpanishController::class, 'certificado_digital_persona_juridica'])->name('frontend.sp.certificado_digital_persona_juridica');
 Route::get('/residencia_familiar_ciudadano_espanol', [FrontendSpanishController::class, 'residencia_familiar_ciudadano_espanol'])->name('frontend.sp.residencia_familiar_ciudadano_espanol');
 
+Route::get('/residencia_cuenta_propia', [FrontendSpanishController::class, 'residencia_cuenta_propia'])->name('frontend.sp.residencia_cuenta_propia');
+Route::get('/residencia_cuenta_ajena', [FrontendSpanishController::class, 'residencia_cuenta_ajena'])->name('frontend.sp.residencia_cuenta_ajena');
+
 // Route::get('checkout', [FrontendSpanishController::class, 'checkout'])->name('frontend.sp.checkout');
 
 
@@ -194,6 +197,9 @@ Route::group(['prefix' => 'en'], function () {
     Route::get('/digital_certificate_individual', [FrontendEnglishController::class, 'certificado_digital_persona_fisica'])->name('frontend.certificado_digital_persona_fisica');
     Route::get('/digital_certificate_legal_entity', [FrontendEnglishController::class, 'certificado_digital_persona_juridica'])->name('frontend.certificado_digital_persona_juridica');
     Route::get('/residency_family_member_spanish_citizen', [FrontendEnglishController::class, 'residencia_familiar_ciudadano_espanol'])->name('frontend.residencia_familiar_ciudadano_espanol');
+
+    Route::get('/self_employed_residence', [FrontendEnglishController::class, 'residencia_cuenta_propia'])->name('frontend.residencia_cuenta_propia');
+    Route::get('/employed_residence', [FrontendEnglishController::class, 'residencia_cuenta_ajena'])->name('frontend.residencia_cuenta_ajena');
 
 
 
