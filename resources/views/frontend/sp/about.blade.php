@@ -41,11 +41,6 @@
             <div class="numbers-text white-style">Satisfacción</div>
             <div class="line home-white-left"></div>
         </div>
-        <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e99882-296c1813" class="working-wrap">
-            <div class="numbers">+1.200</div>
-            <div class="numbers-text white-style">Clientes felices</div>
-            <div class="line home-white-left"></div>
-        </div>
     </div>
 </div>
 {{-- Hero section ENDS  --}}
