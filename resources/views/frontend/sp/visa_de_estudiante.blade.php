@@ -61,55 +61,8 @@
             <div class="numbers-text white-style">Satisfacción</div>
             <div class="line home-white-left"></div>
         </div>
-        <div
-            id="w-node-_221627f6-3a31-260f-8a97-6ec174e99882-296c1813"
-            class="working-wrap"
-        >
-            <div class="numbers">+1.200</div>
-            <div class="numbers-text white-style">Clientes felices</div>
-            <div class="line home-white-left"></div>
-        </div>
     </div>
 </div>
-
-<!-- Services contact form -->
-{{-- <div class="section">
-    <div class="base-container w-container">
-        <div
-            data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237"
-            class="contacts-2-wrapper"
-        >
-            <div class="contacts-2-content-wrapper">
-                <div class="image-box">
-                    <img
-                        src="{{
-                            asset('assets/images/pages/visa_de_estudiante.jpg')
-                        }}"
-                        alt="Visa de Estudiante"
-                    />
-                </div>
-                <div class="contacts-title">
-                    <h2 class="in-section-title">Presentación del Servicio</h2>
-                </div>
-                <div class="contacts-2-content">
-                    <p>
-                        En Immiworld, ofrecemos un servicio completo para la
-                        obtención de la visa de estudiante, que permite a
-                        ciudadanos extranjeros residir en España mientras
-                        realizan estudios en instituciones educativas
-                        reconocidas. Este visado es ideal para quienes desean
-                        aprovechar la oferta académica del país y sumergirse en
-                        su cultura. Nuestro equipo de expertos le guiará a lo
-                        largo de todo el proceso, garantizando que su solicitud
-                        sea eficiente y cumpla con todos los requisitos legales.
-                    </p>
-                </div>
-            </div>
-            <!-- Contact Form -->
-            @livewire('contact-spanish', ['service' => 'Visado de estudiante'])
-        </div>
-    </div>
-</div> --}}
 
 {{-- Service presentation --}}
 <section>
