@@ -2,12 +2,12 @@
   data-collapse="medium" role="banner" data-no-scroll="1" data-duration="400" data-doc-height="1">
   <div class="nav-container w-container">
     <div class="nav-menu-wrapper"><a href="{{ route('frontend.index') }}" aria-current="page"
-        class="brand w-nav-brand w--current"><img src="{{ asset('storage/' . setting('site.logo')) }}" loading="lazy"
-          alt="logo" height="38" /></a>
+        class="brand w-nav-brand w--current"><img src="{{ asset('assets/images/logo/logo-black-png.png') }}"
+          loading="lazy" alt="logo" height="38" /></a>
       <nav role="navigation" class="nav-menu w-nav-menu">
         <div class="tablet-menu">
           <a href="{{ route('frontend.index') }}" aria-current="page" class="brand-tablet w-nav-brand w--current"><img
-              src="{{ asset('storage/' . setting('site.logo')) }}" loading="lazy" alt="logo" height="38" /></a>
+              src="{{ asset('assets/images/logo/logo-black-png.png') }}" loading="lazy" alt="logo" height="38" /></a>
           <div class="close-menu-button w-nav-button"><img src="{{ asset('assets/images/svg/close.svg') }}"
               loading="lazy" alt="logo" height="38" /></div>
         </div>

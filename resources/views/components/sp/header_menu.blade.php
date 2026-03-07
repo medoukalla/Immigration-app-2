@@ -8,11 +8,8 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a class="navbar-brand" href="{{ route('frontend.sp.index') }}">
-                @if (setting('site.logo') == '')
-                    <img src="{{ asset('/img/logo.svg') }}" alt="img" class="img-fluid" width="200px">
-                @else
-                    <img src="{{ asset(setting('site.logo')) }}" alt="img" class="img-fluid" width="200px">
-                @endif
+                <img src="{{ asset('assets/images/logo/logo-black-png.png') }}" alt="img" class="img-fluid"
+                    width="200px">
             </a>
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel">
@@ -102,8 +99,8 @@
                                                 href="{{ url('page/arraigo-social') }}">Arraigo Social</a></li>
                                     </ul>
                                 </li>
-                                <li><a class="dropdown-item"
-                                        href="{{ url('page/residencia-no-lucrativa') }}">Residencia no lucrativa</a>
+                                <li><a class="dropdown-item" href="{{ url('page/residencia-no-lucrativa') }}">Residencia
+                                        no lucrativa</a>
                                 </li>
                                 <li><a class="dropdown-item"
                                         href="{{ url('page/renovacion-de-la-tarjeta-de-residencia-nie') }}">Renovación

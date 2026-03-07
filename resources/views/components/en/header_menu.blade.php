@@ -8,11 +8,8 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a class="navbar-brand" href="{{ route('frontend.sp.index') }}">
-                @if (setting('site.logo') == '')
-                    <img src="{{ asset('/img/logo.svg') }}" alt="img" class="img-fluid" width="200px">
-                @else
-                    <img src="{{ asset(setting('site.logo')) }}" alt="img" class="img-fluid" width="200px">
-                @endif
+                <img src="{{ asset('assets/images/logo/logo-black-png.png') }}" alt="img" class="img-fluid"
+                    width="200px">
             </a>
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel">
@@ -35,10 +32,13 @@
                                         href="{{ url('page/preparacion-de-expediente-de-visdao') }}">Visa File
                                         Preparation</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ route('frontend.sp.logements') }}">Accommodation</a>
+                                <li><a class="dropdown-item"
+                                        href="{{ route('frontend.sp.logements') }}">Accommodation</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ route('frontend.sp.assurance') }}">Insurance</a></li>
-                                <li><a class="dropdown-item" href="{{ route('frontend.sp.programmes') }}">Study Programs</a></li>
+                                <li><a class="dropdown-item" href="{{ route('frontend.sp.assurance') }}">Insurance</a>
+                                </li>
+                                <li><a class="dropdown-item" href="{{ route('frontend.sp.programmes') }}">Study
+                                        Programs</a></li>
                             </ul>
                         </li>
                         <!-- dropdown end  -->
@@ -51,13 +51,14 @@
                                 Study in Spain
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="{{ url('page/estudiar-en-espana') }}">What can I study
+                                <li><a class="dropdown-item" href="{{ url('page/estudiar-en-espana') }}">What can I
+                                        study
                                         in Spain?</a></li>
                                 <li><a class="dropdown-item"
                                         href="{{ url('page/Estudiar-en-Espana-sin-Selectividad') }}">Study in Spain
                                         without Selectividad</a></li>
-                                <li><a class="dropdown-item"
-                                        href="{{ url('page/estudiar-el-idioma-en-espana') }}">Study the language in
+                                <li><a class="dropdown-item" href="{{ url('page/estudiar-el-idioma-en-espana') }}">Study
+                                        the language in
                                         Spain</a></li>
                                 <li><a class="dropdown-item"
                                         href="{{ url('page/estudiar-selectividad-en-espana') }}">Study Selectividad in
@@ -65,8 +66,8 @@
                                 <li><a class="dropdown-item"
                                         href="{{ url('page/estudiar-la-licenciatura-en-espana') }}">Study a degree in
                                         Spain</a></li>
-                                <li><a class="dropdown-item"
-                                        href="{{ url('page/estudia-el-master-en-espana') }}">Study a master's degree in
+                                <li><a class="dropdown-item" href="{{ url('page/estudia-el-master-en-espana') }}">Study
+                                        a master's degree in
                                         Spain</a></li>
                                 <li><a class="dropdown-item"
                                         href="{{ url('page/estudiar-el-grado-superior-en-espana') }}">Study a higher
@@ -94,7 +95,8 @@
                                                 href="{{ url('page/arraigo-para-la-formacion') }}">Rooted for
                                                 Training</a></li>
                                         <li><a class="dropdown-item" style="padding-left: 40px !important; "
-                                                href="{{ url('page/arraigo-familiar') }}">Family Rooted Residency</a></li>
+                                                href="{{ url('page/arraigo-familiar') }}">Family Rooted Residency</a>
+                                        </li>
                                         <li><a class="dropdown-item" style="padding-left: 40px !important; "
                                                 href="{{ url('page/arraigo-laboral') }}">Labor Rooted Residency</a></li>
                                         <li><a class="dropdown-item" style="padding-left: 40px !important; "
@@ -105,12 +107,14 @@
                                         href="{{ url('page/residencia-no-lucrativa') }}">Non-lucrative Residency</a>
                                 </li>
                                 <li><a class="dropdown-item"
-                                        href="{{ url('page/renovacion-de-la-tarjeta-de-residencia-nie') }}">Residence Card
+                                        href="{{ url('page/renovacion-de-la-tarjeta-de-residencia-nie') }}">Residence
+                                        Card
                                         Renewal</a></li>
                                 <li><a class="dropdown-item"
                                         href="{{ url('page/autorizacion-de-estancia-por-estudios') }}">Student Visa for
                                         Spain</a></li>
-                                <li><a class="dropdown-item" href="{{ url('page/apelacion-administrativa') }}">Administrative
+                                <li><a class="dropdown-item"
+                                        href="{{ url('page/apelacion-administrativa') }}">Administrative
                                         Appeal</a></li>
                             </ul>
                         </li>
