@@ -6,12 +6,11 @@
                 <div class="c-c-name">
                     Email
                 </div>
-                <p>Send us an email for any inquiries or information requests.
-
+                <p>Send us an email for any inquiry or request for information.
                 </p>
                 <a href="mailto:hola@immiworld.es">
                     <div class="c-c-link">
-                        Hola@immiworld.es
+                        hola@immiworld.es
                     </div>
                 </a>
             </div>
@@ -20,9 +19,9 @@
                 <div class="c-c-name">
                     WhatsApp
                 </div>
-                <p>Start a chat with us for real-time assistance.</p>
+                <p>Start a chat with us to receive real-time assistance.</p>
                 <a href="#">
-                    <div class="c-c-link">Iniciar nuevo chat
+                    <div class="c-c-link">Start new chat
                     </div>
                 </a>
             </div>
@@ -31,7 +30,7 @@
                 <div class="c-c-name">
                     Phone
                 </div>
-                <p>Call us directly for immediate answers to your questions.</p>
+                <p>Call us directly to resolve any questions or concerns.</p>
                 <a href="tel:+34657933788">
                     <div class="c-c-link">+34 657 933 788
                     </div>
@@ -44,7 +43,7 @@
                 </div>
                 <p>Visit us at our office for personalized assistance.</p>
                 <a href="#">
-                    <div class="c-c-link">Calle. Maestro Lecuona, 1, Local 7, 29006 Málaga
+                    <div class="c-c-link">Calle Maestro Lecuona 1, Local 7, 29006 Málaga
                     </div>
                 </a>
             </div>

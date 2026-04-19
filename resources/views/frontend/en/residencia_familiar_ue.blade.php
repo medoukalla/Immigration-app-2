@@ -3,124 +3,370 @@
 <!-- Top menu navbar -->
     <x-en.main-navbar route="{{route('frontend.sp.residencia_familiar_ue') }}" />
 
+<!-- Banner hero section -->
+<div class="pages-banner blog">
+    <div class="base-container w-container">
+        <div class="min-hero-wrapper" style="min-height: 225px">
+            <h1>Residencia de Familiar de Ciudadano de la UE
+PAGE EU FAMILY MEMBER RESIDENCE</h1>
+            <p>
+               If you are a family member of a European Union citizen and wish to live in Spain, this
+authorization allows you to do so under favorable legal conditions.
 
-    <!-- Banner hero section -->
-    <div class="pages-banner blog">
+You receive guidance throughout the entire process of obtaining your EU family member
+residence card, ensuring compliance with all legal requirements.
+            </p>
+            <div class="pages-path">
+                <div class="p-path">Home</div>
+                <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow" />
+                <div class="p-path">Immigration</div>
+                <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow" />
+
+                <div class="p-path">Residence for Family Members of EU Citizens</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="numbers-wrapper">
+    <div data-w-id="221627f6-3a31-260f-8a97-6ec174e99870" class="w-layout-grid working-numbers">
+        <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e99871-296c1813" class="working-wrap">
+            <div class="numbers">10+</div>
+            <div class="numbers-text white-style">Years of experiencea</div>
+        </div>
+        <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e99876-296c1813" class="working-wrap">
+            <div class="numbers">+5.000</div>
+            <div class="numbers-text white-style">Clients worldwide</div>
+            <div class="line home-white-left"></div>
+        </div>
+        <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e9987c-296c1813" class="working-wrap">
+            <div class="numbers">100%</div>
+            <div class="numbers-text white-style">Satisfaction</div>
+            <div class="line home-white-left"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Services contact form -->
+<section>
+    <div class="without-bottom-spacing">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper" style=" min-height: 225px; ">
-                <h1>EU Family Member</h1>
-                <p>
-                    If you are a family member of an EU citizen and wish to reside in Spain, this permit allows you to do so under favorable conditions. We assist with the application for the EU Family Member Card and ensure that all necessary steps are followed.
+            <div class="s-services">
+                <h2 class="text-center">
+                    <span>Service</span> Overview
+                </h2>
+                <p class="text-center">
+                    This residence authorization allows direct family members of European Union citizens to
+                    reside legally in Spain.
 
+                    It applies to spouses, children, parents and, in certain cases, registered partners or
+                    dependent relatives.
+
+                    This authorization grants the right to live, work and study in Spain under conditions similar to
+                    those of Spanish citizens.
+
+                    To obtain it, it is necessary to prove the family relationship and that the EU citizen is residing
+                    in Spain in accordance with current regulations.
+
+                    You are guided throughout the entire process, ensuring full compliance with all legal and
+                    administrative requirements.
                 </p>
-                <div class="pages-path">
 
-                    <div class="p-path">
-                        <a href="{{ route('frontend.sp.index') }}">Welcome</a>
-                    </div>
 
-                    <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
-                    <div class="p-path">
-                        Immigration
-                    </div>
-                    <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
-
-                    <div class="p-path">
-                        EU Family Member
-                    </div>
+                <div style="
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 20px;
+                    ">
+                    <a href="" class="primary-button w-button" style="margin: 0 auto; width: 250px">Sobre Nosotros</a>
                 </div>
             </div>
         </div>
     </div>
-    
+</section>
+<!-- Necessary documents -->
+<section style="background: #efefef; padding: 100px 0">
+    <div class="base-container w-container">
+        <div class="section-rootedness">
+            <h2 class="text-center">
+                Why Choose Immiworld
+            </h2>
+            <p class="text-center" style="width: 60%; margin: 0 auto">
+                Trust Immiworld. Many clients have successfully achieved their immigration goals with
+professional legal support.
 
-    <div class="numbers-wrapper">
-        <div data-w-id="221627f6-3a31-260f-8a97-6ec174e99870" class="w-layout-grid working-numbers">
-            <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e99871-296c1813" class="working-wrap">
-                <div class="numbers">10+</div>
-                <div class="numbers-text white-style">Years of experience</div>
-            </div>
-            <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e99876-296c1813" class="working-wrap">
-                <div class="numbers">+5.000</div>
-                <div class="numbers-text white-style">Personalized Consultations</div>
-                <div class="line home-white-left"></div>
-            </div>
-            <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e9987c-296c1813" class="working-wrap">
-                <div class="numbers">100%</div>
-                <div class="numbers-text white-style">Satisfaction</div>
-                <div class="line home-white-left"></div>
-            </div>
-        </div>
-    </div>
-    
+At Immiworld, the immigration process is understood as more than just administrative
+procedures. It represents new opportunities and the beginning of a new stage in life.
 
+If you have been navigating complex legal requirements and finding unclear or contradictory
+information, you are not alone. Many individuals face the same challenge when trying to
+understand immigration processes.
 
-    <!-- Services contact form -->
-    <div class="section">
-        <div class="base-container w-container">
-            <div data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237" class="contacts-2-wrapper">
-                <div class="contacts-2-content-wrapper">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/images/pages/residencia_familiar_ue.jpg') }}" alt="Residencia para Familiares de Ciudadanos de la UE">
-                    </div>
-                    <div class="contacts-title">
-                        <h2 class="in-section-title">Presentation of the Service</h2>
-                    </div>
-                    <div class="contacts-2-content">
+Instead of relying on unreliable sources or generic platforms, you receive clear and
+structured legal guidance tailored to your situation.
+
+Your case is carefully analyzed, and you are provided with a clear strategy and practical
+solutions to move forward with confidence.
+
+Your next step in Spain starts here
+            </p>
+            <div class="section-rootedness-grid">
+                <div class="left-rootedness">
+                    <div class="rootedness first-rootedness">
+                        <div class="number">1</div>
+                        <div class="number-title">
+                            Expert Legal Guidance
+                        </div>
                         <p>
-                            The EU Citizen Family Residence permit allows direct family members of European Union citizens to live legally in another EU member country. This permit, which includes spouses, children, parents, and in some cases partners and dependent relatives, grants rights to reside, work, and study on equal terms with local citizens. To obtain it, it is necessary to prove the family relationship and the EU citizen's residence in the destination country.
+                            You are guided step by step through every stage of your immigration process. Complex legal
+                            procedures are explained clearly, so you always know what to expect and how to proceed.
+                        </p>
+                    </div>
+                    <div class="rootedness second-rootedness">
+                        <div class="number">2</div>
+                        <div class="number-title">
+                            Personalized Solutions
+                        </div>
+                        <p>
+                            Every case is unique. Your situation is carefully analyzed to design a legal strategy tailored
+                            to your specific needs and goals, because behind every application there is a personal story.
                         </p>
                     </div>
                 </div>
-                <!-- Contact Form -->
-                @livewire('contact-english', ['service' => 'Residency of Family Members of EU Citizens'])
+                <div class="midle-rootedness-img">
+                    <img src="{{ asset('assets/images/why-choose-us.png') }}" alt="" />
+                </div>
+                <div class="right-rootedness">
+                    <div class="rootedness third-rootedness">
+                        <div class="number">3</div>
+                        <div class="number-title">
+                            Proven Track Record
+                        </div>
+                        <p>
+                            With hundreds of satisfied clients, Immiworld has built a strong track record of achieving
+                            successful outcomes in immigration, nationality and residency matters.
+                        </p>
+                    </div>
+                    <div class="rootedness forth-rootedness">
+                        <div class="number">4</div>
+                        <div class="number-title">
+                            A Team You Can Trust
+                        </div>
+                        <p>
+                            You receive close and continuous support throughout the entire process, ensuring
+                            professionalism, transparency and confidence at every stage.
+                        </p>
+                    </div>
+                </div>
+                <div class="midle-rootedness-img-mobile">
+                    <img src="{{ asset('assets/images/why-choose-us.png') }}" alt="" />
+                </div>
             </div>
         </div>
     </div>
-    <x-en.trust_immiworld />
-    <!-- Necessary documents -->
-    <div class="section documents-section">
+</section>
+<section class="what-is-need-section">
+    <div class="ws-wrapper">
         <div class="base-container w-container">
-            <div class="heading">
-                <h2>Required Requirements</h2>
-            </div>
-            <div class="doc-wrapper w-layout-grid">
-                <div class="doc-block-wrapper doc-block-left">
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Valid Passport:</b> <br> <p> Submit a complete and valid passport with all pages visible.
-                            </p>
+            <div class="what-is-need">
+                <div class="win-content">
+                    <div class="win-heading">Requisitos Legales</div>
+                    <p>
+                        Legal Requirements
+                    </p>
+                    <div class="win-accordion">
+                        <div class="win-accordion-wrapper">
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">1</div>
+                                    <span>Proof of Family Relationship
+                                    </span>
+                                </div>
+                                <div class="win-accordion-body">
+                                    <div class="win-accordion-content">
+                                        You must provide official documentation (marriage certificate, birth certificate, etc.) that
+proves your relationship with the EU citizen.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">2</div>
+                                    <span>Valid Passport
+                                    </span>
+                                </div>
+                                <div class="win-accordion-body">
+                                    <div class="win-accordion-content">
+                                        You must provide a valid passport, including all pages.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">3</div>
+                                    <span>EU Citizen's Residence Status</span>
+                                </div>
+                                <div class="win-accordion-body">
+                                    <div class="win-accordion-content">
+                                        The EU citizen must be residing in Spain and be registered as a resident (NIE/Union Citizen
+Certificate).
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">4</div>
+                                    <span>Proof of Financial Means and Health Insurance</span>
+                                </div>
+                                <div class="win-accordion-body no-border">
+                                    <div class="win-accordion-content">
+                                        The EU citizen must demonstrate sufficient financial resources to support the family member
+and have valid health insurance (public or private) in Spain.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Proof of Family Relationship:</b> <br> <p> Provide documentation proving the relationship with the EU citizen, such as a Pareja de hecho, or birth certificate.
-                            </p>
-                    </div>
+                    <a href="#" class="primary-button w-button" style="width: 50%">Submit</a>
                 </div>
-                <div class="doc-block-wrapper doc-block-right">
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>EU Citizen’s Identification Document:</b> <br> <p> Present a copy of the EU citizen’s ID or NIE.
-                            </p>
-                    </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images   /svg/badge-4.svg') }}" alt="Badge">
-                        <b>Financial Means:</b> <br> <p> Demonstrate that the EU citizen has sufficient financial resources to support the family in Spain.
-                            </p>
-                    </div>
+                <div class="empty-div">
+                    <img style="width: 100%; height: 100%" src="../../../../../public/assets/images/docs-img-right.png"
+                        alt="" />
                 </div>
             </div>
         </div>
     </div>
-
-    <x-en.call_to_action />
-
-    <!-- Necessary documents -->
-    <x-en.necessary-documents service="EU Family Member" />
-
-
-    <!-- Feedback -->
-    <x-en.testimonials :testimonials="$testimonials" />
+    <div class="win-img">
+        <img style="width: 100%; height: 100%" src="{{ asset('assets/images/docs-img-right.png') }}" alt="" />
+    </div>
+</section>
+<section class="what-is-need-section left">
+    <div class="ws-wrapper">
+        <div class="base-container w-container">
+            <div class="what-is-need reverse">
+                <div class="win-content right">
+                    <div class="win-heading">Requisitos Requeridos</div>
+                    <p>
+                        Para garantizar el éxito de su solicitud de arraigo
+                        laboral, seguimos un proceso estructurado de asesoría y
+                        gestión documental. A continuación, detallamos las fases
+                        clave y los requisitos necesarios para completar su
+                        trámite con total seguridad jurídica.
+                    </p>
+                    <div class="win-accordion">
+                        <div class="win-accordion-wrapper">
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">1</div>
+                                    <span>Evaluación Inicial</span>
+                                </div>
+                                <div class="win-accordion-body">
+                                    <div class="win-accordion-content">
+                                        Realizamos una consulta personalizada
+                                        para evaluar a fondo su situación y
+                                        confirmar que cumple con los requisitos
+                                        generales. Además, le proporcionamos un
+                                        resumen claro del proceso y de la
+                                        documentación necesaria.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">2</div>
+                                    <span>Revisión y Preparación de
+                                        Documentación</span>
+                                </div>
+                                <div class="win-accordion-body">
+                                    <div class="win-accordion-content">
+                                        Reunimos y revisamos toda la
+                                        documentación requerida, verificando su
+                                        conformidad con las normativas vigentes.
+                                        Nuestro equipo organiza y prepara los
+                                        documentos de manera exhaustiva para
+                                        evitar retrasos en la solicitud.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">3</div>
+                                    <span>Gestión Integral del Proceso</span>
+                                </div>
+                                <div class="win-accordion-body">
+                                    <div class="win-accordion-content">
+                                        Nos ocupamos de gestionar todo el
+                                        proceso desde la preparación hasta la
+                                        presentación de su solicitud. También
+                                        asistimos en cualquier requisito
+                                        adicional necesario para asegurar el
+                                        éxito del trámite.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">4</div>
+                                    <span>Asesoría y Seguimiento Posterior</span>
+                                </div>
+                                <div class="win-accordion-body">
+                                    <div class="win-accordion-content">
+                                        Realizamos un seguimiento continuo de la
+                                        solicitud y le mantenemos informado de
+                                        cada avance importante. En caso de
+                                        resolución favorable, le orientamos en
+                                        los pasos finales; si es desfavorable,
+                                        le asesoramos sobre las opciones de
+                                        recurso.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">5</div>
+                                    <span>Acreditación de la Relación
+                                        Laboral</span>
+                                </div>
+                                <div class="win-accordion-body">
+                                    <div class="win-accordion-content">
+                                        Deberás demostrar la existencia de
+                                        relaciones laborales cuya duración no
+                                        sea inferior a seis meses, mediante
+                                        resolución judicial o acta de Inspección
+                                        de Trabajo.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">6</div>
+                                    <span>Documentación de Identidad
+                                        Completa</span>
+                                </div>
+                                <div class="win-accordion-body no-border">
+                                    <div class="win-accordion-content">
+                                        Es obligatorio aportar la copia íntegra
+                                        del pasaporte. Se deben incluir todas
+                                        las páginas para verificar los periodos
+                                        de permanencia y entradas o salidas.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="primary-button w-button" style="width: 50%">Submit</a>
+                </div>
+                <div class="empty-div left">
+                    <img style="width: 100%; height: 100%" src="../../../../../public/assets/images/docs-img-right.png"
+                        alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="win-img">
+        <img style="width: 100%; height: 100%" src="{{ asset('assets/images/docs-img-right.png') }}" alt="" />
+    </div>
+</section>
 
     <!-- Solutions -->
     <x-en.solutions />

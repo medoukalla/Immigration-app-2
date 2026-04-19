@@ -2,7 +2,10 @@
     <div class="base-container w-container">
         <div class="min-hero-wrapper" style=" min-height: 225px; ">
             <h1>Contact Us</h1>
-            <p>If you have questions or need assistance, feel free to reach out to us. Our team is available to resolve any doubts regarding your immigration processes.</p>
+            <p>If you have any questions or need assistance with your immigration process, you can get in
+touch at any time. <br>
+You will receive clear, professional and personalized guidance adapted to your situation.
+</p>
             <div class="pages-path">
                 <div class="p-path">
                     <a href="{{ route('frontend.sp.index') }}">Home</a>

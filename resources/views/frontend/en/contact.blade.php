@@ -18,12 +18,14 @@
                     </div>
                     <div class="contacts-title">
                         <h2 class="in-section-title">
-                            We’re here to assist you!
+                            We're here to assist you!
                         </h2>
                     </div>
                     <div class="contacts-2-content">
                         <p>
-                            If you have any questions about immigration procedures, don’t hesitate to reach out. We’ll be delighted to help you.
+                            Whether you need help with visas, residence permits or any immigration procedure, your
+case will be handled with clarity and attention to detail. <br>
+You can contact us through any of the following channels.
                         </p>
                     </div>
                     <div class="contacts-info">
@@ -58,11 +60,12 @@
                                 <div class="c-info-title">
                                     Visit Us:
                                 </div>
-                                <p>Calle. Maestro Lecuona, 1, Local 7, 29006 Málaga</p>
+                                <p>Calle Maestro Lecuona 1, Local 7, 29006 Málaga</p>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- Contact Form -->
                 <!-- Contact Form -->
                 <div class="contacts-2-form-wrapper">
                     <div class="form-block-contacts w-form">
@@ -73,47 +76,48 @@
                             <h3 class="form-heading">Contact Form</h3>
                             <br>
                         
-                            <h6>1 - Your First Name :</h6>
-                            <input class="contacts-input white-style w-input" maxlength="256" name="first_name" placeholder="Please provide your first name." type="text" id="first_name" required>
+                            <h6>1 - First Name :</h6>
+                            <input class="contacts-input white-style w-input" maxlength="256" name="first_name" placeholder="Enter your first name" type="text" id="first_name" required>
                         
-                            <h6>2 - Your Last Name :</h6>
-                            <input class="contacts-input white-style w-input" maxlength="256" name="last_name" placeholder="Please provide your last name." type="text" id="last_name" required>
+                            <h6>2 - Last Name :</h6>
+                            <input class="contacts-input white-style w-input" maxlength="256" name="last_name" placeholder="Enter your last name" type="text" id="last_name" required>
                         
-                            <h6>3 - Your Email Address :</h6>
-                            <input class="contacts-input white-style w-input" maxlength="256" name="email" placeholder="Please provide your email address." type="email" id="email" required>
+                            <h6>3 - Email Address :</h6>
+                            <input class="contacts-input white-style w-input" maxlength="256" name="email" placeholder="Enter your email address" type="email" id="email" required>
                         
-                            <h6>4 - Your Phone Number :</h6>
-                            <input class="contacts-input white-style w-input" maxlength="256" name="phone" placeholder="Please provide your phone number." type="tel" id="phone" required>
+                            <h6>4 - Phone Number :</h6>
+                            <input class="contacts-input white-style w-input" maxlength="256" name="phone" placeholder="Enter your phone number" type="tel" id="phone" required>
                         
                             <h6>5 - Service of Interest :</h6>
                             <select name="service_interest" id="service_interest" class="white-style">
-                                <option value="">Select the service you are interested in.</option>
-                                <option value="servicio1">Servicio 1</option>
-                                <option value="servicio2">Servicio 2</option>
-                                <option value="servicio3">Servicio 3</option>
-                                <option value="servicio4">Servicio 4</option>
+                                <option value="">Select the service you are interested in</option>
+                                <option value="nationality">Nationality</option>
+                                <option value="digital_nomad">Digital Nomad</option>
+                                <option value="drivers_license_exchange">Driver's License Exchange</option>
+                                <option value="study_stay">Study Stay</option>
+                                <option value="civil_partnerships_and_marriage">Civil Partnerships and Marriage</option>
                             </select>
                         
-                            <h6>6 - Your Nationality :</h6>
+                            <h6>6 - Nationality :</h6>
                             <select name="nationality" id="nationality" class="white-style">
-                                <option value="">Please indicate your nationality.</option>
+                                <option value="">Enter your nationality</option>
                                 <option value="nacionalidad1">Nacionalidad 1</option>
                                 <option value="nacionalidad2">Nacionalidad 2</option>
                                 <option value="nacionalidad3">Nacionalidad 3</option>
                                 <option value="nacionalidad4">Nacionalidad 4</option>
                             </select>
                         
-                            <h6>7 - Your Place of Residence </h6>
+                            <h6>7 - Place of Residence </h6>
                             <select name="residence" id="residence" class="white-style">
-                                <option value="">Please indicate where you currently reside.</option>
+                                <option value="">Enter your place of residence</option>
                                 <option value="ubicacion1">Ubicación 1</option>
                                 <option value="ubicacion2">Ubicación 2</option>
                                 <option value="ubicacion3">Ubicación 3</option>
                                 <option value="ubicacion4">Ubicación 4</option>
                             </select>
                         
-                            <h6>8 - Tell Us More About Your Situation :</h6>
-                            <textarea class="contacts-input white-style w-input" name="situation_description" id="situation_description" cols="30" rows="10" placeholder="Briefly describe your situation in a few sentences."></textarea>
+                            <h6>8 - Tell Us About Your Situation :</h6>
+                            <textarea class="contacts-input white-style w-input" name="situation_description" id="situation_description" cols="30" rows="10" placeholder="Briefly describe your case"></textarea>
                         
                             <input type="submit" class="primary-button full-width-mobile w-button" value="Submit">
                         </form>
@@ -130,7 +134,6 @@
             </div>
         </div>
     </div>
-
     <!-- Partners -->
     <x-en.partners-white />
     

@@ -1,29 +1,27 @@
-<x-en.head title="Immiworld - Administrative Appeal" />
+<x-sp.head title="Immiworld - Arraigo laboral" />
 
 <!-- Top menu navbar -->
-    <x-en.main-navbar route="{{route('frontend.sp.recurso_administrativo') }}" />
+<x-sp.main-navbar route="{{ route('frontend.arraigo_laboral') }}" />
 
 <!-- Banner hero section -->
 <div class="pages-banner blog">
     <div class="base-container w-container">
         <div class="min-hero-wrapper" style="min-height: 225px">
-            <h1>PAGE Recurso Administrativo
-ADMINISTRATIVE APPEALS</h1>
+            <h1>Arraigo de Segunda Oportunidad</h1>
             <p>
-               If your application for residence, a visa or any type of authorization has been refused,
-dismissed or declared inadmissible, filing an administrative appeal is a legal mechanism to
-challenge that decision and seek its reconsideration.
-
-You receive guidance throughout the process to ensure your case is properly assessed and
-your rights are effectively defended.
+                Esta autorización se centra en dar la posibilidad a
+                una persona que haya tenido una autorización de
+                residencia y, por determinadas circunstancias
+                ajenas a su voluntad, pueda renovarla.
             </p>
             <div class="pages-path">
-                <div class="p-path">Home</div>
+                <div class="p-path">Bienvenido</div>
                 <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow" />
-                <div class="p-path">Immigration</div>
+                <div class="p-path">Extranjería</div>
                 <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow" />
 
-                <div class="p-path">Administrative Appeals</div>
+                <div class="p-path">Arraigo de Segunda
+                    Oportunidad formativo</div>
             </div>
         </div>
     </div>
@@ -33,16 +31,16 @@ your rights are effectively defended.
     <div data-w-id="221627f6-3a31-260f-8a97-6ec174e99870" class="w-layout-grid working-numbers">
         <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e99871-296c1813" class="working-wrap">
             <div class="numbers">10+</div>
-            <div class="numbers-text white-style">Years of experiencea</div>
+            <div class="numbers-text white-style">Años de experiencia</div>
         </div>
         <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e99876-296c1813" class="working-wrap">
             <div class="numbers">+5.000</div>
-            <div class="numbers-text white-style">Clients worldwide</div>
+            <div class="numbers-text white-style">Consultas personalizadas</div>
             <div class="line home-white-left"></div>
         </div>
         <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e9987c-296c1813" class="working-wrap">
             <div class="numbers">100%</div>
-            <div class="numbers-text white-style">Satisfaction</div>
+            <div class="numbers-text white-style">Satisfacción</div>
             <div class="line home-white-left"></div>
         </div>
     </div>
@@ -54,21 +52,15 @@ your rights are effectively defended.
         <div class="base-container w-container">
             <div class="s-services">
                 <h2 class="text-center">
-                    <span>Service</span> Overview
+                    Presentación del <span>Servicio</span>
                 </h2>
                 <p class="text-center">
-                    Administrative appeals are legal procedures designed to challenge unfavorable decisions
-                    issued by immigration authorities.
-
-                    If you have received a negative resolution regarding your visa, residence permit or any other
-                    immigration procedure, you may request a review of that decision through the appropriate
-                    administrative channels.
-
-                    This process provides an opportunity to correct errors, submit additional documentation or
-                    present new legal arguments.
-
-                    You are guided throughout the entire process, ensuring a structured and effective defense of
-                    your case.
+                    El Arraigo de Segunda Oportunidad es una vía legal que
+                    permite recuperar la residencia a personas extranjeras
+                    que fueron titulares de una autorización de residencia en
+                    España y que no pudieron renovarla por causas no
+                    imputables a su conducta, ofreciéndoles así una nueva
+                    posibilidad de regularización administrativa.
                 </p>
 
 
@@ -88,49 +80,39 @@ your rights are effectively defended.
     <div class="base-container w-container">
         <div class="section-rootedness">
             <h2 class="text-center">
-                Why Choose Immiworld
+                ¿Por qué elegir a <span>Immiworld</span> para tu Trámite de
+                <span>Extranjería?</span>
             </h2>
             <p class="text-center" style="width: 60%; margin: 0 auto">
-                Don't let an administrative decision determine your future in Spain.
-
-At Immiworld, it is understood that behind every refusal or inadmissibility there is a personal
-story, a life project and, in many cases, a decision that may be incomplete or insufficiently
-justified.
-
-An immigration process does not necessarily end with a negative resolution; often, it is just
-the beginning of a defense phase where your rights are asserted.
-
-Many individuals face the same challenge when dealing with unfavorable decisions, finding
-themselves in a situation of legal uncertainty.
-
-Instead of accepting the refusal, you receive clear and structured legal guidance tailored to
-your situation.
-
-Your case is carefully analyzed, and you are provided with a clear strategy and the practical
-legal options available to move forward with confidence.
-
-Your next step in Spain starts here.
+                Immiworld ofrece experiencia, acompañamiento personalizado y
+                soluciones confiables para trámites de extranjería rápidos,
+                seguros y exitosos.
             </p>
             <div class="section-rootedness-grid">
                 <div class="left-rootedness">
                     <div class="rootedness first-rootedness">
                         <div class="number">1</div>
                         <div class="number-title">
-                            Expert Legal Guidance
+                            Asesoramiento Legal Experto
                         </div>
                         <p>
-                            You are guided step by step through every stage of your immigration process. Complex legal
-                            procedures are explained clearly, so you always know what to expect and how to proceed.
+                            Nuestro equipo te acompañará paso a paso en cada
+                            fase de tu proceso migratorio. Todo ello con la idea
+                            de transformar procedimientos legales complejos en
+                            acciones claras y comprensibles, para que siempre
+                            sepas qué hacer y qué esperar de cada paso.
                         </p>
                     </div>
                     <div class="rootedness second-rootedness">
                         <div class="number">2</div>
                         <div class="number-title">
-                            Personalized Solutions
+                            Soluciones Personalizadas
                         </div>
                         <p>
-                            Every case is unique. Your situation is carefully analyzed to design a legal strategy tailored
-                            to your specific needs and goals, because behind every application there is a personal story.
+                            Cada caso es único. Por eso analizamos tu situación de
+                            manera individual y diseñamos una estrategia legal
+                            adaptada a tus necesidades y objetivos porque sabemos
+                            que detrás de cada trámite hay una historia personal
                         </p>
                     </div>
                 </div>
@@ -141,21 +123,25 @@ Your next step in Spain starts here.
                     <div class="rootedness third-rootedness">
                         <div class="number">3</div>
                         <div class="number-title">
-                            Proven Track Record
+                            Éxito Demostrado
                         </div>
                         <p>
-                            With hundreds of satisfied clients, Immiworld has built a strong track record of achieving
-                            successful outcomes in immigration, nationality and residency matters.
+                            Con centenares de clientes satisfechos, Immiworld
+                            cuenta con una sólida trayectoria en la obtención de
+                            resultados favorables en materia de extranjería,
+                            nacionalidad y migración.
                         </p>
                     </div>
                     <div class="rootedness forth-rootedness">
                         <div class="number">4</div>
                         <div class="number-title">
-                            A Team You Can Trust
+                            Un Equipo En El Que Puedes Confiar
                         </div>
                         <p>
-                            You receive close and continuous support throughout the entire process, ensuring
-                            professionalism, transparency and confidence at every stage.
+                            Nuestro despacho de extranjería ofrece un
+                            acompañamiento cercano y continuo durante todo el
+                            proceso, garantizando profesionalidad, transparencia
+                            y confianza en todo momento.
                         </p>
                     </div>
                 </div>
@@ -173,58 +159,117 @@ Your next step in Spain starts here.
                 <div class="win-content">
                     <div class="win-heading">Requisitos Legales</div>
                     <p>
-                        Legal Requirements
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet modi, voluptate ipsam
+                        reiciendis, ad commodi ut vitae laudantium ipsum facilis, quis recusandae nihil pariatur
+                        architecto fuga repellendus quod incidunt expedita.
                     </p>
                     <div class="win-accordion">
                         <div class="win-accordion-wrapper">
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">1</div>
-                                    <span>Notification of the Refusal
+                                    <span>Residir en España de Forma Continuada
                                     </span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        You must provide the official document notifying you of the negative decision, which contains
-the reasons for the refusal.
+                                        Haber permanecido en territorio nacional
+                                        de forma continuada durante, al menos,
+                                        los dos años anteriores a la
+                                        presentación de dicha solicitud. <br />
+                                        Es importante no tener la condición de
+                                        solicitante de protección internacional,
+                                        ni en el momento de la presentación, ni
+                                        durante su tramitación.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">2</div>
-                                    <span>Timeframe for the Appeal
+                                    <span>No representar una Amenaza para el
+                                        Orden Público, seguridad o Salud Pública
                                     </span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        The appeal must be filed within the strict legal deadlines established by law (typically one
-month from the date of notification).
+                                        Este requisito tiene como finalidad
+                                        garantizar una convivencia segura y
+                                        conforme a la normativa vigente.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">3</div>
-                                    <span>Power of Attorney (if applicable)</span>
+                                    <span>Carecer de Antecedentes Penales y No
+                                        Figurar como Rechazable</span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        If you are being represented by a legal professional, a power of attorney or authorization
-document must be provided.
+                                        No sólo tendrías que carecer de ellos en
+                                        España, sino también en los países donde
+                                        hayas residido durante los cinco últimos
+                                        años anteriores a la fecha de entrada en
+                                        España, por delitos previstos en el
+                                        ordenamiento jurídico español. <br />
+                                        Y el no figurar como rechazable se
+                                        entiende en relación con países con los
+                                        que España tenga firmado algún tipo de
+                                        convenio en el que no acepten a personas
+                                        que dicho país ha prohibido la entrada
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">4</div>
-                                    <span>Supporting Documentation</span>
+                                    <span>Pago de la Tasa </span>
+                                </div>
+                                <div class="win-accordion-body">
+                                    <div class="win-accordion-content">
+                                        Como en la mayoría de procedimientos
+                                        administrativos, la solicitud del
+                                        arraigo familiar conlleva el pago de la
+                                        tasa correspondiente, que deberá
+                                        abonarse dentro del plazo establecido
+                                        para que el trámite pueda continuar
+                                        correctamente.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">5</div>
+                                    <span>Disponer de Contrato de Trabajo</span>
+                                </div>
+                                <div class="win-accordion-body">
+                                    <div class="win-accordion-content">
+                                        Tanto si aplicas uno o varios, es muy
+                                        importante que se garantice, al menos,
+                                        el salario mínimo interprofesional o el
+                                        establecido según el convenio colectivo
+                                        aplicable en función de la jornada
+                                        trabajada y cuya suma represente una
+                                        jornada semanal no inferior a 20 horas
+                                        semanales.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">6</div>
+                                    <span>Medios Económicos del Empleador</span>
                                 </div>
                                 <div class="win-accordion-body no-border">
                                     <div class="win-accordion-content">
-                                        Any additional evidence that strengthens your case may be included, such as employment
-records, proof of residence in Spain, family-related documentation or other supporting
-evidence.
+                                        Este deberá, como mínimo, encontrarse al
+                                        corriente del cumplimiento de sus
+                                        obligaciones tributarias y con la
+                                        Seguridad Social así como contar con
+                                        medios económicos suficientes para hacer
+                                        frente a las obligaciones asumidas en el
+                                        contrato.
                                     </div>
                                 </div>
                             </div>
@@ -371,9 +416,10 @@ evidence.
     </div>
 </section>
 
+<!-- Feedback -->
+{{-- <x-sp.testimonials :testimonials="$testimonials" /> --}}
 
-    <!-- Solutions -->
-    <x-en.solutions />
+<!-- Solutions -->
+<x-sp.solutions />
 
-<x-en.footer />
-
+<x-sp.footer />
