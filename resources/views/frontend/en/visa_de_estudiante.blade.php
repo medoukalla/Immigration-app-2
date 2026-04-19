@@ -1,128 +1,445 @@
 <x-en.head title="Immiworld - Student Visa" />
 
 <!-- Top menu navbar -->
-    <x-en.main-navbar route="{{route('frontend.sp.visa_de_estudiante') }}" />
+<x-en.main-navbar route="{{ route('frontend.sp.visa_de_estudiante') }}" />
 
+<!-- Banner hero section -->
+<div class="pages-banner blog">
+    <div class="base-container w-container">
+        <div class="min-hero-wrapper" style="min-height: 225px">
+            <h1>VISADOS Student Visa</h1>
+            <p>
+                If you wish to study in Spain, the student visa allows you to
+                reside legally while enrolled in recognized educational
+                institutions. <br />
+                It is designed for individuals who want to pursue university
+                studies, vocational training, language courses or other academic
+                programs. <br />
+                You receive guidance throughout the entire process to ensure
+                your application meets all legal requirements.
+            </p>
+            <div class="pages-path">
+                <div class="p-path">Home</div>
+                <img
+                    src=" {{ asset('assets/images/svg/arrow.svg') }}"
+                    alt="Path Arrow"
+                />
+                <div class="p-path">Immigration</div>
+                <img
+                    src=" {{ asset('assets/images/svg/arrow.svg') }}"
+                    alt="Path Arrow"
+                />
 
-    <!-- Banner hero section -->
-    <div class="pages-banner blog">
+                <div class="p-path">Student Visa</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="numbers-wrapper">
+    <div
+        data-w-id="221627f6-3a31-260f-8a97-6ec174e99870"
+        class="w-layout-grid working-numbers"
+    >
+        <div
+            id="w-node-_221627f6-3a31-260f-8a97-6ec174e99871-296c1813"
+            class="working-wrap"
+        >
+            <div class="numbers">10+</div>
+            <div class="numbers-text white-style">Years of experiencea</div>
+        </div>
+        <div
+            id="w-node-_221627f6-3a31-260f-8a97-6ec174e99876-296c1813"
+            class="working-wrap"
+        >
+            <div class="numbers">+5.000</div>
+            <div class="numbers-text white-style">Clients worldwide</div>
+            <div class="line home-white-left"></div>
+        </div>
+        <div
+            id="w-node-_221627f6-3a31-260f-8a97-6ec174e9987c-296c1813"
+            class="working-wrap"
+        >
+            <div class="numbers">100%</div>
+            <div class="numbers-text white-style">Satisfaction</div>
+            <div class="line home-white-left"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Services contact form -->
+<section>
+    <div class="without-bottom-spacing">
         <div class="base-container w-container">
-            <div class="min-hero-wrapper" style=" min-height: 225px; ">
-                <h1>Student Visa</h1>
-                <p>
-                    The Student Visa allows foreign nationals to study in Spain. It’s ideal for those enrolling in recognized educational institutions. We help guide you through the application process to meet Spain’s educational and immigration requirements.
+            <div class="s-services">
+                <h2 class="text-center"><span>Service</span> Overview</h2>
+                <p class="text-center">
+                    The student visa is a residence authorization that allows
+                    foreign nationals to stay in Spain for educational purposes.
+                    This includes university degrees, professional training,
+                    language courses and other officially recognized programs.
+                    Depending on the conditions of the permit, this
+                    authorization may also allow limited work activity
+                    compatible with your studies. You are guided throughout the
+                    application process, ensuring that all documentation is
+                    correctly prepared and submitted in accordance with current
+                    immigration regulations.
                 </p>
-                <div class="pages-path">
 
-                    <div class="p-path">
-                        <a href="{{ route('frontend.sp.index') }}">Welcome</a>
-                    </div>
-
-                    <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
-                    <div class="p-path">
-                        Immigration
-                    </div>
-                    <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
-
-                    <div class="p-path">
-                        Student Visa
-                    </div>
+                <div
+                    style="
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 20px;
+                    "
+                >
+                    <a
+                        href=""
+                        class="primary-button w-button"
+                        style="margin: 0 auto; width: 250px"
+                        >Sobre Nosotros</a
+                    >
                 </div>
             </div>
         </div>
     </div>
-    
-
-    <div class="numbers-wrapper">
-        <div data-w-id="221627f6-3a31-260f-8a97-6ec174e99870" class="w-layout-grid working-numbers">
-            <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e99871-296c1813" class="working-wrap">
-                <div class="numbers">10+</div>
-                <div class="numbers-text white-style">Years of experience</div>
-            </div>
-            <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e99876-296c1813" class="working-wrap">
-                <div class="numbers">+5.000</div>
-                <div class="numbers-text white-style">Personalized Consultations</div>
-                <div class="line home-white-left"></div>
-            </div>
-            <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e9987c-296c1813" class="working-wrap">
-                <div class="numbers">100%</div>
-                <div class="numbers-text white-style">Satisfaction</div>
-                <div class="line home-white-left"></div>
-            </div>
-        </div>
-    </div>
-    
-
-
-    <!-- Services contact form -->
-    <div class="section">
-        <div class="base-container w-container">
-            <div data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237" class="contacts-2-wrapper">
-                <div class="contacts-2-content-wrapper">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/images/pages/visa_de_estudiante.jpg') }}" alt="Visa de Estudiante">
-                    </div>
-                    <div class="contacts-title">
-                        <h2 class="in-section-title">Presentation of the Service</h2>
-                    </div>
-                    <div class="contacts-2-content">
+</section>
+<!-- Necessary documents -->
+<section style="background: #efefef; padding: 100px 0">
+    <div class="base-container w-container">
+        <div class="section-rootedness">
+            <h2 class="text-center">Why Choose Immiworld</h2>
+            <p class="text-center" style="width: 60%; margin: 0 auto">
+                You receive step-by-step assistance throughout your entire
+                immigration process. Each stage is clearly explained so you
+                always know what to expect.
+            </p>
+            <div class="section-rootedness-grid">
+                <div class="left-rootedness">
+                    <div class="rootedness first-rootedness">
+                        <div class="number">1</div>
+                        <div class="number-title">Expert Legal Guidance</div>
                         <p>
-                            At Immiworld, we offer a comprehensive service for obtaining a student visa, which allows foreign nationals to reside in Spain while studying at recognized educational institutions. This visa is ideal for those who wish to take advantage of the country’s academic offerings and immerse themselves in its culture. Our team of experts will guide you through the entire process, ensuring that your application is efficient and fully compliant with all legal requirements.
-
+                            You receive step-by-step assistance throughout your
+                            entire immigration process. Each stage is clearly
+                            explained so you always know what to expect.
+                        </p>
+                    </div>
+                    <div class="rootedness second-rootedness">
+                        <div class="number">2</div>
+                        <div class="number-title">Personalized Approach</div>
+                        <p>
+                            Every case is unique. Your situation is carefully
+                            analyzed to define the most appropriate legal
+                            strategy for your application.
                         </p>
                     </div>
                 </div>
-                <!-- Contact Form -->
-                @livewire('contact-english', ['service' => 'Student visa'])
+                <div class="midle-rootedness-img">
+                    <img
+                        src="{{ asset('assets/images/why-choose-us.png') }}"
+                        alt=""
+                    />
+                </div>
+                <div class="right-rootedness">
+                    <div class="rootedness third-rootedness">
+                        <div class="number">3</div>
+                        <div class="number-title">Proven Experience</div>
+                        <p>
+                            With a strong track record of successful cases,
+                            Immiworld provides reliable support in immigration
+                            procedures.
+                        </p>
+                    </div>
+                    <div class="rootedness forth-rootedness">
+                        <div class="number">4</div>
+                        <div class="number-title">Ongoing Support</div>
+                        <p>
+                            You receive continuous assistance from the beginning
+                            until your case is resolved, ensuring transparency
+                            and professionalism.
+                        </p>
+                    </div>
+                </div>
+                <div class="midle-rootedness-img-mobile">
+                    <img
+                        src="{{ asset('assets/images/why-choose-us.png') }}"
+                        alt=""
+                    />
+                </div>
             </div>
         </div>
     </div>
-    <x-en.trust_immiworld />
-    <!-- Necessary documents -->
-    <div class="section documents-section">
+</section>
+<section class="what-is-need-section">
+    <div class="ws-wrapper">
         <div class="base-container w-container">
-            <div class="heading">
-                <h2>Required Requirements</h2>
-            </div>
-            <div class="doc-wrapper w-layout-grid">
-                <div class="doc-block-wrapper doc-block-left">
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                        <b>Acceptance Letter from the Educational Institution:</b> <br> You must provide an official letter from the educational institution in Spain where you have been accepted, with detailed information about the course or academic program and its duration.
+            <div class="what-is-need">
+                <div class="win-content">
+                    <div class="win-heading">Requisitos Legales</div>
+                    <p>Legal Requirements</p>
+                    <div class="win-accordion">
+                        <div class="win-accordion-wrapper">
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">1</div>
+                                    <span
+                                        >Admission to a Recognized Center
+                                    </span>
+                                </div>
+                                <div class="win-accordion-body">
+                                    <div class="win-accordion-content">
+                                        You must provide proof of admission to a
+                                        legally recognized educational
+                                        institution in Spain, such as a
+                                        university, training center or language
+                                        school.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">2</div>
+                                    <span>Valid Passport </span>
+                                </div>
+                                <div class="win-accordion-body">
+                                    <div class="win-accordion-content">
+                                        You must hold a valid passport covering
+                                        the entire duration of your stay in
+                                        Spain.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">3</div>
+                                    <span>Financial Means</span>
+                                </div>
+                                <div class="win-accordion-body">
+                                    <div class="win-accordion-content">
+                                        You must demonstrate that you have
+                                        sufficient financial resources to cover
+                                        your living expenses during your stay.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">4</div>
+                                    <span>Health Insurance</span>
+                                </div>
+                                <div class="win-accordion-body">
+                                    <div class="win-accordion-content">
+                                        You must have private health insurance
+                                        with full coverage in Spain, without
+                                        co-payments.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">5</div>
+                                    <span>Criminal Record Certificate</span>
+                                </div>
+                                <div class="win-accordion-body">
+                                    <div class="win-accordion-content">
+                                        You must provide a criminal record
+                                        certificate from your country of origin
+                                        and from any country where you have
+                                        resided in recent years.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">6</div>
+                                    <span>Medical Certificate</span>
+                                </div>
+                                <div class="win-accordion-body no-border">
+                                    <div class="win-accordion-content">
+                                        In certain cases, you may be required to
+                                        provide a medical certificate confirming
+                                        that you do not suffer from diseases
+                                        that could pose a public health risk.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                        <b>Personal Identification Documents:</b> <br> <p> You must present a valid passport with a minimum validity of 6 months from the date of application.
-                            </p>
-                    </div>
+                    <a
+                        href="#"
+                        class="primary-button w-button"
+                        style="width: 50%"
+                        >Submit</a
+                    >
                 </div>
-                <div class="doc-block-wrapper doc-block-right">
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                        <b>Proof of Financial Means:</b> <br> <p> You must prove that you have sufficient financial resources to cover your expenses during your stay in Spain, through bank statements, scholarships, or proof of financial support.
-                            </p>
-                    </div>
-                    <div class="doc-block top">
-                        <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                        <b>Criminal Record Certificate:</b> <br> <p> You must submit a criminal record certificate from your country of origin, if you are over 18 years old.
-                            </p>
-                    </div>
+                <div class="empty-div">
+                    <img
+                        style="width: 100%; height: 100%"
+                        src="../../../../../public/assets/images/docs-img-right.png"
+                        alt=""
+                    />
                 </div>
             </div>
         </div>
     </div>
-    
-    <x-en.call_to_action />
+    <div class="win-img">
+        <img
+            style="width: 100%; height: 100%"
+            src="{{ asset('assets/images/docs-img-right.png') }}"
+            alt=""
+        />
+    </div>
+</section>
+<section class="what-is-need-section left">
+    <div class="ws-wrapper">
+        <div class="base-container w-container">
+            <div class="what-is-need reverse">
+                <div class="win-content right">
+                    <div class="win-heading">Requisitos Requeridos</div>
+                    <p>
+                        Para garantizar el éxito de su solicitud de arraigo
+                        laboral, seguimos un proceso estructurado de asesoría y
+                        gestión documental. A continuación, detallamos las fases
+                        clave y los requisitos necesarios para completar su
+                        trámite con total seguridad jurídica.
+                    </p>
+                    <div class="win-accordion">
+                        <div class="win-accordion-wrapper">
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">1</div>
+                                    <span>Evaluación Inicial</span>
+                                </div>
+                                <div class="win-accordion-body">
+                                    <div class="win-accordion-content">
+                                        Realizamos una consulta personalizada
+                                        para evaluar a fondo su situación y
+                                        confirmar que cumple con los requisitos
+                                        generales. Además, le proporcionamos un
+                                        resumen claro del proceso y de la
+                                        documentación necesaria.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">2</div>
+                                    <span
+                                        >Revisión y Preparación de
+                                        Documentación</span
+                                    >
+                                </div>
+                                <div class="win-accordion-body">
+                                    <div class="win-accordion-content">
+                                        Reunimos y revisamos toda la
+                                        documentación requerida, verificando su
+                                        conformidad con las normativas vigentes.
+                                        Nuestro equipo organiza y prepara los
+                                        documentos de manera exhaustiva para
+                                        evitar retrasos en la solicitud.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">3</div>
+                                    <span>Gestión Integral del Proceso</span>
+                                </div>
+                                <div class="win-accordion-body">
+                                    <div class="win-accordion-content">
+                                        Nos ocupamos de gestionar todo el
+                                        proceso desde la preparación hasta la
+                                        presentación de su solicitud. También
+                                        asistimos en cualquier requisito
+                                        adicional necesario para asegurar el
+                                        éxito del trámite.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">4</div>
+                                    <span
+                                        >Asesoría y Seguimiento Posterior</span
+                                    >
+                                </div>
+                                <div class="win-accordion-body">
+                                    <div class="win-accordion-content">
+                                        Realizamos un seguimiento continuo de la
+                                        solicitud y le mantenemos informado de
+                                        cada avance importante. En caso de
+                                        resolución favorable, le orientamos en
+                                        los pasos finales; si es desfavorable,
+                                        le asesoramos sobre las opciones de
+                                        recurso.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">5</div>
+                                    <span
+                                        >Acreditación de la Relación
+                                        Laboral</span
+                                    >
+                                </div>
+                                <div class="win-accordion-body">
+                                    <div class="win-accordion-content">
+                                        Deberás demostrar la existencia de
+                                        relaciones laborales cuya duración no
+                                        sea inferior a seis meses, mediante
+                                        resolución judicial o acta de Inspección
+                                        de Trabajo.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">6</div>
+                                    <span
+                                        >Documentación de Identidad
+                                        Completa</span
+                                    >
+                                </div>
+                                <div class="win-accordion-body no-border">
+                                    <div class="win-accordion-content">
+                                        Es obligatorio aportar la copia íntegra
+                                        del pasaporte. Se deben incluir todas
+                                        las páginas para verificar los periodos
+                                        de permanencia y entradas o salidas.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a
+                        href="#"
+                        class="primary-button w-button"
+                        style="width: 50%"
+                        >Submit</a
+                    >
+                </div>
+                <div class="empty-div left">
+                    <img
+                        style="width: 100%; height: 100%"
+                        src="../../../../../public/assets/images/docs-img-right.png"
+                        alt=""
+                    />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="win-img">
+        <img
+            style="width: 100%; height: 100%"
+            src="{{ asset('assets/images/docs-img-right.png') }}"
+            alt=""
+        />
+    </div>
+</section>
 
-    <!-- Necessary documents -->
-    <x-en.necessary-documents service="Student visa" />
-
-
-    <!-- Feedback -->
-    <x-en.testimonials :testimonials="$testimonials" />
-
-    <!-- Solutions -->
-    <x-en.solutions />
+<!-- Solutions -->
+<x-en.solutions />
 
 <x-en.footer />
-
