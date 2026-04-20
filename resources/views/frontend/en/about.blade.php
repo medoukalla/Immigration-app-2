@@ -8,9 +8,15 @@
 <div class="pages-banner blog">
     <div class="base-container w-container">
         <div class="min-hero-wrapper" style=" min-height: 255px; ">
-            <h1>About Us</h1>
+            <h1>SOBRE NOSOTROS
+
+ABOUT US</h1>
             <p>
-                At Immiworld, we are a law firm specializing in immigration law. Our team of highly qualified professionals is dedicated to providing tailored, effective legal solutions, ensuring the success of your immigration process.
+                At Immiworld, you receive specialized legal guidance in immigration law, focused on
+providing clear, reliable and tailored solutions for your immigration process in Spain.
+
+Each case is approached individually, ensuring that your situation is carefully analyzed and
+managed in accordance with current immigration regulations.
             </p>
             <div class="pages-path">
                 <div class="p-path">
@@ -46,33 +52,103 @@
     </div>
 </div>
 
-{{-- Hero section ENDS  --}}
 
-<div class="section about-section">
-    <div class="base-container w-container">
-        <div class="our-journey">
-            <div class="left-side">
-                <div class="journey-subtitle">Our Story</div>
-                <h2>Experts in Immigration Law in Málaga</h2>
-            </div>
-            <div class="right-side">
-                <p>
-                    At Immiworld, we began with a clear mission: to simplify immigration and residency processes for individuals and families seeking to establish their lives in Spain, with a special focus on Málaga. As a specialized law firm in immigration law, we have earned the trust of our clients by providing tailored legal solutions for each unique situation. Málaga, one of Spain's most dynamic and desirable cities, serves as the epicenter of our services, helping those who aspire to start a new chapter in this vibrant region.
-                </p> <br>
-                <p>
-                    From non-lucrative residency permits to visas for entrepreneurs and digital nomads, we guide our clients through every step of the process, ensuring compliance with all legal requirements. With a team of highly skilled immigration attorneys based in Málaga, Immiworld has established itself as a leading authority in immigration and residency law, offering personalized support and efficient solutions for obtaining residence permits, citizenship, and other complex legal procedures in Spain.
-
-                </p> <br>
-                <p>    
-                    Our goal is to make your immigration journey smooth and successful, always with a local and personalized approach. Málaga is our home, and from here, we assist individuals from around the world in achieving their goals in Spain.
+<!-- Services contact form -->
+<section>
+    <div class="without-bottom-spacing">
+        <div class="base-container w-container">
+            <div class="s-services">
+                <h2 class="text-center">
+                    <span>Service</span> Overview
+                </h2>
+                <p class="text-center">
+                    Social Integration Residence is a residence permit that allows foreign nationals to reside
+                    legally in Spain if they have remained in the country for at least two years prior to submitting
+                    the application, and can demonstrate either family ties with other foreign residents holding a
+                    valid residence permit or, where such ties cannot be proven, sufficient evidence of social
+                    integration in Spain.
                 </p>
+
+
+                <div style="
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 20px;
+                    ">
+                    <a href="" class="primary-button w-button" style="margin: 0 auto; width: 250px">Sobre Nosotros</a>
+                </div>
             </div>
         </div>
     </div>
-</div>
+</section>
 
+<!-- Necessary documents -->
+<section style="background: #efefef; padding: 100px 0">
+    <div class="base-container w-container">
+        <div class="section-rootedness">
+            <h2 class="text-center">
+                Why Choose Immiworld for Your Immigration Process
+            </h2>
+            <p class="text-center" style="width: 60%; margin: 0 auto">
+                You are guided step by step through every stage of your immigration process. Complex legal
+                procedures are explained clearly, so you always know what to expect and how to proceed.
+            </p>
+            <div class="section-rootedness-grid">
+                <div class="left-rootedness">
+                    <div class="rootedness first-rootedness">
+                        <div class="number">1</div>
+                        <div class="number-title">
+                            Expert Legal Guidance
+                        </div>
+                        <p>
+                            You are guided step by step through every stage of your immigration process. Complex legal
+                            procedures are explained clearly, so you always know what to expect and how to proceed.
+                        </p>
+                    </div>
+                    <div class="rootedness second-rootedness">
+                        <div class="number">2</div>
+                        <div class="number-title">
+                            Personalized Solutions
+                        </div>
+                        <p>
+                            Every case is unique. Your situation is carefully analyzed to design a legal strategy tailored
+                            to your specific needs and goals, because behind every application there is a personal story.
+                        </p>
+                    </div>
+                </div>
+                <div class="midle-rootedness-img">
+                    <img src="{{ asset('assets/images/why-choose-us.png') }}" alt="" />
+                </div>
+                <div class="right-rootedness">
+                    <div class="rootedness third-rootedness">
+                        <div class="number">3</div>
+                        <div class="number-title">
+                            Proven Track Record
+                        </div>
+                        <p>
+                            With hundreds of satisfied clients, Immiworld has built a strong track record of achieving
+                            successful outcomes in immigration, nationality and residency matters.
+                        </p>
+                    </div>
+                    <div class="rootedness forth-rootedness">
+                        <div class="number">4</div>
+                        <div class="number-title">
+                            A Team You Can Trust
+                        </div>
+                        <p>
+                            You receive close and continuous support throughout the entire process, ensuring
+                            professionalism, transparency and confidence at every stage.
+                        </p>
+                    </div>
+                </div>
+                <div class="midle-rootedness-img-mobile">
+                    <img src="{{ asset('assets/images/why-choose-us.png') }}" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-<x-en.trust_immiworld />
 
 
 {{-- Partner section --}}

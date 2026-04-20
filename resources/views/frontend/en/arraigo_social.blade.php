@@ -75,6 +75,7 @@ to integrate into Spanish society.
         </div>
     </div>
 </section>
+
 <!-- Necessary documents -->
 <section style="background: #efefef; padding: 100px 0">
     <div class="base-container w-container">
@@ -141,6 +142,7 @@ to integrate into Spanish society.
         </div>
     </div>
 </section>
+
 <section class="what-is-need-section">
     <div class="ws-wrapper">
         <div class="base-container w-container">
