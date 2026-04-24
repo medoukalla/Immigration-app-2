@@ -6,7 +6,7 @@
 <div class="pages-banner blog">
     <div class="base-container w-container">
         <div class="min-hero-wrapper" style="min-height: 225px">
-            <h1>Training-Based Residence</h1>
+            <h1>Arraigo Socioformativo</h1>
             <p>
                A type of exceptional residence permit based on being enrolled in, currently undertaking, or
 committing to complete a specific training programme, particularly those promoted by Public

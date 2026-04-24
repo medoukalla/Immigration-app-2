@@ -8,8 +8,7 @@
 <div class="pages-banner blog">
     <div class="base-container w-container">
         <div class="min-hero-wrapper" style="min-height: 225px">
-            <h1>PAGE Residencia No Lucrativa
- NON-LUCRATIVE RESIDENCE</h1>
+            <h1>Residencia No Lucrativa</h1>
             <p>
                Non-Lucrative Residence allows foreign nationals to live in Spain without engaging in any
 work or professional activity, provided they have sufficient financial means to support

@@ -9,8 +9,7 @@
 <div class="pages-banner blog">
     <div class="base-container w-container">
         <div class="min-hero-wrapper" style="min-height: 225px">
-            <h1>EXTRANJERÍA: IMMIGRATION SERVICES
- ARRAIGO SOCIAL</h1>
+            <h1>Arraigo Social</h1>
             <p>
                Social Integration Residence
 This legal pathway recognizes both the importance of family ties and the applicant's efforts
