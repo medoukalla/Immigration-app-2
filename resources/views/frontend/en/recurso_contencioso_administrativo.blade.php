@@ -8,8 +8,7 @@
 <div class="pages-banner blog">
     <div class="base-container w-container">
         <div class="min-hero-wrapper" style="min-height: 225px">
-            <h1>Recurso contencioso administrativo
-ADMINISTRATIVE LITIGATION APPEAL</h1>
+            <h1>Recurso Contencioso Administrativo</h1>
             <p>
                If your residence or visa application has been denied, this legal action allows you to
 challenge the decision before the courts.

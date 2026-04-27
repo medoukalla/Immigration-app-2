@@ -8,7 +8,7 @@
 <div class="pages-banner blog">
     <div class="base-container w-container">
         <div class="min-hero-wrapper" style="min-height: 225px">
-            <h1>PAGE ARRAIGO SOCIOLABORAL</h1>
+            <h1>Arraigo socio laboral</h1>
             <p>
                A type of exceptional residence permit focused not only on proving at least two years of
 continuous stay in Spain, but also on demonstrating the existence of a valid job offer or

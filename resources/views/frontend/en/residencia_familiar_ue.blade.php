@@ -7,8 +7,7 @@
 <div class="pages-banner blog">
     <div class="base-container w-container">
         <div class="min-hero-wrapper" style="min-height: 225px">
-            <h1>Residencia de Familiar de Ciudadano de la UE
-PAGE EU FAMILY MEMBER RESIDENCE</h1>
+            <h1>EU Family Memeber Residence</h1>
             <p>
                If you are a family member of a European Union citizen and wish to live in Spain, this
 authorization allows you to do so under favorable legal conditions.

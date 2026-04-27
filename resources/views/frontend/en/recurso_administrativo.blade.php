@@ -7,8 +7,7 @@
 <div class="pages-banner blog">
     <div class="base-container w-container">
         <div class="min-hero-wrapper" style="min-height: 225px">
-            <h1>PAGE Recurso Administrativo
-ADMINISTRATIVE APPEALS</h1>
+            <h1>Recurso Administrativo</h1>
             <p>
                If your application for residence, a visa or any type of authorization has been refused,
 dismissed or declared inadmissible, filing an administrative appeal is a legal mechanism to

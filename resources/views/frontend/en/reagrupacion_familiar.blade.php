@@ -8,7 +8,7 @@
 <div class="pages-banner blog">
     <div class="base-container w-container">
         <div class="min-hero-wrapper" style="min-height: 225px">
-            <h1>Reagrupación Familiar</h1>
+            <h1>Family Reunification</h1>
             <p>
                Family Reunification is a residence authorization that allows foreign nationals legally residing
                 in Spain to bring their family members, ensuring family unity in accordance with immigration

@@ -8,8 +8,7 @@
 <div class="pages-banner blog">
     <div class="base-container w-container">
         <div class="min-hero-wrapper" style="min-height: 225px">
-            <h1>NÓMADA DIGITAL
- DIGITAL NOMAD VISA</h1>
+            <h1>Digital Nomad Visa</h1>
             <p>
                If you work remotely and want to live in Spain, the digital nomad visa allows you to reside
 legally without the need for local employment.
