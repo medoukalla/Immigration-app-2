@@ -58,9 +58,6 @@
                 <a href="{{ route('frontend.residencia_familiar_ue') }}" class="nav-dropdown-link w-dropdown-link">
                   <span class="nav-dropdown-link-line"></span>Residence for Family Members of EU Citizens
                 </a>
-                <a href="{{ route('frontend.etudier') }}" class="nav-dropdown-link w-dropdown-link">
-                  <span class="nav-dropdown-link-line"></span>Study residence
-                </a>
                 <a href="{{ route('frontend.recurso_contencioso_administrativo') }}"
                   class="nav-dropdown-link w-dropdown-link">
                   <span class="nav-dropdown-link-line"></span>Administrative Litigation Appeal

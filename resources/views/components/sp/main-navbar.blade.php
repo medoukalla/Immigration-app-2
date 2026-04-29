@@ -60,9 +60,6 @@
                 <a href="{{ route('frontend.sp.residencia_familiar_ue') }}" class="nav-dropdown-link w-dropdown-link">
                   <span class="nav-dropdown-link-line"></span>Residencia para Familiares de Ciudadanos de la UE
                 </a>
-                <a href="{{ route('frontend.sp.etudier') }}" class="nav-dropdown-link w-dropdown-link">
-                  <span class="nav-dropdown-link-line"></span>Estancia por estudios
-                </a>
                 <a href="{{ route('frontend.sp.recurso_contencioso_administrativo') }}"
                   class="nav-dropdown-link w-dropdown-link">
                   <span class="nav-dropdown-link-line"></span>Recurso Contencioso Administrativo
