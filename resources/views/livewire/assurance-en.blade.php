@@ -3,25 +3,33 @@
 
             <div class="contact-method-payment">
                 <div class="banks">
-                    <p>We Accept All Payment Methods in Morocco</p>
+                    <p>Accepted Payment Methods in Morocco</p>
+                    <div style="color: #ff8800; font-size: 12px; border: 1px solid #ffba0036; background:#ffba0036; padding: 10px 20px;"
+                                >
+                                All standard payment methods available in Morocco are accepted.
+                            </div>
                     <div class="payments">
                         <img src="{{ asset('img/mar-banks.svg') }}" alt="Morocco banks">
                     </div>
                 </div>
                 <div class="banks">
-                    <p>We Accept All Payment Methods in Spain</p>
+                    <p>Accepted Payment Methods in Spain</p>
+                    <div style="color: #ff8800; font-size: 12px; border: 1px solid #ffba0036; background:#ffba0036; padding: 10px 20px;"
+                                >
+                                All standard payment methods available in Spain are accepted.
+                            </div>
                     <div class="payments">
                         <img src="{{ asset('img/sp-banks.svg') }}" alt="Morocco banks">
                     </div>
                 </div>
             </div>
             <div class="note-important">
-                Fill Out the Following Information to Calculate the price of Insurance
+               Complete the following information to receive an estimate:
             </div>
             <h6>1 - Full Name :</h6>
-            <input wire:model="full_name" class="contacts-input white-style w-input" maxlength="256" name="name"  placeholder="Please provide your full name." type="text" id="name-2"  />
+            <input wire:model="full_name" class="contacts-input white-style w-input" maxlength="256" name="name"  placeholder="Enter your full name" type="text" id="name-2"  />
             
-            <h6>2 - Select Insurance Type :</h6>
+            <h6>2 - Insurance Provider :</h6>
             <select  name="assurance" id="assurance" class="white-style" required>
                 <option value="DKV">DKV</option>
                 <option value="SANITAS">SANITAS</option>
@@ -66,7 +74,7 @@
             
             <br>
 
-            <input wire:click="validate_first_step()" type="button" class="primary-button full-width-mobile w-button mt-3" value="calculate the price of insurance"  />
+            <input wire:click="validate_first_step()" type="button" class="primary-button full-width-mobile w-button mt-3" value="Calculate Your Insurance Price"  />
 
             <!-- Background Overlay Div -->
             <div class="overlay" @if ( $step != 2) style="display: none;" @endif>

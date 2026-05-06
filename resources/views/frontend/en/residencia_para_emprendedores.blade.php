@@ -7,41 +7,36 @@
 <!-- Banner hero section -->
 <div class="pages-banner blog">
     <div class="base-container w-container">
-        <div class="min-hero-wrapper" style=" min-height: 225px; ">
+        <div class="min-hero-wrapper" style="min-height: 225px">
             <h1>Entrepreneur Residence</h1>
             <p>
-                The Entrepreneur Residence permit is designed for individuals looking to start a business in Spain. We
-                assist in developing your business plan, demonstrating its economic viability, and securing your
-                entrepreneur visa.
+               The Entrepreneur Residence Visa is designed for individuals who wish to launch an
+innovative business project in Spain.
 
+You receive expert guidance in developing your business plan, demonstrating its economic
+viability, and successfully obtaining your residence authorization.
             </p>
             <div class="pages-path">
-                <div class="p-path">
-                    <a href="{{ route('frontend.sp.index') }}">Welcome</a>
-                </div>
-                <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
-                <div class="p-path">
-                    Immigration
-                </div>
-                <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow">
-                <div class="p-path">
-                    Entrepreneur Residence
-                </div>
+                <div class="p-path">Home</div>
+                <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow" />
+                <div class="p-path">Immigration</div>
+                <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow" />
+
+                <div class="p-path">Entrepreneur Residence Visa</div>
             </div>
         </div>
     </div>
 </div>
 
-
 <div class="numbers-wrapper">
     <div data-w-id="221627f6-3a31-260f-8a97-6ec174e99870" class="w-layout-grid working-numbers">
         <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e99871-296c1813" class="working-wrap">
             <div class="numbers">10+</div>
-            <div class="numbers-text white-style">Years of experience</div>
+            <div class="numbers-text white-style">Years of experiencea</div>
         </div>
         <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e99876-296c1813" class="working-wrap">
             <div class="numbers">+5.000</div>
-            <div class="numbers-text white-style">Personalized Consultations</div>
+            <div class="numbers-text white-style">Clients worldwide</div>
             <div class="line home-white-left"></div>
         </div>
         <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e9987c-296c1813" class="working-wrap">
@@ -53,82 +48,286 @@
 </div>
 
 <!-- Services contact form -->
-<div class="section">
+<section>
+    <div class="without-bottom-spacing">
+        <div class="base-container w-container">
+            <div class="s-services">
+                <h2 class="text-center">
+                    <span>Service</span> Overview
+                </h2>
+                <p class="text-center">
+                    The Entrepreneur Residence Visa allows foreign nationals to legally reside in Spain while
+                    developing an innovative business project.
+
+                    This authorization is ideal for individuals seeking to establish a business that generates
+                    economic value and contributes to the country's development.
+
+                    You are guided throughout the entire process, ensuring full compliance with all legal and
+                    administrative requirements.
+                </p>
+
+
+                <div style="
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 20px;
+                    ">
+                    <a href="" class="primary-button w-button" style="margin: 0 auto; width: 250px">Sobre Nosotros</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Necessary documents -->
+<section style="background: #efefef; padding: 100px 0">
     <div class="base-container w-container">
-        <div data-w-id="502c5dca-196a-0aae-1f67-5b18c9a90237" class="contacts-2-wrapper">
-            <div class="contacts-2-content-wrapper">
-                <div class="image-box">
-                    <img src="{{ asset('assets/images/pages/residencia_para_emprendedores.jpg') }}" alt="Contact image">
+        <div class="section-rootedness">
+            <h2 class="text-center">
+                Why Choose Immiworld for Your Immigration Process
+            </h2>
+            <p class="text-center" style="width: 60%; margin: 0 auto">
+                Trust Immiworld. Many clients have successfully achieved their immigration goals with
+professional legal support.
+
+At Immiworld, the immigration process is understood as more than just paperwork. It
+represents new opportunities and the beginning of a new stage in life.
+
+If you have been navigating complex legal requirements and finding contradictory or unclear
+information, you are not alone. Many individuals face the same challenge when trying to
+understand immigration procedures.
+
+Instead of relying on unreliable sources or generic platforms, you receive clear and
+structured legal guidance tailored to your situation.
+
+Your case is carefully analyzed, and you are provided with a clear strategy and practical
+solutions to move forward with confidence.
+
+Your next step in Spain starts here.
+            </p>
+            <div class="section-rootedness-grid">
+                <div class="left-rootedness">
+                    <div class="rootedness first-rootedness">
+                        <div class="number">1</div>
+                        <div class="number-title">
+                            Expert Legal Guidance
+                        </div>
+                        <p>
+                            You are guided step by step through every stage of your immigration process. Complex legal
+                            procedures are explained clearly, so you always know what to expect and how to proceed.
+                        </p>
+                    </div>
+                    <div class="rootedness second-rootedness">
+                        <div class="number">2</div>
+                        <div class="number-title">
+                            Personalized Solutions
+                        </div>
+                        <p>
+                            Every case is unique. Your situation is carefully analyzed to design a legal strategy tailored
+                            to your specific needs and goals, because behind every application there is a personal story.
+                        </p>
+                    </div>
                 </div>
-                <div class="contacts-title">
-                    <h2 class="in-section-title">Presentation of the Service</h2>
+                <div class="midle-rootedness-img">
+                    <img src="{{ asset('assets/images/why-choose-us.png') }}" alt="" />
                 </div>
-                <div class="contacts-2-content">
+                <div class="right-rootedness">
+                    <div class="rootedness third-rootedness">
+                        <div class="number">3</div>
+                        <div class="number-title">
+                            Proven Track Record
+                        </div>
+                        <p>
+                            With hundreds of satisfied clients, Immiworld has built a strong track record of achieving
+                            successful outcomes in immigration, nationality and residency matters.
+                        </p>
+                    </div>
+                    <div class="rootedness forth-rootedness">
+                        <div class="number">4</div>
+                        <div class="number-title">
+                            A Team You Can Trust
+                        </div>
+                        <p>
+                            You receive close and continuous support throughout the entire process, ensuring
+                            professionalism, transparency and confidence at every stage.
+                        </p>
+                    </div>
+                </div>
+                <div class="midle-rootedness-img-mobile">
+                    <img src="{{ asset('assets/images/why-choose-us.png') }}" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="what-is-need-section">
+    <div class="ws-wrapper">
+        <div class="base-container w-container">
+            <div class="what-is-need">
+                <div class="win-content">
+                    <div class="win-heading">Requisitos Legales</div>
                     <p>
-                        This residency allows you to develop an innovative business project in Spain, making it ideal
-                        for those looking to create a business that adds value and contributes to the country’s economic
-                        and social development. Our team of experts will guide you throughout the entire process,
-                        ensuring compliance with all legal requirements.
+                        Legal Requirements
                     </p>
+                    <div class="win-accordion">
+                        <div class="win-accordion-wrapper">
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">1</div>
+                                    <span>Valid Passport
+                                    </span>
+                                </div>
+                                <div class="win-accordion-body">
+                                    <div class="win-accordion-content">
+                                        You must provide a valid passport, including all pages.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">2</div>
+                                    <span>Business Plan
+                                    </span>
+                                </div>
+                                <div class="win-accordion-body">
+                                    <div class="win-accordion-content">
+                                        You must submit a detailed business plan demonstrating the viability, innovation and
+potential economic impact of your project in Spain.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">3</div>
+                                    <span>Proof of Financial Means</span>
+                                </div>
+                                <div class="win-accordion-body">
+                                    <div class="win-accordion-content">
+                                        You must demonstrate sufficient financial resources to establish and sustain your business,
+as well as to cover your personal living expenses.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">4</div>
+                                    <span>Additional Documentation</span>
+                                </div>
+                                <div class="win-accordion-body no-border">
+                                    <div class="win-accordion-content">
+                                        Depending on the type of activity, additional documents may be required, such as licenses,
+permits or professional accreditations.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="primary-button w-button" style="width: 50%">Submit</a>
+                </div>
+                <div class="empty-div">
+                    <img style="width: 100%; height: 100%" src="../../../../../public/assets/images/docs-img-right.png"
+                        alt="" />
                 </div>
             </div>
-            <!-- Contact Form -->
-            @livewire('contact-english', ['service' => 'Entrepreneurs Residency'])
         </div>
     </div>
-</div>
-<x-en.trust_immiworld />
-
-<!-- Necessary documents -->
-<div class="section documents-section">
-    <div class="base-container w-container">
-        <div class="heading">
-            <h2>Required Documents</h2>
-        </div>
-        <div class="doc-wrapper w-layout-grid">
-            <div class="doc-block-wrapper doc-block-left">
-                <div class="doc-block top">
-                    <img src="{{ asset('assets/images/svg/badge-1.svg') }}" alt="Badge">
-                    <b>Valid Passport:</b> <br>
-                    <p> Submit a complete and valid passport with all pages visible.
+    <div class="win-img">
+        <img style="width: 100%; height: 100%" src="{{ asset('assets/images/docs-img-right.png') }}" alt="" />
+    </div>
+</section>
+<section class="what-is-need-section left">
+    <div class="ws-wrapper">
+        <div class="base-container w-container">
+            <div class="what-is-need reverse">
+                <div class="win-content right">
+                    <div class="win-heading">Required Requirements</div>
+                    <p>
+                        To guarantee the success of your labor roots (arraigo laboral) application, we follow a structured advisory and document management process. Below, we detail the key phases and requirements necessary to complete your procedure with full legal certainty.
                     </p>
+                    <div class="win-accordion">
+                        <div class="win-accordion-wrapper">
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">1</div>
+                                    <span>Initial Evaluation</span>
+                                </div>
+                                <div class="win-accordion-body">
+                                    <div class="win-accordion-content">
+                                        We conduct a personalized consultation to thoroughly evaluate your situation and confirm that you meet the general requirements. In addition, we provide you with a clear summary of the process and the necessary documentation.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">2</div>
+                                    <span>Review and Preparation of Documentation</span>
+                                </div>
+                                <div class="win-accordion-body">
+                                    <div class="win-accordion-content">
+                                        We gather and review all required documentation, verifying its compliance with current regulations. Our team organizes and prepares the documents exhaustively to avoid delays in the application.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">3</div>
+                                    <span>Comprehensive Process Management</span>
+                                </div>
+                                <div class="win-accordion-body">
+                                    <div class="win-accordion-content">
+                                        We take care of managing the entire process from preparation to the submission of your application. We also assist with any additional requirements necessary to ensure the success of the procedure.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">4</div>
+                                    <span>Advisory and Post-Follow-up</span>
+                                </div>
+                                <div class="win-accordion-body">
+                                    <div class="win-accordion-content">
+                                        We perform continuous monitoring of the application and keep you informed of every important progress. In case of a favorable resolution, we guide you through the final steps; if it is unfavorable, we advise you on the appeal options.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">5</div>
+                                    <span>Accreditation of the Labor Relationship</span>
+                                </div>
+                                <div class="win-accordion-body">
+                                    <div class="win-accordion-content">
+                                        You must demonstrate the existence of labor relations whose duration is not less than six months, through a judicial resolution or a Labor Inspection report.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="win-accordion-item">
+                                <div class="win-accordion-header">
+                                    <div class="win-number">6</div>
+                                    <span>Full Identity Documentation</span>
+                                </div>
+                                <div class="win-accordion-body no-border">
+                                    <div class="win-accordion-content">
+                                        It is mandatory to provide a full copy of the passport. All pages must be included to verify periods of stay and entries or exits.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="primary-button w-button" style="width: 50%">Submit</a>
                 </div>
-                <div class="doc-block top">
-                    <img src="{{ asset('assets/images/svg/badge-2.svg') }}" alt="Badge">
-                    <b>Business Plan:</b></br>
-                    <p> Provide a detailed business plan demonstrating the project’s viability and its impact on the
-                        Spanish economy.
-                    </p>
-                </div>
-
-            </div>
-            <div class="doc-block-wrapper doc-block-right">
-                <div class="doc-block top">
-                    <img src="{{ asset('assets/images/svg/badge-3.svg') }}" alt="Badge">
-                    <b>Proof of Financial Means:</b><br>
-                    <p> Show evidence of sufficient funds to start and sustain the business activity, as well as to
-                        cover personal expenses.
-                    </p>
-                </div>
-                <div class="doc-block top">
-                    <img src="{{ asset('assets/images/svg/badge-4.svg') }}" alt="Badge">
-                    <b>Other Documents:</b><br>
-                    <p> Depending on the type of activity, additional documents may be required, such as specific
-                        licenses or professional accreditations.
-                    </p>
+                <div class="empty-div left">
+                    <img style="width: 100%; height: 100%" src="../../../../../public/assets/images/docs-img-right.png"
+                        alt="" />
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-
-<x-en.call_to_action />
-
-
-<!-- Necessary documents -->
-<x-en.necessary-documents service="Entrepreneurs Residency" />
-
+    <div class="win-img">
+        <img style="width: 100%; height: 100%" src="{{ asset('assets/images/docs-img-right.png') }}" alt="" />
+    </div>
+</section>
 
 <!-- Feedback -->
 {{-- <x-en.testimonials :testimonials="$testimonials" /> --}}

@@ -260,117 +260,82 @@ International Health Regulations (2005).
         <div class="base-container w-container">
             <div class="what-is-need reverse">
                 <div class="win-content right">
-                    <div class="win-heading">Requisitos Requeridos</div>
+                    <div class="win-heading">Required Requirements</div>
                     <p>
-                        Para garantizar el éxito de su solicitud de arraigo
-                        laboral, seguimos un proceso estructurado de asesoría y
-                        gestión documental. A continuación, detallamos las fases
-                        clave y los requisitos necesarios para completar su
-                        trámite con total seguridad jurídica.
+                        To guarantee the success of your labor roots (arraigo laboral) application, we follow a structured advisory and document management process. Below, we detail the key phases and requirements necessary to complete your procedure with full legal certainty.
                     </p>
                     <div class="win-accordion">
                         <div class="win-accordion-wrapper">
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">1</div>
-                                    <span>Evaluación Inicial</span>
+                                    <span>Initial Evaluation</span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Realizamos una consulta personalizada
-                                        para evaluar a fondo su situación y
-                                        confirmar que cumple con los requisitos
-                                        generales. Además, le proporcionamos un
-                                        resumen claro del proceso y de la
-                                        documentación necesaria.
+                                        We conduct a personalized consultation to thoroughly evaluate your situation and confirm that you meet the general requirements. In addition, we provide you with a clear summary of the process and the necessary documentation.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">2</div>
-                                    <span>Revisión y Preparación de
-                                        Documentación</span>
+                                    <span>Review and Preparation of Documentation</span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Reunimos y revisamos toda la
-                                        documentación requerida, verificando su
-                                        conformidad con las normativas vigentes.
-                                        Nuestro equipo organiza y prepara los
-                                        documentos de manera exhaustiva para
-                                        evitar retrasos en la solicitud.
+                                        We gather and review all required documentation, verifying its compliance with current regulations. Our team organizes and prepares the documents exhaustively to avoid delays in the application.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">3</div>
-                                    <span>Gestión Integral del Proceso</span>
+                                    <span>Comprehensive Process Management</span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Nos ocupamos de gestionar todo el
-                                        proceso desde la preparación hasta la
-                                        presentación de su solicitud. También
-                                        asistimos en cualquier requisito
-                                        adicional necesario para asegurar el
-                                        éxito del trámite.
+                                        We take care of managing the entire process from preparation to the submission of your application. We also assist with any additional requirements necessary to ensure the success of the procedure.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">4</div>
-                                    <span>Asesoría y Seguimiento Posterior</span>
+                                    <span>Advisory and Post-Follow-up</span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Realizamos un seguimiento continuo de la
-                                        solicitud y le mantenemos informado de
-                                        cada avance importante. En caso de
-                                        resolución favorable, le orientamos en
-                                        los pasos finales; si es desfavorable,
-                                        le asesoramos sobre las opciones de
-                                        recurso.
+                                        We perform continuous monitoring of the application and keep you informed of every important progress. In case of a favorable resolution, we guide you through the final steps; if it is unfavorable, we advise you on the appeal options.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">5</div>
-                                    <span>Acreditación de la Relación
-                                        Laboral</span>
+                                    <span>Accreditation of the Labor Relationship</span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Deberás demostrar la existencia de
-                                        relaciones laborales cuya duración no
-                                        sea inferior a seis meses, mediante
-                                        resolución judicial o acta de Inspección
-                                        de Trabajo.
+                                        You must demonstrate the existence of labor relations whose duration is not less than six months, through a judicial resolution or a Labor Inspection report.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">6</div>
-                                    <span>Documentación de Identidad
-                                        Completa</span>
+                                    <span>Full Identity Documentation</span>
                                 </div>
                                 <div class="win-accordion-body no-border">
                                     <div class="win-accordion-content">
-                                        Es obligatorio aportar la copia íntegra
-                                        del pasaporte. Se deben incluir todas
-                                        las páginas para verificar los periodos
-                                        de permanencia y entradas o salidas.
+                                        It is mandatory to provide a full copy of the passport. All pages must be included to verify periods of stay and entries or exits.
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <a href="#" class="primary-button w-button" style="width: 50%">Submit</a>
-                </div>
+                </div
                 <div class="empty-div left">
                     <img style="width: 100%; height: 100%" src="../../../../../public/assets/images/docs-img-right.png"
                         alt="" />

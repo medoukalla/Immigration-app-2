@@ -6,9 +6,7 @@
 <div class="pages-banner blog">
     <div class="base-container w-container">
         <div class="min-hero-wrapper" style="min-height: 225px">
-            <h1>DIGITAL CERTIFICATE
-
-Digital Certificate for Companies</h1>
+            <h1>Digital Certificate for Companies</h1>
             <p>
                The digital certificate for companies allows businesses to securely identify themselves online
 and carry out administrative procedures with public authorities in Spain.

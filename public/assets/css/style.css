@@ -10973,6 +10973,7 @@ input[type="radio"] {
 
 .what-is-need {
     display: flex;
+    width: 100%;
 }
 
 .what-is-need.reverse {
