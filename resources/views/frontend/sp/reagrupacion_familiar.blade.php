@@ -3,60 +3,40 @@
 <!-- Top menu navbar -->
     <x-sp.main-navbar route="{{route('frontend.reagrupacion_familiar') }}" />
 
-
     <!-- Banner hero section -->
-    <div class="pages-banner blog">
-        <div class="base-container w-container">
-            <div class="min-hero-wrapper" style=" min-height: 225px; ">
-                <h1>Reagrupación Familiar</h1>
-                <p>
-                    Voy a usar como “referencia” el documento de “Arraigo Familiar” para que el
-desarrollador le de contenido a la “Reagrupación Familiar”
-                </p>
-                <div class="pages-path">
-                <div class="p-path">
-                    <a href="{{ route('frontend.sp.index') }}">Bienvenida</a>
-                </div>
-                    <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
-                    <div class="p-path">
-                        Extranjeria
-                    </div>
-                    <img src="{{ asset('assets/images/svg/arrow.svg') }}" alt="Flecha de ruta">
-                    <div class="p-path">
-                        Reagrupación Familiar
-                    </div>
-                    
-                </div>
+<div class="pages-banner blog">
+    <div class="base-container w-container">
+        <div class="min-hero-wrapper" style="min-height: 225px">
+            <h1>Reagrupación Familiar</h1>
+            <p>
+               La Reagrupación Familiar es una autorización de residencia que permite a los extranjeros
+                que residen legalmente en España traer a sus familiares, garantizando la unidad familiar
+                de conformidad con la normativa de extranjería.
+            </p>
+            <div class="pages-path">
+                <div class="p-path">Inicio</div>
+                <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow" />
+                <div class="p-path">Inmigración</div>
+                <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow" />
+
+                <div class="p-path">Reagrupación Familiar</div>
             </div>
         </div>
     </div>
+</div>
 
 <div class="numbers-wrapper">
-    <div
-        data-w-id="221627f6-3a31-260f-8a97-6ec174e99870"
-        class="w-layout-grid working-numbers"
-    >
-        <div
-            id="w-node-_221627f6-3a31-260f-8a97-6ec174e99871-296c1813"
-            class="working-wrap"
-        >
+    <div data-w-id="221627f6-3a31-260f-8a97-6ec174e99870" class="w-layout-grid working-numbers">
+        <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e99871-296c1813" class="working-wrap">
             <div class="numbers">10+</div>
             <div class="numbers-text white-style">Años de experiencia</div>
         </div>
-        <div
-            id="w-node-_221627f6-3a31-260f-8a97-6ec174e99876-296c1813"
-            class="working-wrap"
-        >
-            <div class="numbers">+500</div>
-            <div class="numbers-text white-style">
-                Clientes Alrededor del Mundo
-            </div>
+        <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e99876-296c1813" class="working-wrap">
+            <div class="numbers">+5.000</div>
+            <div class="numbers-text white-style">Clientes en todo el mundo</div>
             <div class="line home-white-left"></div>
         </div>
-        <div
-            id="w-node-_221627f6-3a31-260f-8a97-6ec174e9987c-296c1813"
-            class="working-wrap"
-        >
+        <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e9987c-296c1813" class="working-wrap">
             <div class="numbers">100%</div>
             <div class="numbers-text white-style">Satisfacción</div>
             <div class="line home-white-left"></div>
@@ -70,64 +50,54 @@ desarrollador le de contenido a la “Reagrupación Familiar”
         <div class="base-container w-container">
             <div class="s-services">
                 <h2 class="text-center">
-                    Presentación del <span>Servicio</span>
+                    <span>Descripción</span> del Servicio
                 </h2>
                 <p class="text-center">
-                    La residencia temporal por Reagrupación Familiar es una
-                    autorización que permite a los familiares de una persona
-                    extranjera residente en España obtener su propio permiso
-                    de residencia, en ejercicio del derecho a la unidad
-                    familiar reconocido por la legislación vigente.
+                    La Reagrupación Familiar es una autorización de residencia temporal que permite a los
+                    familiares de un extranjero que reside legalmente en España obtener su propio permiso de
+                    residencia, de conformidad con el derecho a la unidad familiar reconocido en la legislación
+                    vigente.
+                    Esta autorización permite a determinados familiares residir legalmente en España, siempre
+                    que se cumplan todos los requisitos establecidos por la ley de extranjería.
+                    Te acompañamos durante todo el proceso, garantizando el pleno cumplimiento de todos los
+                    requisitos legales y administrativos.
                 </p>
-                <p class="text-center">
-Esta autorización posibilita la residencia legal en España
-de determinados familiares, siempre que se cumplan los
-requisitos establecidos por la normativa de extranjería.
-                </p>
-                <div
-                    style="
+
+
+                <div style="
                         display: flex;
                         justify-content: center;
                         margin-top: 20px;
-                    "
-                >
-                    <a
-                        href=""
-                        class="primary-button w-button"
-                        style="margin: 0 auto; width: 250px"
-                        >Sobre Nosotros</a
-                    >
+                    ">
+                    <a href="" class="primary-button w-button" style="margin: 0 auto; width: 250px">Sobre Nosotros</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
 <!-- Necessary documents -->
-<section style="background: #efefef; padding: 50px 0">
+<section style="background: #efefef; padding: 100px 0">
     <div class="base-container w-container">
         <div class="section-rootedness">
             <h2 class="text-center">
-                ¿Por qué elegir a <span>Immiworld</span> para tu Trámite de
-                <span>Extranjería?</span>
+                Por Qué Elegir Immiworld
             </h2>
             <p class="text-center" style="width: 60%; margin: 0 auto">
-                Immiworld ofrece experiencia, acompañamiento personalizado y
-                soluciones confiables para trámites de extranjería rápidos,
-                seguros y exitosos.
+                Te acompañamos paso a paso en cada etapa de tu proceso migratorio. Los procedimientos
+legales complejos se explican con claridad, para que siempre sepas qué esperar y cómo
+proceder.
             </p>
             <div class="section-rootedness-grid">
                 <div class="left-rootedness">
                     <div class="rootedness first-rootedness">
                         <div class="number">1</div>
                         <div class="number-title">
-                            Asesoramiento Legal Experto
+                            Asesoría Legal Experta
                         </div>
                         <p>
-                            Nuestro equipo te acompañará paso a paso en cada
-                            fase de tu proceso migratorio. Todo ello con la idea
-                            de transformar procedimientos legales complejos en
-                            acciones claras y comprensibles, para que siempre
-                            sepas qué hacer y qué esperar de cada paso.
+                            Te acompañamos paso a paso en cada etapa de tu proceso migratorio. Los procedimientos
+legales complejos se explican con claridad, para que siempre sepas qué esperar y cómo
+proceder.
                         </p>
                     </div>
                     <div class="rootedness second-rootedness">
@@ -136,50 +106,38 @@ requisitos establecidos por la normativa de extranjería.
                             Soluciones Personalizadas
                         </div>
                         <p>
-                            manera individual y diseñamos una estrategia legal
-                            adaptada a tus necesidades y objetivos porque
-                            sabemos que detrás de cada trámite hay una historia
-                            personal.
+                            Cada caso es único. Tu situación se analiza detenidamente para diseñar una estrategia legal
+adaptada a tus necesidades y objetivos específicos, porque detrás de cada solicitud hay una historia personal.
                         </p>
                     </div>
                 </div>
                 <div class="midle-rootedness-img">
-                    <img
-                        src="{{ asset('assets/images/why-choose-us.png') }}"
-                        alt=""
-                    />
+                    <img src="{{ asset('assets/images/why-choose-us.png') }}" alt="" />
                 </div>
                 <div class="right-rootedness">
                     <div class="rootedness third-rootedness">
                         <div class="number">3</div>
                         <div class="number-title">
-                            Con centenares de clientes
+                            Trayectoria Probada
                         </div>
                         <p>
-                            Con centenares de clientes satisfechos, Immiworld
-                            cuenta con una sólida trayectoria en la obtención de
-                            resultados favorables en materia de extranjería,
-                            nacionalidad y migración.
+                            Con cientos de clientes satisfechos, Immiworld ha consolidado una sólida trayectoria de resultados
+exitosos en materia de inmigración, nacionalidad y residencia.
                         </p>
                     </div>
                     <div class="rootedness forth-rootedness">
                         <div class="number">4</div>
                         <div class="number-title">
-                            Un Equipo En El Que Puedes Confiar
+                            Un Equipo de Confianza
                         </div>
                         <p>
-                            Nuestro despacho de extranjería ofrece un
-                            acompañamiento cercano y continuo durante todo el
-                            proceso, garantizando profesionalidad, transparencia
-                            y confianza en todo momento.
+                            Recibes un apoyo cercano y continuo durante todo el proceso, garantizando
+profesionalidad, transparencia y confianza en cada etapa.
                         </p>
                     </div>
                 </div>
                 <div class="midle-rootedness-img-mobile">
-                    <img
-                        src="{{ asset('assets/images/why-choose-us.png') }}"
-                        alt=""
-                    />
+                    <img src="{{ asset('assets/images/why-choose-us.png') }}" alt="" />
                 </div>
             </div>
         </div>
@@ -192,150 +150,105 @@ requisitos establecidos por la normativa de extranjería.
                 <div class="win-content">
                     <div class="win-heading">Requisitos Legales</div>
                     <p>
-                        Puesto que en la oficina sólo tenemos 1 abogado, voy a
-                        evitar plurales o decir cosas que no somos porque ya
-                        sabéis como es la gente en Internet y no quiero que se
-                        nos acuse de “publicidad engañosa” o algo por el estilo
+                        Requisitos Legales
                     </p>
                     <div class="win-accordion">
                         <div class="win-accordion-wrapper">
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">1</div>
-                                    <span
-                                        >Residir en España de Forma Continuada
+                                    <span>Situación Residencial del Reagrupante y Medios Económicos Suficientes
                                     </span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Haber permanecido en territorio nacional
-                                        de forma continuada durante, al menos,
-                                        los dos años anteriores a la
-                                        presentación de dicha solicitud. <br />
-                                        Es importante no tener la condición de
-                                        solicitante de protección internacional,
-                                        ni en el momento de la presentación, ni
-                                        durante su tramitación.
+                                        El reagrupante (el extranjero que reside en España) debe haber residido legalmente durante
+al menos un año y haber solicitado u obtenido autorización para residir al menos un año más.
+Además, debe acreditar recursos económicos suficientes para mantener a la familia, así
+como una vivienda adecuada.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">2</div>
-                                    <span
-                                        >No representar una Amenaza para el
-                                        Orden Público, seguridad o Salud Pública
+                                    <span>Familiares con Derecho a Reagrupación
                                     </span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Este requisito tiene como finalidad
-                                        garantizar una convivencia segura y
-                                        conforme a la normativa vigente.
+                                        La reagrupación familiar suele aplicarse a:
+→ Cónyuge o persona con una relación afectiva equivalente (parejas de hecho).
+→ Hijos del reagrupante y/o de su cónyuge o pareja, incluidos los adoptados,
+siempre que sean menores de 18 años o tengan una discapacidad reconocida.
+→ Ascendientes del reagrupante o de su cónyuge o pareja, generalmente mayores de 65 años,
+siempre que dependan económicamente de él y existan razones justificadas para su
+residencia en España.
+→ Excepcionalmente, hijos mayores de edad que ejerzan como cuidadores del reagrupante,
+cuando este tenga reconocida una situación de dependencia.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">3</div>
-                                    <span
-                                        >Carecer de Antecedentes Penales y No
-                                        Figurar como Rechazable</span
-                                    >
+                                    <span>Sin Antecedentes Penales y Sin Amenaza al Orden Público, la Seguridad o la Salud Pública</span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        No sólo tendrías que carecer de ellos en
-                                        España, sino también en los países donde
-                                        hayas residido durante los cinco últimos
-                                        años anteriores a la fecha de entrada en
-                                        España, por delitos previstos en el
-                                        ordenamiento jurídico español. <br />
-                                        Y el no figurar como rechazable se
-                                        entiende en relación con países con los
-                                        que España tenga firmado algún tipo de
-                                        convenio en el que no acepten a personas
-                                        que dicho país ha prohibido la entrada
+                                        No debes tener antecedentes penales en España ni en ningún país donde hayas residido
+durante los cinco años anteriores a tu entrada en España.
+Este requisito garantiza el cumplimiento de las normas de seguridad pública y la legalidad vigente.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">4</div>
-                                    <span>Pago de la Tasa </span>
+                                    <span>Sin Prohibición de Entrada y Sin Situación Irregular en España</span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Como en la mayoría de procedimientos
-                                        administrativos, la solicitud del
-                                        arraigo familiar conlleva el pago de la
-                                        tasa correspondiente, que deberá
-                                        abonarse dentro del plazo establecido
-                                        para que el trámite pueda continuar
-                                        correctamente.
+                                        No debes figurar como inadmisible en España ni en países con los que España tenga
+acuerdos que restrinjan la entrada.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">5</div>
-                                    <span>Disponer de Contrato de Trabajo</span>
+                                    <span>Abono de la Tasa de Solicitud</span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Tanto si aplicas uno o varios, es muy
-                                        importante que se garantice, al menos,
-                                        el salario mínimo interprofesional o el
-                                        establecido según el convenio colectivo
-                                        aplicable en función de la jornada
-                                        trabajada y cuya suma represente una
-                                        jornada semanal no inferior a 20 horas
-                                        semanales.
+                                        Como en la mayoría de los trámites administrativos, la solicitud requiere el pago de la
+tasa correspondiente dentro del plazo establecido.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">6</div>
-                                    <span>Medios Económicos del Empleador</span>
+                                    <span>Seguro Médico y Ausencia de Enfermedades Graves
+                                    </span>
                                 </div>
                                 <div class="win-accordion-body no-border">
                                     <div class="win-accordion-content">
-                                        Este deberá, como mínimo, encontrarse al
-                                        corriente del cumplimiento de sus
-                                        obligaciones tributarias y con la
-                                        Seguridad Social así como contar con
-                                        medios económicos suficientes para hacer
-                                        frente a las obligaciones asumidas en el
-                                        contrato.
+                                        Debes contar con un seguro médico público o privado con una entidad autorizada en España
+y no padecer ninguna enfermedad que pueda suponer un riesgo grave para la salud pública
+en virtud del Reglamento Sanitario Internacional (2005).
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <a
-                        href="#"
-                        class="primary-button w-button"
-                        style="width: 50%"
-                        >Submit</a
-                    >
-                </div>
-                <div class="empty-div">
-                    <img
-                        style="width: 100%; height: 100%"
-                        src="../../../../../public/assets/images/docs-img-right.png"
-                        alt=""
-                    />
+                    <a href="#" class="primary-button w-button" style="width: 50%">Enviar</a>
                 </div>
             </div>
         </div>
     </div>
     <div class="win-img">
-        <img
-            style="width: 100%; height: 100%"
-            src="{{ asset('assets/images/docs-img-right.png') }}"
-            alt=""
-        />
+        <img style="width: 100%; height: 100%" src="{{ asset('assets/images/docs-img-right.png') }}" alt="" />
     </div>
 </section>
 <section class="what-is-need-section left">
@@ -343,13 +256,9 @@ requisitos establecidos por la normativa de extranjería.
         <div class="base-container w-container">
             <div class="what-is-need reverse">
                 <div class="win-content right">
-                    <div class="win-heading">Requisitos Requeridos</div>
+                    <div class="win-heading">Requisitos Necesarios</div>
                     <p>
-                        Para garantizar el éxito de su solicitud de arraigo
-                        laboral, seguimos un proceso estructurado de asesoría y
-                        gestión documental. A continuación, detallamos las fases
-                        clave y los requisitos necesarios para completar su
-                        trámite con total seguridad jurídica.
+                        Para garantizar el éxito de tu solicitud de reagrupación familiar, seguimos un proceso estructurado de asesoría y gestión documental. A continuación, detallamos las fases clave y los requisitos necesarios para completar tu trámite con plena seguridad jurídica.
                     </p>
                     <div class="win-accordion">
                         <div class="win-accordion-wrapper">
@@ -360,31 +269,18 @@ requisitos establecidos por la normativa de extranjería.
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Realizamos una consulta personalizada
-                                        para evaluar a fondo su situación y
-                                        confirmar que cumple con los requisitos
-                                        generales. Además, le proporcionamos un
-                                        resumen claro del proceso y de la
-                                        documentación necesaria.
+                                        Realizamos una consulta personalizada para evaluar exhaustivamente tu situación y confirmar que cumples los requisitos generales. Además, te proporcionamos un resumen claro del proceso y la documentación necesaria.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">2</div>
-                                    <span
-                                        >Revisión y Preparación de
-                                        Documentación</span
-                                    >
+                                    <span>Revisión y Preparación de la Documentación</span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Reunimos y revisamos toda la
-                                        documentación requerida, verificando su
-                                        conformidad con las normativas vigentes.
-                                        Nuestro equipo organiza y prepara los
-                                        documentos de manera exhaustiva para
-                                        evitar retrasos en la solicitud.
+                                        Recopilamos y revisamos toda la documentación requerida, verificando su conformidad con la normativa vigente. Nuestro equipo organiza y prepara los documentos de forma exhaustiva para evitar retrasos en la solicitud.
                                     </div>
                                 </div>
                             </div>
@@ -395,98 +291,55 @@ requisitos establecidos por la normativa de extranjería.
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Nos ocupamos de gestionar todo el
-                                        proceso desde la preparación hasta la
-                                        presentación de su solicitud. También
-                                        asistimos en cualquier requisito
-                                        adicional necesario para asegurar el
-                                        éxito del trámite.
+                                        Nos encargamos de gestionar todo el proceso desde la preparación hasta la presentación de tu solicitud. También te asistimos con cualquier requisito adicional necesario para garantizar el éxito del trámite.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">4</div>
-                                    <span
-                                        >Asesoría y Seguimiento Posterior</span
-                                    >
+                                    <span>Asesoría y Seguimiento Posterior</span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Realizamos un seguimiento continuo de la
-                                        solicitud y le mantenemos informado de
-                                        cada avance importante. En caso de
-                                        resolución favorable, le orientamos en
-                                        los pasos finales; si es desfavorable,
-                                        le asesoramos sobre las opciones de
-                                        recurso.
+                                        Realizamos un seguimiento continuo de la solicitud y te mantenemos informado de cada avance importante. En caso de resolución favorable, te orientamos en los pasos finales; si fuera desfavorable, te asesoramos sobre las opciones de recurso.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">5</div>
-                                    <span
-                                        >Acreditación de la Relación
-                                        Laboral</span
-                                    >
+                                    <span>Acreditación de la Relación Laboral</span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Deberás demostrar la existencia de
-                                        relaciones laborales cuya duración no
-                                        sea inferior a seis meses, mediante
-                                        resolución judicial o acta de Inspección
-                                        de Trabajo.
+                                        Debes demostrar la existencia de relaciones laborales cuya duración no sea inferior a seis meses, mediante resolución judicial o informe de la Inspección de Trabajo.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">6</div>
-                                    <span
-                                        >Documentación de Identidad
-                                        Completa</span
-                                    >
+                                    <span>Documentación de Identidad Completa</span>
                                 </div>
                                 <div class="win-accordion-body no-border">
                                     <div class="win-accordion-content">
-                                        Es obligatorio aportar la copia íntegra
-                                        del pasaporte. Se deben incluir todas
-                                        las páginas para verificar los periodos
-                                        de permanencia y entradas o salidas.
+                                        Es obligatorio presentar una copia completa del pasaporte. Deben incluirse todas las páginas para verificar los períodos de estancia y las entradas o salidas.
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <a
-                        href="#"
-                        class="primary-button w-button"
-                        style="width: 50%"
-                        >Submit</a
-                    >
-                </div>
-                <div class="empty-div left">
-                    <img
-                        style="width: 100%; height: 100%"
-                        src="../../../../../public/assets/images/docs-img-right.png"
-                        alt=""
-                    />
-                </div>
+                    <a href="#" class="primary-button w-button" style="width: 50%">Enviar</a>
+                </div
+                
             </div>
         </div>
     </div>
     <div class="win-img">
-        <img
-            style="width: 100%; height: 100%"
-            src="{{ asset('assets/images/docs-img-right.png') }}"
-            alt=""
-        />
+        <img style="width: 100%; height: 100%" src="{{ asset('assets/images/docs-img-right.png') }}" alt="" />
     </div>
 </section>
-
-
 
     <!-- Feedback -->
     {{-- <x-sp.testimonials :testimonials="$testimonials" /> --}}

@@ -4215,6 +4215,7 @@ select.white-style,
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    gap: 5px;
 }
 
 .footer-links-wrapper .social-media img {

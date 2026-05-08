@@ -7,7 +7,7 @@
           <div>
             <h6 class="text-white">Nuestra Ubicación</h6>
             <a href="#" target="_blank" class="link-white">
-              Calle. Maestro Lecuona, 1, Local 7, 29006 Málaga
+              Calle Maestro Lecuona 1, Local 7, 29006 Málaga
             </a>
           </div>
           <div>
@@ -56,7 +56,7 @@
       </div>
       <div class="footer-links-wrapper">
         <h5 class="white-text mb-15">CONTÁCTENOS</h5>
-        <a href="mail:support@immiworld.es" class="footer-link email-support">support@immiworld.es</a>
+        <a href="mail:hola@immiworld.es" class="footer-link email-support">hola@immiworld.es</a>
         <div class="social-media">
           <a target="_blanck" href="{{ setting('site.facebook') }}">
             <img src="{{ asset('assets/images/svg/facebook.svg') }}" alt="facebook">
@@ -76,8 +76,14 @@
         <h5 class="white-text mb-15">Nuestras oficinas</h5>
         <div class="adress-wrapper">
           <div class="adress mb-10">
-            <div class="adress-p">Oficina de Málaga</div>
-            <span>Maestro Lecuona 1, Local 7</span>
+            <div class="adress-p">Málaga Office</div>
+            <span>Calle Maestro Lecuona 1, Local 7, 29006 Málaga</span>
+          </div>
+        </div>
+        <div class="adress-wrapper">
+          <div class="adress mb-10">
+            <div class="adress-p">Casablanca Office</div>
+            <span>14 Boulevard de Paris, 3rd Floor, No. 32, Casablanca</span>
           </div>
         </div>
       </div>
@@ -85,9 +91,9 @@
         <h5 class="white-text mb-15">Nuestros servicios</h5>
         <a href="{{ route('frontend.sp.nacionalidad') }}" class="footer-link">Nacionalidad</a>
         <a href="{{ route('frontend.sp.nomada_digital') }}" class="footer-link">Nomada Digital</a>
-        <a href="{{ route('frontend.sp.golden_visa') }}" class="footer-link">Golden Visa</a>
-        <a href="{{ route('frontend.sp.residencia_no_lucrativa') }}" class="footer-link">Residencia No Lucrativa</a>
-        <a href="{{ route('frontend.sp.reagrupacion_familiar') }}" class="footer-link">Reagrupación Familiar</a>
+        <a href="{{ route('frontend.sp.golden_visa') }}" class="footer-link">Canje de licencia de conducir</a>
+        <a href="{{ route('frontend.sp.residencia_no_lucrativa') }}" class="footer-link">Estancia por Estudios</a>
+        <a href="{{ route('frontend.sp.matrimonio') }}" class="footer-link">Uniones de hecho y Matrimonio</a>
       </div>
     </div>
     <div class="footer-bottom-wrapper">

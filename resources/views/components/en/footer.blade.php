@@ -7,7 +7,7 @@
           <div>
             <h6 class="text-white">Our Location</h6>
             <a href="#" target="_blank" class="link-white">
-              Calle. Maestro Lecuona, 1, Local 7, 29006 Málaga
+              Calle Maestro Lecuona 1, Local 7, 29006 Málaga
             </a>
           </div>
           <div>
@@ -15,7 +15,7 @@
             <div class="gap-8-px-row text-white">
 
               <a href="mailto:hola@immiworld.es" class="link-white">
-                Email : Hola@immiworld.es
+                Email : hola@immiworld.es
               </a>
 
               <a href="tel:0034657933788" class="link-white">
@@ -56,7 +56,7 @@
       </div>
       <div class="footer-links-wrapper">
         <h5 class="white-text mb-15">CONTACT US</h5>
-        <a href="mail:support@immiworld.es" class="footer-link email-support">support@immiworld.es</a>
+        <a href="mail:hola@immiworld.es" class="footer-link email-support">hola@immiworld.es</a>
         <div class="social-media">
           <a target="_blanck" href="{{ setting('site.facebook') }}">
             <img src="{{ asset('assets/images/svg/facebook.svg') }}" alt="facebook">
@@ -77,21 +77,27 @@
         <div class="adress-wrapper">
           <div class="adress mb-10">
             <div class="adress-p">Málaga Office</div>
-            <span>Maestro Lecuona 1, Local 7</span>
+            <span>Calle Maestro Lecuona 1, Local 7, 29006 Málaga</span>
+          </div>
+        </div>
+        <div class="adress-wrapper">
+          <div class="adress mb-10">
+            <div class="adress-p">Casablanca Office</div>
+            <span>14 Boulevard de Paris, 3rd Floor, No. 32, Casablanca</span>
           </div>
         </div>
       </div>
       <div class="footer-links-wrapper">
         <h5 class="white-text mb-15">Our Services</h5>
-        <a href="{{ route('frontend.nacionalidad') }}" class="footer-link">Citizenship</a>
+        <a href="{{ route('frontend.nacionalidad') }}" class="footer-link">Nationality</a>
         <a href="{{ route('frontend.nomada_digital') }}" class="footer-link">Digital Nomad</a>
-        <a href="{{ route('frontend.golden_visa') }}" class="footer-link">Golden Visa</a>
-        <a href="{{ route('frontend.residencia_no_lucrativa') }}" class="footer-link">Non-Lucrative Residency</a>
-        <a href="{{ route('frontend.reagrupacion_familiar') }}" class="footer-link">Family Reunification</a>
+        <a href="{{ route('frontend.golden_visa') }}" class="footer-link">Driver’s License Exchange</a>
+        <a href="{{ route('frontend.residencia_no_lucrativa') }}" class="footer-link">Study Stay</a>
+        <a href="{{ route('frontend.matrimonio') }}" class="footer-link">Civil Partnerships and Marriage</a>
       </div>
     </div>
     <div class="footer-bottom-wrapper">
-      <div class="footer-copyright">© 2024 Immiworld - all rights reserved <br>
+      <div class="footer-copyright">© 2026 Immiworld - all rights reserved <br>
         <span style="margin-top: 10px;">
           <a href="{{ route('frontend.politique') }}">Privacy Policy</a> |
           <a href="{{ route('frontend.mention') }}">Legal Notice</a> |

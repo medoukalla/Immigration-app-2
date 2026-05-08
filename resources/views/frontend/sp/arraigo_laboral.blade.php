@@ -7,16 +7,15 @@
 <div class="pages-banner blog">
     <div class="base-container w-container">
         <div class="min-hero-wrapper" style="min-height: 225px">
-            <h1>Arraigo Sociolaboral</h1>
+            <h1>Arraigo socio laboral</h1>
             <p>
-                Es un permiso de residencia de carácter
-excepcional que se centra, no sólo en acreditar
-una permanencia en España de dos años como
-mínimo, sino de la existencia de una oferta o
-relación laboral válida.
+                Un tipo de autorización de residencia excepcional centrada no solo en
+                demostrar al menos dos años de estancia continuada en España, sino también
+                en acreditar la existencia de una oferta de empleo válida o
+                una relación laboral en vigor.
             </p>
             <div class="pages-path">
-                <div class="p-path">Bienvenido</div>
+                <div class="p-path">Inicio</div>
                 <img
                     src=" {{ asset('assets/images/svg/arrow.svg') }}"
                     alt="Path Arrow"
@@ -27,7 +26,9 @@ relación laboral válida.
                     alt="Path Arrow"
                 />
 
-                <div class="p-path">Arraigo Sociolaboral (Sociolaboral)</div>
+                <div class="p-path">
+                    Residencia por Arraigo Socio Laboral
+                </div>
             </div>
         </div>
     </div>
@@ -49,10 +50,8 @@ relación laboral válida.
             id="w-node-_221627f6-3a31-260f-8a97-6ec174e99876-296c1813"
             class="working-wrap"
         >
-            <div class="numbers">+500</div>
-            <div class="numbers-text white-style">
-                Clientes Alrededor del Mundo
-            </div>
+            <div class="numbers">+5.000</div>
+            <div class="numbers-text white-style">Clientes en todo el mundo</div>
             <div class="line home-white-left"></div>
         </div>
         <div
@@ -71,23 +70,18 @@ relación laboral válida.
     <div class="without-bottom-spacing">
         <div class="base-container w-container">
             <div class="s-services">
-                <h2 class="text-center">
-                    Presentación del <span>Servicio</span>
-                </h2>
+                <h2 class="text-center"><span>Descripción</span> del Servicio</h2>
                 <p class="text-center">
-                    El arraigo sociolaboral constituye una autorización de
-                    residencia temporal prevista para personas extranjeras que
-                    se encuentren en España de forma continuada durante al menos
-                    dos años y que puedan demostrar su vinculación con el
-                    mercado de trabajo mediante uno o varios contratos laborales
-                    ajustados a la normativa vigente.
+                    El Arraigo Socio Laboral es una autorización de residencia temporal
+                    diseñada para extranjeros que han permanecido de forma continuada en
+                    España durante al menos dos años y que pueden demostrar su vinculación
+                    con el mercado laboral mediante uno o varios contratos de trabajo que
+                    cumplan los requisitos legales vigentes. Esta vía legal permite
+                    regularizar la situación cuando existe una oportunidad de empleo real,
+                    facilitando la integración social y profesional dentro del marco
+                    jurídico establecido.
                 </p>
-                <p class="text-center">
-                    Esta figura permite la regularización cuando existe una
-                    oportunidad real de empleo, facilitando la integración
-                    social y laboral del solicitante dentro del marco legal
-                    establecido.
-                </p>
+
                 <div
                     style="
                         display: flex;
@@ -95,7 +89,7 @@ relación laboral válida.
                         margin-top: 20px;
                     "
                 >
-                    <a
+                    
                         href=""
                         class="primary-button w-button"
                         style="margin: 0 auto; width: 250px"
@@ -107,43 +101,37 @@ relación laboral válida.
     </div>
 </section>
 <!-- Necessary documents -->
-<section style="background: #efefef; padding: 50px 0">
+<section style="background: #efefef; padding: 100px 0">
     <div class="base-container w-container">
         <div class="section-rootedness">
             <h2 class="text-center">
-                ¿Por qué elegir a <span>Immiworld</span> para tu Trámite de
-                <span>Extranjería?</span>
+                Por Qué Elegir Immiworld para Tu Proceso Migratorio
             </h2>
             <p class="text-center" style="width: 60%; margin: 0 auto">
-                Immiworld ofrece experiencia, acompañamiento personalizado y
-                soluciones confiables para trámites de extranjería rápidos,
-                seguros y exitosos.
+                Te acompañamos paso a paso en cada etapa de tu proceso migratorio.
+                Los procedimientos legales complejos se explican con claridad,
+                para que siempre sepas qué esperar y cómo proceder.
             </p>
             <div class="section-rootedness-grid">
                 <div class="left-rootedness">
                     <div class="rootedness first-rootedness">
                         <div class="number">1</div>
-                        <div class="number-title">
-                            Asesoramiento Legal Experto
-                        </div>
+                        <div class="number-title">Asesoría Legal Experta</div>
                         <p>
-                            Nuestro equipo te acompañará paso a paso en cada
-                            fase de tu proceso migratorio. Todo ello con la idea
-                            de transformar procedimientos legales complejos en
-                            acciones claras y comprensibles, para que siempre
-                            sepas qué hacer y qué esperar de cada paso.
+                            Te acompañamos paso a paso en cada etapa de tu
+                            proceso migratorio. Los procedimientos legales
+                            complejos se explican con claridad, para que siempre
+                            sepas qué esperar y cómo proceder.
                         </p>
                     </div>
                     <div class="rootedness second-rootedness">
                         <div class="number">2</div>
-                        <div class="number-title">
-                            Soluciones Personalizadas
-                        </div>
+                        <div class="number-title">Soluciones Personalizadas</div>
                         <p>
-                            manera individual y diseñamos una estrategia legal
-                            adaptada a tus necesidades y objetivos porque
-                            sabemos que detrás de cada trámite hay una historia
-                            personal.
+                            Cada caso es único. Tu situación se analiza
+                            detenidamente para diseñar una estrategia legal adaptada
+                            a tus necesidades y objetivos específicos, porque detrás
+                            de cada solicitud hay una historia personal.
                         </p>
                     </div>
                 </div>
@@ -156,26 +144,21 @@ relación laboral válida.
                 <div class="right-rootedness">
                     <div class="rootedness third-rootedness">
                         <div class="number">3</div>
-                        <div class="number-title">
-                            Con centenares de clientes
-                        </div>
+                        <div class="number-title">Trayectoria Probada</div>
                         <p>
-                            Con centenares de clientes satisfechos, Immiworld
-                            cuenta con una sólida trayectoria en la obtención de
-                            resultados favorables en materia de extranjería,
-                            nacionalidad y migración.
+                            Con cientos de clientes satisfechos, Immiworld ha
+                            consolidado una sólida trayectoria de resultados
+                            exitosos en materia de inmigración, nacionalidad
+                            y residencia.
                         </p>
                     </div>
                     <div class="rootedness forth-rootedness">
                         <div class="number">4</div>
-                        <div class="number-title">
-                            Un Equipo En El Que Puedes Confiar
-                        </div>
+                        <div class="number-title">Un Equipo de Confianza</div>
                         <p>
-                            Nuestro despacho de extranjería ofrece un
-                            acompañamiento cercano y continuo durante todo el
-                            proceso, garantizando profesionalidad, transparencia
-                            y confianza en todo momento.
+                            Recibes un apoyo cercano y continuo durante todo
+                            el proceso, garantizando profesionalidad,
+                            transparencia y confianza en cada etapa.
                         </p>
                     </div>
                 </div>
@@ -195,31 +178,23 @@ relación laboral válida.
             <div class="what-is-need">
                 <div class="win-content">
                     <div class="win-heading">Requisitos Legales</div>
-                    <p>
-                        Puesto que en la oficina sólo tenemos 1 abogado, voy a
-                        evitar plurales o decir cosas que no somos porque ya
-                        sabéis como es la gente en Internet y no quiero que se
-                        nos acuse de “publicidad engañosa” o algo por el estilo
-                    </p>
+                    <p>Requisitos Legales</p>
                     <div class="win-accordion">
                         <div class="win-accordion-wrapper">
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">1</div>
-                                    <span
-                                        >Residir en España de Forma Continuada
-                                    </span>
+                                    <span>Residencia Continuada en España </span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Haber permanecido en territorio nacional
-                                        de forma continuada durante, al menos,
-                                        los dos años anteriores a la
-                                        presentación de dicha solicitud. <br />
-                                        Es importante no tener la condición de
-                                        solicitante de protección internacional,
-                                        ni en el momento de la presentación, ni
-                                        durante su tramitación.
+                                        Debes haber permanecido en España de
+                                        forma continuada durante al menos dos
+                                        años antes de presentar la solicitud. Es
+                                        importante no tener la condición de
+                                        solicitante de protección internacional
+                                        en el momento de la solicitud ni durante
+                                        su tramitación.
                                     </div>
                                 </div>
                             </div>
@@ -227,15 +202,15 @@ relación laboral válida.
                                 <div class="win-accordion-header">
                                     <div class="win-number">2</div>
                                     <span
-                                        >No representar una Amenaza para el
-                                        Orden Público, seguridad o Salud Pública
+                                        >No Representar una Amenaza al Orden Público, la Seguridad
+                                        o la Salud Pública
                                     </span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Este requisito tiene como finalidad
-                                        garantizar una convivencia segura y
-                                        conforme a la normativa vigente.
+                                        Este requisito garantiza la convivencia
+                                        segura y el cumplimiento de las normas
+                                        legales vigentes.
                                     </div>
                                 </div>
                             </div>
@@ -243,85 +218,76 @@ relación laboral válida.
                                 <div class="win-accordion-header">
                                     <div class="win-number">3</div>
                                     <span
-                                        >Carecer de Antecedentes Penales y No
-                                        Figurar como Rechazable</span
+                                        >Sin Antecedentes Penales y Sin Figurar como
+                                        Inadmisible</span
                                     >
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        No sólo tendrías que carecer de ellos en
-                                        España, sino también en los países donde
-                                        hayas residido durante los cinco últimos
-                                        años anteriores a la fecha de entrada en
-                                        España, por delitos previstos en el
-                                        ordenamiento jurídico español. <br />
-                                        Y el no figurar como rechazable se
-                                        entiende en relación con países con los
-                                        que España tenga firmado algún tipo de
-                                        convenio en el que no acepten a personas
-                                        que dicho país ha prohibido la entrada
+                                        No debes tener antecedentes penales en
+                                        España ni en ningún país donde hayas
+                                        residido durante los cinco años anteriores
+                                        a tu entrada en España, por delitos
+                                        reconocidos en la legislación española.
+                                        Tampoco debes figurar como inadmisible
+                                        en España ni en países con los que España
+                                        tenga acuerdos que restrinjan la entrada.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">4</div>
-                                    <span>Pago de la Tasa </span>
+                                    <span>Abono de la Tasa de Solicitud</span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Como en la mayoría de procedimientos
-                                        administrativos, la solicitud del
-                                        arraigo familiar conlleva el pago de la
-                                        tasa correspondiente, que deberá
-                                        abonarse dentro del plazo establecido
-                                        para que el trámite pueda continuar
-                                        correctamente.
+                                        Como en la mayoría de los trámites
+                                        administrativos, la solicitud requiere el
+                                        pago de la tasa correspondiente dentro
+                                        del plazo establecido.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">5</div>
-                                    <span>Disponer de Contrato de Trabajo</span>
+                                    <span>Contrato de Trabajo Válido</span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Tanto si aplicas uno o varios, es muy
-                                        importante que se garantice, al menos,
-                                        el salario mínimo interprofesional o el
-                                        establecido según el convenio colectivo
-                                        aplicable en función de la jornada
-                                        trabajada y cuya suma represente una
-                                        jornada semanal no inferior a 20 horas
-                                        semanales.
+                                        Tanto si presentas uno como varios
+                                        contratos, deben garantizar al menos el
+                                        salario mínimo establecido por ley o por
+                                        el convenio colectivo aplicable, según la
+                                        jornada laboral. La jornada total debe
+                                        representar al menos 20 horas semanales.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">6</div>
-                                    <span>Medios Económicos del Empleador</span>
+                                    <span>Solvencia Económica del Empleador </span>
                                 </div>
                                 <div class="win-accordion-body no-border">
                                     <div class="win-accordion-content">
-                                        Este deberá, como mínimo, encontrarse al
-                                        corriente del cumplimiento de sus
-                                        obligaciones tributarias y con la
-                                        Seguridad Social así como contar con
-                                        medios económicos suficientes para hacer
-                                        frente a las obligaciones asumidas en el
-                                        contrato.
+                                        El empleador debe estar al corriente de
+                                        sus obligaciones tributarias y con la
+                                        Seguridad Social, y disponer de medios
+                                        económicos suficientes para cumplir los
+                                        compromisos establecidos en el contrato
+                                        de trabajo.
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <a
+                    
                         href="#"
                         class="primary-button w-button"
                         style="width: 50%"
-                        >Submit</a
+                        >Enviar</a
                     >
                 </div>
                 <div class="empty-div">
@@ -347,13 +313,13 @@ relación laboral válida.
         <div class="base-container w-container">
             <div class="what-is-need reverse">
                 <div class="win-content right">
-                    <div class="win-heading">Requisitos Requeridos</div>
+                    <div class="win-heading">Requisitos Necesarios</div>
                     <p>
-                        Para garantizar el éxito de su solicitud de arraigo
-                        laboral, seguimos un proceso estructurado de asesoría y
-                        gestión documental. A continuación, detallamos las fases
-                        clave y los requisitos necesarios para completar su
-                        trámite con total seguridad jurídica.
+                        Para garantizar el éxito de tu solicitud de arraigo
+                        socio laboral, seguimos un proceso estructurado de
+                        asesoría y gestión documental. A continuación, detallamos
+                        las fases clave y los requisitos necesarios para completar
+                        tu trámite con plena seguridad jurídica.
                     </p>
                     <div class="win-accordion">
                         <div class="win-accordion-wrapper">
@@ -365,10 +331,10 @@ relación laboral válida.
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
                                         Realizamos una consulta personalizada
-                                        para evaluar a fondo su situación y
-                                        confirmar que cumple con los requisitos
-                                        generales. Además, le proporcionamos un
-                                        resumen claro del proceso y de la
+                                        para evaluar exhaustivamente tu situación
+                                        y confirmar que cumples los requisitos
+                                        generales. Además, te proporcionamos un
+                                        resumen claro del proceso y la
                                         documentación necesaria.
                                     </div>
                                 </div>
@@ -377,17 +343,17 @@ relación laboral válida.
                                 <div class="win-accordion-header">
                                     <div class="win-number">2</div>
                                     <span
-                                        >Revisión y Preparación de
+                                        >Revisión y Preparación de la
                                         Documentación</span
                                     >
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Reunimos y revisamos toda la
+                                        Recopilamos y revisamos toda la
                                         documentación requerida, verificando su
-                                        conformidad con las normativas vigentes.
+                                        conformidad con la normativa vigente.
                                         Nuestro equipo organiza y prepara los
-                                        documentos de manera exhaustiva para
+                                        documentos de forma exhaustiva para
                                         evitar retrasos en la solicitud.
                                     </div>
                                 </div>
@@ -395,15 +361,17 @@ relación laboral válida.
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">3</div>
-                                    <span>Gestión Integral del Proceso</span>
+                                    <span
+                                        >Gestión Integral del Proceso</span
+                                    >
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Nos ocupamos de gestionar todo el
-                                        proceso desde la preparación hasta la
-                                        presentación de su solicitud. También
-                                        asistimos en cualquier requisito
-                                        adicional necesario para asegurar el
+                                        Nos encargamos de gestionar todo el
+                                        proceso, desde la preparación hasta la
+                                        presentación de tu solicitud. También te
+                                        asistimos con cualquier requisito
+                                        adicional necesario para garantizar el
                                         éxito del trámite.
                                     </div>
                                 </div>
@@ -411,18 +379,16 @@ relación laboral válida.
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">4</div>
-                                    <span
-                                        >Asesoría y Seguimiento Posterior</span
-                                    >
+                                    <span>Asesoría y Seguimiento Posterior</span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
                                         Realizamos un seguimiento continuo de la
-                                        solicitud y le mantenemos informado de
+                                        solicitud y te mantenemos informado de
                                         cada avance importante. En caso de
-                                        resolución favorable, le orientamos en
-                                        los pasos finales; si es desfavorable,
-                                        le asesoramos sobre las opciones de
+                                        resolución favorable, te orientamos en
+                                        los pasos finales; si fuera desfavorable,
+                                        te asesoramos sobre las opciones de
                                         recurso.
                                     </div>
                                 </div>
@@ -437,38 +403,36 @@ relación laboral válida.
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Deberás demostrar la existencia de
+                                        Debes demostrar la existencia de
                                         relaciones laborales cuya duración no
                                         sea inferior a seis meses, mediante
-                                        resolución judicial o acta de Inspección
-                                        de Trabajo.
+                                        resolución judicial o informe de la
+                                        Inspección de Trabajo.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">6</div>
-                                    <span
-                                        >Documentación de Identidad
-                                        Completa</span
-                                    >
+                                    <span>Documentación de Identidad Completa</span>
                                 </div>
                                 <div class="win-accordion-body no-border">
                                     <div class="win-accordion-content">
-                                        Es obligatorio aportar la copia íntegra
-                                        del pasaporte. Se deben incluir todas
-                                        las páginas para verificar los periodos
-                                        de permanencia y entradas o salidas.
+                                        Es obligatorio presentar una copia
+                                        completa del pasaporte. Deben incluirse
+                                        todas las páginas para verificar los
+                                        períodos de estancia y las entradas
+                                        o salidas.
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <a
+                    
                         href="#"
                         class="primary-button w-button"
                         style="width: 50%"
-                        >Submit</a
+                        >Enviar</a
                     >
                 </div>
                 <div class="empty-div left">

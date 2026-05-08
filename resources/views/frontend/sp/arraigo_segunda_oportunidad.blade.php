@@ -9,19 +9,17 @@
         <div class="min-hero-wrapper" style="min-height: 225px">
             <h1>Arraigo de Segunda Oportunidad</h1>
             <p>
-                Esta autorización se centra en dar la posibilidad a
-                una persona que haya tenido una autorización de
-                residencia y, por determinadas circunstancias
-                ajenas a su voluntad, pueda renovarla.
+               Esta autorización está diseñada para ofrecer a quienes contaron previamente con un permiso
+de residencia, y no pudieron renovarlo por circunstancias ajenas a su voluntad, la oportunidad
+de regularizar nuevamente su situación.
             </p>
             <div class="pages-path">
-                <div class="p-path">Bienvenido</div>
+                <div class="p-path">Inicio</div>
                 <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow" />
-                <div class="p-path">Extranjería</div>
+                <div class="p-path">Inmigración</div>
                 <img src=" {{ asset('assets/images/svg/arrow.svg') }}" alt="Path Arrow" />
 
-                <div class="p-path">Arraigo de Segunda
-                    Oportunidad formativo</div>
+                <div class="p-path">Residencia de Segunda Oportunidad</div>
             </div>
         </div>
     </div>
@@ -35,7 +33,7 @@
         </div>
         <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e99876-296c1813" class="working-wrap">
             <div class="numbers">+5.000</div>
-            <div class="numbers-text white-style">Consultas personalizadas</div>
+            <div class="numbers-text white-style">Clientes en todo el mundo</div>
             <div class="line home-white-left"></div>
         </div>
         <div id="w-node-_221627f6-3a31-260f-8a97-6ec174e9987c-296c1813" class="working-wrap">
@@ -52,15 +50,13 @@
         <div class="base-container w-container">
             <div class="s-services">
                 <h2 class="text-center">
-                    Presentación del <span>Servicio</span>
+                    <span>Descripción</span> del Servicio
                 </h2>
                 <p class="text-center">
-                    El Arraigo de Segunda Oportunidad es una vía legal que
-                    permite recuperar la residencia a personas extranjeras
-                    que fueron titulares de una autorización de residencia en
-                    España y que no pudieron renovarla por causas no
-                    imputables a su conducta, ofreciéndoles así una nueva
-                    posibilidad de regularización administrativa.
+                    La residencia de segunda oportunidad es una vía legal que permite a los extranjeros que
+                    previamente contaban con un permiso de residencia en España, pero no pudieron renovarlo
+                    por causas no imputables a su conducta, recuperar su situación legal y obtener una nueva
+                    autorización de residencia.
                 </p>
 
 
@@ -80,27 +76,22 @@
     <div class="base-container w-container">
         <div class="section-rootedness">
             <h2 class="text-center">
-                ¿Por qué elegir a <span>Immiworld</span> para tu Trámite de
-                <span>Extranjería?</span>
+                Por Qué Elegir Immiworld para Tu Proceso Migratorio
             </h2>
             <p class="text-center" style="width: 60%; margin: 0 auto">
-                Immiworld ofrece experiencia, acompañamiento personalizado y
-                soluciones confiables para trámites de extranjería rápidos,
-                seguros y exitosos.
+                Te acompañamos paso a paso en cada etapa de tu proceso migratorio. Los procedimientos legales
+                complejos se explican con claridad, para que siempre sepas qué esperar y cómo proceder.
             </p>
             <div class="section-rootedness-grid">
                 <div class="left-rootedness">
                     <div class="rootedness first-rootedness">
                         <div class="number">1</div>
                         <div class="number-title">
-                            Asesoramiento Legal Experto
+                            Asesoría Legal Experta
                         </div>
                         <p>
-                            Nuestro equipo te acompañará paso a paso en cada
-                            fase de tu proceso migratorio. Todo ello con la idea
-                            de transformar procedimientos legales complejos en
-                            acciones claras y comprensibles, para que siempre
-                            sepas qué hacer y qué esperar de cada paso.
+                            Te acompañamos paso a paso en cada etapa de tu proceso migratorio. Los procedimientos legales
+                            complejos se explican con claridad, para que siempre sepas qué esperar y cómo proceder.
                         </p>
                     </div>
                     <div class="rootedness second-rootedness">
@@ -109,10 +100,8 @@
                             Soluciones Personalizadas
                         </div>
                         <p>
-                            Cada caso es único. Por eso analizamos tu situación de
-                            manera individual y diseñamos una estrategia legal
-                            adaptada a tus necesidades y objetivos porque sabemos
-                            que detrás de cada trámite hay una historia personal
+                            Cada caso es único. Tu situación se analiza detenidamente para diseñar una estrategia legal adaptada
+                            a tus necesidades y objetivos específicos, porque detrás de cada solicitud hay una historia personal.
                         </p>
                     </div>
                 </div>
@@ -123,25 +112,21 @@
                     <div class="rootedness third-rootedness">
                         <div class="number">3</div>
                         <div class="number-title">
-                            Éxito Demostrado
+                            Trayectoria Probada
                         </div>
                         <p>
-                            Con centenares de clientes satisfechos, Immiworld
-                            cuenta con una sólida trayectoria en la obtención de
-                            resultados favorables en materia de extranjería,
-                            nacionalidad y migración.
+                            Con cientos de clientes satisfechos, Immiworld ha consolidado una sólida trayectoria de resultados
+                            exitosos en materia de inmigración, nacionalidad y residencia.
                         </p>
                     </div>
                     <div class="rootedness forth-rootedness">
                         <div class="number">4</div>
                         <div class="number-title">
-                            Un Equipo En El Que Puedes Confiar
+                            Un Equipo de Confianza
                         </div>
                         <p>
-                            Nuestro despacho de extranjería ofrece un
-                            acompañamiento cercano y continuo durante todo el
-                            proceso, garantizando profesionalidad, transparencia
-                            y confianza en todo momento.
+                            Recibes un apoyo cercano y continuo durante todo el proceso, garantizando
+                            profesionalidad, transparencia y confianza en cada etapa.
                         </p>
                     </div>
                 </div>
@@ -159,123 +144,94 @@
                 <div class="win-content">
                     <div class="win-heading">Requisitos Legales</div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet modi, voluptate ipsam
-                        reiciendis, ad commodi ut vitae laudantium ipsum facilis, quis recusandae nihil pariatur
-                        architecto fuga repellendus quod incidunt expedita.
+                        Requisitos Legales
                     </p>
                     <div class="win-accordion">
                         <div class="win-accordion-wrapper">
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">1</div>
-                                    <span>Residir en España de Forma Continuada
+                                    <span>Residencia Continuada en España
                                     </span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Haber permanecido en territorio nacional
-                                        de forma continuada durante, al menos,
-                                        los dos años anteriores a la
-                                        presentación de dicha solicitud. <br />
-                                        Es importante no tener la condición de
-                                        solicitante de protección internacional,
-                                        ni en el momento de la presentación, ni
-                                        durante su tramitación.
+                                        Debes haber permanecido en España de forma continuada durante al menos dos años antes de
+                                        presentar la solicitud. <br>
+                                        Es importante no tener la condición de solicitante de protección internacional en el momento
+                                        de la solicitud ni durante su tramitación.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">2</div>
-                                    <span>No representar una Amenaza para el
-                                        Orden Público, seguridad o Salud Pública
+                                    <span>No Representar una Amenaza al Orden Público, la Seguridad o la Salud Pública
                                     </span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Este requisito tiene como finalidad
-                                        garantizar una convivencia segura y
-                                        conforme a la normativa vigente.
+                                        Este requisito garantiza la convivencia segura y el cumplimiento de las normas legales vigentes.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">3</div>
-                                    <span>Carecer de Antecedentes Penales y No
-                                        Figurar como Rechazable</span>
+                                    <span>Sin Antecedentes Penales</span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        No sólo tendrías que carecer de ellos en
-                                        España, sino también en los países donde
-                                        hayas residido durante los cinco últimos
-                                        años anteriores a la fecha de entrada en
-                                        España, por delitos previstos en el
-                                        ordenamiento jurídico español. <br />
-                                        Y el no figurar como rechazable se
-                                        entiende en relación con países con los
-                                        que España tenga firmado algún tipo de
-                                        convenio en el que no acepten a personas
-                                        que dicho país ha prohibido la entrada
+                                        No debes tener antecedentes penales en España ni en ningún país donde hayas residido durante
+                                        los cinco años anteriores a tu entrada en España, por delitos reconocidos en la legislación española.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">4</div>
-                                    <span>Pago de la Tasa </span>
+                                    <span>Sin Figurar como Inadmisible</span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Como en la mayoría de procedimientos
-                                        administrativos, la solicitud del
-                                        arraigo familiar conlleva el pago de la
-                                        tasa correspondiente, que deberá
-                                        abonarse dentro del plazo establecido
-                                        para que el trámite pueda continuar
-                                        correctamente.
+                                        No debes figurar como inadmisible en España ni en países con los que España tenga
+                                        acuerdos que restrinjan la entrada.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">5</div>
-                                    <span>Disponer de Contrato de Trabajo</span>
+                                    <span>Abono de la Tasa de Solicitud</span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Tanto si aplicas uno o varios, es muy
-                                        importante que se garantice, al menos,
-                                        el salario mínimo interprofesional o el
-                                        establecido según el convenio colectivo
-                                        aplicable en función de la jornada
-                                        trabajada y cuya suma represente una
-                                        jornada semanal no inferior a 20 horas
-                                        semanales.
+                                        Como en la mayoría de los trámites administrativos, la solicitud requiere el pago de la
+                                        tasa correspondiente dentro del plazo establecido.
                                     </div>
                                 </div>
                             </div>
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">6</div>
-                                    <span>Medios Económicos del Empleador</span>
+                                    <span>Autorización de Residencia Previa
+                                    </span>
                                 </div>
                                 <div class="win-accordion-body no-border">
                                     <div class="win-accordion-content">
-                                        Este deberá, como mínimo, encontrarse al
-                                        corriente del cumplimiento de sus
-                                        obligaciones tributarias y con la
-                                        Seguridad Social así como contar con
-                                        medios económicos suficientes para hacer
-                                        frente a las obligaciones asumidas en el
-                                        contrato.
+                                        Debes haber contado previamente con una autorización de residencia que no haya sido
+                                        concedida por circunstancias excepcionales.
+                                        Esta vía se aplica cuando la renovación de dicha autorización no fue concedida por razones
+                                        ajenas al orden público, la seguridad o la salud pública.
+                                        También puede aplicarse en casos en los que exista una resolución favorable, como una
+                                        absolución, sobreseimiento o resolución firme que haya eliminado los motivos que impedían
+                                        la renovación de la autorización anterior.
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <a href="#" class="primary-button w-button" style="width: 50%">Submit</a>
+                    <a href="#" class="primary-button w-button" style="width: 50%">Enviar</a>
                 </div>
                 <div class="empty-div">
                     <img style="width: 100%; height: 100%" src="../../../../../public/assets/images/docs-img-right.png"
@@ -293,13 +249,13 @@
         <div class="base-container w-container">
             <div class="what-is-need reverse">
                 <div class="win-content right">
-                    <div class="win-heading">Requisitos Requeridos</div>
+                    <div class="win-heading">Requisitos Necesarios</div>
                     <p>
-                        Para garantizar el éxito de su solicitud de arraigo
-                        laboral, seguimos un proceso estructurado de asesoría y
-                        gestión documental. A continuación, detallamos las fases
-                        clave y los requisitos necesarios para completar su
-                        trámite con total seguridad jurídica.
+                        Para garantizar el éxito de tu solicitud de arraigo
+                        de segunda oportunidad, seguimos un proceso estructurado
+                        de asesoría y gestión documental. A continuación, detallamos
+                        las fases clave y los requisitos necesarios para completar
+                        tu trámite con plena seguridad jurídica.
                     </p>
                     <div class="win-accordion">
                         <div class="win-accordion-wrapper">
@@ -311,10 +267,10 @@
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
                                         Realizamos una consulta personalizada
-                                        para evaluar a fondo su situación y
-                                        confirmar que cumple con los requisitos
-                                        generales. Además, le proporcionamos un
-                                        resumen claro del proceso y de la
+                                        para evaluar exhaustivamente tu situación y
+                                        confirmar que cumples los requisitos generales.
+                                        Además, te proporcionamos un
+                                        resumen claro del proceso y la
                                         documentación necesaria.
                                     </div>
                                 </div>
@@ -322,16 +278,16 @@
                             <div class="win-accordion-item">
                                 <div class="win-accordion-header">
                                     <div class="win-number">2</div>
-                                    <span>Revisión y Preparación de
+                                    <span>Revisión y Preparación de la
                                         Documentación</span>
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Reunimos y revisamos toda la
+                                        Recopilamos y revisamos toda la
                                         documentación requerida, verificando su
-                                        conformidad con las normativas vigentes.
+                                        conformidad con la normativa vigente.
                                         Nuestro equipo organiza y prepara los
-                                        documentos de manera exhaustiva para
+                                        documentos de forma exhaustiva para
                                         evitar retrasos en la solicitud.
                                     </div>
                                 </div>
@@ -343,11 +299,11 @@
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Nos ocupamos de gestionar todo el
+                                        Nos encargamos de gestionar todo el
                                         proceso desde la preparación hasta la
-                                        presentación de su solicitud. También
-                                        asistimos en cualquier requisito
-                                        adicional necesario para asegurar el
+                                        presentación de tu solicitud. También
+                                        te asistimos con cualquier requisito
+                                        adicional necesario para garantizar el
                                         éxito del trámite.
                                     </div>
                                 </div>
@@ -360,11 +316,11 @@
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
                                         Realizamos un seguimiento continuo de la
-                                        solicitud y le mantenemos informado de
+                                        solicitud y te mantenemos informado de
                                         cada avance importante. En caso de
-                                        resolución favorable, le orientamos en
-                                        los pasos finales; si es desfavorable,
-                                        le asesoramos sobre las opciones de
+                                        resolución favorable, te orientamos en
+                                        los pasos finales; si fuera desfavorable,
+                                        te asesoramos sobre las opciones de
                                         recurso.
                                     </div>
                                 </div>
@@ -377,11 +333,11 @@
                                 </div>
                                 <div class="win-accordion-body">
                                     <div class="win-accordion-content">
-                                        Deberás demostrar la existencia de
+                                        Debes demostrar la existencia de
                                         relaciones laborales cuya duración no
                                         sea inferior a seis meses, mediante
-                                        resolución judicial o acta de Inspección
-                                        de Trabajo.
+                                        resolución judicial o informe de la
+                                        Inspección de Trabajo.
                                     </div>
                                 </div>
                             </div>
@@ -393,16 +349,17 @@
                                 </div>
                                 <div class="win-accordion-body no-border">
                                     <div class="win-accordion-content">
-                                        Es obligatorio aportar la copia íntegra
-                                        del pasaporte. Se deben incluir todas
-                                        las páginas para verificar los periodos
-                                        de permanencia y entradas o salidas.
+                                        Es obligatorio presentar una copia
+                                        completa del pasaporte. Deben incluirse
+                                        todas las páginas para verificar los
+                                        períodos de estancia y las entradas
+                                        o salidas.
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <a href="#" class="primary-button w-button" style="width: 50%">Submit</a>
+                    <a href="#" class="primary-button w-button" style="width: 50%">Enviar</a>
                 </div>
                 <div class="empty-div left">
                     <img style="width: 100%; height: 100%" src="../../../../../public/assets/images/docs-img-right.png"
