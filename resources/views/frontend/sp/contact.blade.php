@@ -17,10 +17,16 @@
                         <img src="{{ asset('assets/images/pages/contact-new.jpg') }}" alt="Contáctanos">
                     </div>
                     <div class="contacts-title">
-                        <h2 class="in-section-title">Contactanos Estamos aquí para atenderte!</h2>
+                        <h2 class="in-section-title">
+                            ¡Estamos aquí para ayudarte!
+                        </h2>
                     </div>
                     <div class="contacts-2-content">
-                        <p>Si tienes dudas sobre los trámites de extranjería, contáctanos. Estaremos encantados de atenderte.</p>
+                        <p>
+                            Tanto si necesitas ayuda con visados, permisos de residencia o cualquier trámite
+de extranjería, tu caso será gestionado con claridad y atención al detalle. <br>
+Puedes contactarnos a través de cualquiera de los siguientes canales.
+                        </p>
                     </div>
                     <div class="contacts-info">
                         <div class="contacts-info-wrapper">
@@ -29,35 +35,36 @@
                             </div>
                             <div class="c-info-content">
                                 <div class="c-info-title">
-                                    Escríbenos
+                                    Escríbenos:
                                 </div>
                                 <p>hola@immiworld.es</p>
                             </div>
                         </div>
                         <div class="contacts-info-wrapper">
                             <div class="c-info-icon">
-                                <img src="/assets/images/svg/c-phone.svg" alt="Contact Info">
+                                <img src="{{ asset('assets/images/svg/c-phone.svg') }}" alt="Contact Info">
                             </div>
                             <div class="c-info-content">
                                 <div class="c-info-title">
-                                    Llámanos
+                                    Llámanos:
                                 </div>
                                 <p>+34 657 933 788</p>
                             </div>
                         </div>
                         <div class="contacts-info-wrapper">
                             <div class="c-info-icon">
-                                <img src="/assets/images/svg/c-location.svg" alt="Contact Info">
+                                <img src="{{ asset('assets/images/svg/c-location.svg') }}" alt="Contact Info">
                             </div>
                             <div class="c-info-content">
                                 <div class="c-info-title">
-                                    Visítanos
+                                    Visítanos:
                                 </div>
-                                <p>Calle. Maestro Lecuona, 1, Local 7, 29006 Málaga</p>
+                                <p>Calle Maestro Lecuona 1, Local 7, 29006 Málaga</p>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- Contact Form -->
                 <!-- Contact Form -->
                 <div class="contacts-2-form-wrapper">
                     <div class="form-block-contacts w-form">
@@ -68,47 +75,48 @@
                             <h3 class="form-heading">Formulario de Contacto</h3>
                             <br>
                         
-                            <h6>1 - Su nombre</h6>
-                            <input class="contacts-input white-style w-input" maxlength="256" name="first_name" placeholder="Indique su nombre." type="text" id="first_name" required>
+                            <h6>1 - Nombre :</h6>
+                            <input class="contacts-input white-style w-input" maxlength="256" name="first_name" placeholder="Introduce tu nombre" type="text" id="first_name" required>
                         
-                            <h6>2 - Su apellido:</h6>
-                            <input class="contacts-input white-style w-input" maxlength="256" name="last_name" placeholder="Indique su apellido." type="text" id="last_name" required>
+                            <h6>2 - Apellidos :</h6>
+                            <input class="contacts-input white-style w-input" maxlength="256" name="last_name" placeholder="Introduce tus apellidos" type="text" id="last_name" required>
                         
-                            <h6>3 - Su dirección de correo electrónico:</h6>
-                            <input class="contacts-input white-style w-input" maxlength="256" name="email" placeholder="Indique su dirección de correo electrónico." type="email" id="email" required>
+                            <h6>3 - Correo Electrónico :</h6>
+                            <input class="contacts-input white-style w-input" maxlength="256" name="email" placeholder="Introduce tu correo electrónico" type="email" id="email" required>
                         
-                            <h6>4 - Su número de teléfono:</h6>
-                            <input class="contacts-input white-style w-input" maxlength="256" name="phone" placeholder="Indique su número de teléfono." type="tel" id="phone" required>
+                            <h6>4 - Número de Teléfono :</h6>
+                            <input class="contacts-input white-style w-input" maxlength="256" name="phone" placeholder="Introduce tu número de teléfono" type="tel" id="phone" required>
                         
-                            <h6>5 - Servicio que le interesa:</h6>
+                            <h6>5 - Servicio de Interés :</h6>
                             <select name="service_interest" id="service_interest" class="white-style">
-                                <option value="">Seleccione el servicio que le interesa:</option>
-                                <option value="servicio1">Servicio 1</option>
-                                <option value="servicio2">Servicio 2</option>
-                                <option value="servicio3">Servicio 3</option>
-                                <option value="servicio4">Servicio 4</option>
+                                <option value="">Selecciona el servicio que te interesa</option>
+                                <option value="nationality">Nacionalidad</option>
+                                <option value="digital_nomad">Nómada Digital</option>
+                                <option value="drivers_license_exchange">Canje de Permiso de Conducir</option>
+                                <option value="study_stay">Estancia de Estudios</option>
+                                <option value="civil_partnerships_and_marriage">Parejas de Hecho y Matrimonio</option>
                             </select>
                         
-                            <h6>6 - Su nacionalidad:</h6>
+                            <h6>6 - Nacionalidad :</h6>
                             <select name="nationality" id="nationality" class="white-style">
-                                <option value="">Indique su nacionalidad.</option>
+                                <option value="">Introduce tu nacionalidad</option>
                                 <option value="nacionalidad1">Nacionalidad 1</option>
                                 <option value="nacionalidad2">Nacionalidad 2</option>
                                 <option value="nacionalidad3">Nacionalidad 3</option>
                                 <option value="nacionalidad4">Nacionalidad 4</option>
                             </select>
                         
-                            <h6>7 - ¿Dónde reside?</h6>
+                            <h6>7 - Lugar de Residencia</h6>
                             <select name="residence" id="residence" class="white-style">
-                                <option value="">Indique su lugar de residencia.</option>
+                                <option value="">Introduce tu lugar de residencia</option>
                                 <option value="ubicacion1">Ubicación 1</option>
                                 <option value="ubicacion2">Ubicación 2</option>
                                 <option value="ubicacion3">Ubicación 3</option>
                                 <option value="ubicacion4">Ubicación 4</option>
                             </select>
                         
-                            <h6>8 - Cuéntanos más sobre su situación:</h6>
-                            <textarea class="contacts-input white-style w-input" name="situation_description" id="situation_description" cols="30" rows="10" placeholder="Describa su situación en unas pocas frases."></textarea>
+                            <h6>8 - Cuéntanos Tu Situación :</h6>
+                            <textarea class="contacts-input white-style w-input" name="situation_description" id="situation_description" cols="30" rows="10" placeholder="Describe brevemente tu caso"></textarea>
                         
                             <input type="submit" class="primary-button full-width-mobile w-button" value="Enviar">
                         </form>
