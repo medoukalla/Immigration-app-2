@@ -21,6 +21,12 @@ class AssuranceEn extends Component
     // inputs of second step
     public $phone;
     public $email;
+    public $assurance;
+
+    public function mount()
+    {
+        $this->assurance = 'DKV';
+    }
 
     public function render()
     {
@@ -106,7 +112,7 @@ class AssuranceEn extends Component
             'sex' => $this->sex,
             'phone' => $this->phone,
             'email' => $this->email,
-            'assurance' => 'Default Assurance', 
+            'assurance' => $this->assurance, 
         ]);
 
         // clear inputs

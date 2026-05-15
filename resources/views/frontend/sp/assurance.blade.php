@@ -99,7 +99,7 @@
                 </div>
             </div>
             <!-- Contact Form -->
-            @livewire('assurance-en')
+            @livewire('assurance')
         </div>
     </div>
 </div>

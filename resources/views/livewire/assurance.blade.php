@@ -22,7 +22,7 @@
             <input wire:model="full_name" class="contacts-input white-style w-input" maxlength="256" name="name"  placeholder="Your name" type="text" id="name-2"  />
             
             <h6>2 - Seleccionar seguro:</h6>
-            <select  name="assurance" id="assurance" class="white-style" required>
+            <select  wire:model="assurance" id="assurance" class="white-style" required>
                 <option value="DKV">DKV</option>
                 <option value="SANITAS">SANITAS</option>
                 <option value="MAPFRE">MAPFRE</option>
@@ -66,7 +66,7 @@
             
             <br>
 
-            <input wire:click="validate_first_step()" type="button" class="primary-button full-width-mobile w-button mt-3" value="Calcular el precio del seguro"  />
+            <input wire:click="validate_first_step()" type="button" class="primary-button full-width-mobile mt-3" value="Calcular el precio del seguro"  />
 
             <!-- Background Overlay Div -->
             <div class="overlay" @if ( $step != 2) style="display: none;" @endif>
@@ -100,7 +100,7 @@
                                         <div class="error-message w-form-fail" style="color: rgb(209, 89, 89) !important;">{{ $message }}</div>
                                     @enderror
                                     <br>
-                                    <button wire:click="validate_second_step()" class="primary-button full-width-mobile w-button" type="button">Recibe el premio</button>
+                                    <button wire:click="validate_second_step()" class="primary-button full-width-mobile" type="button">Recibe el premio</button>
                                 </form>
                             </div>
 
@@ -113,11 +113,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
-
-
-        </form>
-            
+            </div>            
     </div>
 
     <style>
