@@ -48,21 +48,11 @@
                 </div>
             </div>   
 
-            @error('full_name')
-                <div class="error-message w-form-fail" style="color: rgb(209, 89, 89) !important;">{{ $message }}</div>
-            @enderror
-            @error('day')
-                <div class="error-message w-form-fail" style="color: rgb(209, 89, 89) !important;">{{ $message }}</div>
-            @enderror
-            @error('month')
-                <div class="error-message w-form-fail" style="color: rgb(209, 89, 89) !important;">{{ $message }}</div>
-            @enderror
-            @error('year')
-                <div class="error-message w-form-fail" style="color: rgb(209, 89, 89) !important;">{{ $message }}</div>
-            @enderror
-            @error('sex')
-                <div class="error-message w-form-fail" style="color: rgb(209, 89, 89) !important;">{{ $message }}</div>
-            @enderror
+            @if ($errors->any())
+                <div class="error-message w-form-fail" style="color: rgb(209, 89, 89) !important; display: block !important;">
+                    {{ $errors->first() }}
+                </div>
+            @endif
             
             <br>
 
@@ -93,12 +83,11 @@
                                         <label for="mail">Dirección de correo electrónico:</label>
                                         <input wire:model="email" type="email" name="email" id="mail" class="fcontacts-input white-style w-input" placeholder="exemple@domaine.com" required>
                                     </div>
-                                    @error('phone')
-                                        <div class="error-message w-form-fail" style="color: rgb(209, 89, 89) !important;">{{ $message }}</div>
-                                    @enderror
-                                    @error('email')
-                                        <div class="error-message w-form-fail" style="color: rgb(209, 89, 89) !important;">{{ $message }}</div>
-                                    @enderror
+                                    @if ($errors->any())
+                                        <div class="error-message w-form-fail" style="color: rgb(209, 89, 89) !important; display: block !important;">
+                                            {{ $errors->first() }}
+                                        </div>
+                                    @endif
                                     <br>
                                     <button wire:click="validate_second_step()" class="primary-button full-width-mobile" type="button">Recibe el premio</button>
                                 </form>
