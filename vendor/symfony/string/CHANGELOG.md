@@ -1,5 +1,10 @@
 CHANGELOG
-==
+=========
+
+7.1
+---
+
+ * Add `localeLower()`, `localeUpper()`, `localeTitle()` methods to `AbstractUnicodeString`
 
 6.2
 ---
