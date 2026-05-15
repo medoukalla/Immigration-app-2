@@ -11,7 +11,6 @@ use App\Models\Service;
 use App\Models\Slider;
 use App\Models\Testimonial;
 use App\Models\User;
-use App\Models\ContactForm;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Validator;

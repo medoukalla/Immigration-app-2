@@ -63,7 +63,7 @@ to regularize their situation again.
                         justify-content: center;
                         margin-top: 20px;
                     ">
-                    <a href="" class="primary-button w-button" style="margin: 0 auto; width: 250px">Sobre Nosotros</a>
+                    <a href="" class="primary-button w-button" style="margin: 0 auto; width: 250px">About Us</a>
                 </div>
             </div>
         </div>

@@ -11,6 +11,7 @@ use App\Http\Controllers\FrontendEnglishController;
 
 use Illuminate\Http\Request;
 use TCG\Voyager\Http\Controllers\VoyagerBaseController;
+use Illuminate\Support\Facades\Artisan;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,6 +23,11 @@ use TCG\Voyager\Http\Controllers\VoyagerBaseController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::get('/clear', function () {
+    Artisan::call('optimize:clear');
+    return "Application optimized and cache cleared successfully!";
+});
 
 // Route::get('/', function () {
 //     return view('welcome');
