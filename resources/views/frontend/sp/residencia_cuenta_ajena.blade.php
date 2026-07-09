@@ -1,6 +1,6 @@
 <x-sp.head title="Immiworld - Residencia por Cuenta Ajena" />
 
-<x-sp.main-navbar route="{{route('frontend.sp.residencia_cuenta_ajena') }}" />
+<x-sp.main-navbar route="{{route('frontend.residencia_cuenta_ajena') }}" />
 
 <!-- Banner hero section -->
 <div class="pages-banner blog">
