@@ -51,7 +51,7 @@ legislación vigente.
         <div class="base-container w-container">
             <div class="s-services">
                 <h2 class="text-center">
-                    <span>Service</span> Overview
+                    <span>Descripción</span> del Servicio
                 </h2>
                 <p class="text-center">
                     La autorización de residencia temporal y trabajo por
@@ -422,5 +422,7 @@ en el contrato de trabajo.
         <img style="width: 100%; height: 100%" src="{{ asset('assets/images/docs-img-right.png') }}" alt="" />
     </div>
 </section>
+
+<x-sp.solutions />
 
 <x-sp.footer />
