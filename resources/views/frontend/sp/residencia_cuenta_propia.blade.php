@@ -2,6 +2,8 @@
 
 <x-sp.main-navbar route="{{route('frontend.sp.residencia_cuenta_propia') }}" />
 
-<!-- Content goes here -->
+
+
+<x-sp.solutions />
 
 <x-sp.footer />
